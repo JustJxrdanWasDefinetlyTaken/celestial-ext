@@ -2,4 +2,7 @@
 Extensions for celestial
 
 - Uses:
-> ez
+> BlooketGUI
+> I-Ready Hacks
+> Kahoot Hacks
+> 
