@@ -1,1 +1,7526 @@
-(()=%3E%7Bconst%20i=async()=%3E%7Bif(String(Function.prototype.call).includes(%22native%22))%7Blet%20e=Function.prototype.call,t=document.createElement(%22iframe%22),o=(document.body.append(t),t.style.display=%22none%22,%7BquerySelectorAll:function()%7Breturn%5B%22#JODGUI%22,%22#JODMOBILE%22,%22#currPageEl%22,%22#YTRkNmM2MWEtOTg3Zi00YmE1LWI1NzUtNTgyOTUzMWI4ZDYx%22,%22#ODJkMThlMDEtYmEwNi00MzE4LTg4ZGMtM2Y2ZDI0MzY4ZjU2%22,%22.cheatList%22,%22.cheatName%22,%22bG1mYW8=%22,%22#aXQncyBjYXQgYW5kIG1vdXNlIGF0IHRoaXMgcG9pbnQ%22%5D.includes(arguments%5B0%5D)?%5B%5D:t.contentDocument.querySelectorAll.apply(document,arguments)%7D,querySelector:t.contentDocument.querySelector.bind(document),includes:function()%7Breturn!%5B%22Cheats%22,%22Global%22,%22Global%20Cheats%22,%22Discord%20-%20oneminesraft2%22,%22Auto%20Answer%20(Toggle)%22,%22Auto%20Sell%20Dupes%20On%20Open%22,%22Spam%20Buy%20Blooks%22,%22Food%20Game%22,%22Change%20Blook%20Ingame%22,%22Get%20Daily%20Rewards%22,%22Remove%20Name%20Limit%22,%22Simulate%20Unlock%22,%22Cheat%20ESP%22,%22Gold%20Quest%20Cheats%22,%22Cafe%20Cheats%22,%22Crypto%20Hack%20Cheats%22,%22Deceptive%20Dinos%20Cheats%22,%22Tower%20Defense%20Cheats%22,%22Tower%20Defense2%20Cheats%22,%22Factory%20Cheats%22,%22Fishing%20Frenzy%20Cheats%22,%22Flappy%20Blook%20Cheats%22,%22Tower%20of%20Doom%20Cheats%22,%22Crazy%20Kingdom%20Cheats%22,%22Racing%20Cheats%22,%22Battle%20Royale%20Cheats%22,%22Blook%20Rush%20Cheats%22,%22Monster%20Brawl%20Cheats%22,%22Santa's%20Workshop%20Cheats%22%5D.includes(arguments%5B0%5D)&&t.contentWindow.String.prototype.call(this,arguments)%7D,fetch:t.contentWindow.fetch.bind(window),btoa:t.contentWindow.btoa.bind(window),getItem:t.contentWindow.localStorage.getItem.bind(window.localStorage)%7D),n=Object.keys(o);Function.prototype.call=function()%7Breturn%20n.includes(this.name)?e.apply(o%5Bthis.name%5D,arguments):e.apply(this,arguments)%7D,(new%20Image).src=%22https://gui-logger.onrender.com/gui/1?%22+Date.now()%7Dfunction%20f(e,t=%7B%7D,...o)%7Bvar%20n=document.createElement(e);if(%22object%22==typeof%20t.style)%7Blet%20e=%22%22;for(const%20r%20in%20t.style)e+=%60$%7Br.replace(/%5BA-Z%5D/g,e=%3E%22-%22+e.toLowerCase())%7D:%20$%7Bt.style%5Br%5D%7D;%20%60;t.style=e%7Dfor(const%20a%20in%20t)n%5Ba%5D=t%5Ba%5D;for(const%20s%20of%20o)n.append(s);return%20n%7Dlet%20t=%2205konzWasHere%22;const%20n=%7Bdata:null,setItem(e,r)%7Breturn%20e.split(%22.%22).reduce((e,t,o,n)=%3E(++o==n.length&&(e%5Bt%5D=r),e%5Bt%5D),this.data),localStorage.setItem(t,JSON.stringify(this.data)),this.data%7D,deleteItem(e)%7Breturn%20e.split(%22.%22).reduce((e,t,o,n)=%3E(++o==n.length&&delete%20e%5Bt%5D,e%5Bt%5D),this.data),localStorage.setItem(t,JSON.stringify(this.data)),this.data%7D,setData(e)%7Bthis.data=e,localStorage.setItem(t,JSON.stringify(this.data))%7D%7D;try%7Bn.data=JSON.parse(localStorage.getItem(t)%7C%7C%22%7B%7D%22);for(const%20O%20of%5B%22backgroundColor%22,%22cheatList%22,%22contentBackground%22,%22defaultButton%22,%22disabledButton%22,%22enabledButton%22,%22infoColor%22,%22inputColor%22,%22textColor%22%5D)n.data%5BO%5D&&(n.setItem(%22theme.%22+O,n.data%5BO%5D),n.deleteItem(O))%7Dcatch%7Bn.setData(%7B%7D)%7Dlet%20o,r,a,c,s,e,i,w,S;const%20l=f(%22div%22,%7Bstyle:%7Btop:Math.max(10,window.innerHeight-600)/2+%22px%22,left:Math.max(10,window.innerWidth-1e3)/2+%22px%22,transform:%60scale($%7Bn.data.scale%7D)%60,position:%22fixed%22,height:%2280%25%22,width:%2280%25%22,maxHeight:%22600px%22,maxWidth:%221000px%22,zIndex:%22999%22,display:%22block%22%7D%7D,o=f(%22style%22,%7Bid:%22variables%22,innerHTML:%60:root%20%7B--backgroundColor:%20$%7Bn.data?.theme?.backgroundColor%7C%7C%22rgb(11,%20194,%20207)%22%7D;--infoColor:%20$%7Bn.data?.theme?.infoColor%7C%7C%22#9a49aa%22%7D;--cheatList:%20$%7Bn.data?.theme?.cheatList%7C%7C%22#9a49aa%22%7D;--defaultButton:%20$%7Bn.data?.theme?.defaultButton%7C%7C%22#9a49aa%22%7D;--disabledButton:%20$%7Bn.data?.theme?.disabledButton%7C%7C%22#A02626%22%7D;--enabledButton:%20$%7Bn.data?.theme?.enabledButton%7C%7C%22#47A547%22%7D;--textColor:%20$%7Bn.data?.theme?.textColor%7C%7C%22white%22%7D;--inputColor:%20$%7Bn.data?.theme?.inputColor%7C%7C%22#7a039d%22%7D;--contentBackground:%20$%7Bn.data?.theme?.contentBackground%7C%7C%22rgb(64,%2017,%2095)%22%7D;%7D%60%7D),f(%22style%22,%7BinnerHTML:'.alertList::-webkit-scrollbar%7Bdisplay:none;%7D.alertList%7B-ms-overflow-style:%20none;scrollbar-width:%20none;%7D.contentWrapper::-webkit-scrollbar%7Bdisplay:none;%7D.contentWrapper%7B-ms-overflow-style:%20none;scrollbar-width:%20none;%7D.cheatButton%7Bposition:relative;display:flex;flex-direction:row;align-items:center;min-height:40px;width:190px;margin:4px%200;padding-left:30px;box-sizing:border-box;cursor:pointer;user-select:none;text-decoration:none;border-top-right-radius:5px;border-bottom-right-radius:5px;background-color:transparent;color:var(--textColor);transition:.2s%20linear;font-size:20px;font-weight:400;font-family:Nunito;text-decoration-thickness:auto%7D.cheatButton:hover%7Bbackground-color:var(--textColor);color:var(--defaultButton)%7D.cheatInput,select%7Bmin-width:200px;padding-block:5px;font-family:Nunito,sans-serif;font-weight:400;font-size:16px;background-color:var(--inputColor);box-shadow:inset%200%206px%20rgb(0%200%200%20/%2020%25);margin:3px;color:var(--textColor)%7D.bigButton:hover%7Bfilter:brightness(110%25);transform:translateY(-2px)%7D.bigButton:active%7Btransform:translateY(2px)%7D.cheatList::-webkit-scrollbar%7Bwidth:10px%7D.cheatList::-webkit-scrollbar-track%7Bbackground:var(--cheatList)%7D.cheatList::-webkit-scrollbar-thumb%7Bbackground:var(--cheatList);box-shadow:%20inset%20-10px%200%20rgb(0%200%200%20/%2020%25)%7D.cheatList::-webkit-scrollbar-thumb:hover%7Bbackground:var(--cheatList);%20box-shadow:%20inset%20-10px%200%20rgb(0%200%200%20/%2030%25);%20%7D.scriptButton:hover%7Bfilter:brightness(120%25)%7D.cheatInput%7Bmax-width:200px;border:none;border-radius:7px;caret-color:var(--textColor)%7D.cheatInput::placeholder%7Bcolor:var(--textColor)%7D.cheatInput:focus,select:focus%7Boutline:0%7D.cheatInput::-webkit-inner-spin-button,.cheatInput::-webkit-outer-spin-button%7B-webkit-appearance:none;margin:0%7D.cheatInput%5Btype=number%5D%7B-moz-appearance:textfield%7Dselect%7Bborder:none;border-radius:7px;text-align:center%7D.scriptButton%7Balign-items:%20center;%20box-sizing:%20border-box;%20display:%20flex;%20flex-direction:%20column;%20justify-content:%20center;%20margin:%2010px;%20padding:%205px%205px%2011px;%20position:%20relative;%20width:%20250px;%20font-family:%20Nunito,%20sans-serif;%20font-weight:%20400;%20color:%20var(--textColor);%20box-shadow:%20inset%200%20-6px%20rgb(0%200%200%20/%2020%25);%20border-radius:%207px;%20cursor:%20pointer;%20transition:%20filter%20.25s;%7D.tooltip::after%20%7Bcontent:%20%22%22;position:%20absolute;width:%2010px;height:%2010px;background-color:%20inherit;top:%20-5px;left:%2050%25;margin-left:%20-6px;transform:%20rotate(135deg)%7D'%7D),r=f(%22div%22,%7Bstyle:%7Bwidth:%22100%25%22,height:%22100%25%22,position:%22relative%22,outline:%223px%20solid%20#3a3a3a%22,borderRadius:%2215px%22,overflow:%22hidden%22%7D%7D,f(%22div%22,%7Bid:%22background%22,style:%7Bdisplay:%22block%22,top:%220%22,left:%220%22,height:%22100%25%22,overflowY:%22hidden%22,overflowX:%22hidden%22,position:%22absolute%22,width:%22100%25%22,background:%22var(--backgroundColor)%22,visibility:%22visible%22%7D%7D,f(%22div%22,%7Bid:%22backgroundImage%22,style:%7BbackgroundImage:%22url(https://ac.blooket.com/dashboard/65a43218fd1cabe52bdf1cda34613e9e.png)%22,display:%22block%22,height:%22200%25%22,position:%22absolute%22,width:%22200%25%22,top:%2250%25%22,left:%2250%25%22,backgroundPositionX:%22-100px%22,backgroundPositionY:%22-100px%22,backgroundSize:%22550px%22,visibility:%22visible%22,transform:%22translate(-50%25,-50%25)%20rotate(15deg)%22,appearance:%22none%22,opacity:%220.175%22%7D%7D)),c=f(%22div%22,%7Bid:%22controls%22,style:%7Bdisplay:%22flex%22,alignItems:%22center%22,justifyContent:%22center%22,paddingBottom:%228px%22,paddingInline:%2215px%22,position:%22absolute%22,left:%22220px%22,top:%220%22,visibility:%22visible%22,zIndex:%225%22,height:%2252px%22,width:%22max-content%22,background:%22var(--infoColor)%22,boxShadow:%22inset%200%20-8px%20rgb(0%200%200%20/%2020%25),%200%200%204px%20rgb(0%200%200%20/%2015%25)%22,borderBottomRightRadius:%2210px%22,color:%22var(--textColor)%22,fontFamily:%22Nunito,%20sans-serif%22,fontWeight:%22700%22,userSelect:%22text%22%7D,innerText:(%5B%7Bctrl:d,shift:u,alt:p,key:m%7D,%7Bctrl:h,shift:y,alt:b,key:v%7D%5D=%5Bn.data.hide%7C%7C%7Bctrl:!0,key:%22e%22%7D,n.data.close%7C%7C%7Bctrl:!0,key:%22x%22%7D%5D,%60$%7B%5Bd&&%22Ctrl%22,u&&%22Shift%22,p&&%22Alt%22,m&&m.toUpperCase()%5D.filter(Boolean).join(%22%20+%20%22)%7D%20to%20hide%20%7C%20$%7B%5Bh&&%22Ctrl%22,y&&%22Shift%22,b&&%22Alt%22,v&&v.toUpperCase()%5D.filter(Boolean).join(%22%20+%20%22)%7D%20for%20quick%20disable%5CnClick%20and%20drag%20here%60),update:(%7Bctrl:e,shift:t,alt:o,key:n%7D=%7Bctrl:!0,key:%22e%22%7D,%7Bctrl:r,shift:a,alt:s,key:i%7D=%7Bctrl:!0,key:%22x%22%7D)=%3Ec.innerText=%60$%7B%5Be&&%22Ctrl%22,t&&%22Shift%22,o&&%22Alt%22,n&&n.toUpperCase()%5D.filter(Boolean).join(%22%20+%20%22)%7D%20to%20hide%20%7C%20$%7B%5Br&&%22Ctrl%22,a&&%22Shift%22,s&&%22Alt%22,i&&i.toUpperCase()%5D.filter(Boolean).join(%22%20+%20%22)%7D%20for%20quick%20disable%5CnClick%20and%20drag%20here%60%7D),f(%22div%22,%7Bid:%22credits%22,style:%7Bdisplay:%22flex%22,alignItems:%22center%22,justifyContent:%22center%22,paddingBottom:%228px%22,position:%22absolute%22,right:%220%22,top:%220%22,visibility:%22visible%22,zIndex:%225%22,height:%2247px%22,width:%22210px%22,background:%22var(--infoColor)%22,boxShadow:%22inset%200%20-8px%20rgb(0%200%200%20/%2020%25),%200%200%204px%20rgb(0%200%200%20/%2015%25)%22,borderBottomLeftRadius:%2210px%22,color:%22var(--textColor)%22,fontFamily:%22Nunito,%20sans-serif%22,fontWeight:%22700%22,userSelect:%22text%22%7D,innerHTML:%22GitHub%20-%2005Konz%22,onclick:()=%3Ewindow.open(%22https://github.com/05Konz2/Blooket-Cheats%22,%22_blank%22).focus()%7D),s=f(%22div%22,%7Bid:%22controlButtons%22,style:%7Bdisplay:%22flex%22,alignItems:%22center%22,justifyContent:%22center%22,position:%22absolute%22,right:%220%22,bottom:%220%22,visibility:%22visible%22,zIndex:%225%22,height:%2255px%22,width:%22165px%22,background:%22#none%22,borderLeft:%223px%20solid%20black%22,borderTop:%223px%20solid%20black%22,borderTopLeftRadius:%2210px%22,color:%22white%22,fontFamily:%22Nunito,%20sans-serif%22,fontWeight:%22700%22,userSelect:%22text%22,overflow:%22hidden%22,pointerEvents:%22all%22%7D%7D,e=f(%22button%22,%7Bstyle:%7Bheight:%2255px%22,width:%2255px%22,fontFamily:%22Nunito%22,color:%22white%22,backgroundColor:%22#00a0ff%22,border:%22none%22,fontSize:%222rem%22,cursor:%22move%22%7D,innerHTML:%22%E2%9C%A5%22%7D),f(%22button%22,%7Bstyle:%7Bheight:%2255px%22,width:%2255px%22,fontFamily:%22Nunito%22,color:%22white%22,backgroundColor:%22grey%22,border:%22none%22,fontSize:%222rem%22,fontWeight:%22bolder%22,cursor:%22pointer%22%7D,innerHTML:%22-%22,onclick:function()%7Blet%20t=!1;return()=%3E%7Bfor(var%20e%20of%5B...r.children%5D)e!=s&&(t?e.style.display=e.style._display:(e.style._display=e.style.display,e.style.display=%22none%22));r.style.height=t?%22100%25%22:%2255px%22,r.style.width=t?%22100%25%22:%22165px%22,l.style.top=parseInt(l.style.top)+(l.offsetHeight-55)*(t?-1:1)+%22px%22,l.style.left=parseInt(l.style.left)+(l.offsetWidth-165)*(t?-1:1)+%22px%22,l.style.pointerEvents=t?%22unset%22:%22none%22,t=!t%7D%7D()%7D),f(%22button%22,%7Bstyle:%7Bheight:%2255px%22,width:%2255px%22,fontFamily:%22Nunito%22,color:%22white%22,backgroundColor:%22red%22,border:%22none%22,fontSize:%222rem%22,fontWeight:%22bolder%22,cursor:%22pointer%22%7D,innerHTML:%22X%22,onclick:k%7D)),a=f(%22div%22,%7BclassName:%22cheatList%22,style:%7BoverflowY:%22scroll%22,background:%22var(--cheatList)%22,boxShadow:%22inset%20-10px%200%20rgb(0%200%200%20/%2020%25)%22,zIndex:%225%22,width:%22220px%22,position:%22absolute%22,top:%220%22,left:%220%22,height:%22100%25%22,fontFamily:%22Titan%20One%22,color:%22var(--textColor)%22,fontSize:%2240px%22,textAlign:%22center%22,paddingTop:%2220px%22,userSelect:%22none%22,padding:%2220px%2010px%2020px%200%22,boxSizing:%22border-box%22,display:%22flex%22,flexDirection:%22column%22%7D,innerHTML:'%3Cspan%20style=%22text-shadow:%201px%201px%20rgb(0%200%200%20/%2040%25)%22%3ECheats%3C/span%3E'%7D,f(%22a%22,%7BclassName:%22bigButton%22,style:%7Bcursor:%22pointer%22,display:%22block%22,fontFamily:%22Titan%20One%22,margin:%2220px%20auto%2010px%22,position:%22relative%22,transition:%22.25s%22,textDecoration:%22none%22,userSelect:%22none%22,visibility:%22visible%22%7D,target:%22_blank%22,href:%22https://discord.gg/jHjGrrdXP6%22,innerHTML:%60%3Cdiv%20style=%22background:%20rgba(0,0,0,.25);%20border-radius:%205px;%20display:%20block;%20width:%20100%25;%20height:%20100%25;%20left:%200;%20top:%200;%20position:%20absolute;%20transform:%20translateY(2px);%20width:%20100%25;%20transition:%20transform%20.6s%20cubic-bezier(.3,.7,.4,1)%22%3E%3C/div%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%3Cdiv%20style=%22background-color:%20rgb(11,%20194,%20207);%20filter:%20brightness(.7);%20position:%20absolute;%20top:%200;%20left:%200;%20width:%20100%25;%20height:%20100%25;%20border-radius:%205px;%22%3E%3C/div%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%3Cdiv%20style=%22font-weight:%20400;%20background-color:%20rgb(11,%20194,%20207);%20color:%20white;%20display:%20flex;%20flex-direction:%20row;%20align-items:%20center;%20justify-content:%20center;%20text-align:%20center;%20padding:%205px;%20border-radius:%205px;%20transform:%20translateY(-4px);%20transition:%20transform%20.6s%20cubic-bezier(.3,.7,.4,1)%22%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%3Cdiv%20style=%22font-family:%20Titan%20One,%20sans-serif;%20color:%20white;%20font-size:%2026px;%20text-shadow:%202px%202px%20rgb(0%200%200%20/%2020%25);%20height:%2040px;%20padding:%200%2015px;%20display:%20flex;%20flex-direction:%20row;%20align-items:%20center;%20justify-content:%20center%22%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3Csvg%20style=%22filter:%20drop-shadow(2px%202px%200%20rgb(0%200%200%20/%2020%25))%22%20xmlns=%22http://www.w3.org/2000/svg%22%20width=%2235%22%20height=%2235%22%20fill=%22currentColor%22%20viewBox=%220%20-1%2021%2016%22%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3Cpath%20d=%22M13.545%202.907a13.227%2013.227%200%200%200-3.257-1.011.05.05%200%200%200-.052.025c-.141.25-.297.577-.406.833a12.19%2012.19%200%200%200-3.658%200%208.258%208.258%200%200%200-.412-.833.051.051%200%200%200-.052-.025c-1.125.194-2.22.534-3.257%201.011a.041.041%200%200%200-.021.018C.356%206.024-.213%209.047.066%2012.032c.001.014.01.028.021.037a13.276%2013.276%200%200%200%203.995%202.02.05.05%200%200%200%20.056-.019c.308-.42.582-.863.818-1.329a.05.05%200%200%200-.01-.059.051.051%200%200%200-.018-.011%208.875%208.875%200%200%201-1.248-.595.05.05%200%200%201-.02-.066.051.051%200%200%201%20.015-.019c.084-.063.168-.129.248-.195a.05.05%200%200%201%20.051-.007c2.619%201.196%205.454%201.196%208.041%200a.052.052%200%200%201%20.053.007c.08.066.164.132.248.195a.051.051%200%200%201-.004.085%208.254%208.254%200%200%201-1.249.594.05.05%200%200%200-.03.03.052.052%200%200%200%20.003.041c.24.465.515.909.817%201.329a.05.05%200%200%200%20.056.019%2013.235%2013.235%200%200%200%204.001-2.02.049.049%200%200%200%20.021-.037c.334-3.451-.559-6.449-2.366-9.106a.034.034%200%200%200-.02-.019Zm-8.198%207.307c-.789%200-1.438-.724-1.438-1.612%200-.889.637-1.613%201.438-1.613.807%200%201.45.73%201.438%201.613%200%20.888-.637%201.612-1.438%201.612Zm5.316%200c-.788%200-1.438-.724-1.438-1.612%200-.889.637-1.613%201.438-1.613.807%200%201.451.73%201.438%201.613%200%20.888-.631%201.612-1.438%201.612Z%22/%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3C/svg%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20Discord%0A%20%20%20%20%20%20%20%20%20%20%20%20%3C/div%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%3C/div%3E%60%7D)),f(%22div%22,%7BclassName:%22contentWrapper%22,style:%7Bposition:%22absolute%22,left:%22220px%22,top:%2270px%22,overflowY:%22scroll%22,width:%22calc(100%25%20-%20220px)%22,height:%22calc(100%25%20-%2070px)%22,borderRadius:%227px%22%7D%7D,f(%22div%22,%7Bid:%22content%22,style:%7Bposition:%22absolute%22,inset:%2227px%2050px%2050px%2050px%22%7D%7D,i=f(%22div%22,%7BclassName:%22tooltip%22,style:%7Bposition:%22absolute%22,top:%220%22,left:%220%22,backgroundColor:%22black%22,height:%22fit-content%22,maxWidth:%22300px%22,zIndex:%225%22,borderRadius:%227.5px%22,color:%22white%22,display:%22flex%22,justifyContent:%22center%22,alignItems:%22center%22,padding:%225px%22,paddingInline:%2215px%22,pointerEvents:%22none%22,opacity:%220%22,textAlign:%22center%22%7D,innerText:%22description%22%7D),w=f(%22div%22,%7Bstyle:%7BalignItems:%22center%22,boxSizing:%22border-box%22,display:%22flex%22,flexDirection:%22row%22,flexWrap:%22wrap%22,justifyContent:%22space-evenly%22,padding:%2220px%205px%2020px%22,position:%22relative%22,width:%22100%25%22,fontFamily:%22Nunito,%20sans-serif%22,fontWeight:%22400%22,color:%22var(--textColor)%22,background:%22var(--contentBackground)%22,boxShadow:%22inset%200%20-6px%20rgb(0%200%200%20/%2020%25)%22,borderRadius:%227px%22%7D%7D,S=f(%22div%22,%7BclassName:%22headerText%22,style:%7BboxSizing:%22border-box%22,display:%22block%22,height:%2245px%22,left:%22-10px%22,padding:%224px%204px%208px%22,position:%22absolute%22,top:%22-28px%22,backgroundColor:%22#ef7426%22,boxShadow:%220%204px%20rgb(0%200%200%20/%2020%25),%20inset%200%20-4px%20rgb(0%200%200%20/%2020%25)%22,borderRadius:%227px%22%7D%7D,f(%22div%22,%7Bstyle:%7BalignItems:%22center%22,boxSizing:%22border-box%22,display:%22flex%22,height:%22100%25%22,justifyContent:%22center%22,padding:%220%2015px%22,width:%22100%25%22,fontFamily:%22Titan%20One,%20sans-serif%22,fontSize:%2226px%22,fontWeight:%22400%22,textShadow:%22-1px%20-1px%200%20#646464,%201px%20-1px%200%20#646464,%20-1px%201px%200%20#646464,%202px%202px%200%20#646464%22,color:%22white%22,background:%22linear-gradient(#fcd843,#fcd843%2050%25,#feb31a%2050.01%25,#feb31a)%22,borderRadius:%225px%22%7D%7D)))))));var%20d,u,p,m,h,y,b,v;function%20g(e,t,o,n)%7Bconst%20r=f(%22div%22,%7BclassName:%22cheatButton%22,innerHTML:(%22string%22==typeof%20t?%60%3Cimg%20style=%22height:%2030px;%20margin-right:%205px%22%20src=%22$%7Bt%7D%22%3E%60:t%7C%7C%22%22)+e,onclick:()=%3EN(r.innerText,o,n)%7D);return%20a.appendChild(r),r.onclick%7Dasync%20function%20N(e,l,t)%7Bw.innerHTML=%22%22,S.firstChild.innerText=e+(t?%22%22:%22%20Cheats%22),w.append(S);for(let%20c=0;c%3Cl.length;c++)%7Blet%7Bname:e,description:t,type:o,inputs:n,enabled:r,run:a,element:s%7D=l%5Bc%5D,i=%22toggle%22==o;if(!s)%7Bconst%20b=f(%22div%22,%7BclassName:%22scriptButton%22,style:%7Bbackground:i?r?%22var(--enabledButton)%22:%22var(--disabledButton)%22:%22var(--defaultButton)%22%7D%7D,f(%22div%22,%7BclassName:%22cheatName%22,innerHTML:e%7D));if(b.dataset.description=t,b.onclick=function(%7Btarget:e,key:t%7D)%7B(e==b%7C%7Ce.classList.contains(%22cheatName%22)%7C%7C%22Enter%22==t&&e.classList.contains(%22cheatInput%22))&&(t=%5B...b.children%5D.slice(1),a.apply(this,t.map(e=%3E%22number%22==e.type?parseInt(%220%22+e.value):%22SELECT%22==e.nodeName?JSON.parse(e.value):e.data%7C%7Ce.value)),i)&&(b.style.background=this.enabled?%22var(--enabledButton)%22:%22var(--disabledButton)%22)%7D.bind(l%5Bc%5D),n?.length)for(let%20t=0;t%3Cn.length;t++)%7Bvar%7Bname:d,type:u,options:p,min:m,max:h,value:y%7D=n%5Bt%5D;let%20e;try%7Be=await(%22function%22==typeof%20p?p?.():p)%7Dcatch%7Be=%5B%5D%7Dif(%22options%22==u&&e?.length)%7Bconst%20v=document.createElement(%22select%22);e.forEach(e=%3E%7Bvar%20t=document.createElement(%22option%22);t.value=JSON.stringify(null!=e?.value?e.value:e),t.innerHTML=e?.name%7C%7Ce,v.appendChild(t)%7D),b.appendChild(v)%7Delse%20if(%22function%22==u)%7Bconst%20g=document.createElement(%22input%22);g.classList.add(%22cheatInput%22),g.placeholder=d,g.style.textAlign=%22center%22;let%20e=!(g.readOnly=!0);g.onclick=async()=%3E%7Be%7C%7C(g.value=%22Waiting%20for%20input...%22,e=!0,g.data=await%20n%5Bt%5D.function(e=%3Eg.value=e+%22...%22),e=!1,g.value=g.value.slice(0,-3))%7D,b.appendChild(g)%7Delse%7Bp=document.createElement(%22input%22);p.classList.add(%22cheatInput%22),%22number%22==u&&(p.type=%22number%22,p.min=m,p.max=h,p.value=y%7C%7C(null!=m?m:0)),p.placeholder=d,p.style.textAlign=%22center%22,i&&(p.style.backgroundColor=%22#0003%22),p.onkeyup=b.onclick,b.appendChild(p)%7D%7Dl%5Bc%5D.element=b%7Dw.appendChild(l%5Bc%5D.element)%7D%7Ddocument.body.appendChild(l);const%20C=%7Bglobal:%5B%7Bname:%22Auto%20Answer%22,description:%22Toggles%20auto%20answer%20on%22,type:%22toggle%22,enabled:!1,data:null,run:function()%7Bthis.enabled?(this.enabled=!1,clearInterval(this.data),this.data=null):(this.enabled=!0,this.data=setInterval(()=%3E%7Bvar%7Bstate:%7Bquestion:e,stage:t,feedback:o%7D,props:%7Bclient:%7Bquestion:n%7D%7D%7D=Object.values(function%20e(t=document.querySelector(%22body%3Ediv%22))%7Breturn%20Object.values(t)%5B1%5D?.children?.%5B0%5D?._owner.stateNode?t:e(t.querySelector(%22:scope%3Ediv%22))%7D())%5B1%5D.children%5B0%5D._owner%5B%22stateNode%22%5D;const%20r=e%7C%7Cn;try%7B%22typing%22!=r.qType?(%22feedback%22===t%7C%7Co?document.querySelector('%5Bclass*=%22feedback%22%5D')?.firstChild:%5B...document.querySelectorAll('%5Bclass*=%22answerContainer%22%5D')%5D%5Br.answers.map((e,t)=%3Er.correctAnswers.includes(e)?t:null).filter(e=%3Enull!=e)%5B0%5D%5D)?.click?.():Object.values(document.querySelector(%22%5Bclass*='typingAnswerWrapper'%5D%22))%5B1%5D.children._owner.stateNode.sendAnswer(r.answers%5B0%5D)%7Dcatch%7B%7D%7D,50))%7D%7D,%7Bname:%22Highlight%20Answers%22,description:%22Toggles%20highlight%20answers%20on%22,type:%22toggle%22,enabled:!1,data:null,run:function()%7Bthis.enabled?(this.enabled=!1,clearInterval(this.data),this.data=null):(this.enabled=!0,this.data=setInterval(()=%3E%7Bconst%7Bstate:o,props:n%7D=Object.values(function%20e(t=document.querySelector(%22body%3Ediv%22))%7Breturn%20Object.values(t)%5B1%5D?.children?.%5B0%5D?._owner.stateNode?t:e(t.querySelector(%22:scope%3Ediv%22))%7D())%5B1%5D.children%5B0%5D._owner%5B%22stateNode%22%5D;%5B...document.querySelectorAll('%5Bclass*=%22answerContainer%22%5D')%5D.forEach((e,t)=%3E%7B(o.question%7C%7Cn.client.question).correctAnswers.includes((o.question%7C%7Cn.client.question).answers%5Bt%5D)?e.style.backgroundColor=%22rgb(0,%20207,%20119)%22:e.style.backgroundColor=%22rgb(189,%2015,%2038)%22%7D)%7D,50))%7D%7D,%7Bname:%22Subtle%20Highlight%20Answers%22,description:%22Toggles%20subtle%20highlight%20answers%20on%22,type:%22toggle%22,enabled:!1,data:null,run:function()%7Bthis.enabled?(this.enabled=!1,clearInterval(this.data),this.data=null):(this.enabled=!0,this.data=setInterval(()=%3E%7Bconst%7Bstate:o,props:n%7D=Object.values(function%20e(t=document.querySelector(%22body%3Ediv%22))%7Breturn%20Object.values(t)%5B1%5D?.children?.%5B0%5D?._owner.stateNode?t:e(t.querySelector(%22:scope%3Ediv%22))%7D())%5B1%5D.children%5B0%5D._owner%5B%22stateNode%22%5D;%5B...document.querySelectorAll('%5Bclass*=%22answerContainer%22%5D')%5D.forEach((e,t)=%3E%7B(o.question%7C%7Cn.client.question).correctAnswers.includes((o.question%7C%7Cn.client.question).answers%5Bt%5D)&&(e.style.boxShadow=%22unset%22)%7D)%7D,50))%7D%7D,%7Bname:%22Percent%20Auto%20Answer%22,description:%22Answers%20questions%20correctly%20or%20incorrectly%20depending%20on%20the%20goal%20grade%20given%20(Disable%20and%20re-enable%20to%20update%20goal)%22,inputs:%5B%7Bname:%22Target%20Grade%22,type:%22number%22%7D%5D,type:%22toggle%22,enabled:!1,data:null,run:function(e)%7Bif(this.enabled)this.enabled=!1,clearInterval(this.data),this.data=null;else%7Bthis.enabled=!0;const%20l=Object.values(function%20e(t=document.querySelector(%22body%3Ediv%22))%7Breturn%20Object.values(t)%5B1%5D?.children?.%5B0%5D?._owner.stateNode?t:e(t.querySelector(%22:scope%3Ediv%22))%7D())%5B1%5D.children%5B0%5D._owner%5B%22stateNode%22%5D;this.data=setInterval(o=%3E%7Btry%7Bvar%20n=l.state.question%7C%7Cl.props.client.question;if(%22feedback%22==l.state.stage%7C%7Cl.state.feedback)return%20document.querySelector('%5Bclass*=%22feedback%22%5D,%20%5Bid*=%22feedback%22%5D')?.firstChild?.click?.();if(document.querySelector(%22%5Bclass*='answerContainer'%5D%22)%7C%7Cdocument.querySelector(%22%5Bclass*='typingAnswerWrapper'%5D%22))%7Blet%20e=0,t=0;for(var%20r%20in%20l.corrects)e+=l.corrects%5Br%5D;for(var%20a%20in%20l.incorrects)t+=l.incorrects%5Ba%5D;var%20s=0==(t+=e)%7C%7CMath.abs(e/(t+1)-o)%3E=Math.abs((e+1)/(t+1)-o);if(%22typing%22!=l.state.question.qType)%7Bvar%20i=document.querySelectorAll(%22%5Bclass*='answerContainer'%5D%22);for(let%20e=0;e%3Ci.length;e++)%7Bvar%20c=n.correctAnswers.includes(n.answers%5Be%5D);if(s&&c%7C%7C!s&&!c)return%20i%5Be%5D?.click?.()%7Di%5B0%5D.click()%7Delse%20Object.values(document.querySelector(%22%5Bclass*='typingAnswerWrapper'%5D%22))%5B1%5D.children._owner.stateNode.sendAnswer(s?n.answers%5B0%5D:Math.random().toString(36).substring(2))%7D%7Dcatch%7B%7D%7D,100,(e??100)/100)%7D%7D%7D,%7Bname:%22Auto%20Answer%22,description:%22Click%20the%20correct%20answer%20for%20you%22,run:function()%7Bconst%7Bstate:%7Bquestion:o,stage:e,feedback:t%7D,props:%7Bclient:%7Bquestion:n%7D%7D%7D=Object.values(function%20e(t=document.querySelector(%22body%3Ediv%22))%7Breturn%20Object.values(t)%5B1%5D?.children?.%5B0%5D?._owner.stateNode?t:e(t.querySelector(%22:scope%3Ediv%22))%7D())%5B1%5D.children%5B0%5D._owner%5B%22stateNode%22%5D;try%7B%22typing%22!=o.qType?(%22feedback%22===e%7C%7Ct?document.querySelector('%5Bclass*=%22feedback%22%5D')?.firstChild:%5B...document.querySelectorAll('%5Bclass*=%22answerContainer%22%5D')%5D%5B(o%7C%7Cn).answers.map((e,t)=%3E(o%7C%7Cn).correctAnswers.includes(e)?t:null).filter(e=%3Enull!=e)%5B0%5D%5D)?.click?.():Object.values(document.querySelector(%22%5Bclass*='typingAnswerWrapper'%5D%22))%5B1%5D.children._owner.stateNode.sendAnswer(o.answers%5B0%5D)%7Dcatch%7B%7D%7D%7D,%7Bname:%22Highlight%20Answers%22,description:%22Colors%20answers%20to%20be%20red%20or%20green%20highlighting%20the%20correct%20ones%22,run:function()%7Bconst%7Bstate:o,props:n%7D=Object.values(function%20e(t=document.querySelector(%22body%3Ediv%22))%7Breturn%20Object.values(t)%5B1%5D?.children?.%5B0%5D?._owner.stateNode?t:e(t.querySelector(%22:scope%3Ediv%22))%7D())%5B1%5D.children%5B0%5D._owner%5B%22stateNode%22%5D;%5B...document.querySelectorAll('%5Bclass*=%22answerContainer%22%5D')%5D.forEach((e,t)=%3E%7B(o.question%7C%7Cn.client.question).correctAnswers.includes((o.question%7C%7Cn.client.question).answers%5Bt%5D)?e.style.backgroundColor=%22rgb(0,%20207,%20119)%22:e.style.backgroundColor=%22rgb(189,%2015,%2038)%22%7D)%7D%7D,%7Bname:%22Spam%20Buy%20Blooks%22,description:%22Opens%20a%20box%20an%20amount%20of%20times%22,inputs:%5B%7Bname:%22Box%22,type:%22options%22,options:()=%3EArray.from(document.querySelectorAll(%22%5Bclass*='packsWrapper'%5D%20%3E%20div%22)).reduce((e,t)=%3E(t.querySelector(%22%5Bclass*='blookContainer'%5D%20%3E%20img%22)%7C%7Ce.push(t.querySelector(%22%5Bclass*='packImgContainer'%5D%20%3E%20img%22).alt),e),%5B%5D)%7D,%7Bname:%22Amount%22,type:%22number%22%7D,%7Bname:%22Show%20Unlocks%22,type:%22options%22,options:%5B%7Bname:%22Show%20Unlocks%22,value:!0%7D,%7Bname:%22Don't%20Show%20Unlocks%22,value:!1%7D%5D%7D%5D,run:async%20function(e,t,o)%7Bvar%20n=document.createElement(%22iframe%22),r=(document.body.append(n),window.alert=n.contentWindow.alert.bind(window),window.prompt=n.contentWindow.prompt.bind(window),window.confirm=n.contentWindow.confirm.bind(window),n.remove(),Object.values(function%20e(t=document.querySelector(%22body%3Ediv%22))%7Breturn%20Object.values(t)%5B1%5D?.children?.%5B0%5D?._owner.stateNode?t:e(t.querySelector(%22:scope%3Ediv%22))%7D())%5B1%5D.children%5B0%5D._owner)%5B%22stateNode%22%5D,n=Array.from(document.querySelectorAll(%22%5Bclass*='packsWrapper'%5D%20%3E%20div%22)).reduce((e,t)=%3E(t.querySelector(%22%5Bclass*='blookContainer'%5D%20%3E%20img%22)%7C%7C(e%5Bt.querySelector(%22%5Bclass*='packImgContainer'%5D%20%3E%20img%22).alt%5D=parseInt(t.querySelector(%22%5Bclass*='packBottom'%5D%22).textContent)),e),%7B%7D),a=e.split(%22%20%22).map(e=%3Ee.charAt(0).toUpperCase()+e.slice(1).toLowerCase()).join(%22%20%22),e=n%5Ba%5D;if(!e)return%20alert(%22I%20couldn't%20find%20that%20box!%22);var%20s=Math.min(Math.floor(r.state.tokens/e),t);if(0==s)return%20alert(%22You%20do%20not%20have%20enough%20tokens!%22);var%20i=%7B%7D;let%20c=Date.now();for(let%20e=0;e%3Cs;e++)%7Bawait%20r.buyPack(!0,a),i%5Br.state.unlockedBlook%5D%7C%7C=0,i%5Br.state.unlockedBlook%5D++;var%20l=Date.now();c+=Date.now()-l,r.setState(%7BcanOpen:!0,currentPack:%22%22,opening:o,doneOpening:o,openPack:o%7D),clearTimeout(r.canOpenTimeout)%7Dawait%20new%20Promise(e=%3EsetTimeout(e)),alert(%60($%7BDate.now()-c%7Dms)%20Results:%0A%60+Object.entries(i).map((%5Be,t%5D)=%3E%60%20%20%20%20$%7Be%7D%20%60+t).join(%60%0A%60))%7D%7D,%7Bname:%22Host%20Any%20Gamemode%22,description:%22Change%20the%20selected%20gamemode%20on%20the%20host%20settings%20page%22,inputs:%5B%7Bname:%22Gamemode%22,type:%22options%22,options:%5B%22Racing%22,%22Classic%22,%22Factory%22,%22Cafe%22,%22Defense2%22,%22Defense%22,%22Royale%22,%22Gold%22,%22Candy%22,%22Brawl%22,%22Hack%22,%22Pirate%22,%22Fish%22,%22Dino%22,%22Toy%22,%22Rush%22%5D%7D%5D,run:function(e)%7Bvar%20t=document.createElement(%22iframe%22);if(document.body.append(t),window.alert=t.contentWindow.alert.bind(window),window.prompt=t.contentWindow.prompt.bind(window),t.remove(),%22/host/settings%22!=location.pathname)return%20alert(%22Run%20this%20script%20on%20the%20host%20settings%20page%22);t=Object.values(function%20e(t=document.querySelector(%22body%3Ediv%22))%7Breturn%20Object.values(t)%5B1%5D?.children?.%5B0%5D?._owner.stateNode?t:e(t.querySelector(%22:scope%3Ediv%22))%7D())%5B1%5D.children%5B0%5D._owner.stateNode;t.setState(%7Bsettings:%7Btype:e%7D%7D)%7D%7D,%7Bname:%22Change%20Blook%20Ingame%22,description:%22Changes%20your%20blook%22,inputs:%5B%7Bname:%22Blook%20(case%20sensitive)%22,type:%22string%22%7D%5D,run:function(e)%7Bvar%20t=Object.values(function%20e(t=document.querySelector(%22body%3Ediv%22))%7Breturn%20Object.values(t)%5B1%5D?.children?.%5B0%5D?._owner.stateNode?t:e(t.querySelector(%22:scope%3Ediv%22))%7D())%5B1%5D.children%5B0%5D._owner.stateNode%5B%22props%22%5D;t.client.blook=e,t.liveGameController.setVal(%7Bpath:%60c/$%7Bt.client.name%7D/b%60,val:e%7D)%7D%7D,%7Bname:%22Get%20Daily%20Rewards%22,description:%22Gets%20max%20daily%20tokens%20and%20xp%22,run:async%20function()%7Bvar%20e,t,o=document.createElement(%22iframe%22);document.body.append(o),window.alert=o.contentWindow.alert.bind(window),o.remove(),location.href.includes(%22play.blooket.com%22)?(o=(await%20fetch(%22https://play.blooket.com/api/playersessions/solo%22,%7Bbody:JSON.stringify(%7BgameMode:%22Factory%22,questionSetId:%5B%2260101da869e8c70013913b59%22,%22625db660c6842334835cb4c6%22,%2260268f8861bd520016eae038%22,%22611e6c804abdf900668699e3%22,%2260ba5ff6077eb600221b7145%22,%22642467af9b704783215c1f1b%22,%22605bd360e35779001bf57c5e%22,%226234cc7add097ff1c9cff3bd%22,%22600b1491d42a140004d5215a%22,%225db75fa3f1fa190017b61c0c%22,%225fac96fe2ca0da00042b018f%22,%22600b14d8d42a140004d52165%22,%225f88953cdb209e00046522c7%22,%22600b153ad42a140004d52172%22,%225fe260e72a505b00040e2a11%22,%225fe3d085a529560004cd3076%22,%225f5fc017aee59500041a1456%22,%22608b0a5863c4f2001eed43f4%22,%225fad491512c8620004918ace%22,%225fc91a9b4ea2e200046bd49a%22,%225c5d06a7deebc70017245da7%22,%225ff767051b68750004a6fd21%22,%225fdcacc85d465a0004b021b9%22,%225fb7eea20bd44300045ba495%22%5D%5BMath.floor(24*Math.random())%5D%7D),credentials:%22include%22,method:%22POST%22%7D).then(e=%3Ee.json()))%5B%22t%22%5D,%7Bname:e,blook:%7Bname:t%7D%7D=(await%20fetch(%22https://play.blooket.com/api/playersessions/landings%22,%7Bbody:JSON.stringify(%7Bt:o%7D),credentials:%22include%22,method:%22POST%22%7D),await%20fetch(%22https://play.blooket.com/api/playersessions/questions?t=%22+o,%7Bcredentials:%22include%22%7D),Object.values(function%20e(t=document.querySelector(%22body%3Ediv%22))%7Breturn%20Object.values(t)%5B1%5D?.children?.%5B0%5D?._owner.stateNode?t:e(t.querySelector(%22:scope%3Ediv%22))%7D())%5B1%5D.children%5B0%5D._owner.stateNode.props.user.data),await%20fetch(%22https://play.blooket.com/api/users/factorystats%22,%7Bbody:JSON.stringify(%7BblookUsed:t,t:o,name:e,cash:Math.floor(9e7*Math.random())+1e7,correctAnswers:Math.floor(500*Math.random())+500,upgrades:Math.floor(300*Math.random())+300,mode:%22Time-Solo%22,nameUsed:%22You%22,place:1,playersDefeated:0%7D),credentials:%22include%22,method:%22PUT%22%7D),fetch(%22https://play.blooket.com/api/users/add-rewards%22,%7Bbody:JSON.stringify(%7Bt:o,name:e,addedTokens:500,addedXp:300%7D),credentials:%22include%22,method:%22PUT%22%7D).then(e=%3Ee.json()).then((%7BdailyReward:e%7D)=%3Ealert(%60Added%20max%20tokens%20and%20xp,%20and%20got%20$%7Be%7D%20daily%20wheel%20tokens!%60)).catch(()=%3Ealert(%22There%20was%20an%20error%20when%20adding%20rewards.%22))):(alert(%22This%20cheat%20only%20works%20on%20play.blooket.com,%20opening%20a%20new%20tab.%22),window.open(%22https://play.blooket.com/%22))%7D%7D,%7Bname:%22Every%20Answer%20Correct%22,description:%22Sets%20every%20answer%20to%20be%20correct%22,run:function()%7Bvar%20e=Object.values(function%20e(t=document.querySelector(%22body%3Ediv%22))%7Breturn%20Object.values(t)%5B1%5D?.children?.%5B0%5D?._owner.stateNode?t:e(t.querySelector(%22:scope%3Ediv%22))%7D())%5B1%5D.children%5B0%5D._owner%5B%22stateNode%22%5D;e.freeQuestions=e.freeQuestions?.map?.(e=%3E(%7B...e,correctAnswers:e.answers%7D)),e.questions=e.questions?.map?.(e=%3E(%7B...e,correctAnswers:e.answers%7D)),e.props.client.questions=e.props.client.questions.map(e=%3E(%7B...e,correctAnswers:e.answers%7D))%7D%7D,%7Bname:%22Subtle%20Highlight%20Answers%22,description:%22Removes%20the%20shadow%20from%20correct%20answers%22,run:function()%7Bconst%7Bstate:o,props:n%7D=Object.values(function%20e(t=document.querySelector(%22body%3Ediv%22))%7Breturn%20Object.values(t)%5B1%5D?.children?.%5B0%5D?._owner.stateNode?t:e(t.querySelector(%22:scope%3Ediv%22))%7D())%5B1%5D.children%5B0%5D._owner%5B%22stateNode%22%5D;%5B...document.querySelectorAll('%5Bclass*=%22answerContainer%22%5D')%5D.forEach((e,t)=%3E%7B(o.question%7C%7Cn.client.question).correctAnswers.includes((o.question%7C%7Cn.client.question).answers%5Bt%5D)&&(e.style.boxShadow=%22unset%22)%7D)%7D%7D,%7Bname:%22Remove%20Name%20Limit%22,description:%22Sets%20the%20name%20limit%20to%20120,%20which%20is%20the%20actual%20max%20name%20length%20limit%22,run:function()%7Bvar%20e=document.createElement(%22iframe%22);document.body.append(e),window.alert=e.contentWindow.alert.bind(window),e.remove(),document.querySelector('input%5Bclass*=%22nameInput%22%5D').maxLength=120,alert(%22Removed%20name%20length%20limit%22)%7D%7D,%7Bname:%22Remove%20Random%20Name%22,description:%22Allows%20you%20to%20put%20a%20custom%20name%22,run:function()%7BObject.values(function%20e(t=document.querySelector(%22body%3Ediv%22))%7Breturn%20Object.values(t)%5B1%5D?.children?.%5B0%5D?._owner.stateNode?t:e(t.querySelector(%22:scope%3Ediv%22))%7D())%5B1%5D.children%5B0%5D._owner.stateNode.setState(%7BisRandom:!1,client:%7Bname:%22%22%7D%7D),document.querySelector('%5Bclass*=%22nameInput%22%5D')?.focus?.()%7D%7D,%7Bname:%22Sell%20Duplicate%20Blooks%22,description:%22Sell%20all%20duplicate%20blooks%20leaving%20you%20with%201%20each%22,run:async%20function()%7Bvar%20e=document.createElement(%22iframe%22);if(document.body.append(e),window.alert=e.contentWindow.alert.bind(window),window.confirm=e.contentWindow.confirm.bind(window),e.remove(),/dashboard.*%5C/blooks/.test(window.location.href))%7Bif(confirm(%22Are%20you%20sure%20you%20want%20to%20sell%20your%20dupes?%20(Legendaries%20and%20rarer%20will%20not%20be%20sold)%22))%7Bvar%20o=Object.values(function%20e(t=document.querySelector(%22body%3Ediv%22))%7Breturn%20Object.values(t)%5B1%5D?.children?.%5B0%5D?._owner.stateNode?t:e(t.querySelector(%22:scope%3Ediv%22))%7D())%5B1%5D.children%5B0%5D._owner%5B%22stateNode%22%5D;let%20e=Date.now(),t=%22%22;for(const%20n%20in%20o.state.blookData)if(1%3Co.state.blookData%5Bn%5D)%7Bif(o.setState(%7Bblook:n,numToSell:o.state.blookData%5Bn%5D-1%7D),%5B%22Legendary%22,%22Chroma%22,%22Mystical%22%5D.includes(document.querySelector(%22%5Bclass*='highlightedRarity'%5D%22).innerText.trim()))continue;t+=%60%20%20%20%20$%7Bn%7D%20$%7Bo.state.blookData%5Bn%5D-1%7D%0A%60,await%20o.sellBlook(%7BpreventDefault:()=%3E%7B%7D%7D,!0)%7Dalert(%60($%7BDate.now()-e%7Dms)%20Results:%0A%60+t.trim())%7D%7Delse%20alert(%22This%20can%20only%20be%20ran%20in%20the%20Blooks%20page.%22)%7D%7D%5D,voyage:%5B%7Bname:%22Max%20Levels%22,description:%22Maxes%20out%20all%20islands%20and%20your%20boat%22,run:function()%7Bvar%20e=Object.values(function%20e(t=document.querySelector(%22body%3Ediv%22))%7Breturn%20Object.values(t)%5B1%5D?.children?.%5B0%5D?._owner.stateNode?t:e(t.querySelector(%22:scope%3Ediv%22))%7D())%5B1%5D.children%5B0%5D._owner%5B%22stateNode%22%5D;e.setState(%7BislandLevels:new%20Array(e.state.islandLevels.length).fill(5)%7D,e.updateBoatLevel)%7D%7D,%7Bname:%22Set%20Doubloons%22,description:%22Sets%20Doubloons%22,inputs:%5B%7Bname:%22Amount%22,type:%22number%22%7D%5D,run:function(e)%7Bvar%20t=document.createElement(%22iframe%22),t=(document.body.append(t),window.prompt=t.contentWindow.prompt.bind(window),t.remove(),Object.values(function%20e(t=document.querySelector(%22body%3Ediv%22))%7Breturn%20Object.values(t)%5B1%5D?.children?.%5B0%5D?._owner.stateNode?t:e(t.querySelector(%22:scope%3Ediv%22))%7D())%5B1%5D.children%5B0%5D._owner)%5B%22stateNode%22%5D;t.setState(%7Bdoubloons:e%7D),t.props.liveGameController.setVal(%7Bpath:%60c/$%7Bt.props.client.name%7D/d%60,val:e%7D)%7D%7D,%7Bname:%22Start%20Heist%22,description:%22Starts%20a%20heist%20on%20someone%22,inputs:%5B%7Bname:%22Player%22,type:%22options%22,options:()=%3E%7Blet%20e=Object.values(function%20e(t=document.querySelector(%22body%3Ediv%22))%7Breturn%20Object.values(t)%5B1%5D?.children?.%5B0%5D?._owner.stateNode?t:e(t.querySelector(%22:scope%3Ediv%22))%7D())%5B1%5D.children%5B0%5D._owner%5B%22stateNode%22%5D;return%20new%20Promise(t=%3Ee.props.liveGameController._liveApp?e.props.liveGameController.getDatabaseVal(%22c%22,e=%3Ee&&t(Object.keys(e))):t(%5B%5D))%7D%7D%5D,run:function(n)%7Bvar%20e=document.createElement(%22iframe%22);document.body.append(e),window.prompt=e.contentWindow.prompt.bind(window),e.remove();let%20r=Object.values(function%20e(t=document.querySelector(%22body%3Ediv%22))%7Breturn%20Object.values(t)%5B1%5D?.children?.%5B0%5D?._owner.stateNode?t:e(t.querySelector(%22:scope%3Ediv%22))%7D())%5B1%5D.children%5B0%5D._owner%5B%22stateNode%22%5D;r.props.liveGameController.getDatabaseVal(%22c%22,function(e)%7Bvar%20t,o,e=Object.entries(e%7C%7C%7B%7D).reduce((e,%5Bt,o%5D)=%3E(t!=r.props.client.name&&e.push(%7Bname:t,blook:o.b,doubloons:o.d%7C%7C0%7D),e),%5B%5D);0===e.length?(r.questionsToAnswer=1,r.randomQ()):(%7Bname:e,blook:t,doubloons:o%7D=e.find(e=%3Ee.name==n)%7C%7Ce.sort((e,t)=%3Et.doubloons-e.doubloons)%5B0%5D,r.setState(%7Bstage:%22heist%22,heistInfo:%7Bname:e,blook:t%7D,prizeAmount:Math.max(1e3,o)%7D))%7D)%7D%7D,%7Bname:%22Swap%20Doubloons%22,description:%22Swaps%20Doubloons%20with%20someone%22,inputs:%5B%7Bname:%22Player%22,type:%22options%22,options:()=%3E%7Blet%20e=Object.values(function%20e(t=document.querySelector(%22body%3Ediv%22))%7Breturn%20Object.values(t)%5B1%5D?.children?.%5B0%5D?._owner.stateNode?t:e(t.querySelector(%22:scope%3Ediv%22))%7D())%5B1%5D.children%5B0%5D._owner%5B%22stateNode%22%5D;return%20new%20Promise(t=%3Ee.props.liveGameController._liveApp?e.props.liveGameController.getDatabaseVal(%22c%22,e=%3Ee&&t(Object.keys(e))):t(%5B%5D))%7D%7D%5D,run:async%20function(t)%7Bvar%20e=document.createElement(%22iframe%22);document.body.append(e),window.prompt=e.contentWindow.prompt.bind(window),e.remove();let%20o=Object.values(function%20e(t=document.querySelector(%22body%3Ediv%22))%7Breturn%20Object.values(t)%5B1%5D?.children?.%5B0%5D?._owner.stateNode?t:e(t.querySelector(%22:scope%3Ediv%22))%7D())%5B1%5D.children%5B0%5D._owner%5B%22stateNode%22%5D;e=Object.entries(await%20new%20Promise(e=%3Eo.props.liveGameController.getDatabaseVal(%22c%22,e))).sort((e,t)=%3Et%5B1%5D.d-e%5B1%5D.d).filter(e=%3Ee%5B0%5D!=o.props.client.name),e=e.find(e=%3Ee%5B0%5D==t)%7C%7Ce%5B0%5D;o.props.liveGameController.setVal(%7Bpath:%22c/%22+o.props.client.name,val:%7Bb:o.props.client.blook,d:e%5B1%5D.d,tat:e%5B0%5D+%22:%22+(e%5B1%5D.d-o.state.doubloons)%7D%7D),o.setState(%7Bdoubloons:e%5B1%5D.d%7D)%7D%7D,%7Bname:%22Take%20Doubloons%22,description:%22Takes%20Doubloons%20from%20someone%22,inputs:%5B%7Bname:%22Player%22,type:%22options%22,options:()=%3E%7Blet%20e=Object.values(function%20e(t=document.querySelector(%22body%3Ediv%22))%7Breturn%20Object.values(t)%5B1%5D?.children?.%5B0%5D?._owner.stateNode?t:e(t.querySelector(%22:scope%3Ediv%22))%7D())%5B1%5D.children%5B0%5D._owner%5B%22stateNode%22%5D;return%20new%20Promise(t=%3Ee.props.liveGameController._liveApp?e.props.liveGameController.getDatabaseVal(%22c%22,e=%3Ee&&t(Object.keys(e))):t(%5B%5D))%7D%7D%5D,run:async%20function(t)%7Bvar%20e=document.createElement(%22iframe%22);document.body.append(e),window.prompt=e.contentWindow.prompt.bind(window),e.remove();let%20o=Object.values(function%20e(t=document.querySelector(%22body%3Ediv%22))%7Breturn%20Object.values(t)%5B1%5D?.children?.%5B0%5D?._owner.stateNode?t:e(t.querySelector(%22:scope%3Ediv%22))%7D())%5B1%5D.children%5B0%5D._owner%5B%22stateNode%22%5D;e=Object.entries(await%20new%20Promise(e=%3Eo.props.liveGameController.getDatabaseVal(%22c%22,e))).sort((e,t)=%3Et%5B1%5D.d-e%5B1%5D.d).filter(e=%3Ee%5B0%5D!=o.props.client.name),e=e.find(e=%3Ee%5B0%5D==t)%7C%7Ce%5B0%5D;o.setState(%7Bdoubloons:o.state.doubloons+e%5B1%5D.d%7D),o.props.liveGameController.setVal(%7Bpath:%22c/%22+o.props.client.name,val:%7Bb:o.props.client.blook,d:e%5B1%5D.d,tat:e%5B0%5D+%22:%22+e%5B1%5D.d%7D%7D)%7D%7D%5D,brawl:%5B%7Bname:%22Double%20Enemy%20XP%22,description:%22Doubles%20enemy%20XP%20drop%20value%22,run:function()%7Bfor(const%20o%20of%20Object.values(function%20e(t=document.querySelector(%22body%3Ediv%22))%7Breturn%20Object.values(t)%5B1%5D?.children?.%5B0%5D?._owner.stateNode?t:e(t.querySelector(%22:scope%3Ediv%22))%7D())%5B1%5D.children%5B0%5D._owner.stateNode.state.game.scene.physics.world.colliders._active.filter(e=%3Ee.callbackContext?.toString().includes(%22dmgCd%22)))%7Bvar%20t=o.object2;let%20e=t.classType.prototype.start;t.classType.prototype.start=function()%7Be.apply(this,arguments),this.val*=2%7D,t.children.entries.forEach(e=%3Ee.val*=2)%7D%7D%7D,%7Bname:%22Half%20Enemy%20Speed%22,description:%22Makes%20enemies%20move%202x%20slower%22,run:function()%7Bfor(const%20o%20of%20Object.values(function%20e(t=document.querySelector(%22body%3Ediv%22))%7Breturn%20Object.values(t)%5B1%5D?.children?.%5B0%5D?._owner.stateNode?t:e(t.querySelector(%22:scope%3Ediv%22))%7D())%5B1%5D.children%5B0%5D._owner.stateNode.state.game.scene.physics.world.colliders._active.filter(e=%3Ee.callbackContext?.toString().includes(%22dmgCd%22)))%7Bvar%20t=o.object2;let%20e=t.classType.prototype.start;t.classType.prototype.start=function()%7Be.apply(this,arguments),this.speed*=.5%7D,t.children.entries.forEach(e=%3Ee.speed*=.5)%7D%7D%7D,%7Bname:%22Instant%20Kill%22,description:%22Sets%20all%20enemies%20health%20to%201%22,run:function()%7Bfor(const%20o%20of%20Object.values(function%20e(t=document.querySelector(%22body%3Ediv%22))%7Breturn%20Object.values(t)%5B1%5D?.children?.%5B0%5D?._owner.stateNode?t:e(t.querySelector(%22:scope%3Ediv%22))%7D())%5B1%5D.children%5B0%5D._owner.stateNode.state.game.scene.physics.world.colliders._active.filter(e=%3Ee.callbackContext?.toString().includes(%22dmgCd%22)))%7Bvar%20t=o.object2;let%20e=t.classType.prototype.start;t.classType.prototype.start=function()%7Be.apply(this,arguments),this.hp=1%7D,t.children.entries.forEach(e=%3Ee.hp=1)%7D%7D%7D,%7Bname:%22Invincibility%22,description:%22Makes%20you%20invincible%22,run:function()%7Bfor(const%20e%20of%20Object.values(function%20e(t=document.querySelector(%22body%3Ediv%22))%7Breturn%20Object.values(t)%5B1%5D?.children?.%5B0%5D?._owner.stateNode?t:e(t.querySelector(%22:scope%3Ediv%22))%7D())%5B1%5D.children%5B0%5D._owner.stateNode.state.game.scene.physics.world.colliders._active.filter(e=%3Ee.callbackContext?.toString().includes(%22invulnerableTime%22)%7C%7Ce.callbackContext?.toString().includes(%22dmgCd%22)))e.collideCallback=()=%3E%7B%7D%7D%7D,%7Bname:%22Magnet%22,description:%22Pulls%20all%20xp%20towards%20you%22,run:function()%7BObject.values(function%20e(t=document.querySelector(%22body%3Ediv%22))%7Breturn%20Object.values(t)%5B1%5D?.children?.%5B0%5D?._owner.stateNode?t:e(t.querySelector(%22:scope%3Ediv%22))%7D())%5B1%5D.children%5B0%5D._owner.stateNode.state.game.scene.physics.world.colliders._active.find(e=%3Ee.collideCallback?.toString().includes(%220x5dc)%22)).collideCallback(%7Bactive:!0%7D,%7Bactive:!0,setActive()%7B%7D,setVisible()%7B%7D%7D)%7D%7D,%7Bname:%22Max%20Current%20Abilities%22,description:%22Maxes%20out%20all%20your%20current%20abilities%22,run:function()%7Bconst%20o=Object.values(function%20e(t=document.querySelector(%22body%3Ediv%22))%7Breturn%20Object.values(t)%5B1%5D?.children?.%5B0%5D?._owner.stateNode?t:e(t.querySelector(%22:scope%3Ediv%22))%7D())%5B1%5D.children%5B0%5D._owner%5B%22stateNode%22%5D;for(var%5Bt,n%5Dof%20Object.entries(o.state.abilities))for(let%20e=0;e%3C10-n;e++)o.state.game.scene.game.events.emit(%22level%20up%22,t,o.state.abilities%5Bt%5D++);o.setState(%7Blevel:o.state.game.scene.level=%5B1,3,5,10,15,25,35%5D.sort((e,t)=%3EMath.abs(e-o.state.level)-Math.abs(t-o.state.level))%5B0%5D-1%7D)%7D%7D,%7Bname:%22Next%20Level%22,description:%22Skips%20to%20the%20next%20level%22,run:function()%7Bvar%20e=Object.values(function%20e(t=document.querySelector(%22body%3Ediv%22))%7Breturn%20Object.values(t)%5B1%5D?.children?.%5B0%5D?._owner.stateNode?t:e(t.querySelector(%22:scope%3Ediv%22))%7D())%5B1%5D.children%5B0%5D._owner%5B%22stateNode%22%5D,%7Bobject1:t,object2:o%7D=e.state.game.scene.physics.world.colliders._active.find(e=%3Ee.collideCallback?.toString().includes(%22emit'%5D('xp%22));o.get().spawn(t.x,t.y,(1===(o=e.state.level)?1:o%3C5?5:o%3C10?10:o%3C20?20:o%3C30?30:o%3C40?40:o%3C50?50:100)-e.xp)%7D%7D,%7Bname:%22Remove%20Obstacles%22,description:%22Removes%20all%20rocks%20and%20obstacles%22,run:function()%7BObject.values(function%20e(t=document.querySelector(%22body%3Ediv%22))%7Breturn%20Object.values(t)%5B1%5D?.children?.%5B0%5D?._owner.stateNode?t:e(t.querySelector(%22:scope%3Ediv%22))%7D())%5B1%5D.children%5B0%5D._owner.stateNode.state.game.scene.physics.world.bodies.entries.forEach(e=%3E%7Btry%7Be.gameObject.frame.texture.key.includes(%22obstacle%22)&&e.gameObject.destroy()%7Dcatch%7B%7D%7D)%7D%7D,%7Bname:%22Kill%20Enemies%22,description:%22Kills%20all%20current%20enemies%22,run:function()%7BObject.values(function%20e(t=document.querySelector(%22body%3Ediv%22))%7Breturn%20Object.values(t)%5B1%5D?.children?.%5B0%5D?._owner.stateNode?t:e(t.querySelector(%22:scope%3Ediv%22))%7D())%5B1%5D.children%5B0%5D._owner.stateNode.state.game.scene.physics.world.bodies.entries.forEach(e=%3Ee?.gameObject?.receiveDamage?.(e.gameObject.hp,1))%7D%7D,%7Bname:%22Reset%20Health%22,description:%22Resets%20health%20and%20gives%20invincibility%20for%203%20seconds%22,run:function()%7BObject.values(function%20e(t=document.querySelector(%22body%3Ediv%22))%7Breturn%20Object.values(t)%5B1%5D?.children?.%5B0%5D?._owner.stateNode?t:e(t.querySelector(%22:scope%3Ediv%22))%7D())%5B1%5D.children%5B0%5D._owner.stateNode.state.game.scene.game.events._events.respawn.fn()%7D%7D%5D,cafe:%5B%7Bname:%22Max%20Items%22,description:%22Maxes%20out%20items%20in%20the%20shop%20(Only%20usable%20in%20the%20shop)%22,run:function()%7Bvar%20e=document.createElement(%22iframe%22);document.body.append(e),window.alert=e.contentWindow.alert.bind(window),e.remove(),%22/cafe/shop%22!==window.location.pathname?alert(%22This%20can%20only%20be%20run%20in%20the%20shop%22):(e=Object.values(function%20e(t=document.querySelector(%22body%3Ediv%22))%7Breturn%20Object.values(t)%5B1%5D?.children?.%5B0%5D?._owner.stateNode?t:e(t.querySelector(%22:scope%3Ediv%22))%7D())%5B1%5D.children%5B0%5D._owner%5B%22stateNode%22%5D,e.setState(%7Bitems:Object.fromEntries(Object.entries(e.state.items).map(e=%3E%5Be%5B0%5D,5%5D))%7D))%7D%7D,%7Bname:%22Remove%20Customers%22,description:%22Skips%20the%20current%20customers%20(Not%20usable%20in%20the%20shop)%22,run:function()%7Bconst%20o=Object.values(function%20e(t=document.querySelector(%22body%3Ediv%22))%7Breturn%20Object.values(t)%5B1%5D?.children?.%5B0%5D?._owner.stateNode?t:e(t.querySelector(%22:scope%3Ediv%22))%7D())%5B1%5D.children%5B0%5D._owner%5B%22stateNode%22%5D;o.state.customers.forEach((e,t)=%3EObject.keys(e).length&&o.removeCustomer(t,!0))%7D%7D,%7Bname:%22Reset%20Abilities%22,description:%22Resets%20used%20abilities%20in%20shop%20(Only%20usable%20in%20the%20shop)%22,run:function()%7Bvar%20e=document.createElement(%22iframe%22);document.body.append(e),window.alert=e.contentWindow.alert.bind(window),e.remove(),%22/cafe/shop%22!==window.location.pathname?alert(%22This%20can%20only%20be%20run%20in%20the%20shop%22):(e=Object.values(function%20e(t=document.querySelector(%22body%3Ediv%22))%7Breturn%20Object.values(t)%5B1%5D?.children?.%5B0%5D?._owner.stateNode?t:e(t.querySelector(%22:scope%3Ediv%22))%7D())%5B1%5D.children%5B0%5D._owner%5B%22stateNode%22%5D,e.setState(%7Babilities:Object.fromEntries(Object.entries(e.state.abilities).map(e=%3E%5Be%5B0%5D,5%5D))%7D))%7D%7D,%7Bname:%22Set%20Cash%22,description:%22Sets%20cafe%20cash%22,inputs:%5B%7Bname:%22Amount%22,type:%22number%22%7D%5D,run:function(e)%7Bvar%20t=Object.values(function%20e(t=document.querySelector(%22body%3Ediv%22))%7Breturn%20Object.values(t)%5B1%5D?.children?.%5B0%5D?._owner.stateNode?t:e(t.querySelector(%22:scope%3Ediv%22))%7D())%5B1%5D.children%5B0%5D._owner%5B%22stateNode%22%5D;t.setState(%7BcafeCash:e%7D),t.props.liveGameController.setVal(%7Bpath:%22c/%22+t.props.client.name,val:%7Bb:t.props.client.blook,ca:e%7D%7D)%7D%7D,%7Bname:%22Stock%20Food%22,description:%22Stocks%20all%20food%20to%2099%20(Not%20usable%20in%20the%20shop)%22,run:function()%7Bvar%20e=document.createElement(%22iframe%22);document.body.append(e),window.alert=e.contentWindow.alert.bind(window),e.remove(),%22/cafe%22!==window.location.pathname?alert(%22This%20can't%20be%20run%20in%20the%20shop%22):(e=Object.values(function%20e(t=document.querySelector(%22body%3Ediv%22))%7Breturn%20Object.values(t)%5B1%5D?.children?.%5B0%5D?._owner.stateNode?t:e(t.querySelector(%22:scope%3Ediv%22))%7D())%5B1%5D.children%5B0%5D._owner%5B%22stateNode%22%5D,e.setState(%7Bfoods:e.state.foods.map(e=%3E(%7B...e,stock:99,level:5%7D))%7D))%7D%7D%5D,crypto:%5B%7Bname:%22Choice%20ESP%22,description:%22Shows%20what%20each%20choice%20will%20give%20you%22,type:%22toggle%22,enabled:!1,data:null,run:function()%7Bthis.enabled?(this.enabled=!1,clearInterval(this.data),this.data=null):(this.enabled=!0,this.data=setInterval(()=%3E%7Bvar%20e,t=Object.values(function%20e(t=document.querySelector(%22body%3Ediv%22))%7Breturn%20Object.values(t)%5B1%5D?.children?.%5B0%5D?._owner.stateNode?t:e(t.querySelector(%22:scope%3Ediv%22))%7D())%5B1%5D.children%5B0%5D._owner%5B%22stateNode%22%5D,t=t.state.choices%5B0%5D%5B%22text%22%5D,o=document.querySelector(%22%5Bclass%5E=styles__feedbackContainer___%5D%22);o.children.length%3C=4&&((e=document.createElement(%22div%22)).style.color=%22white%22,e.style.fontFamily=%22Inconsolata,Helvetica,monospace,sans-serif%22,e.style.fontSize=%222em%22,e.style.display=%22flex%22,e.style.justifyContent=%22center%22,e.style.marginTop=%22675px%22,e.innerText=t,o.append(e))%7D,50))%7D%7D,%7Bname:%22Password%20ESP%22,description:%22Highlights%20the%20correct%20password%22,type:%22toggle%22,enabled:!1,data:null,run:function()%7Bthis.enabled?(this.enabled=!1,clearInterval(this.data),this.data=null):(this.enabled=!0,this.data=setInterval(()=%3E%7Blet%20t=Object.values(function%20e(t=document.querySelector(%22body%3Ediv%22))%7Breturn%20Object.values(t)%5B1%5D?.children?.%5B0%5D?._owner.stateNode?t:e(t.querySelector(%22:scope%3Ediv%22))%7D())%5B1%5D.children%5B0%5D._owner.stateNode%5B%22state%22%5D;%22hack%22==t.stage&&%5B...document.querySelector(%22div%5Bclass%5E=styles__buttonContainer%5D%22).children%5D.forEach(e=%3E%7Be.innerText!=t.correctPassword&&(e.style.outlineColor=%22rgba(255,%2064,%2064,%200.8)%22,e.style.backgroundColor=%22rgba(255,%2064,%2064,%200.8)%22,e.style.textShadow=%220%200%201px%20#f33%22)%7D)%7D,50))%7D%7D,%7Bname:%22Always%20Triple%22,description:%22Always%20get%20triple%20crypto%22,type:%22toggle%22,enabled:!1,data:null,run:function()%7Bthis.enabled?(this.enabled=!1,clearInterval(this.data),this.data=null):(this.enabled=!0,this.data=setInterval(()=%3EObject.values(function%20e(t=document.querySelector(%22body%3Ediv%22))%7Breturn%20Object.values(t)%5B1%5D?.children?.%5B0%5D?._owner.stateNode?t:e(t.querySelector(%22:scope%3Ediv%22))%7D())%5B1%5D.children%5B0%5D._owner.stateNode.setState(%7Bchoices:%5B%7Btype:%22mult%22,val:3,rate:.075,blook:%22Brainy%20Bot%22,text:%22Triple%20Crypto%22%7D%5D%7D),50))%7D%7D,%7Bname:%22Auto%20Guess%22,description:%22Automatically%20guess%20the%20correct%20password%22,type:%22toggle%22,enabled:!1,data:null,run:function()%7Bthis.enabled?(this.enabled=!1,clearInterval(this.data),this.data=null):(this.enabled=!0,this.data=setInterval(()=%3E%7Bvar%20e=Object.values(function%20e(t=document.querySelector(%22body%3Ediv%22))%7Breturn%20Object.values(t)%5B1%5D?.children?.%5B0%5D?._owner.stateNode?t:e(t.querySelector(%22:scope%3Ediv%22))%7D())%5B1%5D.children%5B0%5D._owner.stateNode%5B%22state%22%5D;if(%22hack%22==e.stage)for(const%20t%20of%20document.querySelector(%22div%5Bclass%5E=styles__buttonContainer%5D%22).children)t.innerText==e.correctPassword&&t.click()%7D,50))%7D%7D,%7Bname:%22Remove%20Hack%22,description:%22Removes%20an%20attacking%20hack%22,run:function()%7BObject.values(function%20e(t=document.querySelector(%22body%3Ediv%22))%7Breturn%20Object.values(t)%5B1%5D?.children?.%5B0%5D?._owner.stateNode?t:e(t.querySelector(%22:scope%3Ediv%22))%7D())%5B1%5D.children%5B0%5D._owner.stateNode.setState(%7Bhack:%22%22%7D)%7D%7D,%7Bname:%22Set%20Crypto%22,description:%22Sets%20crypto%22,inputs:%5B%7Bname:%22Amount%22,type:%22number%22%7D%5D,run:function(e)%7Bvar%20t=Object.values(function%20e(t=document.querySelector(%22body%3Ediv%22))%7Breturn%20Object.values(t)%5B1%5D?.children?.%5B0%5D?._owner.stateNode?t:e(t.querySelector(%22:scope%3Ediv%22))%7D())%5B1%5D.children%5B0%5D._owner%5B%22stateNode%22%5D;t.setState(%7Bcrypto:e,crypto2:e%7D),t.props.liveGameController.setVal(%7Bpath:%22c/%22.concat(t.props.client.name),val:%7Bb:t.props.client.blook,p:t.state.password,cr:e%7D%7D)%7D%7D,%7Bname:%22Set%20Password%22,description:%22Sets%20hacking%20password%22,inputs:%5B%7Bname:%22Custom%20Password%22,type:%22string%22%7D%5D,run:function(e)%7Bvar%20t=Object.values(function%20e(t=document.querySelector(%22body%3Ediv%22))%7Breturn%20Object.values(t)%5B1%5D?.children?.%5B0%5D?._owner.stateNode?t:e(t.querySelector(%22:scope%3Ediv%22))%7D())%5B1%5D.children%5B0%5D._owner%5B%22stateNode%22%5D;t.setState(%7Bpassword:e%7D),t.props.liveGameController.setVal(%7Bpath:%22c/%22.concat(t.props.client.name),val:%7Bb:t.props.client.blook,p:e,cr:t.state.crypto%7D%7D)%7D%7D,%7Bname:%22Steal%20Player's%20Crypto%22,description:%22Steals%20all%20of%20someone's%20crypto%22,inputs:%5B%7Bname:%22Player%22,type:%22options%22,options:()=%3E%7Blet%20e=Object.values(function%20e(t=document.querySelector(%22body%3Ediv%22))%7Breturn%20Object.values(t)%5B1%5D?.children?.%5B0%5D?._owner.stateNode?t:e(t.querySelector(%22:scope%3Ediv%22))%7D())%5B1%5D.children%5B0%5D._owner%5B%22stateNode%22%5D;return%20new%20Promise(t=%3Ee.props.liveGameController._liveApp?e.props.liveGameController.getDatabaseVal(%22c%22,e=%3Ee&&t(Object.keys(e))):t(%5B%5D))%7D%7D%5D,run:function(o)%7Blet%20n=Object.values(function%20e(t=document.querySelector(%22body%3Ediv%22))%7Breturn%20Object.values(t)%5B1%5D?.children?.%5B0%5D?._owner.stateNode?t:e(t.querySelector(%22:scope%3Ediv%22))%7D())%5B1%5D.children%5B0%5D._owner%5B%22stateNode%22%5D;n.props.liveGameController.getDatabaseVal(%22c%22,e=%3E%7Bvar%20t;e&&Object.keys(e).map(e=%3Ee.toLowerCase()).includes(o.toLowerCase())&&(%5Be,%7Bcr:t%7D%5D=Object.entries(e).find((%5Be%5D)=%3Ee.toLowerCase()==o.toLowerCase()),n.setState(%7Bcrypto:n.state.crypto+t,crypto2:n.state.crypto+t%7D),n.props.liveGameController.setVal(%7Bpath:%22c/%22.concat(n.props.client.name),val:%7Bb:n.props.client.blook,p:n.state.password,cr:n.state.crypto+t,tat:e+%22:%22+t%7D%7D))%7D)%7D%7D%5D,defense:%5B%7Bname:%22Earthquake%22,description:%22Shuffles%20around%20towers%22,run:function()%7Blet%20n=Object.values(function%20e(t=document.querySelector(%22body%3Ediv%22))%7Breturn%20Object.values(t)%5B1%5D?.children?.%5B0%5D?._owner.stateNode?t:e(t.querySelector(%22:scope%3Ediv%22))%7D())%5B1%5D.children%5B0%5D._owner%5B%22stateNode%22%5D,r=(n.setState(%7BeventName:%22Earthquake%22,event:%7Bshort:%22e%22,color:%22#805500%22,icon:%22fas%20fa-mountain%22,desc:%22All%20of%20your%20towers%20get%20mixed%20up%22,rate:.02%7D,buyTowerName:%22%22,buyTower:%7B%7D%7D,()=%3En.eventTimeout=setTimeout(()=%3En.setState(%7Bevent:%7B%7D,eventName:%22%22%7D),6e3)),n.tiles.forEach(o=%3Eo.forEach((e,t)=%3E3===e&&(o%5Bt%5D=0))),n.tiles.flatMap((e,o)=%3Ee.map((e,t)=%3E0===e&&%7Bx:t,y:o%7D)).filter(Boolean).sort(()=%3E.5-Math.random()));n.towers.forEach(e=%3E%7Bvar%7Bx:t,y:o%7D=r.shift();e.move(t,o,n.tileSize),n.tiles%5Bo%5D%5Bt%5D=3%7D)%7D%7D,%7Bname:%22Max%20Tower%20Stats%22,description:%22Makes%20all%20placed%20towers%20overpowered%22,run:function()%7Bvar%20e=Object.values(function%20e(t=document.querySelector(%22body%3Ediv%22))%7Breturn%20Object.values(t)%5B1%5D?.children?.%5B0%5D?._owner.stateNode?t:e(t.querySelector(%22:scope%3Ediv%22))%7D())%5B1%5D.children%5B0%5D._owner%5B%22stateNode%22%5D;e.towers.forEach(e=%3E%7Be.range=100,e.fullCd=e.cd=0,e.damage=1e6%7D)%7D%7D,%7Bname:%22Remove%20Ducks%22,description:%22Removes%20ducks%22,run:function()%7Blet%7Bducks:e,tiles:t%7D=Object.values(function%20e(t=document.querySelector(%22body%3Ediv%22))%7Breturn%20Object.values(t)%5B1%5D?.children?.%5B0%5D?._owner.stateNode?t:e(t.querySelector(%22:scope%3Ediv%22))%7D())%5B1%5D.children%5B0%5D._owner%5B%22stateNode%22%5D;e.forEach(e=%3E%7Bt%5Be.y%5D%5Be.x%5D=0%7D),e.length=0%7D%7D,%7Bname:%22Remove%20Enemies%22,description:%22Removes%20all%20the%20enemies%22,run:function()%7Bvar%20e=Object.values(function%20e(t=document.querySelector(%22body%3Ediv%22))%7Breturn%20Object.values(t)%5B1%5D?.children?.%5B0%5D?._owner.stateNode?t:e(t.querySelector(%22:scope%3Ediv%22))%7D())%5B1%5D.children%5B0%5D._owner%5B%22stateNode%22%5D;e.enemies=e.futureEnemies=%5B%5D%7D%7D,%7Bname:%22Remove%20Obstacles%22,description:%22Lets%20you%20place%20towers%20anywhere%22,run:function()%7Bvar%20e=Object.values(function%20e(t=document.querySelector(%22body%3Ediv%22))%7Breturn%20Object.values(t)%5B1%5D?.children?.%5B0%5D?._owner.stateNode?t:e(t.querySelector(%22:scope%3Ediv%22))%7D())%5B1%5D.children%5B0%5D._owner%5B%22stateNode%22%5D;e.tiles=e.tiles.map(e=%3Ee.fill(0))%7D%7D,%7Bname:%22Set%20Damage%22,description:%22Sets%20damage%22,inputs:%5B%7Bname:%22Damage%22,type:%22number%22%7D%5D,run:function(e)%7BObject.values(function%20e(t=document.querySelector(%22body%3Ediv%22))%7Breturn%20Object.values(t)%5B1%5D?.children?.%5B0%5D?._owner.stateNode?t:e(t.querySelector(%22:scope%3Ediv%22))%7D())%5B1%5D.children%5B0%5D._owner.stateNode.dmg=e%7D%7D,%7Bname:%22Set%20Round%22,description:%22Sets%20the%20current%20round%22,inputs:%5B%7Bname:%22Round%22,type:%22number%22%7D%5D,run:function(e)%7BObject.values(function%20e(t=document.querySelector(%22body%3Ediv%22))%7Breturn%20Object.values(t)%5B1%5D?.children?.%5B0%5D?._owner.stateNode?t:e(t.querySelector(%22:scope%3Ediv%22))%7D())%5B1%5D.children%5B0%5D._owner.stateNode.setState(%7Bround:e%7D)%7D%7D,%7Bname:%22Set%20Tokens%22,description:%22Sets%20the%20amount%20of%20tokens%20you%20have%22,inputs:%5B%7Bname:%22Tokens%22,type:%22number%22%7D%5D,run:function(e)%7BObject.values(function%20e(t=document.querySelector(%22body%3Ediv%22))%7Breturn%20Object.values(t)%5B1%5D?.children?.%5B0%5D?._owner.stateNode?t:e(t.querySelector(%22:scope%3Ediv%22))%7D())%5B1%5D.children%5B0%5D._owner.stateNode.setState(%7Btokens:e%7D)%7D%7D%5D,defense2:%5B%7Bname:%22Max%20Tower%20Stats%22,description:%22Makes%20all%20placed%20towers%20overpowered%22,run:function()%7BObject.values(function%20e(t=document.querySelector(%22body%3Ediv%22))%7Breturn%20Object.values(t)%5B1%5D?.children?.%5B0%5D?._owner.stateNode?t:e(t.querySelector(%22:scope%3Ediv%22))%7D())%5B1%5D.children%5B0%5D._owner.stateNode.state.towers.forEach(e=%3E%7Bif(e.stats.dmg=1e6,e.stats.fireRate=50,e.stats.ghostDetect=!0,e.stats.maxTargets=1e6,e.stats.numProjectiles&&=100,e.stats.range=100,e.stats.auraBuffs)for(const%20t%20in%20e.stats.auraBuffs)e.stats.auraBuffs%5Bt%5D*=100%7D)%7D%7D,%7Bname:%22Kill%20Enemies%22,description:%22Kills%20all%20the%20enemies%22,run:function()%7Bvar%20e=Object.values(function%20e(t=document.querySelector(%22body%3Ediv%22))%7Breturn%20Object.values(t)%5B1%5D?.children?.%5B0%5D?._owner.stateNode?t:e(t.querySelector(%22:scope%3Ediv%22))%7D())%5B1%5D.children%5B0%5D._owner%5B%22stateNode%22%5D;e.state.game.scene.enemyQueue.length=0,e.state.game.scene.physics.world.bodies.entries.forEach(e=%3Ee?.gameObject?.receiveDamage?.(e.gameObject.hp,1))%7D%7D,%7Bname:%22Set%20Coins%22,description:%22Sets%20coins%22,inputs:%5B%7Bname:%22Coins%22,type:%22number%22%7D%5D,run:function(e)%7BObject.values(function%20e(t=document.querySelector(%22body%3Ediv%22))%7Breturn%20Object.values(t)%5B1%5D?.children?.%5B0%5D?._owner.stateNode?t:e(t.querySelector(%22:scope%3Ediv%22))%7D())%5B1%5D.children%5B0%5D._owner.stateNode.setState(%7Bcoins:e%7D)%7D%7D,%7Bname:%22Set%20Health%22,description:%22Sets%20the%20amount%20of%20health%20you%20have%22,inputs:%5B%7Bname:%22Health%22,type:%22number%22%7D%5D,run:function(e)%7BObject.values(function%20e(t=document.querySelector(%22body%3Ediv%22))%7Breturn%20Object.values(t)%5B1%5D?.children?.%5B0%5D?._owner.stateNode?t:e(t.querySelector(%22:scope%3Ediv%22))%7D())%5B1%5D.children%5B0%5D._owner.stateNode.setState(%7Bhealth:e%7D)%7D%7D,%7Bname:%22Set%20Round%22,description:%22Sets%20the%20current%20round%22,inputs:%5B%7Bname:%22Round%22,type:%22number%22%7D%5D,run:function(e)%7BObject.values(function%20e(t=document.querySelector(%22body%3Ediv%22))%7Breturn%20Object.values(t)%5B1%5D?.children?.%5B0%5D?._owner.stateNode?t:e(t.querySelector(%22:scope%3Ediv%22))%7D())%5B1%5D.children%5B0%5D._owner.stateNode.setState(%7Bround:e%7D)%7D%7D%5D,dinos:%5B%7Bname:%22Auto%20Choose%22,description:%22Automatically%20choose%20the%20best%20fossil%20when%20excavating%22,type:%22toggle%22,enabled:!1,data:null,rand(n,e)%7Bfor(var%20r=%5B%5D;r.length%3Ce;)%7Bvar%20a=Math.random();let%20t=0,o=null;for(let%20e=0;e%3Cn.length;e++)if((t+=n%5Be%5D.rate)%3E=a)%7Bo=n%5Be%5D;break%7Do&&!r.includes(o)&&r.push(o)%7Dreturn%20r%7D,run:function()%7Bif(this.enabled)this.enabled=!1,clearInterval(this.data),this.data=null;else%7Bthis.enabled=!0;const%20e=()=%3Ethis.rand(%5B%7Btype:%22fossil%22,val:10,rate:.1,blook:%22Amber%22%7D,%7Btype:%22fossil%22,val:25,rate:.1,blook:%22Dino%20Egg%22%7D,%7Btype:%22fossil%22,val:50,rate:.175,blook:%22Dino%20Fossil%22%7D,%7Btype:%22fossil%22,val:75,rate:.175,blook:%22Stegosaurus%22%7D,%7Btype:%22fossil%22,val:100,rate:.15,blook:%22Velociraptor%22%7D,%7Btype:%22fossil%22,val:125,rate:.125,blook:%22Brontosaurus%22%7D,%7Btype:%22fossil%22,val:250,rate:.075,blook:%22Triceratops%22%7D,%7Btype:%22fossil%22,val:500,rate:.025,blook:%22Tyrannosaurus%20Rex%22%7D,%7Btype:%22mult%22,val:1.5,rate:.05%7D,%7Btype:%22mult%22,val:2,rate:.025%7D%5D,3);this.data=setInterval(()=%3E%7Btry%7Bvar%20n=Object.values(function%20e(t=document.querySelector(%22body%3Ediv%22))%7Breturn%20Object.values(t)%5B1%5D?.children?.%5B0%5D?._owner.stateNode?t:e(t.querySelector(%22:scope%3Ediv%22))%7D())%5B1%5D.children%5B0%5D._owner%5B%22stateNode%22%5D;if(%22excavate%22===n.state.stage)%7Bn.state.choices.length%7C%7C(n.state.choices=e());let%20t=0,o=-1;for(let%20e=0;e%3Cn.state.choices.length;e++)%7Bvar%7Btype:r,val:a%7D=n.state.choices%5Be%5D,s=(%22fossil%22==r?n.state.fossils+a*n.state.fossilMult:n.state.fossils*a)%7C%7C0;s%3C=t&&%22mult%22!=r%7C%7C(t=s,o=e+1)%7Ddocument.querySelector('div%5Bclass%5E=%22styles__rockRow%22%5D%20%3E%20div%5Brole=%22button%22%5D:nth-child('+o+%22)%22).click()%7D%7Dcatch%7B%7D%7D,50)%7D%7D%7D,%7Bname:%22Rock%20ESP%22,description:%22Shows%20what%20is%20under%20the%20rocks%22,type:%22toggle%22,enabled:!1,data:null,run:function()%7Bconst%20o=%5B%22%E2%81%B0%22,%22%C2%B9%22,%22%C2%B2%22,%22%C2%B3%22,%22%E2%81%B4%22,%22%E2%81%B5%22,%22%E2%81%B6%22,%22%E2%81%B7%22,%22%E2%81%B8%22,%22%E2%81%B9%22%5D,a=e=%3E%7Blet%20t=%22%22;for(;0%3Ce;)t=o%5Be%2510%5D+t,e=~~(e/10);return%20t%7D;this.enabled?(this.enabled=!1,clearInterval(this.data),this.data=null):(this.enabled=!0,this.data=setInterval(()=%3E%7Blet%20n=Object.values(function%20e(t=document.querySelector(%22body%3Ediv%22))%7Breturn%20Object.values(t)%5B1%5D?.children?.%5B0%5D?._owner.stateNode?t:e(t.querySelector(%22:scope%3Ediv%22))%7D())%5B1%5D.children%5B0%5D._owner%5B%22stateNode%22%5D;const%20e=%5B...document.querySelector('%5Bclass*=%22rockButton%22%5D').parentElement.children%5D;e.every(e=%3Ee.querySelector(%22div%22))%7C%7Cn.setState(%7Bchoices:%5B%7Btype:%22fossil%22,val:10,rate:.1,blook:%22Amber%22%7D,%7Btype:%22fossil%22,val:25,rate:.1,blook:%22Dino%20Egg%22%7D,%7Btype:%22fossil%22,val:50,rate:.175,blook:%22Dino%20Fossil%22%7D,%7Btype:%22fossil%22,val:75,rate:.175,blook:%22Stegosaurus%22%7D,%7Btype:%22fossil%22,val:100,rate:.15,blook:%22Velociraptor%22%7D,%7Btype:%22fossil%22,val:125,rate:.125,blook:%22Brontosaurus%22%7D,%7Btype:%22fossil%22,val:250,rate:.075,blook:%22Triceratops%22%7D,%7Btype:%22fossil%22,val:500,rate:.025,blook:%22Tyrannosaurus%20Rex%22%7D,%7Btype:%22mult%22,val:1.5,rate:.05%7D,%7Btype:%22mult%22,val:2,rate:.025%7D%5D.sort(()=%3E.5-Math.random()).slice(0,3)%7D,()=%3E%7Be.forEach((e,t)=%3E%7Bvar%20t=n.state.choices%5Bt%5D,o=(e.querySelector(%22div%22)&&e.querySelector(%22div%22).remove(),document.createElement(%22div%22));o.style.color=%22white%22,o.style.fontFamily=%22Macondo%22,o.style.fontSize=%221em%22,o.style.display=%22flex%22,o.style.justifyContent=%22center%22,o.style.transform=%22translateY(25px)%22,o.innerText=%22fossil%22===t.type?%60+$%7B99999999%3CMath.round(t.val*n.state.fossilMult)?(o=%3E%7Blet%20n=o.toString();if(1e3%3C=o)%7Bvar%20e=%5B%22%22,%22K%22,%22M%22,%22B%22,%22T%22%5D,r=~~((digits(o)-1)/3);if(r%3Ce.length)%7Blet%20t=%22%22;for(let%20e=3;1%3C=e;e--)if((t=parseFloat((0!=r?o/1e3**r:o).toPrecision(e)).toString()).replace(/%5B%5Ea-zA-Z%200-9%5D+/g,%22%22).length%3C=3)break;Number(t)%251!=0&&(t=Number(t).toFixed(1)),n=t+e%5Br%5D%7Delse%7Blet%20e=o,t=0;for(;100%3C=e;)e=Math.floor(e/10),t+=1;n=e/10+%22%20%C3%97%2010%22+a(t+1)%7D%7Dreturn%20n%7D)(Math.round(t.val*n.state.fossilMult)):Math.round(t.val*n.state.fossilMult)%7D%20Fossils%60:%60x$%7Bt.val%7D%20Fossils%20Per%20Excavation%60,e.append(o)%7D)%7D)%7D,50))%7D%7D,%7Bname:%22Set%20Fossils%22,description:%22Sets%20the%20amount%20of%20fossils%20you%20have%22,inputs:%5B%7Bname:%22Fossils%22,type:%22number%22%7D%5D,run:function(e)%7Bvar%20t=Object.values(function%20e(t=document.querySelector(%22body%3Ediv%22))%7Breturn%20Object.values(t)%5B1%5D?.children?.%5B0%5D?._owner.stateNode?t:e(t.querySelector(%22:scope%3Ediv%22))%7D())%5B1%5D.children%5B0%5D._owner%5B%22stateNode%22%5D;t.setState(%7Bfossils:e%7D),t.props.liveGameController.setVal(%7Bpath:%22c/%22+t.props.client.name,val:%7Bb:t.props.client.blook,f:e,ic:t.state.isCheating%7D%7D)%7D%7D,%7Bname:%22Set%20Multiplier%22,description:%22Sets%20fossil%20multiplier%22,inputs:%5B%7Bname:%22Multiplier%22,type:%22number%22%7D%5D,run:function(e)%7Bvar%20t=Object.values(function%20e(t=document.querySelector(%22body%3Ediv%22))%7Breturn%20Object.values(t)%5B1%5D?.children?.%5B0%5D?._owner.stateNode?t:e(t.querySelector(%22:scope%3Ediv%22))%7D())%5B1%5D.children%5B0%5D._owner%5B%22stateNode%22%5D;t.setState(%7BfossilMult:e%7D)%7D%7D,%7Bname:%22Stop%20Cheating%22,description:%22Undoes%20cheating%20so%20that%20you%20can't%20be%20caught%22,run:function()%7Bvar%20e=Object.values(function%20e(t=document.querySelector(%22body%3Ediv%22))%7Breturn%20Object.values(t)%5B1%5D?.children?.%5B0%5D?._owner.stateNode?t:e(t.querySelector(%22:scope%3Ediv%22))%7D())%5B1%5D.children%5B0%5D._owner%5B%22stateNode%22%5D;e.setState(%7BisCheating:!1%7D),e.props.liveGameController.setVal(%7Bpath:%60c/$%7Be.props.client.name%7D/ic%60,val:!1%7D)%7D%7D%5D,doom:%5B%7Bname:%22Fill%20Deck%22,description:%22Fills%20your%20deck%20with%20every%20maxed%20out%20card%20and%20artifact%20(Only%20works%20on%20towers%20page)%22,run:function()%7Bvar%20e=document.createElement(%22iframe%22);if(document.body.append(e),window.alert=e.contentWindow.alert.bind(window),e.remove(),%22/tower/map%22==window.location.pathname)%7Be=Object.values(function%20e(t=document.querySelector(%22body%3Ediv%22))%7Breturn%20Object.values(t)%5B1%5D?.children?.%5B0%5D?._owner.stateNode?t:e(t.querySelector(%22:scope%3Ediv%22))%7D())%5B1%5D.children%5B0%5D._owner%5B%22stateNode%22%5D;e.props.tower.artifacts=%22Medical%20Kit%7CFury%20Relic%7CSurvival%20Guide%7CSteel%20Socks%7CPiggy%20Bank%7CLucky%20Feather%7CCoupon%7CCheese%7CTasty%20Egg%7CTraining%20Weights%7CMighty%20Shield%7CToxic%20Waste%7CLifeline%20Totem%7CCursed%20Hourglass%7CBand-Aid%7CElder%20Coins%7CCaptain's%20Anchor%7CChess%20Pieces%7CPink%20Hippo%7CAnorak's%20Wizard%20Cap%7CDave's%20Doggo%7CAnubis'%20Obelisk%7CFarm%20Tractor%7CMagic%20Seedling%7CJust%20A%20Bone%7CCozy%20Igloo%7CKing's%20Crown%7CSacred%20Scroll%22.split(%22%7C%22),e.props.tower.cards=%22Chick,%F0%9F%8C%BD%7CChicken,%F0%9F%8C%BD%7CCow,%F0%9F%8C%BD%7CGoat,%F0%9F%8C%BD%7CHorse,%F0%9F%8C%BD%7CPig,%F0%9F%8C%BD%7CSheep,%F0%9F%8C%BD%7CDuck,%F0%9F%8C%BD%7CDog,%F0%9F%8C%BD%7CCat,%F0%9F%90%BE%7CRabbit,%F0%9F%90%BE%7CGoldfish,%F0%9F%90%BE%7CHamster,%F0%9F%90%BE%7CTurtle,%F0%9F%90%BE%7CKitten,%F0%9F%90%BE%7CPuppy,%F0%9F%90%BE%7CBear,%F0%9F%8C%B2%7CMoose,%F0%9F%8C%B2%7CFox,%F0%9F%8C%B2%7CRaccoon,%F0%9F%8C%B2%7CSquirrel,%F0%9F%8C%B2%7COwl,%F0%9F%8C%B2%7CHedgehog,%F0%9F%8C%B2%7CBaby%20Penguin,%E2%9D%84%EF%B8%8F%7CPenguin,%E2%9D%84%EF%B8%8F%7CArctic%20Fox,%E2%9D%84%EF%B8%8F%7CSnowy%20Owl,%E2%9D%84%EF%B8%8F%7CPolar%20Bear,%E2%9D%84%EF%B8%8F%7CArctic%20Hare,%E2%9D%84%EF%B8%8F%7CSeal,%E2%9D%84%EF%B8%8F%7CWalrus,%E2%9D%84%EF%B8%8F%7CTiger,%F0%9F%8C%B4%7CPanther,%F0%9F%8C%B4%7CCockatoo,%F0%9F%8C%B4%7COrangutan,%F0%9F%8C%B4%7CAnaconda,%F0%9F%8C%B4%7CMacaw,%F0%9F%8C%B4%7CJaguar,%F0%9F%8C%B4%7CCapuchin,%F0%9F%8C%B4%7CToucan,%F0%9F%8C%B4%7CParrot,%F0%9F%8C%B4%7CElf,%E2%9A%94%EF%B8%8F%7CWitch,%E2%9A%94%EF%B8%8F%7CWizard,%E2%9A%94%EF%B8%8F%7CFairy,%E2%9A%94%EF%B8%8F%7CSlime%20Monster,%E2%9A%94%EF%B8%8F%7CJester,%E2%9A%94%EF%B8%8F%7CDragon,%E2%9A%94%EF%B8%8F%7CUnicorn,%E2%9A%94%EF%B8%8F%7CQueen,%E2%9A%94%EF%B8%8F%7CKing,%E2%9A%94%EF%B8%8F%7CSnow%20Globe,%E2%98%83%EF%B8%8F%7CHoliday%20Gift,%E2%98%83%EF%B8%8F%7CHot%20Chocolate,%E2%98%83%EF%B8%8F%7CGingerbread%20Man,%E2%98%83%EF%B8%8F%7CGingerbread%20House,%E2%98%83%EF%B8%8F%7CHoliday%20Wreath,%E2%98%83%EF%B8%8F%7CSnowman,%E2%98%83%EF%B8%8F%7CSanta%20Claus,%E2%98%83%EF%B8%8F%7CTwo%20of%20Spades,%F0%9F%8F%B0%7CEat%20Me,%F0%9F%8F%B0%7CDrink%20Me,%F0%9F%8F%B0%7CAlice,%F0%9F%8F%B0%7CQueen%20of%20Hearts,%F0%9F%8F%B0%7CDormouse,%F0%9F%8F%B0%7CWhite%20Rabbit,%F0%9F%8F%B0%7CCheshire%20Cat,%F0%9F%8F%B0%7CCaterpillar,%F0%9F%8F%B0%7CMad%20Hatter,%F0%9F%8F%B0%7CKing%20of%20Hearts,%F0%9F%8F%B0%22.split(%22%7C%22).map(e=%3E%7Bvar%5Be,t%5D=e.split(%22,%22);return%7Bstrength:20,charisma:20,wisdom:20,class:t,blook:e%7D%7D);try%7Be.props.addTowerNode()%7Dcatch%7B%7De.setState(%7BshowDeck:!1%7D)%7Delse%20alert(%22You%20need%20to%20be%20on%20the%20map%20to%20run%20this%20cheat!%22)%7D%7D,%7Bname:%22Max%20Cards%22,description:%22Maxes%20out%20all%20the%20cards%20in%20your%20deck%22,run:function()%7Bvar%20e=document.createElement(%22iframe%22);document.body.append(e),window.alert=e.contentWindow.alert.bind(window),e.remove(),%22/tower/map%22==window.location.pathname?(e=Object.values(function%20e(t=document.querySelector(%22body%3Ediv%22))%7Breturn%20Object.values(t)%5B1%5D?.children?.%5B0%5D?._owner.stateNode?t:e(t.querySelector(%22:scope%3Ediv%22))%7D())%5B1%5D.children%5B0%5D._owner%5B%22stateNode%22%5D,e.props.tower.cards.forEach(e=%3E%7Be.strength=20,e.charisma=20,e.wisdom=20%7D)):alert(%22You%20need%20to%20be%20on%20the%20map%20to%20run%20this%20cheat!%22)%7D%7D,%7Bname:%22Max%20Health%22,description:%22Fills%20the%20player's%20health%22,run:function()%7Bvar%20e=document.createElement(%22iframe%22);document.body.append(e),window.alert=e.contentWindow.alert.bind(window),e.remove(),%22/tower/battle%22==window.location.pathname?Object.values(function%20e(t=document.querySelector(%22body%3Ediv%22))%7Breturn%20Object.values(t)%5B1%5D?.children?.%5B0%5D?._owner.stateNode?t:e(t.querySelector(%22:scope%3Ediv%22))%7D())%5B1%5D.children%5B0%5D._owner.stateNode.setState(%7BmyHealth:100%7D):alert(%22You%20need%20to%20be%20in%20battle%20to%20run%20this%20cheat!%22)%7D%7D,%7Bname:%22Max%20Card%20Stats%22,description:%22Maxes%20out%20player's%20current%20card%20(Only%20works%20on%20attribute%20select%20page)%22,run:function()%7Bvar%20e=document.createElement(%22iframe%22),e=(document.body.append(e),window.alert=e.contentWindow.alert.bind(window),e.remove(),Object.values(function%20e(t=document.querySelector(%22body%3Ediv%22))%7Breturn%20Object.values(t)%5B1%5D?.children?.%5B0%5D?._owner.stateNode?t:e(t.querySelector(%22:scope%3Ediv%22))%7D())%5B1%5D.children%5B0%5D._owner)%5B%22stateNode%22%5D;%22select%22!==e.state.phase?alert(%22You%20must%20be%20on%20the%20attribute%20selection%20page!%22):e.setState(%7BmyCard:%7B...e.state.myCard,strength:20,charisma:20,wisdom:20%7D%7D)%7D%7D,%7Bname:%22Min%20Enemy%20Stats%22,description:%22Makes%20the%20enemy%20card%20stats%20all%200%20(Only%20works%20on%20attribute%20select%20page)%22,run:function()%7Bvar%20e=document.createElement(%22iframe%22),e=(document.body.append(e),window.alert=e.contentWindow.alert.bind(window),e.remove(),Object.values(function%20e(t=document.querySelector(%22body%3Ediv%22))%7Breturn%20Object.values(t)%5B1%5D?.children?.%5B0%5D?._owner.stateNode?t:e(t.querySelector(%22:scope%3Ediv%22))%7D())%5B1%5D.children%5B0%5D._owner)%5B%22stateNode%22%5D;%22select%22!==e.state.phase?alert(%22You%20must%20be%20on%20the%20attribute%20selection%20page!%22):e.setState(%7BenemyCard:%7B...e.state.enemyCard,strength:0,charisma:0,wisdom:0%7D%7D)%7D%7D,%7Bname:%22Set%20Coins%22,description:%22Try's%20to%20set%20amount%20of%20tower%20coins%20you%20have%22,inputs:%5B%7Bname:%22Coins%22,type:%22number%22%7D%5D,run:function(e)%7Bvar%20t=document.createElement(%22iframe%22);if(document.body.append(t),window.alert=t.contentWindow.prompt.bind(window),t.remove(),%22/tower/battle%22==window.location.pathname)%7Bvar%20t=parseInt(%220%22+alert(%22How%20many%20coins%20would%20you%20like?%22)),o=Object.values(function%20e(t=document.querySelector(%22body%3Ediv%22))%7Breturn%20Object.values(t)%5B1%5D?.children?.%5B0%5D?._owner.stateNode?t:e(t.querySelector(%22:scope%3Ediv%22))%7D())%5B1%5D.children%5B0%5D._owner%5B%22stateNode%22%5D;try%7Bo.props.setTowerCoins(t)%7Dcatch%7B%7D%7Delse%20alert(%22You%20need%20to%20be%20in%20battle%20to%20run%20this%20cheat!%22)%7D%7D%5D,factory:%5B%7Bname:%22Choose%20Blook%22,description:%22Gives%20you%20a%20blook%22,inputs:%5B%7Bname:%22Blook%22,type:%22options%22,options:%5B%7Bname:%22Chick%22,color:%22#ffcd05%22,class:%22%F0%9F%8C%BD%22,rarity:%22Common%22,cash:%5B3,7,65,400,2500%5D,time:%5B1,1,1,1,1%5D,price:%5B300,3e3,3e4,2e5%5D%7D,%7Bname:%22Chicken%22,color:%22#ed1c24%22,class:%22%F0%9F%8C%BD%22,rarity:%22Common%22,cash:%5B10,40,200,1400,1e4%5D,time:%5B5,4,3,2,1%5D,price:%5B570,4e3,5e4,8e5%5D%7D,%7Bname:%22Cow%22,color:%22#58595b%22,class:%22%F0%9F%8C%BD%22,rarity:%22Common%22,cash:%5B25,75,1500,25e3,25e4%5D,time:%5B15,10,10,10,5%5D,price:%5B500,9500,16e4,4e6%5D%7D,%7Bname:%22Duck%22,color:%22#4ab96d%22,class:%22%F0%9F%8C%BD%22,rarity:%22Common%22,cash:%5B4,24,200,3e3,4e4%5D,time:%5B3,3,3,3,3%5D,price:%5B450,4200,7e4,11e5%5D%7D,%7Bname:%22Goat%22,color:%22#c59a74%22,class:%22%F0%9F%8C%BD%22,rarity:%22Common%22,cash:%5B5,28,200,1300,12e3%5D,time:%5B3,3,2,2,2%5D,price:%5B500,6400,45e3,5e5%5D%7D,%7Bname:%22Horse%22,color:%22#995b3c%22,class:%22%F0%9F%8C%BD%22,rarity:%22Common%22,cash:%5B5,20,270,1800,15e3%5D,time:%5B2,2,2,2,2%5D,price:%5B550,8200,65e3,6e5%5D%7D,%7Bname:%22Pig%22,color:%22#f6a9cb%22,class:%22%F0%9F%8C%BD%22,rarity:%22Common%22,cash:%5B20,50,1300,8e3,8e4%5D,time:%5B7,7,7,7,5%5D,price:%5B400,11e3,8e4,13e5%5D%7D,%7Bname:%22Sheep%22,color:%22#414042%22,class:%22%F0%9F%8C%BD%22,rarity:%22Common%22,cash:%5B6,25,250,1500,11e3%5D,time:%5B3,3,3,2,2%5D,price:%5B500,5e3,5e4,43e4%5D%7D,%7Bname:%22Cat%22,color:%22#f49849%22,class:%22%F0%9F%90%BE%22,rarity:%22Common%22,cash:%5B5,18,170,1700,13e3%5D,time:%5B2,2,2,2,2%5D,price:%5B480,5500,6e4,5e5%5D%7D,%7Bname:%22Dog%22,color:%22#995b3c%22,class:%22%F0%9F%90%BE%22,rarity:%22Common%22,cash:%5B7,25,220,1900,9e3%5D,time:%5B3,3,2,2,1%5D,price:%5B460,6600,7e4,73e4%5D%7D,%7Bname:%22Goldfish%22,color:%22#f18221%22,class:%22%F0%9F%90%BE%22,rarity:%22Common%22,cash:%5B5,40,350,3500,35e3%5D,time:%5B3,3,3,3,3%5D,price:%5B750,7200,84e3,95e4%5D%7D,%7Bname:%22Rabbit%22,color:%22#e7bf9a%22,class:%22%F0%9F%90%BE%22,rarity:%22Common%22,cash:%5B3,18,185,800,7e3%5D,time:%5B2,2,2,1,1%5D,price:%5B500,5800,56e3,55e4%5D%7D,%7Bname:%22Hamster%22,color:%22#ce9176%22,class:%22%F0%9F%90%BE%22,rarity:%22Common%22,cash:%5B10,45,450,4500,45e3%5D,time:%5B4,4,4,4,4%5D,price:%5B650,6500,8e4,93e4%5D%7D,%7Bname:%22Turtle%22,color:%22#619a3c%22,class:%22%F0%9F%90%BE%22,rarity:%22Common%22,cash:%5B23,120,1400,15e3,17e4%5D,time:%5B10,10,10,10,10%5D,price:%5B700,8500,11e4,13e5%5D%7D,%7Bname:%22Puppy%22,color:%22#414042%22,class:%22%F0%9F%90%BE%22,rarity:%22Common%22,cash:%5B4,10,75,500,3e3%5D,time:%5B1,1,1,1,1%5D,price:%5B450,4e3,35e3,25e4%5D%7D,%7Bname:%22Kitten%22,color:%22#58595b%22,class:%22%F0%9F%90%BE%22,rarity:%22Common%22,cash:%5B4,8,60,400,2e3%5D,time:%5B1,1,1,1,1%5D,price:%5B350,3500,26e3,17e4%5D%7D,%7Bname:%22Bear%22,color:%22#995b3c%22,class:%22%F0%9F%8C%B2%22,rarity:%22Common%22,cash:%5B12,70,550,4500,1e5%5D,time:%5B7,7,6,5,5%5D,price:%5B550,5500,63e3,16e5%5D%7D,%7Bname:%22Moose%22,color:%22#995b3c%22,class:%22%F0%9F%8C%B2%22,rarity:%22Common%22,cash:%5B8,45,400,3500,26e3%5D,time:%5B5,5,4,4,3%5D,price:%5B520,6500,58e3,7e5%5D%7D,%7Bname:%22Fox%22,color:%22#f49849%22,class:%22%F0%9F%8C%B2%22,rarity:%22Common%22,cash:%5B7,15,80,550,3e3%5D,time:%5B2,2,1,1,1%5D,price:%5B400,4e3,36e3,24e4%5D%7D,%7Bname:%22Raccoon%22,color:%22#6d6e71%22,class:%22%F0%9F%8C%B2%22,rarity:%22Common%22,cash:%5B5,14,185,1900,19e3%5D,time:%5B2,2,2,2,2%5D,price:%5B400,5e3,71e3,8e5%5D%7D,%7Bname:%22Squirrel%22,color:%22#d25927%22,class:%22%F0%9F%8C%B2%22,rarity:%22Common%22,cash:%5B3,10,65,470,2600%5D,time:%5B1,1,1,1,1%5D,price:%5B420,3600,32e3,21e4%5D%7D,%7Bname:%22Owl%22,color:%22#594a42%22,class:%22%F0%9F%8C%B2%22,rarity:%22Common%22,cash:%5B4,17,155,1500,15e3%5D,time:%5B2,2,2,2,2%5D,price:%5B500,4800,55e3,58e4%5D%7D,%7Bname:%22Hedgehog%22,color:%22#3f312b%22,class:%22%F0%9F%8C%B2%22,rarity:%22Common%22,cash:%5B11,37,340,2200,3e4%5D,time:%5B5,4,3,2,2%5D,price:%5B540,7e3,77e3,12e5%5D%7D,%7Bname:%22Seal%22,color:%22#7ca1d5%22,class:%22%E2%9D%84%EF%B8%8F%22,rarity:%22Common%22,cash:%5B6,17,150,1200,13e3%5D,time:%5B2,2,2,2,2%5D,price:%5B480,4500,43e3,52e4%5D%7D,%7Bname:%22Arctic%20Fox%22,color:%22#7ca1d5%22,class:%22%E2%9D%84%EF%B8%8F%22,rarity:%22Common%22,cash:%5B5,18,180,850,8500%5D,time:%5B2,2,2,1,1%5D,price:%5B520,550,61e3,68e4%5D%7D,%7Bname:%22Snowy%20Owl%22,color:%22#feda3f%22,class:%22%E2%9D%84%EF%B8%8F%22,rarity:%22Common%22,cash:%5B5,20,190,1900,16e3%5D,time:%5B3,3,2,2,2%5D,price:%5B370,5300,76e3,62e4%5D%7D,%7Bname:%22Arctic%20Hare%22,color:%22#7ca1d5%22,class:%22%E2%9D%84%EF%B8%8F%22,rarity:%22Common%22,cash:%5B6,19,85,900,7e3%5D,time:%5B2,2,1,1,1%5D,price:%5B540,5200,66e3,55e4%5D%7D,%7Bname:%22Penguin%22,color:%22#fb8640%22,class:%22%E2%9D%84%EF%B8%8F%22,rarity:%22Common%22,cash:%5B4,21,310,3200,33e3%5D,time:%5B3,3,3,3,3%5D,price:%5B400,6500,76e3,87e4%5D%7D,%7Bname:%22Baby%20Penguin%22,color:%22#414042%22,class:%22%E2%9D%84%EF%B8%8F%22,rarity:%22Common%22,cash:%5B3,8,70,450,2700%5D,time:%5B1,1,1,1,1%5D,price:%5B420,3300,33e3,23e4%5D%7D,%7Bname:%22Polar%20Bear%22,color:%22#7ca1d5%22,class:%22%E2%9D%84%EF%B8%8F%22,rarity:%22Common%22,cash:%5B12,75,700,6500,85e3%5D,time:%5B8,7,6,5,5%5D,price:%5B630,7e3,91e3,14e5%5D%7D,%7Bname:%22Walrus%22,color:%22#7d4f33%22,class:%22%E2%9D%84%EF%B8%8F%22,rarity:%22Common%22,cash:%5B11,46,420,3700,51e3%5D,time:%5B5,5,4,4,4%5D,price:%5B550,6200,68e3,1e6%5D%7D,%7Bname:%22Tiger%22,color:%22#f18221%22,class:%22%F0%9F%8C%B4%22,rarity:%22Common%22,cash:%5B6,20,100,975,7500%5D,time:%5B3,3,1,1,1%5D,price:%5B390,6e3,7e4,61e4%5D%7D,%7Bname:%22Jaguar%22,color:%22#fbb040%22,class:%22%F0%9F%8C%B4%22,rarity:%22Common%22,cash:%5B8,28,230,1600,17e3%5D,time:%5B3,3,2,2,2%5D,price:%5B390,6e3,7e4,61e4%5D%7D,%7Bname:%22Toucan%22,color:%22#ffca34%22,class:%22%F0%9F%8C%B4%22,rarity:%22Common%22,cash:%5B9,20,175,625,3800%5D,time:%5B2,2,2,1,1%5D,price:%5B520,4800,42e3,3e5%5D%7D,%7Bname:%22Cockatoo%22,color:%22#7ca1d5%22,class:%22%F0%9F%8C%B4%22,rarity:%22Common%22,cash:%5B6,35,160,1700,18e3%5D,time:%5B4,4,2,2,2%5D,price:%5B500,5e3,63e3,7e5%5D%7D,%7Bname:%22Macaw%22,color:%22#00aeef%22,class:%22%F0%9F%8C%B4%22,rarity:%22Common%22,cash:%5B3,8,85,850,8500%5D,time:%5B1,1,1,1,1%5D,price:%5B480,5400,62e3,63e4%5D%7D,%7Bname:%22Parrot%22,color:%22#ed1c24%22,class:%22%F0%9F%8C%B4%22,rarity:%22Common%22,cash:%5B3,9,90,900,9e3%5D,time:%5B1,1,1,1,1%5D,price:%5B540,5700,65e3,69e4%5D%7D,%7Bname:%22Panther%22,color:%22#2f2c38%22,class:%22%F0%9F%8C%B4%22,rarity:%22Common%22,cash:%5B12,28,215,2100,21e3%5D,time:%5B5,3,2,2,2%5D,price:%5B530,6500,76e3,87e4%5D%7D,%7Bname:%22Anaconda%22,color:%22#8a9143%22,class:%22%F0%9F%8C%B4%22,rarity:%22Common%22,cash:%5B3,15,85,1500,7600%5D,time:%5B1,2,1,2,1%5D,price:%5B410,5100,58e3,59e4%5D%7D,%7Bname:%22Orangutan%22,color:%22#bc6234%22,class:%22%F0%9F%8C%B4%22,rarity:%22Common%22,cash:%5B13,52,570,4300,7e4%5D,time:%5B5,5,5,4,4%5D,price:%5B600,7e3,8e4,14e5%5D%7D,%7Bname:%22Capuchin%22,color:%22#e0b0a6%22,class:%22%F0%9F%8C%B4%22,rarity:%22Common%22,cash:%5B4,14,160,780,8200%5D,time:%5B2,2,2,1,1%5D,price:%5B390,4700,57e3,68e4%5D%7D,%7Bname:%22Elf%22,color:%22#a7d054%22,class:%22%E2%9A%94%EF%B8%8F%22,rarity:%22Uncommon%22,cash:%5B5e3,15e3,15e4,15e5,1e7%5D,time:%5B1,1,1,1,1%5D,price:%5B8e5,9e6,11e7,8e8%5D%7D,%7Bname:%22Witch%22,color:%22#4ab96d%22,class:%22%E2%9A%94%EF%B8%8F%22,rarity:%22Uncommon%22,cash:%5B18e3,6e4,4e4,4e6,35e6%5D,time:%5B3,3,2,2,2%5D,price:%5B11e5,12e6,15e7,14e8%5D%7D,%7Bname:%22Wizard%22,color:%22#5a459c%22,class:%22%E2%9A%94%EF%B8%8F%22,rarity:%22Uncommon%22,cash:%5B19500,65e3,44e4,46e5,4e6%5D,time:%5B3,3,2,2,2%5D,price:%5B13e5,135e5,16e7,16e8%5D%7D,%7Bname:%22Fairy%22,color:%22#df6d9c%22,class:%22%E2%9A%94%EF%B8%8F%22,rarity:%22Uncommon%22,cash:%5B18500,6e4,62e4,44e5,38e6%5D,time:%5B3,3,3,2,2%5D,price:%5B12e5,125e5,15e6,15e8%5D%7D,%7Bname:%22Slime%20Monster%22,color:%22#2fa04a%22,class:%22%E2%9A%94%EF%B8%8F%22,rarity:%22Uncommon%22,cash:%5B35e3,14e4,1e6,11e6,11e7%5D,time:%5B5,5,4,4,4%5D,price:%5B16e5,15e6,2e8,23e8%5D%7D,%7Bname:%22Jester%22,color:%22#be1e2d%22,class:%22%E2%9A%94%EF%B8%8F%22,rarity:%22Rare%22,cash:%5B25e3,1e5,68e4,65e5,32e6%5D,time:%5B3,3,2,2,1%5D,price:%5B2e6,21e6,23e7,26e8%5D%7D,%7Bname:%22Dragon%22,color:%22#2fa04a%22,class:%22%E2%9A%94%EF%B8%8F%22,rarity:%22Rare%22,cash:%5B36e3,15e4,15e5,15e6,15e7%5D,time:%5B4,4,4,4,4%5D,price:%5B23e5,24e6,27e7,3e9%5D%7D,%7Bname:%22Unicorn%22,color:%22#f6afce%22,class:%22%E2%9A%94%EF%B8%8F%22,rarity:%22Epic%22,cash:%5B24e3,15e4,14e5,7e6,75e6%5D,time:%5B2,2,2,1,1%5D,price:%5B45e5,45e6,55e7,65e8%5D%7D,%7Bname:%22Queen%22,color:%22#9e1f63%22,class:%22%E2%9A%94%EF%B8%8F%22,rarity:%22Rare%22,cash:%5B24e3,95e3,95e4,97e5,95e6%5D,time:%5B3,3,3,3,3%5D,price:%5B19e5,2e7,23e7,25e8%5D%7D,%7Bname:%22King%22,color:%22#ee2640%22,class:%22%E2%9A%94%EF%B8%8F%22,rarity:%22Legendary%22,cash:%5B75e3,4e5,6e6,9e7,125e7%5D,time:%5B5,5,5,5,5%5D,price:%5B6e6,95e6,16e8,25e9%5D%7D,%7Bname:%22Two%20of%20Spades%22,color:%22#414042%22,class:%22%F0%9F%8F%B0%22,rarity:%22Uncommon%22,cash:%5B4500,14e3,14e4,14e5,9e6%5D,time:%5B1,1,1,1,1%5D,price:%5B77e4,83e5,98e6,71e7%5D%7D,%7Bname:%22Eat%20Me%22,color:%22#d58c55%22,class:%22%F0%9F%8F%B0%22,rarity:%22Uncommon%22,cash:%5B13e3,45e3,45e4,45e5,5e7%5D,time:%5B2,2,2,2,2%5D,price:%5B13e5,14e6,16e7,2e9%5D%7D,%7Bname:%22Drink%20Me%22,color:%22#dd7399%22,class:%22%F0%9F%8F%B0%22,rarity:%22Uncommon%22,cash:%5B12e3,4e4,4e5,4e6,45e6%5D,time:%5B2,2,2,2,2%5D,price:%5B12e5,12e6,14e7,18e8%5D%7D,%7Bname:%22Alice%22,color:%22#4cc9f5%22,class:%22%F0%9F%8F%B0%22,rarity:%22Uncommon%22,cash:%5B13e3,42e3,21e4,21e5,23e6%5D,time:%5B2,2,1,1,1%5D,price:%5B12e5,13e6,15e7,19e8%5D%7D,%7Bname:%22Queen%20of%20Hearts%22,color:%22#d62027%22,class:%22%F0%9F%8F%B0%22,rarity:%22Uncommon%22,cash:%5B23e3,87e3,62e4,75e5,9e7%5D,time:%5B4,4,3,3,3%5D,price:%5B13e5,13e6,18e7,24e8%5D%7D,%7Bname:%22Dormouse%22,color:%22#89d6f8%22,class:%22%F0%9F%8F%B0%22,rarity:%22Rare%22,cash:%5B17e3,68e3,7e5,35e5,35e6%5D,time:%5B2,2,1,1,1%5D,price:%5B2e6,22e6,25e7,28e8%5D%7D,%7Bname:%22White%20Rabbit%22,color:%22#ffcd05%22,class:%22%F0%9F%8F%B0%22,rarity:%22Rare%22,cash:%5B26e3,105e3,11e6,77e5,72e6%5D,time:%5B3,3,3,2,2%5D,price:%5B2e6,23e6,28e7,29e8%5D%7D,%7Bname:%22Cheshire%20Cat%22,color:%22#dd7399%22,class:%22%F0%9F%8F%B0%22,rarity:%22Rare%22,cash:%5B32e3,1e5,9e5,9e6,6e7%5D,time:%5B4,3,3,3,2%5D,price:%5B18e5,19e6,22e7,24e8%5D%7D,%7Bname:%22Caterpillar%22,color:%22#00c0f3%22,class:%22%F0%9F%8F%B0%22,rarity:%22Epic%22,cash:%5B1e4,7e4,65e4,75e5,85e6%5D,time:%5B1,1,1,1,1%5D,price:%5B42e5,42e6,54e7,69e8%5D%7D,%7Bname:%22Mad%20Hatter%22,color:%22#914f93%22,class:%22%F0%9F%8F%B0%22,rarity:%22Epic%22,cash:%5B38e3,25e4,15e5,14e6,8e7%5D,time:%5B3,3,2,2,1%5D,price:%5B48e5,48e6,52e7,66e8%5D%7D,%7Bname:%22King%20of%20Hearts%22,color:%22#c62127%22,class:%22%F0%9F%8F%B0%22,rarity:%22Legendary%22,cash:%5B8e4,42e4,68e5,1e8,15e8%5D,time:%5B5,5,5,5,5%5D,price:%5B7e6,11e7,18e8,3e10%5D%7D,%7Bname:%22Earth%22,color:%22#416eb5%22,class:%22%F0%9F%9A%80%22,rarity:%22Uncommon%22,cash:%5B15e3,45e3,6e5,65e5,65e6%5D,time:%5B3,3,3,3,3%5D,price:%5B1e6,11e6,15e7,17e8%5D%7D,%7Bname:%22Meteor%22,color:%22#c68c3c%22,class:%22%F0%9F%9A%80%22,rarity:%22Uncommon%22,cash:%5B23e3,65e3,7e5,45e5,2e7%5D,time:%5B5,4,3,2,1%5D,price:%5B95e4,13e6,16e7,16e8%5D%7D,%7Bname:%22Stars%22,color:%22#19184d%22,class:%22%F0%9F%9A%80%22,rarity:%22Uncommon%22,cash:%5B1e4,4e4,2e5,2e6,18e6%5D,time:%5B2,2,1,1,1%5D,price:%5B14e5,14e6,15e7,15e8%5D%7D,%7Bname:%22Alien%22,color:%22#8dc63f%22,class:%22%F0%9F%9A%80%22,rarity:%22Uncommon%22,cash:%5B3e4,1e5,1e6,11e6,85e6%5D,time:%5B4,4,4,4,4%5D,price:%5B15e5,17e6,19e7,17e8%5D%7D,%7Bname:%22Planet%22,color:%22#9dc6ea%22,class:%22%F0%9F%9A%80%22,rarity:%22Rare%22,cash:%5B25e3,1e5,9e5,9e6,9e7%5D,time:%5B3,3,3,3,3%5D,price:%5B2e6,21e6,21e7,24e8%5D%7D,%7Bname:%22UFO%22,color:%22#a15095%22,class:%22%F0%9F%9A%80%22,rarity:%22Rare%22,cash:%5B17e3,7e4,7e5,7e6,7e7%5D,time:%5B2,2,2,2,2%5D,price:%5B21e5,23e6,25e7,28e8%5D%7D,%7Bname:%22Spaceship%22,color:%22#ffcb29%22,class:%22%F0%9F%9A%80%22,rarity:%22Epic%22,cash:%5B6e4,32e4,21e5,15e6,85e6%5D,time:%5B5,4,3,2,1%5D,price:%5B48e5,46e6,54e7,68e8%5D%7D,%7Bname:%22Astronaut%22,color:%22#9bd4ee%22,class:%22%F0%9F%9A%80%22,rarity:%22Legendary%22,cash:%5B45e3,26e4,25e5,38e6,55e7%5D,time:%5B3,3,2,2,2%5D,price:%5B65e5,1e8,17e8,27e9%5D%7D,%7Bname:%22Lil%20Bot%22,color:%22#3e564a%22,class:%22%F0%9F%A4%96%22,rarity:%22Uncommon%22,cash:%5B4e3,12e3,18e4,19e5,25e6%5D,time:%5B1,1,1,1,1%5D,price:%5B73e4,12e6,13e7,19e8%5D%7D,%7Bname:%22Lovely%20Bot%22,color:%22#f179af%22,class:%22%F0%9F%A4%96%22,rarity:%22Uncommon%22,cash:%5B16e3,65e3,65e4,48e5,42e6%5D,time:%5B3,3,3,2,2%5D,price:%5B13e5,14e6,17e7,16e8%5D%7D,%7Bname:%22Angry%20Bot%22,color:%22#f1613a%22,class:%22%F0%9F%A4%96%22,rarity:%22Uncommon%22,cash:%5B22e3,85e3,8e5,62e5,65e6%5D,time:%5B4,4,4,3,3%5D,price:%5B12e5,13e6,15e7,17e8%5D%7D,%7Bname:%22Happy%20Bot%22,color:%22#51ba6b%22,class:%22%F0%9F%A4%96%22,rarity:%22Uncommon%22,cash:%5B11e3,45e3,5e5,25e5,3e7%5D,time:%5B2,2,2,1,1%5D,price:%5B14e5,15e6,18e7,24e8%5D%7D,%7Bname:%22Watson%22,color:%22#d69b5a%22,class:%22%F0%9F%A4%96%22,rarity:%22Rare%22,cash:%5B24e3,1e5,1e6,1e7,1e8%5D,time:%5B3,3,3,3,3%5D,price:%5B2e6,22e6,24e7,26e8%5D%7D,%7Bname:%22Buddy%20Bot%22,color:%22#9dc6ea%22,class:%22%F0%9F%A4%96%22,rarity:%22Rare%22,cash:%5B22e3,95e3,65e4,65e5,65e6%5D,time:%5B3,3,2,2,2%5D,price:%5B19e5,21e6,23e7,25e8%5D%7D,%7Bname:%22Brainy%20Bot%22,color:%22#9ecf7a%22,class:%22%F0%9F%A4%96%22,rarity:%22Epic%22,cash:%5B5e4,25e4,21e5,21e6,17e7%5D,time:%5B4,3,3,3,2%5D,price:%5B5e6,46e6,5e8,67e8%5D%7D,%7Bname:%22Mega%20Bot%22,color:%22#d71f27%22,class:%22%F0%9F%A4%96%22,rarity:%22Legendary%22,cash:%5B8e4,43e4,42e5,62e6,1e9%5D,time:%5B5,5,3,3,3%5D,price:%5B7e6,12e7,19e8,35e9%5D%7D%5D.map(e=%3E(%7Bname:e.name,value:JSON.stringify(e)%7D))%7D%5D,run:function(e)%7Bvar%20t=document.createElement(%22iframe%22),t=(document.body.append(t),window.alert=t.contentWindow.alert.bind(window),t.remove(),Object.values(function%20e(t=document.querySelector(%22body%3Ediv%22))%7Breturn%20Object.values(t)%5B1%5D?.children?.%5B0%5D?._owner.stateNode?t:e(t.querySelector(%22:scope%3Ediv%22))%7D())%5B1%5D.children%5B0%5D._owner)%5B%22stateNode%22%5D;10%3C=t.state.blooks.length&&alert(%22Choose%20a%20blook%20to%20replace%22),t.chooseBlook(JSON.parse(e))%7D%7D,%7Bname:%22Free%20Upgrades%22,description:%22Sets%20upgrade%20prices%20to%200%20for%20all%20current%20blooks%22,run:function()%7Bvar%20e=Object.values(function%20e(t=document.querySelector(%22body%3Ediv%22))%7Breturn%20Object.values(t)%5B1%5D?.children?.%5B0%5D?._owner.stateNode?t:e(t.querySelector(%22:scope%3Ediv%22))%7D())%5B1%5D.children%5B0%5D._owner%5B%22stateNode%22%5D;e.setState(e=%3E(%7B...e,blooks:e.blooks.map(e=%3E(%7B...e,price:%5B0,0,0,0%5D%7D))%7D))%7D%7D,%7Bname:%22Max%20Blooks%22,description:%22Maxes%20out%20all%20your%20blooks'%20levels%22,run:function()%7BObject.values(function%20e(t=document.querySelector(%22body%3Ediv%22))%7Breturn%20Object.values(t)%5B1%5D?.children?.%5B0%5D?._owner.stateNode?t:e(t.querySelector(%22:scope%3Ediv%22))%7D())%5B1%5D.children%5B0%5D._owner.stateNode.state.blooks.forEach(e=%3Ee.level=4)%7D%7D,%7Bname:%22Remove%20Glitches%22,description:%22Removes%20all%20enemy%20glitches%22,run:function()%7Bvar%20e=Object.values(function%20e(t=document.querySelector(%22body%3Ediv%22))%7Breturn%20Object.values(t)%5B1%5D?.children?.%5B0%5D?._owner.stateNode?t:e(t.querySelector(%22:scope%3Ediv%22))%7D())%5B1%5D.children%5B0%5D._owner%5B%22stateNode%22%5D;e.setState(%7Bbits:0,ads:%5B%5D,hazards:%5B%5D,color:%22%22,lol:!1,joke:!1,slow:!1,dance:!1,glitch:%22%22,glitcherName:%22%22,glitcherBlook:%22%22%7D),clearTimeout(e.adTimeout),clearInterval(e.hazardInterval),clearTimeout(e.nightTimeout),clearTimeout(e.glitchTimeout),clearTimeout(e.lolTimeout),clearTimeout(e.jokeTimeout),clearTimeout(e.slowTimeout),clearTimeout(e.danceTimeout),clearTimeout(e.nameTimeout)%7D%7D,%7Bname:%22Send%20Glitch%22,description:%22Sends%20a%20glitch%20to%20everyone%20else%20playing%22,inputs:%5B%7Bname:%22Glitch%22,type:%22options%22,options:Object.entries(%7Blb:%22Lunch%20Break%22,as:%22Ad%20Spam%22,e37:%22Error%2037%22,nt:%22Night%20Time%22,lo:%22#LOL%22,j:%22Jokester%22,sm:%22Slow%20Mo%22,dp:%22Dance%20Party%22,v:%22Vortex%22,r:%22Reverse%22,f:%22Flip%22,m:%22Micro%22%7D).map((%5Be,t%5D)=%3E(%7Bname:t,value:e%7D))%7D%5D,run:function(e)%7Bvar%20t=Object.values(function%20e(t=document.querySelector(%22body%3Ediv%22))%7Breturn%20Object.values(t)%5B1%5D?.children?.%5B0%5D?._owner.stateNode?t:e(t.querySelector(%22:scope%3Ediv%22))%7D())%5B1%5D.children%5B0%5D._owner%5B%22stateNode%22%5D;t.safe=!0,t.props.liveGameController.setVal(%7Bpath:%60c/$%7Bt.props.client.name%7D/tat%60,val:e%7D)%7D%7D,%7Bname:%22Set%20All%20MegaBot%22,description:%22Sets%20all%20your%20blooks%20to%20maxed%20out%20Mega%20Bots%22,run:function()%7BObject.values(function%20e(t=document.querySelector(%22body%3Ediv%22))%7Breturn%20Object.values(t)%5B1%5D?.children?.%5B0%5D?._owner.stateNode?t:e(t.querySelector(%22:scope%3Ediv%22))%7D())%5B1%5D.children%5B0%5D._owner.stateNode.setState(%7Bblooks:new%20Array(10).fill(%7Bname:%22Mega%20Bot%22,color:%22#d71f27%22,class:%22%F0%9F%A4%96%22,rarity:%22Legendary%22,cash:%5B8e4,43e4,42e5,62e6,1e9%5D,time:%5B5,5,3,3,3%5D,price:%5B7e6,12e7,19e8,35e9%5D,active:!1,level:4,bonus:5.5%7D)%7D)%7D%7D,%7Bname:%22Set%20Cash%22,description:%22Sets%20amount%20of%20cash%20you%20have%22,inputs:%5B%7Bname:%22Cash%22,type:%22number%22%7D%5D,run:function(e)%7BObject.values(function%20e(t=document.querySelector(%22body%3Ediv%22))%7Breturn%20Object.values(t)%5B1%5D?.children?.%5B0%5D?._owner.stateNode?t:e(t.querySelector(%22:scope%3Ediv%22))%7D())%5B1%5D.children%5B0%5D._owner.stateNode.setState(%7Bcash:e%7D)%7D%7D%5D,fishing:%5B%7Bname:%22Frenzy%22,description:%22Sets%20everyone%20to%20frenzy%20mode%22,run:function()%7Bvar%20e=Object.values(function%20e(t=document.querySelector(%22body%3Ediv%22))%7Breturn%20Object.values(t)%5B1%5D?.children?.%5B0%5D?._owner.stateNode?t:e(t.querySelector(%22:scope%3Ediv%22))%7D())%5B1%5D.children%5B0%5D._owner%5B%22stateNode%22%5D;e.props.liveGameController.setVal(%7Bpath:%22c/%22+e.props.client.name,val:%7Bb:e.props.client.blook,w:e.state.weight,f:%22Frenzy%22,s:!0%7D%7D)%7D%7D,%7Bname:%22Remove%20Distractions%22,description:%22Removes%20distractions%22,type:%22toggle%22,enabled:!1,data:null,run:function()%7Bthis.enabled?(this.enabled=!1,clearInterval(this.data),this.data=null):(this.enabled=!0,this.data=setInterval(()=%3E%7BObject.values(function%20e(t=document.querySelector(%22body%3Ediv%22))%7Breturn%20Object.values(t)%5B1%5D?.children?.%5B0%5D?._owner.stateNode?t:e(t.querySelector(%22:scope%3Ediv%22))%7D())%5B1%5D.children%5B0%5D._owner.stateNode.setState(%7Bparty:%22%22%7D)%7D,50))%7D%7D,%7Bname:%22Send%20Distraction%22,description:%22Sends%20a%20distraction%20to%20everyone%22,inputs:%5B%7Bname:%22Distraction%22,type:%22options%22,options:%5B%22Crab%22,%22Jellyfish%22,%22Frog%22,%22Pufferfish%22,%22Octopus%22,%22Narwhal%22,%22Megalodon%22,%22Blobfish%22,%22Baby%20Shark%22%5D%7D%5D,run:function(e)%7Bvar%20t=document.createElement(%22iframe%22),t=(document.body.append(t),window.alert=t.contentWindow.alert.bind(window),t.remove(),Object.values(function%20e(t=document.querySelector(%22body%3Ediv%22))%7Breturn%20Object.values(t)%5B1%5D?.children?.%5B0%5D?._owner.stateNode?t:e(t.querySelector(%22:scope%3Ediv%22))%7D())%5B1%5D.children%5B0%5D._owner)%5B%22stateNode%22%5D;t.safe=!0,t.props.liveGameController.setVal(%7Bpath:%22c/%22+t.props.client.name,val:%7Bb:t.props.client.blook,w:t.state.weight,f:e,s:!0%7D%7D)%7D%7D,%7Bname:%22Set%20Lure%22,description:%22Sets%20fishing%20lure%20(range%201%20-%205)%22,inputs:%5B%7Bname:%22Lure%20(1%20-%205)%22,type:%22number%22,min:1,max:5%7D%5D,run:function(e)%7BObject.values(function%20e(t=document.querySelector(%22body%3Ediv%22))%7Breturn%20Object.values(t)%5B1%5D?.children?.%5B0%5D?._owner.stateNode?t:e(t.querySelector(%22:scope%3Ediv%22))%7D())%5B1%5D.children%5B0%5D._owner.stateNode.setState(%7Blure:Math.max(Math.min(e-1,4),0)%7D)%7D%7D,%7Bname:%22Set%20Weight%22,description:%22Sets%20weight%22,inputs:%5B%7Bname:%22Weight%22,type:%22number%22%7D%5D,run:function(e)%7Bvar%20t=Object.values(function%20e(t=document.querySelector(%22body%3Ediv%22))%7Breturn%20Object.values(t)%5B1%5D?.children?.%5B0%5D?._owner.stateNode?t:e(t.querySelector(%22:scope%3Ediv%22))%7D())%5B1%5D.children%5B0%5D._owner%5B%22stateNode%22%5D;t.setState(%7Bweight:e,weight2:e%7D),t.props.liveGameController.setVal(%7Bpath:%22c/%22+t.props.client.name,val:%7Bb:t.props.client.blook,w:e,f:%5B%22Crab%22,%22Jellyfish%22,%22Frog%22,%22Pufferfish%22,%22Octopus%22,%22Narwhal%22,%22Megalodon%22,%22Blobfish%22,%22Baby%20Shark%22%5D%5BMath.floor(9*Math.random())%5D%7D%7D)%7D%7D%5D,flappy:%5B%7Bname:%22Toggle%20Ghost%22,description:%22Lets%20you%20go%20through%20the%20pipes%22,type:%22toggle%22,enabled:!1,run:function()%7Bthis.enabled=!this.enabled,Object.values(document.querySelector(%22#phaser-bouncy%22))%5B1%5D.children%5B0%5D._owner.stateNode.state.game.scene.physics.world.bodies.entries.forEach(e=%3Ee.gameObject.frame.texture.key.startsWith(%22blook%22)&&(e.checkCollision.none=this.enabled,e.gameObject.setAlpha(this.enabled?.5:1)))%7D%7D,%7Bname:%22Set%20Score%22,description:%22Sets%20flappy%20blook%20score%22,inputs:%5B%7Bname:%22Score%22,type:%22number%22%7D%5D,run:function(e)%7BObject.values(document.querySelector(%22#phaser-bouncy%22))%5B1%5D.children%5B0%5D._owner.stateNode.setState(%7Bscore:e%7D)%7D%7D%5D,gold:%5B%7Bname:%22Always%20Triple%22,description:%22Always%20get%20triple%20gold%22,type:%22toggle%22,enabled:!1,data:null,run:function()%7Blet%20t=Object.values(function%20e(t=document.querySelector(%22body%3Ediv%22))%7Breturn%20Object.values(t)%5B1%5D?.children?.%5B0%5D?._owner.stateNode?t:e(t.querySelector(%22:scope%3Ediv%22))%7D())%5B1%5D.children%5B0%5D._owner%5B%22stateNode%22%5D;t._choosePrize%7C%7C=t.choosePrize,this.enabled?(this.enabled=!1,clearInterval(this.data),this.data=null,t.choosePrize=t._choosePrize%7C%7Ct.choosePrize):(this.enabled=!0,this.data=setInterval(()=%3E%7Bt.choosePrize=function(e)%7Bt.state.choices%5Be%5D=%7Btype:%22multiply%22,val:3,text:%22Triple%20Gold!%22,blook:%22Unicorn%22%7D,t._choosePrize(e)%7D%7D,50))%7D%7D,%7Bname:%22Auto%20Choose%22,description:%22Automatically%20picks%20the%20option%20that%20would%20give%20you%20the%20most%20gold%22,type:%22toggle%22,enabled:!1,data:null,run:function()%7Bthis.enabled?(this.enabled=!1,clearInterval(this.data),this.data=null):(this.enabled=!0,this.data=setInterval(async()=%3E%7Btry%7Blet%20n=Object.values(function%20e(t=document.querySelector(%22body%3Ediv%22))%7Breturn%20Object.values(t)%5B1%5D?.children?.%5B0%5D?._owner.stateNode?t:e(t.querySelector(%22:scope%3Ediv%22))%7D())%5B1%5D.children%5B0%5D._owner%5B%22stateNode%22%5D;if(%22prize%22===n.state.stage)%7Bvar%20r=Object.entries(await%20new%20Promise(t=%3En.props.liveGameController.getDatabaseVal(%22c%22,e=%3Ee&&t(e)))%7C%7C%5B%5D).filter(e=%3Ee%5B0%5D!=n.props.client.name).sort((e,t)=%3Et%5B1%5D.g-e%5B1%5D.g)%5B0%5D?.%5B1%5D?.g%7C%7C0;let%20o=0;index=-1;for(let%20t=0;t%3Cn.state.choices.length;t++)%7Bvar%7Btype:a,val:s%7D=n.state.choices%5Bt%5D;let%20e=n.state.gold;switch(a)%7Bcase%22gold%22:e=n.state.gold+s%7C%7Cn.state.gold;break;case%22multiply%22:case%22divide%22:e=Math.round(n.state.gold*s)%7C%7Cn.state.gold;break;case%22swap%22:e=r%7C%7Cn.state.gold;case%22take%22:e=n.state.gold+r*s%7C%7Cn.state.gold%7D(e%7C%7C0)%3C=o%7C%7C(o=e,index=t+1)%7Ddocument.querySelector(%60div%5Bclass%5E='styles__choice$%7Bindex%7D'%5D%60).click()%7D%7Dcatch%7B%7D%7D,50))%7D%7D,%7Bname:%22Chest%20ESP%22,description:%22Shows%20what%20each%20chest%20will%20give%20you%22,type:%22toggle%22,enabled:!1,data:null,run:function()%7Bthis.enabled?(this.enabled=!1,clearInterval(this.data),this.data=null):(this.enabled=!0,this.data=setInterval(()=%3E%7BObject.values(function%20e(t=document.querySelector(%22body%3Ediv%22))%7Breturn%20Object.values(t)%5B1%5D?.children?.%5B0%5D?._owner.stateNode?t:e(t.querySelector(%22:scope%3Ediv%22))%7D())%5B1%5D.children%5B0%5D._owner.stateNode.state.choices.forEach((%7Btext:e%7D,t)=%3E%7Bvar%20o,t=document.querySelector(%60div%5Bclass%5E='styles__choice$%7Bt+1%7D'%5D%60);t&&!t.querySelector(%22div%22)&&((o=document.createElement(%22div%22)).style.color=%22white%22,o.style.fontFamily=%22Eczar%22,o.style.fontSize=%222em%22,o.style.display=%22flex%22,o.style.justifyContent=%22center%22,o.style.transform=%22translateY(200px)%22,o.innerText=e,t.append(o))%7D)%7D,50))%7D%7D,%7Bname:%22Reset%20Players%20Gold%22,description:%22Sets%20a%20player's%20gold%20to%200%22,inputs:%5B%7Bname:%22Player%22,type:%22options%22,options:()=%3E%7Blet%20e=Object.values(function%20e(t=document.querySelector(%22body%3Ediv%22))%7Breturn%20Object.values(t)%5B1%5D?.children?.%5B0%5D?._owner.stateNode?t:e(t.querySelector(%22:scope%3Ediv%22))%7D())%5B1%5D.children%5B0%5D._owner%5B%22stateNode%22%5D;return%20new%20Promise(t=%3Ee.props.liveGameController._liveApp?e.props.liveGameController.getDatabaseVal(%22c%22,e=%3Ee&&t(Object.keys(e))):t(%5B%5D))%7D%7D%5D,run:function(e)%7Bvar%7Bprops:t,state:o%7D=Object.values(function%20e(t=document.querySelector(%22body%3Ediv%22))%7Breturn%20Object.values(t)%5B1%5D?.children?.%5B0%5D?._owner.stateNode?t:e(t.querySelector(%22:scope%3Ediv%22))%7D())%5B1%5D.children%5B0%5D._owner%5B%22stateNode%22%5D;t.liveGameController.setVal(%7Bpath:%22c/%22.concat(t.client.name),val:%7Bb:t.client.blook,g:o.gold,tat:e+%22:swap:0%22%7D%7D)%7D%7D,%7Bname:%22Set%20Gold%22,description:%22Sets%20amount%20of%20gold%22,inputs:%5B%7Bname:%22Gold%22,type:%22number%22%7D%5D,run:function(e)%7Bvar%20t=Object.values(function%20e(t=document.querySelector(%22body%3Ediv%22))%7Breturn%20Object.values(t)%5B1%5D?.children?.%5B0%5D?._owner.stateNode?t:e(t.querySelector(%22:scope%3Ediv%22))%7D())%5B1%5D.children%5B0%5D._owner%5B%22stateNode%22%5D;t.setState(%7Bgold:e,gold2:e%7D),t.props.liveGameController.setVal(%7Bpath:%22c/%22.concat(t.props.client.name),val:%7Bb:t.props.client.blook,g:e%7D%7D)%7D%7D,%7Bname:%22Swap%20Gold%22,description:%22Swaps%20gold%20with%20someone%22,inputs:%5B%7Bname:%22Player%22,type:%22options%22,options:()=%3E%7Blet%20e=Object.values(function%20e(t=document.querySelector(%22body%3Ediv%22))%7Breturn%20Object.values(t)%5B1%5D?.children?.%5B0%5D?._owner.stateNode?t:e(t.querySelector(%22:scope%3Ediv%22))%7D())%5B1%5D.children%5B0%5D._owner%5B%22stateNode%22%5D;return%20new%20Promise(t=%3Ee.props.liveGameController._liveApp?e.props.liveGameController.getDatabaseVal(%22c%22,e=%3Ee&&t(Object.keys(e))):t(%5B%5D))%7D%7D%5D,run:function(t)%7Blet%20o=Object.values(function%20e(t=document.querySelector(%22body%3Ediv%22))%7Breturn%20Object.values(t)%5B1%5D?.children?.%5B0%5D?._owner.stateNode?t:e(t.querySelector(%22:scope%3Ediv%22))%7D())%5B1%5D.children%5B0%5D._owner%5B%22stateNode%22%5D;o.props.liveGameController.getDatabaseVal(%22c%22,e=%3E%7Be?.%5Bt%5D&&(e=e%5Bt%5D%5B%22g%22%5D,o.props.liveGameController.setVal(%7Bpath:%22c/%22.concat(o.props.client.name),val:%7Bb:o.props.client.blook,g:e,tat:t+%22:swap:%22+o.state.gold%7D%7D),o.setState(%7Bgold:e,gold2:e%7D))%7D)%7D%7D,%7Bname:%22Reset%20All%20Players'%20Gold%22,description:%22Set's%20everyone%20else's%20gold%20to%200%22,run:function()%7Bvar%20e=document.createElement(%22iframe%22);document.body.append(e),window.alert=e.contentWindow.alert.bind(window),e.remove();let%7Bprops:o,state:n%7D=Object.values(function%20e(t=document.querySelector(%22body%3Ediv%22))%7Breturn%20Object.values(t)%5B1%5D?.children?.%5B0%5D?._owner.stateNode?t:e(t.querySelector(%22:scope%3Ediv%22))%7D())%5B1%5D.children%5B0%5D._owner%5B%22stateNode%22%5D,r=0;o.liveGameController.getDatabaseVal(%22c%22,async%20e=%3E%7Bif(e)for(const%20t%20of%20Object.keys(e))o.liveGameController.setVal(%7Bpath:%22c/%22.concat(o.client.name),val:%7Bb:o.client.blook,g:n.gold,tat:t+%22:swap:0%22%7D%7D),r++,await%20new%20Promise(e=%3EsetTimeout(e,4e3));alert(%60Reset%20$%7Br%7D%20players'%20gold!%60)%7D)%7D%7D%5D,kingdom:%5B%7Bname:%22Choice%20ESP%22,description:%22Shows%20you%20what%20will%20happen%20if%20you%20say%20Yes%20or%20No%22,type:%22toggle%22,enabled:!1,data:null,run:function()%7Bif(this.enabled)this.enabled=!1,clearInterval(this.data),Array.from(document.getElementsByClassName(%22choiceESP%22)).forEach(e=%3Ee.remove()),this.data=null;else%7Bthis.enabled=!0;let%20o=%5B%22materials%22,%22people%22,%22happiness%22,%22gold%22%5D,n=Object.fromEntries(%5B...document.querySelectorAll(%22%5Bclass%5E=styles__statContainer%5D%22)%5D.map((e,t)=%3E%5Bo%5Bt%5D,e%5D));this.data=setInterval(()=%3E%7Bvar%7Bguest:e,phase:t%7D=Object.values(function%20e(t=document.querySelector(%22body%3Ediv%22))%7Breturn%20Object.values(t)%5B1%5D?.children?.%5B0%5D?._owner.stateNode?t:e(t.querySelector(%22:scope%3Ediv%22))%7D())%5B1%5D.children%5B0%5D._owner.stateNode.state;%22choice%22==t&&(Array.from(document.getElementsByClassName(%22choiceESP%22)).forEach(e=%3Ee.remove()),Object.entries(e.yes%7C%7C%7B%7D).forEach(e=%3E%7Bvar%20t;%22msg%22!=e%5B0%5D&&o.includes(e%5B0%5D)&&((t=document.createElement(%22div%22)).className=%22choiceESP%22,t.style=%22font-size:%2024px;%20color:%20rgb(75,%20194,%2046);%20font-weight:%20bolder;%22,t.innerText=String(e%5B1%5D),n%5Be%5B0%5D%5D.appendChild(t))%7D),Object.entries(e.no%7C%7C%7B%7D).forEach(e=%3E%7Bvar%20t;%22msg%22!=e%5B0%5D&&o.includes(e%5B0%5D)&&((t=document.createElement(%22div%22)).className=%22choiceESP%22,t.style=%22font-size:%2024px;%20color:%20darkred;%20font-weight:%20bolder;%22,t.innerText=String(e%5B1%5D),n%5Be%5B0%5D%5D.appendChild(t))%7D))%7D,50)%7D%7D%7D,%7Bname:%22Disable%20Tax%20Toucan%22,description:%22Tax%20evasion%22,run:function()%7BObject.values(function%20e(t=document.querySelector(%22body%3Ediv%22))%7Breturn%20Object.values(t)%5B1%5D?.children?.%5B0%5D?._owner.stateNode?t:e(t.querySelector(%22:scope%3Ediv%22))%7D())%5B1%5D.children%5B0%5D._owner.stateNode.taxCounter=Number.MAX_VALUE%7D%7D,%7Bname:%22Max%20Stats%22,description:%22Sets%20all%20resources%20to%20the%20max%22,run:function()%7BObject.values(function%20e(t=document.querySelector(%22body%3Ediv%22))%7Breturn%20Object.values(t)%5B1%5D?.children?.%5B0%5D?._owner.stateNode?t:e(t.querySelector(%22:scope%3Ediv%22))%7D())%5B1%5D.children%5B0%5D._owner.stateNode.setState(%7Bmaterials:100,people:100,happiness:100,gold:100%7D)%7D%7D,%7Bname:%22Set%20Guests%22,description:%22Sets%20the%20amount%20of%20guests%20you've%20seen%22,inputs:%5B%7Bname:%22Guests%22,type:%22number%22%7D%5D,run:function(e)%7BObject.values(function%20e(t=document.querySelector(%22body%3Ediv%22))%7Breturn%20Object.values(t)%5B1%5D?.children?.%5B0%5D?._owner.stateNode?t:e(t.querySelector(%22:scope%3Ediv%22))%7D())%5B1%5D.children%5B0%5D._owner.stateNode.setState(%7BguestScore:e%7D)%7D%7D,%7Bname:%22Skip%20Guest%22,description:%22Skips%20the%20current%20guest%22,run:function()%7BObject.values(function%20e(t=document.querySelector(%22body%3Ediv%22))%7Breturn%20Object.values(t)%5B1%5D?.children?.%5B0%5D?._owner.stateNode?t:e(t.querySelector(%22:scope%3Ediv%22))%7D())%5B1%5D.children%5B0%5D._owner.stateNode.nextGuest()%7D%7D%5D,racing:%5B%7Bname:%22Instant%20Win%22,description:%22Instantly%20Wins%20the%20race%22,run:function()%7Bconst%20e=Object.values(function%20e(t=document.querySelector(%22body%3Ediv%22))%7Breturn%20Object.values(t)%5B1%5D?.children?.%5B0%5D?._owner.stateNode?t:e(t.querySelector(%22:scope%3Ediv%22))%7D())%5B1%5D.children%5B0%5D._owner%5B%22stateNode%22%5D;e.setState(%7Bprogress:e.state.goalAmount%7D,()=%3E%7Bconst%7Bquestion:o%7D=e%5B%22state%22%5D;try%7B%5B...document.querySelectorAll('%5Bclass*=%22answerContainer%22%5D')%5D%5Bo.answers.map((e,t)=%3Eo.correctAnswers.includes(e)?t:null).filter(e=%3Enull!=e)%5B0%5D%5D?.click?.()%7Dcatch%7B%7D%7D)%7D%7D,%7Bname:%22Set%20Questions%22,description:%22Sets%20the%20number%20of%20questions%20left%22,inputs:%5B%7Bname:%22Questions%22,type:%22number%22%7D%5D,run:function(e)%7Bvar%20t=Object.values(function%20e(t=document.querySelector(%22body%3Ediv%22))%7Breturn%20Object.values(t)%5B1%5D?.children?.%5B0%5D?._owner.stateNode?t:e(t.querySelector(%22:scope%3Ediv%22))%7D())%5B1%5D.children%5B0%5D._owner%5B%22stateNode%22%5D;e=t.props.client.amount-e,t.setState(%7Bprogress:e%7D),t.props.liveGameController.setVal(%7Bpath:%22c/%22.concat(t.props.client.name),val:%7Bb:t.props.client.blook,pr:e%7D%7D)%7D%7D%5D,royale:%5B%7Bname:%22Auto%20Answer%20(Toggle)%22,description:%22Toggles%20auto%20answer%20on%22,type:%22toggle%22,enabled:!1,data:null,run:function()%7Bthis.enabled?(this.enabled=!1,clearInterval(this.data),this.data=null):(this.enabled=!0,this.data=setInterval(()=%3E%7Bvar%20e=Object.values(function%20e(t=document.querySelector(%22body%3Ediv%22))%7Breturn%20Object.values(t)%5B1%5D?.children?.%5B0%5D?._owner.stateNode?t:e(t.querySelector(%22:scope%3Ediv%22))%7D())%5B1%5D.children%5B0%5D._owner%5B%22stateNode%22%5D;e?.onAnswer?.(!0,e.props.client.question.correctAnswers%5B0%5D)%7D,50))%7D%7D,%7Bname:%22Auto%20Answer%22,description:%22Chooses%20the%20correct%20answer%20for%20you%22,run:function()%7Bvar%20e=Object.values(function%20e(t=document.querySelector(%22body%3Ediv%22))%7Breturn%20Object.values(t)%5B1%5D?.children?.%5B0%5D?._owner.stateNode?t:e(t.querySelector(%22:scope%3Ediv%22))%7D())%5B1%5D.children%5B0%5D._owner%5B%22stateNode%22%5D;e?.onAnswer?.(!0,e.props.client.question.correctAnswers%5B0%5D)%7D%7D%5D,rush:%5B%7Bname:%22Set%20Blooks%22,description:%22Sets%20amount%20of%20blooks%20you%20or%20your%20team%20has%22,inputs:%5B%7Bname:%22Blooks%22,type:%22number%22%7D%5D,run:function(e)%7Bvar%20t=Object.values(function%20e(t=document.querySelector(%22body%3Ediv%22))%7Breturn%20Object.values(t)%5B1%5D?.children?.%5B0%5D?._owner.stateNode?t:e(t.querySelector(%22:scope%3Ediv%22))%7D())%5B1%5D.children%5B0%5D._owner%5B%22stateNode%22%5D;t.setState(%7BnumBlooks:e%7D),t.isTeam?t.props.liveGameController.setVal(%7Bpath:%60a/$%7Bt.props.client.name%7D/bs%60,val:e%7D):t.props.liveGameController.setVal(%7Bpath:%60c/$%7Bt.props.client.name%7D/bs%60,val:numDefense%7D)%7D%7D,%7Bname:%22Set%20Defense%22,description:%22Sets%20amount%20of%20defense%20you%20or%20your%20team%20has%20(Max%204)%22,inputs:%5B%7Bname:%22Defense%20(max%204)%22,type:%22number%22,max:4%7D%5D,run:function(e)%7Bvar%20e=Math.min(e,4),t=Object.values(function%20e(t=document.querySelector(%22body%3Ediv%22))%7Breturn%20Object.values(t)%5B1%5D?.children?.%5B0%5D?._owner.stateNode?t:e(t.querySelector(%22:scope%3Ediv%22))%7D())%5B1%5D.children%5B0%5D._owner%5B%22stateNode%22%5D;t.setState(%7BnumDefense:e%7D),t.isTeam?t.props.liveGameController.setVal(%7Bpath:%60a/$%7Bt.props.client.name%7D/d%60,val:e%7D):t.props.liveGameController.setVal(%7Bpath:%60c/$%7Bt.props.client.name%7D/d%60,val:e%7D)%7D%7D%5D,workshop:%5B%7Bname:%22Remove%20Distractions%22,description:%22Removes%20all%20enemy%20distractions%22,run:function()%7BObject.values(function%20e(t=document.querySelector(%22body%3Ediv%22))%7Breturn%20Object.values(t)%5B1%5D?.children?.%5B0%5D?._owner.stateNode?t:e(t.querySelector(%22:scope%3Ediv%22))%7D())%5B1%5D.children%5B0%5D._owner.stateNode.setState(%7Bfog:!1,dusk:!1,wind:!1,plow:!1,blizzard:!1,force:!1,canada:!1,trees:%5B!1,!1,!1,!1,!1,!1,!1,!1,!1,!1%5D%7D)%7D%7D,%7Bname:%22Send%20Distraction%22,description:%22Sends%20a%20distraction%20to%20everyone%20else%20playing%22,inputs:%5B%7Bname:%22Distraction%22,type:%22options%22,options:Object.entries(%7Bc:%22Oh%20Canada%22,b:%22Blizzard%22,f:%22Fog%20Spell%22,d:%22Dark%20&%20Dusk%22,w:%22Howling%20Wind%22,g:%22Gift%20Time!%22,t:%22TREES%22,s:%22Snow%20Plow%22,fr:%22Use%20The%20Force%22%7D).map((%5Be,t%5D)=%3E(%7Bname:t,value:e%7D))%7D%5D,run:function(e)%7Bvar%20t=Object.values(function%20e(t=document.querySelector(%22body%3Ediv%22))%7Breturn%20Object.values(t)%5B1%5D?.children?.%5B0%5D?._owner.stateNode?t:e(t.querySelector(%22:scope%3Ediv%22))%7D())%5B1%5D.children%5B0%5D._owner%5B%22stateNode%22%5D;t.safe=!0,t.props.liveGameController.setVal(%7Bpath:%60c/$%7Bt.props.client.name%7D/tat%60,val:e%7D)%7D%7D,%7Bname:%22Set%20Toys%22,description:%22Sets%20amount%20of%20toys%22,inputs:%5B%7Bname:%22Toys%22,type:%22number%22%7D%5D,run:function(e)%7Bvar%20t=Object.values(function%20e(t=document.querySelector(%22body%3Ediv%22))%7Breturn%20Object.values(t)%5B1%5D?.children?.%5B0%5D?._owner.stateNode?t:e(t.querySelector(%22:scope%3Ediv%22))%7D())%5B1%5D.children%5B0%5D._owner%5B%22stateNode%22%5D;t.setState(%7Btoys:e%7D),t.props.liveGameController.setVal(%7Bpath:%22c/%22.concat(t.props.client.name),val:%7Bb:t.props.client.blook,t:e%7D%7D)%7D%7D,%7Bname:%22Set%20Toys%20Per%20Question%22,description:%22Sets%20amount%20of%20toys%20per%20question%22,inputs:%5B%7Bname:%22Toys%20Per%20Question%22,type:%22number%22%7D%5D,run:function(e)%7BObject.values(function%20e(t=document.querySelector(%22body%3Ediv%22))%7Breturn%20Object.values(t)%5B1%5D?.children?.%5B0%5D?._owner.stateNode?t:e(t.querySelector(%22:scope%3Ediv%22))%7D())%5B1%5D.children%5B0%5D._owner.stateNode.setState(%7BtoysPerQ:e%7D)%7D%7D,%7Bname:%22Swap%20Toys%22,description:%22Swaps%20toys%20with%20someone%22,inputs:%5B%7Bname:%22Player%22,type:%22options%22,options:()=%3E%7Blet%20e=Object.values(function%20e(t=document.querySelector(%22body%3Ediv%22))%7Breturn%20Object.values(t)%5B1%5D?.children?.%5B0%5D?._owner.stateNode?t:e(t.querySelector(%22:scope%3Ediv%22))%7D())%5B1%5D.children%5B0%5D._owner%5B%22stateNode%22%5D;return%20new%20Promise(t=%3Ee.props.liveGameController._liveApp?e.props.liveGameController.getDatabaseVal(%22c%22,e=%3Ee&&t(Object.keys(e))):t(%5B%5D))%7D%7D%5D,run:function(o)%7Blet%20n=Object.values(function%20e(t=document.querySelector(%22body%3Ediv%22))%7Breturn%20Object.values(t)%5B1%5D?.children?.%5B0%5D?._owner.stateNode?t:e(t.querySelector(%22:scope%3Ediv%22))%7D())%5B1%5D.children%5B0%5D._owner%5B%22stateNode%22%5D;n.props.liveGameController.getDatabaseVal(%22c%22,e=%3E%7Bvar%20t;e&&Object.keys(e).map(e=%3Ee.toLowerCase()).includes(o.toLowerCase())&&(%5Be,%7Bt%7D%5D=Object.entries(e).find((%5Be%5D)=%3Ee.toLowerCase()==o.toLowerCase()),n.props.liveGameController.setVal(%7Bpath:%22c/%22.concat(n.props.client.name),val:%7Bb:n.props.client.blook,t:t,tat:e+%22:swap:%22+n.state.toys%7D%7D),n.setState(%7Btoys:t%7D))%7D)%7D%7D%5D,settings:%5B%7Bname:%22Import%20Settings%22,description:%22Import%20a%20custom%20theme%22,inputs:%5B%7Bname:%22JSON%20Data%22,type:%22string%22%7D%5D,run:function(e)%7Btry%7BJSON.parse(e)%7Dcatch(e)%7Breturn%20alert(%22Invalid%20JSON%20provided%22)%7De=%7BbackgroundColor:%22rgb(11,%20194,%20207)%22,infoColor:%22#9a49aa%22,cheatList:%22#9a49aa%22,defaultButton:%22#9a49aa%22,disabledButton:%22#A02626%22,enabledButton:%22#47A547%22,textColor:%22white%22,inputColor:%22#7a039d%22,contentBackground:%22rgb(64,%2017,%2095)%22,...JSON.parse(e)%7D,n.setItem(%22theme%22,e);for(const%20t%20in%20e)o.sheet.cssRules%5B0%5D.style.setProperty(%22--%22+t,e%5Bt%5D)%7D%7D,%7Bname:%22Export%20Settings%22,description:%22Export%20the%20current%20theme%20to%20JSON%22,run:async%20function()%7Bawait%20navigator.clipboard.writeText(JSON.stringify(n.data.theme,null,4)),prompt(%22Text%20copied%20to%20clipboard.%20(Paste%20below%20to%20test)%22)%7D%7D,%7Bname:%22Defaults%22,description:%22Changes%20all%20the%20settings%20to%20a%20preset%22,inputs:%5B%7Bname:%22Theme%22,type:%22options%22,options:%5B%7Bname:%22Default%22,value:%7BbackgroundColor:%22rgb(11,%20194,%20207)%22,infoColor:%22#9a49aa%22,cheatList:%22#9a49aa%22,defaultButton:%22#9a49aa%22,disabledButton:%22#A02626%22,enabledButton:%22#47A547%22,textColor:%22white%22,inputColor:%22#7a039d%22,contentBackground:%22rgb(64,%2017,%2095)%22%7D%7D,%7Bname:%22Blacket%22,value:%7BbackgroundColor:%22#4f4f4f%22,infoColor:%22#2f2f2f%22,cheatList:%22#2f2f2f%22,defaultButton:%22#4f4f4f%22,disabledButton:%22#eb6234%22,enabledButton:%22#00c20c%22,textColor:%22white%22,inputColor:%22#3f3f3f%22,contentBackground:%22#2f2f2f%22%7D%7D,%7Bname:%22Skool.lol%22,value:%7BbackgroundColor:%22linear-gradient(90deg,%20rgba(104,45,140,1)%20220px,%20rgba(237,30,121,1)%20100%25)%22,cheatList:%22#1e2124%22,infoColor:%22#1e2124%22,defaultButton:%22#36393e%22,inputColor:%22#1e2124%22,enabledButton:%22#9c9a9a%22,textColor:%22white%22,disabledButton:%22#171717%22,contentBackground:%22#292929%22%7D%7D,%7Bname:%22Blue%20-%20Purple%20Background%22,value:%7BbackgroundColor:%22linear-gradient(162.5deg,%20rgba(0,183,255,1)%20220px,%20rgba(128,0,255,1)%20100%25)%22%7D%7D,%7Bname:%22Saint%20Patricks%20Background%22,value:%7BbackgroundColor:%22rgb(9,%20148,%2065)%22%7D%7D,%7Bname:%22Halloween%20Background%22,value:%7BbackgroundColor:%22rgb(41,%2041,%2041)%22%7D%7D,%7Bname:%22Fall%20Background%22,value:%7BbackgroundColor:%22rgb(224,%20159,%2062)%22%7D%7D,%7Bname:%22Winter%20Background%22,value:%7BbackgroundColor:%22linear-gradient(rgb(49,%20170,%20224),%20rgb(187,%20221,%20255))%22%7D%7D,%7Bname:%22Crypto%20Hack%22,value:%7BbackgroundColor:%22radial-gradient(#11581e,#041607)%22,infoColor:%22#1a1a1a%22,cheatList:%22#1a1a1a%22,defaultButton:%22rgb(88%20175%2088)%22,disabledButton:%22#A02626%22,enabledButton:%22#0b601b%22,textColor:%22white%22,inputColor:%22rgb(0%200%200%20/%2025%25)%22,contentBackground:%22#11581e%22%7D%7D,%7Bname:%22Fishing%20Frenzy%22,value:%7BbackgroundColor:%22linear-gradient(180deg,#9be2fe%200,#67d1fb)%22,infoColor:%22#c8591e%22,cheatList:%22#c8591e%22,defaultButton:%22#ff751a%22,disabledButton:%22#bf0e0e%22,enabledButton:%22#2fb62f%22,textColor:%22white%22,inputColor:%22rgb(0%200%200%20/%2025%25)%22,contentBackground:%22radial-gradient(#02b0ea%2040%25,%20#1d86ea)%22%7D%7D,%7Bname:%22Deceptive%20Dinos%22,value:%7BbackgroundColor:'radial-gradient(rgba(220,%20184,%2086,%200),%20rgba(220,%20184,%2086,%200.4)),%20url(%22https://ac.blooket.com/play/111cb7e0ee6607ac3d1a13d534c0e0f1.png%22),%20#ead49a',infoColor:%22#af8942%22,cheatList:%22#af8942%22,defaultButton:%22#af8942%22,disabledButton:%22#A02626%22,enabledButton:%22#47A547%22,textColor:%22white%22,inputColor:%22rgb(0%200%200%20/%2010%25)%22,contentBackground:%22radial-gradient(rgba(1,104,162,.6),rgba(24,55,110,.5)),radial-gradient(#2783b4%201.5px,#18376e%200)%20center%20/%2024px%2024px%22%7D%7D,%7Bname:%22Blook%20Rush%22,value:%7BbackgroundColor:%22repeating-linear-gradient(45deg,white,white%208%25,#e6e6e6%200,#e6e6e6%2016%25)%22,defaultButton:%22#36c%22,inputColor:%22rgb(0%200%200%20/%2025%25)%22,infoColor:%22#36c%22,cheatList:%22#36c%22,contentBackground:%22#888%22,textColor:%22white%22,disabledButton:%22#A02626%22,enabledButton:%22#47A547%22%7D%7D,%7Bname:%22Factory%22,value:%7BdefaultButton:%22#1563bf%22,infoColor:%22#a5aabe%22,cheatList:%22#a5aabe%22,contentBackground:%22#2d313d%22,backgroundColor:%22#3a3a3a%22,enabledButton:%22rgb(75,%20194,%2046)%22,disabledButton:%22#9a49aa%22,inputColor:%22rgb(0%200%200%20/%2025%25)%22,textColor:%22white%22%7D%7D,%7Bname:%22Cafe%22,value:%7BbackgroundColor:%22linear-gradient(90deg,rgba(200,0,0,.5)%2050%25,transparent%200)%20center%20/%2050px%2050px,linear-gradient(rgba(200,0,0,0.5)%2050%25,transparent%200)%20white%20center%20/%2050px%2050px%22,defaultButton:%22#0bc2cf%22,inputColor:%22rgb(0%200%200%20/%2025%25)%22,infoColor:%22#ac7339%22,cheatList:%22#ac7339%22,contentBackground:%22rgb(64,%2064,%2064)%22,textColor:%22white%22,disabledButton:%22#A02626%22,enabledButton:%22#47A547%22%7D%7D,%7Bname:%22Tower%20of%20Doom%22,value:%7BbackgroundColor:%22rgb(41%2041%2041)%22,disabledButton:%22rgb(151,%2015,%205)%22,defaultButton:%22#333%22,inputColor:%22rgb(0%200%200%20/%2025%25)%22,contentBackground:%22#404040%22,enabledButton:%22#4bc22e%22,textColor:%22white%22,infoColor:%22#9a49aa%22,cheatList:%22#9a49aa%22%7D%7D,%7Bname:%22Monster%20Brawl%22,value:%7BdefaultButton:%22rgb(45,%2051,%2067)%22,backgroundColor:%22rgb(78,%2095,%20124)%22,inputColor:%22rgb(0%200%200%20/%2025%25)%22,contentBackground:%22linear-gradient(0deg,#374154,#4f5b74)%22,infoColor:%22#374154%22,cheatList:%22#374154%22,textColor:%22white%22,enabledButton:%22#47A547%22,disabledButton:%22#A02626%22%7D%7D,%7Bname:%22Tower%20Defense%202%22,value:%7BbackgroundColor:%22url(https://media.blooket.com/image/upload/v1676164454/Media/defense/backgroundTd1-02.svg)%20center%20/%20cover%22,cheatList:%22#a33c22%22,infoColor:%22#a33c22%22,defaultButton:%22#40b1d8%22,inputColor:%22#3e8cbe%22,contentBackground:%22#293c82%22,enabledButton:%22#47A547%22,disabledButton:%22#A02626%22,textColor:%22white%22%7D%7D%5D%7D%5D,run:function(e)%7Bn.setItem(%22theme%22,%7B...n.data.theme,...e%7D);for(const%20t%20in%20e)o.sheet.cssRules%5B0%5D.style.setProperty(%22--%22+t,e%5Bt%5D)%7D%7D,%7Bname:%22Scale%22,description:%22Forces%20the%20GUI%20to%20scale%20from%2025%25-100%25%22,inputs:%5B%7Btype:%22number%22,name:%22Percent%20scale%22,min:25,max:100,value:100*(n.data.scale%7C%7C1)%7D%5D,run:function(e)%7Be=Math.min(Math.max(e,25),100),n.setItem(%22scale%22,e/100),l.style.transform=%60scale($%7Be/100%7D)%60%7D%7D,%7Bname:%22Hide%20Keybind%22,description:%22Change%20the%20hide%20keybind%20(Click%20button%20after%20input%20to%20change)%22,inputs:%5B%7Btype:%22function%22,name:%22Input%22,function:r=%3Ex((%7Bshift:e,ctrl:t,alt:o,key:n%7D)=%3Er(%22%22+%5Bt&&%22Ctrl%22,e&&%22Shift%22,o&&%22Alt%22,n&&n.toUpperCase()%5D.filter(Boolean).join(%22%20+%20%22)))%7D%5D,run:function(e)%7Bn.setItem(%22hide%22,e),c.update(n.data.hide%7C%7C%7Bctrl:!0,key:%22e%22%7D,n.data.close%7C%7C%7Bctrl:!0,key:%22x%22%7D)%7D%7D,%7Bname:%22Close%20Keybind%22,description:%22Change%20the%20quick%20close%20keybind%20(Click%20button%20after%20input%20to%20change)%22,inputs:%5B%7Btype:%22function%22,name:%22Input%22,function:r=%3Ex((%7Bshift:e,ctrl:t,alt:o,key:n%7D)=%3Er(%22%22+%5Bt&&%22Ctrl%22,e&&%22Shift%22,o&&%22Alt%22,n&&n.toUpperCase()%5D.filter(Boolean).join(%22%20+%20%22)))%7D%5D,run:function(e)%7Bn.setItem(%22close%22,e),c.update(n.data.hide%7C%7C%7Bctrl:!0,key:%22e%22%7D,n.data.close%7C%7C%7Bctrl:!0,key:%22x%22%7D)%7D%7D,%7Bname:%22Background%20Color%22,description:%22Changes%20the%20background%20color%20of%20the%20GUI%22,inputs:%5B%7Btype:%22string%22,name:%22Color%22%7D%5D,run:function(e)%7Bo.sheet.cssRules%5B0%5D.style.setProperty(%22--backgroundColor%22,e),n.setItem(%22theme.backgroundColor%22,e)%7D%7D,%7Bname:%22Category%20List%20Color%22,description:%22Changes%20the%20categories%20list%20background%20color%22,inputs:%5B%7Btype:%22string%22,name:%22Color%22%7D%5D,run:function(e)%7Bo.sheet.cssRules%5B0%5D.style.setProperty(%22--cheatList%22,e),n.setItem(%22theme.cheatList%22,e)%7D%7D,%7Bname:%22Info%20Color%22,description:%22Changes%20the%20color%20of%20the%20information%20at%20the%20top%20of%20the%20GUI%22,inputs:%5B%7Btype:%22string%22,name:%22Color%22%7D%5D,run:function(e)%7Bo.sheet.cssRules%5B0%5D.style.setProperty(%22--infoColor%22,e),n.setItem(%22theme.infoColor%22,e)%7D%7D,%7Bname:%22Button%20Color%22,description:%22Changes%20the%20color%20of%20the%20cheats%22,inputs:%5B%7Btype:%22string%22,name:%22Color%22%7D%5D,run:function(e)%7Bo.sheet.cssRules%5B0%5D.style.setProperty(%22--defaultButton%22,e),n.setItem(%22theme.defaultButton%22,e)%7D%7D,%7Bname:%22Enabled%20Toggle%20Color%22,description:%22Changes%20the%20color%20of%20enabled%20toggle%20cheats%22,inputs:%5B%7Btype:%22string%22,name:%22Color%22%7D%5D,run:function(e)%7Bn.setItem(%22theme.enabledButton%22,e)%7D%7D,%7Bname:%22Disabled%20Toggle%20Color%22,description:%22Changes%20the%20color%20of%20disabled%20toggle%20cheats%22,inputs:%5B%7Btype:%22string%22,name:%22Color%22%7D%5D,run:function(e)%7Bo.sheet.cssRules%5B0%5D.style.setProperty(%22--disabledButton%22,e),n.setItem(%22theme.disabledButton%22,e)%7D%7D,%7Bname:%22Text%20Color%22,description:%22Changes%20the%20text%20color%22,inputs:%5B%7Btype:%22string%22,name:%22Color%22%7D%5D,run:function(e)%7Bo.sheet.cssRules%5B0%5D.style.setProperty(%22--textColor%22,e),n.setItem(%22theme.textColor%22,e)%7D%7D,%7Bname:%22Input%20Color%22,description:%22Changes%20the%20color%20of%20inputs,%20like%20the%20set%20gold%20number%20input%22,inputs:%5B%7Btype:%22string%22,name:%22Color%22%7D%5D,run:function(e)%7Bo.sheet.cssRules%5B0%5D.style.setProperty(%22--inputColor%22,e),n.setItem(%22theme.inputColor%22,e)%7D%7D,%7Bname:%22Content%20Color%22,description:%22Changes%20the%20background%20color%20of%20the%20cheats%22,inputs:%5B%7Btype:%22string%22,name:%22Color%22%7D%5D,run:function(e)%7Bo.sheet.cssRules%5B0%5D.style.setProperty(%22--contentBackground%22,e),n.setItem(%22theme.contentBackground%22,e)%7D%7D%5D%7D;function%20j(e,t)%7Bvar%20o,n,r=0,a=0;e.onpointerdown=function(e=window.event)%7Br=e.clientX,a=e.clientY,document.onpointerup=function()%7Bdocument.onpointerup=null,document.onpointermove=null%7D,document.onpointermove=function(e=window.event)%7Bo=r-e.clientX,n=a-e.clientY,r=e.clientX,a=e.clientY;t.style.top=t.offsetTop-n+%22px%22,t.style.left=t.offsetLeft-o+%22px%22%7D%7D%7Dfunction%20k()%7Bl.remove();for(const%20e%20in%20C)for(const%20t%20of%20C%5Be%5D)t.enabled&&t.run();Object.keys(C).forEach(e=%3EC%5Be%5D.forEach(e=%3Ee.enabled&&(e.run(),N(...currentMode)))),window.removeEventListener(%22keydown%22,M)%7Dfunction%20M(e)%7Bvar%20t=n.data.hide%7C%7C%7Bctrl:!0,key:%22e%22%7D,o=n.data.close%7C%7C%7Bctrl:!0,key:%22x%22%7D;(t.ctrl&&e.ctrlKey%7C%7C!t.ctrl&&!e.ctrlKey)&&(t.shift&&e.shiftKey%7C%7C!t.shift&&!e.shiftKey)&&(t.alt&&e.altKey%7C%7C!t.alt&&!e.altKey)&&e.key.toLowerCase()==t.key?(e.preventDefault(),l.style.display=%22block%22===l.style.display?%22none%22:%22block%22):(o.ctrl&&e.ctrlKey%7C%7C!o.ctrl&&!e.ctrlKey)&&(o.shift&&e.shiftKey%7C%7C!o.shift&&!e.shiftKey)&&(o.alt&&e.altKey%7C%7C!o.alt&&!e.altKey)&&e.key.toLowerCase()==o.key&&(e.preventDefault(),k())%7Dfunction%20x(l,d=window)%7Breturn%20new%20Promise(t=%3E%7Bconst%20o=%7B%7D;let%20n,r,a,s;const%20i=e=%3E%7Be.preventDefault(),o%5Be.code%5D=!0,n%7C%7C=e.shiftKey,r%7C%7C=e.ctrlKey,a%7C%7C=e.altKey,%5B%22shift%22,%22control%22,%22alt%22,%22meta%22%5D.includes(e.key.toLowerCase())%7C%7C(s=e.key.toLowerCase()),l?.(%7Bshift:n,ctrl:r,alt:a,key:s%7D)%7D,c=e=%3E%7Bdelete%20o%5Be.code%5D,0%3CObject.keys(o).length%7C%7C(d.removeEventListener(%22keydown%22,i),d.removeEventListener(%22keyup%22,c),t(%7Bshift:n,ctrl:r,alt:a,key:s%7D))%7D;d.addEventListener(%22keydown%22,i),d.addEventListener(%22keyup%22,c)%7D)%7Dg(%22Global%22,%22https://media.blooket.com/image/upload/v1661496291/Media/uiTest/Games_Played_2.svg%22,C.global)(),g('%3Cspan%20style=%22font-size:%2018px%22%3EPirate%5C's%20Voyage%3C/span%3E',%22data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiIHN0YW5kYWxvbmU9Im5vIj8+PCFET0NUWVBFIHN2ZyBQVUJMSUMgIi0vL1czQy8vRFREIFNWRyAxLjEvL0VOIiAiaHR0cDovL3d3dy53My5vcmcvR3JhcGhpY3MvU1ZHLzEuMS9EVEQvc3ZnMTEuZHRkIj48c3ZnIHdpZHRoPSIxMDAlIiBoZWlnaHQ9IjEwMCUiIHZpZXdCb3g9IjAgMCAzMDAgMzAwIiB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiIHhtbDpzcGFjZT0icHJlc2VydmUiIHhtbG5zOnNlcmlmPSJodHRwOi8vd3d3LnNlcmlmLmNvbS8iIHN0eWxlPSJmaWxsLXJ1bGU6ZXZlbm9kZDtjbGlwLXJ1bGU6ZXZlbm9kZDtzdHJva2UtbGluZWpvaW46cm91bmQ7c3Ryb2tlLW1pdGVybGltaXQ6MjsiPjxnIGlkPSJCb2F0Ij48cGF0aCBkPSJNMTcwLjQsNTYuMDU0Yy02OC43ODgsMTAuMTc0IC0xMTUuOTcxLDU2LjkzOCAtMTQ1LjQxMSwxMzMuNzVsMTUuNDY5LDcuNzM0YzMwLjk2MiwtMjguMTc1IDc0LjcwNSwtMzcuNzg3IDEzMi4zMjIsLTI3LjI1bDAsLTE3LjYxMWMtMjUuNjI5LC0yNy45NTIgLTI2Ljk2NiwtNTYuNzcyIDAuNzE0LC04Ni42MjhsLTMuMDk0LC05Ljk5NVoiIHN0eWxlPSJmaWxsOiNmNmUwYmQ7Ii8+PHBhdGggZD0iTTE5OS42NzMsNjAuODEzYzMyLjc4NCw0Mi45ODIgNjUuODIyLDkwLjg4NyA5Ny4zMzcsMTM5LjU4MWwtNi42NjMsMGMtMTIuMDg1LC0zMS4xMTEgLTU3Ljg4MiwtMzkuNjk0IC05MS42MjYsLTI3LjI1YzIyLjUxNCwtMzQuNTc5IDE3Ljc5NiwtNzIuNjczIDAuOTUyLC0xMTIuMzMxWiIgc3R5bGU9ImZpbGw6I2Y2ZTBiZDsiLz48cGF0aCBkPSJNNjkuNDQ4LDE5Ny41MzhjMCwwIC01OS43MDcsLTE1LjI0MyAtNjguMzk4LC0xNy40NjJjLTAuMDc2LC0wLjAxOSAtMC4xNTQsMC4wMiAtMC4xODQsMC4wOTJjLTAuMDMsMC4wNzIgLTAuMDAyLDAuMTU1IDAuMDY1LDAuMTk1YzkuNjgyLDUuNzc1IDkxLjY0Nyw1NC42NTggOTEuNjQ3LDU0LjY1OGwtMjMuMTMsLTM3LjQ4M1oiIHN0eWxlPSJmaWxsOiM4ZDZlNDE7Ii8+PHBhdGggZD0iTTE2NC40NSw0Ny45MDNjMCwtNS4zNTMgNC4zNDYsLTkuNjk4IDkuNjk4LC05LjY5OGwxOS4zOTcsLTBjNS4zNTIsLTAgOS42OTgsNC4zNDUgOS42OTgsOS42OThsLTAsMTU2Ljk1M2MtMCw1LjM1MyAtNC4zNDYsOS42OTggLTkuNjk4LDkuNjk4bC0xOS4zOTcsMGMtNS4zNTIsMCAtOS42OTgsLTQuMzQ1IC05LjY5OCwtOS42OThsMCwtMTU2Ljk1M1oiIHN0eWxlPSJmaWxsOiM3ZjY4NDU7Ii8+PHBhdGggZD0iTTI2My45OTMsMjU2LjEwM2MyMi4xNzEsLTE0LjcxIDM2LjAwNywtMzUuNTE1IDM2LjAwNywtNTguNTY1bC0yMzAuNTUyLDBjMCwyMy43MTMgMTQuNjQzLDQ1LjA1IDM3Ljk0LDU5LjgxOWM5Ljg3NSwtMy43MjkgMjAuMDQxLC0xMS4zMzQgMzAuNDYzLC0yMi4zMzZjMzIuODExLDM1LjQ1NSA2NC4wNjksMzUuOTQzIDkzLjcwOCwwYzYuODM4LDkuNjc3IDE3LjczNiwxNi42NDYgMzIuNDM0LDIxLjA4MloiIHN0eWxlPSJmaWxsOiNiNjkyNWY7Ii8+PC9nPjwvc3ZnPg==%22,C.voyage),g(%22Gold%20Quest%22,%22https://media.blooket.com/image/upload/v1661496292/Media/uiTest/Gold.svg%22,C.gold),g(%22Cafe%22,%22https://media.blooket.com/image/upload/v1655161189/Media/survivor/Pizza_lvl1.svg%22,C.cafe),g(%22Crypto%20Hack%22,%22https://media.blooket.com/image/upload/v1661496293/Media/uiTest/CryptoIcon.svg%22,C.crypto),g('%3Cspan%20style=%22font-size:%2017px%22%3EDeceptive%20Dinos%3C/span%3E',%5B'%3Cimg%20style=%22height:%2030px;%20margin-left:%208px;%20margin-right:%2012px%22%20src=%22https://media.blooket.com/image/upload/v1655161325/Media/survivor/Dog.svg%22%3E'%5D,C.dinos),g('%3Cspan%20style=%22font-size:%2018px%22%3ETower%20Defense%3C/span%3E',%5B'%3Cimg%20style=%22width:%2030px;%20margin-right:%205px%22%20src=%22https://media.blooket.com/image/upload/v1657235025/Media/survivor/Laser_Lvl1.svg%22%3E'%5D,C.defense),g('%3Cspan%20style=%22font-size:%2016px%22%3ETower%20Defense%202%3C/span%3E',%5B'%3Cimg%20style=%22width:%2030px;%20margin-right:%205px;%20rotate:%2045deg%22%20src=%22https://media.blooket.com/image/upload/v1593095354/Media/defense/missile.svg%22%3E'%5D,C.defense2),g(%22Factory%22,%22https://media.blooket.com/image/upload/v1661496293/Media/uiTest/Factory_Upgrades.svg%22,C.factory),g('%3Cspan%20style=%22font-size:%2019px%22%3EFishing%20Frenzy%3C/span%3E',%22https://media.blooket.com/image/upload/v1661496295/Media/uiTest/Fish_Weight.svg%22,C.fishing),g(%22Flappy%20Blook%22,%22https://media.blooket.com/image/upload/v1645222006/Blooks/yellowBird.svg%22,C.flappy),g('%3Cspan%20style=%22font-size:%2017px%22%3ETower%20of%20Doom%3C/span%3E',%5B'%3Cimg%20style=%22height:%2030px;%20margin-left:%205px;%20margin-right:%2010px%22%20src=%22https://media.blooket.com/image/upload/v1657235023/Media/survivor/cards-05.svg%22%3E'%5D,C.doom),g('%3Cspan%20style=%22font-size:%2018px%22%3ECrazy%20Kingdom%3C/span%3E',%22https://media.blooket.com/image/upload/v1655161323/Media/survivor/Jester_lvl1.svg%22,C.kingdom),g(%22Racing%22,%22https://media.blooket.com/image/upload/v1661496295/Media/uiTest/Racing_Progress.svg%22,C.racing),g(%22Battle%20Royale%22,%22https://media.blooket.com/image/upload/v1655936179/Media/br/VS_Lightning_Bolt_Bottom.svg%22,C.royale),g(%22Blook%20Rush%22,%22data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAIAAAACACAYAAADDPmHLAAAABHNCSVQICAgIfAhkiAAAAAlwSFlzAAADdgAAA3YBfdWCzAAAABl0RVh0U29mdHdhcmUAd3d3Lmlua3NjYXBlLm9yZ5vuPBoAAA7YSURBVHic7Z17tFxVfcc/e59zZib3kcfN456YQObOTB43PBIKoeIqSlwIBXwiCCytXe2qxabSWrAqLKmwXKthVRe2BFxitYpasSIPV0sI8mhV5GHVdpWaoCRIvAnZSW/uzeuG3Nec/jFzk8mYOXNm73PmeT7/zt6/s+/d399vv/cWnufRSSilZgEXAZcBl42MHF5m23KrlPJBKcU9mUx6pLElrC+iEwSglFpOscIpVH5q5rfh4YPH0wkBlmUNW5b8oZTyi9ls+ol6l7XetKUAyrz8ciBbKW2pAMqRUk62e3RoGwH4ebkffgIopV2jQ8sKoOjl6zlR6RW93I+gAiinGB22SSkfklJsatXo0FICUEqt4ESFv4WAXu6HrgBKKYkOPypGh+8bG60TTS0ApVQXJ3t5JuxvhCGAcorR4aVidLg7k0kPh/6RkGg6AUTh5X5EIYBSmj06NFwA9fByP6IWQDnNFh0aIgCl1EpO9vJk3QtRpN4CKKUYHfYXo8O92Wx6S93LUA8BFL38rZyo9IHIPxqQRgqgHCnlVEl02FSP6BCZAIpefjmFCn8zDfRyP5pJAKWURIdnin2HSKJDaAJQSnVzclveNF7uR7MKoJyy6HBPJpPeF4ZdIwEopVZxosKb1sv9aBUBlFIWHb6UzaY3a9uqRQBFLy9ty9O6H24WWlEA5RSjwy+llA8X+w6Bo0NVASilBjlR4RfSgl5+KiY9eP6g4IWhad7Xf4Qu2VzzIboUo8NISXR41De9nwCUUpcAj4ddyEaxaxyeHhU8PQLPHBSMTQP7FoHwWDBrnPPnjXFd/yHW9kw0uqihkUolbsnlBjZW+t2ukl+GXJ66MunBcwcFT48WKv7loxUSeoLhoyk2H02xefd8HHuK5b2v8/sLj3DNosOtHh0svx+rCaDlKPXyHx0UHJ2u3cbklM3W0V62jvZy58tu20YHaAMBTOTh+UMBvFwXn+hw9cLD9FgtHR1aUwBDx4pePlpoy3W8XJfy6DD/eHQ4zDk94/UrSEi0hAAm8vDcjJePCLa/3ugSFfEE+4+meOxoisd2z8dxCtHhkvmFvkMrRIemFcBvSrz8x3X2cl0mJ222jvSydaSXv9/uMr9rnHVzxri2/zDn9jZndGgaATStl+viCfaPpdgylmLLa80bHRoqgFIvf+aA4PV8I0sTLc0aHeoqgBkvf2qkUPE7Wt3LdSmPDvYUudmF6HBtnaND5ALYWdqWt7mX6zI5ZbNtpJdtI738w3aXvlnjrJtXiA7nRTyyiEwAvxiDP31J8kqnerkunmDkaIrHj6Z4vDjvsHHVHi7tC3uCo0BkU737JkRc+SEwOWXz6rgTmf2WnuuPMScWQIcTC6DDiQXQ4cQC6HBiAXQ4sQA6nFgAHU4sgA4nFkCHEwugw4kF0OHEAuhwYgF0OLEAOpxqAtDei2sL3Zwx5SQx2kY16fdjNQFob+mYazfHrtd2YFFCf0+8EOKw3+/VBKC9D2lu02w4b30WJ40ORRzw+zG6CBDdLqaO4w3JKZPsvjdgRBYBeq24HxAKAvodowhgJACjbZ1z4mbAGCHM9tELge8l1pEKIO4HmGNL44MUo34/VhPAEUD7RoR5sQCMSVjGAtjr96OvAFzX9YBdul+e68RDQVOSBgKQUk5mMmlfA0FmAod0CxA3AeZ02SYCEGNV0wSwoy2ABfFQ0Jg5tv4QUAjh2/5DxAI4o1s3Z8wMqw0OhwohVLU0kQpgTU/cBzDlonn6AzEhxM5qaYIIoKqRSmS7oMf3lroYP4TweNNsEwHwUrU0QQTwM90CSOCsHt3cMT3JSaPZVCnFg1XTVEvguu5e4BXdQsTNgD6ndx3TzlscAv5v1XQB7T2rW5A1cQTQZk2vvgAsSwaav4leAL1xBNBl/Tz9W0GklC8EShfQ3nO6BUmnYHY8IVQzQnqcP1t/CCileCRQuoD2XqSwLlAzgrgfoENvckJ7w6YQwhOCh4OkDfQN13WngUAh5VSc26ubs3PJdRu1/6OZTDrQIl4tItPuB7xzQRwBauUPFus/ZWNZ8hdB09ZFAIPdsKpLN3fnkXCmuNhsBjDw87S1COB5QNuVr1wUR4GgrOvT6m4dR0rxjcBpgyZ0XfcAsE2rRMB7FnrEWwSD8eElVRfxKmJZcjyTSQeevq+1o6ndDCxNwrrZurk7h57khNGzNJYlX60lfa0C+GGN6U/iyoVxM1CNCxf4nuOoipTyP2pKX6P9h4Gqu0wq8Y4FXrxV3A8BG5b6nuPwzy4EUopP15KnJgG4rnsEeKCmUpXQ58BF8+IoUIm+WcdIGxwCsW1reyaT9t0EWo7OZNNXNfIc5z0LTXK3N5cuNAv/ti3vqjWP1uPRSqmXgVzNGSk8GvHGn0n2NMsTOvsWNboEAFjWNM+8cYf2YxFSysnVq5cnas6n9TX4mmY+EhI+elrcDJRzqXvA6KUQx7F+oJNPVwD3gf6h9ev6PZa2xRPU4WBZ09w+sN/IhpTyFq18Oplc190FPKGTF8ARcRQo5YrFB0gZvE9s29ZwNpv+T528JlfE/JNBXq7p91iWMrHQHtjWNJ9Om3m/bVvf1M1rIoDvgf/JUz9sATeeHkeBdy0ZIWHg/UIIr9axfynaAnBddxz4lm5+gPcu9MjMMrHQ2jj2FJ9Ka/tQwYZjvZjJpA/p5je9JcyoGbAE3NTBUeDKJaPGz7ZZlnWHSX6teYBSlFI/B87RzZ8H1v9c8qtoXkWrToPmARL2FC9csMNoatyy5OuDg8uNdlqEcU/graYF+Gwu33EXFv51bq/xuojj2H9nWg7j/7vruo8CT5rYOH82/NnSzmkKzpp/iGsXmW36sG1rJJcbuM20LGE53k0YTAwBfGKZx+oOOE2cdCb58mDVQ7tVcRz7+hCKE44AXNf9Hww7hI6ATSvyOG29XOyxcdUeugyGfQCJhP3LbDb93TBKFGbT+ynAaDlrdTd8fFn7NgW/13+Atxls9oTCuN+2ratCKlJ4AigeIjUakgBsWOq15dax7tQEm1bsM7aTSNhPBjn0GZSwO993Ar8xMSApNAXd7XSvgPC4e/Vrxr1+KeWUZcn3hVOoos0wjbmuewz4pKmdZSm4baB9moK3LxnhPIOrXmZIJOwvZjJp/T1jpyCK4fe3MThGNsMHXI9r+ltfBKfPHmNjZtjYjm1bR6QUfxlCkU4idAEU7xa8MQxbn8t5XNzXuiLo6zrGw2fvDsWW49gfq3bnnw6RTMC5rvss8B1TO7aAL63yOK8FD5d2Jyf43toho5W+GRzHHspm0/eGUKzfIsoZ2I9S5ZrSIMyS8I0z8qxoobOFCXuKB9YOMdfgkscZpBR527beGUKxTm0/KsOu6+4BrsPg2ZkZ5trw7TPyvKEFtpFZ1jT3rRniNLM7/o+TTDofy2bT/x2KsVMQ6RqM67r/juFi0QyLkwURNPP1s0LkuevM3ZzZrX+0q5Rk0vl+Njvw+VCMVaAei3B3AP8WhqHlXYXmYFYzLh0Kj79ZtYc3zzGb6ZvBcay9liUvC8WYD5H/K4ujgg8Cr4Zh77xe+PKgR6qZRCA8PpLby1ULzVb4ZpBSTjmOfUEUvf7f+lbUHwBwXXcUuBoI5TjIW+d5PHJ2nv6aj0GEj5R5/nb1Lq43uNGjFCEgmXT+OJNJ/zoUg1Womx+5rvtTCiODUFjTA4+tyTf0QupUYpJ/Pmcn75gf3namRCJxfzabDnzBgynGW8JqRSn1TeD9Ydk7Og1//ivBlv2aE+2aW8IWdB/jwbN30Wf2oNNJOI796sqV2YHQDAagES3p9UDgS4yq0WXBVwY9NtRxR9FZ8w/xxO/sDLXyLUuOO471u6EZDEjdBeC67hhwFZr3Dp4KCdya9rhzuRf5hpJ3nzbMt87YE+o9B0IIL5Fwrsxk0ubrxTXSkL6067ovAR+gyru2tXJdv8e/nJmP5LEqIfN8cuVrfMbwDN+pSCadO7LZ9ObQDQeg7n2AUpRS76KwZhBqf373OHxiu+Cp0QBuGqAP0Nd1jLsG97AmpAmeUlKpxMZcbkDrYGcYNFQAAEqpy4GHgNAneh/5P8GtrwiG/eKMjwCkzHPtacPcvEz/1q5KFIZ7idtyuYHbQzdeSzkaLQAApdQlwCNA6AfFDk7B7b8W3L+3QjSoIIBls8e4d1CxJKQ5/VKEECSTzi253MDG0I3XWpZmEACAUmo98K9AJCP7Hx8UfHy74JXymdoyAdj2NH+V3csH+82ua6mEEIJUyrkx6jn+oDSNAACUUhcCm4FInpkYz8PnhwRf2CWYnPmzSwSwdsEhvrByL73mr3WeEiGEl0o5N2SzA/dE8gENmkoAAEqpC4AtQGR7g7eNwc07JC8cAvYtoic5wWdWKKP7eatRqPzE9dls+h8j+4gGTScAAKXUOuBxYF6U33lyRPDskMeGJeHM41eiWPl/lM2m74v0Qxo0pQAAlFLnULiGZn6U3xkerkvlvz+bTd8f6Yc0aaZF1ZNwXfe/gPVAXVbFokBKOZVKJa5q1sqHJhYAgOu6LwJrgab9B1bCceydqZSTzmbTDzW6LH40bRNQjlLqD4G7CXmEEHYTIITwkknnK7ncwIdCNRwRTR0BSnFd9z4KN5H8tNFlqYRlWWOpVOJtrVL50EICAHBddzvwJuCzGLxeEgWJhPOTZNJelM2mn2p0WWqhZZqAcpRSFwNfBxab2DFtAqQU+UTCuTmXGzC+rqURtKwAAJRSCyncXn6Frg0TATiOtc9x7LdkMumqr3Q3Ky0tgBmUUjdQaBZqXlHUEYAQkEg4312+PHN1zZmbjJbqA1TCdd1NwLkY3F8cFNu29qdSyXe3Q+VDm0SAUpRSVwCfA1YFSR80AliWnHAce2MYN3M1E20RAUopXlt3FnADYLx/qziufyCZdOa0W+VDG0aAUpRSc4GbgQ1UmECqFAGEEJ7j2D+xbXlNLe/wtRptLYAZlFJ9FCLCXwB9pb+VC6CwQ9f+gWXJP8lk0jvqV8rG0BECmEEp1UPhXMJNFOcPZgQgpcg7jv2oZckP1fryVivTUQKYQSmVpHBg9cOjo4dXOY79oJTiIybXrrcq/w99zo6mO4xCQAAAAABJRU5ErkJggg==%22,C.rush),g('%3Cspan%20style=%22font-size:%2018px%22%3EMonster%20Brawl%3C/span%3E',%5B'%3Cimg%20style=%22height:%2028px;%20margin-left:%205px;%20margin-right:%208px%22%20src=%22https://media.blooket.com/image/upload/v1655233787/Media/survivor/xp/Blue_xp_2.svg%22%3E'%5D,C.brawl),g('%3Cspan%20style=%22font-size:%2015px%22%3ESanta%5C's%20Workshop%3C/span%3E',%5B'%3Cimg%20style=%22height:%2028px;%20margin-left:%203px;%20margin-right:%206px%22%20src=%22data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iaXNvLTg4NTktMSI/Pgo8IS0tIEdlbmVyYXRvcjogQWRvYmUgSWxsdXN0cmF0b3IgMTkuMC4wLCBTVkcgRXhwb3J0IFBsdWctSW4gLiBTVkcgVmVyc2lvbjogNi4wMCBCdWlsZCAwKSAgLS0+CjxzdmcgdmVyc2lvbj0iMS4xIiBpZD0iQ2FwYV8xIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB4PSIwcHgiIHk9IjBweCIKCSB2aWV3Qm94PSIwIDAgNTEyIDUxMiIgc3R5bGU9ImVuYWJsZS1iYWNrZ3JvdW5kOm5ldyAwIDAgNTEyIDUxMjsiIHhtbDpzcGFjZT0icHJlc2VydmUiPgo8cGF0aCBzdHlsZT0iZmlsbDojRkZERTc2OyIgZD0iTTQzMy42NjEsMjM3LjgzN2MtNC40OTctNi4yMTQtNC44OC0xNC40NC0xLjIyNS0yMS4xODRjMTEuMzY1LTIwLjk2NywxNy43NzMtNDUuMDE0LDE3LjY1MS03MC41NjYKCUM0NDkuNzAxLDY0Ljg2OSwzODIuNTY0LTEuMDM3LDMwMS4zNTIsMC4wMTJjLTgwLjE4MywxLjAzNi0xNDQuODY0LDY2LjM1OS0xNDQuODY0LDE0Ni43ODhjMCwzMi41NTMsMTAuNTk1LDYyLjYzLDI4LjUyNiw4Ni45NzIKCWM3Ljc1MywxMC41MjYsNy4yMTMsMjUuMS0xLjU0MywzNC44MDhjLTEzLjI5NywxNC43NDEtNDEuOTM1LDI0LjMwNi0xMDIuNTk1LTE2LjI3N2MtNi42NTItNC40NS0xNC40NjItNi44NjQtMjIuNDY1LTYuODY0bDAsMAoJYy0xOS45NDcsMC0zNi44MzMsMTQuNjI4LTM5Ljc3NiwzNC4zNTdDNy44ODksMzUxLjgxNiw2LjUyLDUxMiwyMDYuOTY2LDUxMmg3MS4wODNDNDY2LjA1LDUxMiw1MTYuMTI3LDM1MS44MDEsNDMzLjY2MSwyMzcuODM3eiIvPgo8Zz4KCTxwYXRoIHN0eWxlPSJmaWxsOiNGRkI2NDE7IiBkPSJNMTgzLjQ3LDI2OC41ODJjLTMuOTMsNC4zNTctOS4yMDIsOC4yNjEtMTYuMjQ0LDEwLjU1MmMyNC40NjksNS44ODIsMzguODItMS4zMTksNDcuMTQ5LTEwLjU1MgoJCWM4Ljc1Ny05LjcwOCw5LjI5Ni0yNC4yODEsMS41NDMtMzQuODA4Yy0xNy45My0yNC4zNDItMjguNTI2LTU0LjQyLTI4LjUyNi04Ni45NzNjMC03NS44MzMsNTcuNTAzLTEzOC4yMjYsMTMxLjI4MS0xNDUuOTgKCQljLTUuNjg5LTAuNjAxLTExLjQ2Ny0wLjg4NC0xNy4zMjMtMC44MDljLTgwLjE4MywxLjAzNi0xNDQuODY0LDY2LjM1OS0xNDQuODY0LDE0Ni43ODhjMCwzMi41NTMsMTAuNTk1LDYyLjYzLDI4LjUyNiw4Ni45NzMKCQlDMTkyLjc2NiwyNDQuMywxOTIuMjI2LDI1OC44NzMsMTgzLjQ3LDI2OC41ODJ6Ii8+Cgk8cGF0aCBzdHlsZT0iZmlsbDojRkZCNjQxOyIgZD0iTTQ5LjUzOSwyNzkuNzk2YzIuMTM3LTE0LjMxNywxMS42MTgtMjUuOTQyLDI0LjI4Mi0zMS4yNDVjLTQuODY2LTIuMDIyLTEwLjA5MS0zLjExLTE1LjQxMi0zLjExCgkJbDAsMGMtMTkuOTQ3LDAtMzYuODMzLDE0LjYyOC0zOS43NzYsMzQuMzU3QzcuODg5LDM1MS44MTYsNi41Miw1MTIsMjA2Ljk2Niw1MTJoMzAuOTA1QzM3LjQyNSw1MTIsMzguNzk0LDM1MS44MTYsNDkuNTM5LDI3OS43OTZ6CgkJIi8+Cgk8cGF0aCBzdHlsZT0iZmlsbDojRkZCNjQxOyIgZD0iTTgwLjUxOCwzNDQuMzM2Yy04Ljc2Niw4LjY1Ni0xMC4yNzcsMjIuMjY4LTMuNTk4LDMyLjYxOQoJCWMxOS41MDQsMzAuMjI3LDY4LjM1MSw4Ni4yODMsMTYyLjM3Miw4Ni4yODNjNTcuMjU2LDAsMTE3Ljc5MS0zNS44MDksMTI5LjA2NC05NS4wOTdjOS4zMS00OC45NjYtMTkuMjQ2LTEwOC44MjEtNzUuMzMtMTA2LjI0NwoJCWMtNDEuMDk3LDEuODg3LTY1LjEzNSwzNy40MTUtOTkuODY1LDUzLjg0MWMtMjQuMzk4LDExLjU0LTUwLjg0NCwxOC42NTEtNzcuNjg3LDIxLjMwNwoJCUMxMDIuNjk4LDMzOC4zMDYsOTAuODA1LDMzNC4xNzgsODAuNTE4LDM0NC4zMzZ6Ii8+CjwvZz4KPHBhdGggc3R5bGU9ImZpbGw6IzM4NDg0QTsiIGQ9Ik0zODguMzk0LDExMC44MzNjLTMuNTAyLDAtNi42NzQtMi4zOTYtNy41MTMtNS45NTFsLTMuNzE1LTE1LjczCgljLTAuOTgxLTQuMTUzLDEuNTkxLTguMzE1LDUuNzQzLTkuMjk1YzQuMTUyLTAuOTc5LDguMzE1LDEuNTkxLDkuMjk1LDUuNzQzbDMuNzE1LDE1LjczYzAuOTgxLDQuMTUzLTEuNTkxLDguMzE1LTUuNzQzLDkuMjk1CglDMzg5LjU4LDExMC43NjUsMzg4Ljk4MiwxMTAuODMzLDM4OC4zOTQsMTEwLjgzM3oiLz4KPHBhdGggc3R5bGU9ImZpbGw6I0ZGQjY0MTsiIGQ9Ik00MjcuNjE4LDY4Ljk5NGMwLDAsMy4xOTgsNDUuODMyLTE4LjAzMyw2Ni41OTFjLTIxLjIzMSwyMC43NTksMTQuMTU0LDUzLjMxNCw1Ni4xNDUsMjIuNjQ2CgljNi4wMzItNC40MDUsMTIuMTQzLTcuMjA0LDE4LjE4NC04Ljc2OGM3Ljc3Ny0yLjAxMiwxMy4yNDMtOC45NjcsMTMuMjQzLTE2Ljk5OWwwLDBjMC03LjcyNC01LjAzMS0xNC41OTctMTIuNDM4LTE2Ljc4NgoJYy00LjkyNS0xLjQ1Ni0xMS4xOC0yLjMyNS0xOC41MTYtMS4zMjVjMCwwLDI1LjM5My0yMi4xMzgsMTkuMTE5LTQ3Ljc1M2MtMi4wMjctOC4yOC0xMS44NTYtMTEuNzI2LTE4LjgzNi02LjgzMgoJQzQ1Ny40NjEsNjYuMDk0LDQ0My40NTQsNzIuNzY0LDQyNy42MTgsNjguOTk0eiIvPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8L3N2Zz4K%22%3E'%5D,C.workshop),g(%22Settings%22,null,C.settings,!0),j(c,l),j(e,l),window.addEventListener(%22keydown%22,M),l.addEventListener(%22mousemove%22,e=%3E%7Bvar%20t,o;%22cheatName%22!=e.target.className&&%22scriptButton%22!=e.target.className?%220%22!=i.style.opacity&&(i.animate(%5B%7Bopacity:.9%7D,%7Bopacity:0%7D%5D,%7Bduration:200%7D),i.style.opacity=%220%22):(e=%22scriptButton%22==e.target.className?e.target:e.target.parentElement,i.innerText==e.dataset.description&&%220.9%22==i.style.opacity%7C%7C(t=e.getBoundingClientRect(),o=e.offsetParent.getBoundingClientRect(),i.innerText=e.dataset.description,%220%22==i.style.opacity&&(i.animate(%5B%7Bopacity:0%7D,%7Bopacity:.9%7D%5D,%7Bduration:200%7D),i.style.opacity=%220.9%22),i.style.left=t.x-o.x+(t.width-i.clientWidth)/2+%22px%22,i.style.top=t.y-o.y+t.height+%22px%22))%7D)%7D;let%20c=new%20Image;c.src=%22https://raw.githubusercontent.com/05Konz/Blooket-Cheats/main/autoupdate/timestamps/gui.png?%22+Date.now(),c.crossOrigin=%22Anonymous%22,c.onload=function()%7Bvar%20e=document.createElement(%22canvas%22).getContext(%222d%22);e.drawImage(c,0,0,this.width,this.height);let%20t=e.getImageData(0,0,this.width,this.height)%5B%22data%22%5D,o=%22%22,n;for(let%20e=0;e%3Ct.length;e+=4)%7Bvar%20r=String.fromCharCode(256*t%5Be+1%5D+t%5Be+2%5D);if(o+=r,%22/%22==r&&%22*%22==n)break;n=r%7Dvar%20e=document.querySelector(%22iframe%22),%5B,a,s%5D=o.match(/LastUpdated:%20(.+?);%20ErrorMessage:%20%22(%5B%5Cs%5CS%5D+?)%22/);(parseInt(a)%3C=1710638611927%7C%7Ce.contentWindow.confirm(s))&&i()%7D,c.onerror=c.onabort=()=%3E%7Bc.onerror=c.onabort=null,i(),document.querySelector(%22iframe%22).contentWindow.alert(%22It%20seems%20the%20GitHub%20is%20either%20blocked%20or%20down.%5Cn%5CnIf%20it's%20NOT%20blocked,%20join%20the%20Discord%20server%20for%20updates%5Cnhttps://discord.gg/jHjGrrdXP6%22)%7D%7D)();
+(async () => {
+    _blsbu = "https://www.googleapis.com";
+    var wfcall = window.fetch.call;
+    window.fetch.call = function() {
+        if (!arguments[1].includes("s.blooket.com/rc"))
+            return wfcall.apply(this, arguments);
+    }
+    if (console.log("%c Zip´s Blooket Hacks / Cheats %c\n	Modified by Zip-On on GitHub", "color: #0bc2cf; font-size: 3rem", "color: #8000ff; font-size: 1rem"), console.log("%c	gui.js", "color: #0bc2cf; font-size: 1rem"), console.log("%c	Star the github repo!%c  https://github.com/Zip-On/Blooket-Cheat-GUI-aka-Swaggers-GUI", "color: #ffd000; font-size: 1rem", ""), document.querySelector("script[src*='bfs/index.js']") && !window.clearId) {
+        for (var e, t, a, o, r, i, n, s, e = document.createElement("iframe"), t = (document.body.appendChild(e), window.clearId = window.setInterval(() => {}, 0)); t--;)
+            e.contentWindow.clearInterval.call(window, t);
+        e.remove()
+    }
+
+    (() => {
+        const link = document.createElement('link');
+        link.setAttribute('rel', 'stylesheet');
+        link.setAttribute('type', 'text/css');
+        link.setAttribute('href', 'https://fonts.googleapis.com/css?family=Nunito:400,700|Titan+One|Creepster|Satisfy|Eczar:700');
+        document.head.appendChild(link);
+    })()
+
+    function l(e, t = {}, ...a) {
+        var o = document.createElement(e);
+        if ("object" == typeof t.style) {
+            let r = "";
+            for (let i in t.style)
+                r += `${i.replace(/[A-Z]/g, e => "-" + e.toLowerCase())}: ${t.style[i]}; `;
+            t.style = r
+        }
+        for (let n in t)
+            o[n] = t[n];
+        for (let s of a)
+            o.append(s);
+        return o
+    }
+    let c = {
+        data: null,
+        setItem(e, t) {
+            return e.split(".").reduce((e, a, o, r) => (e[a] = (e[a] ? e[a] : {}), ++o == r.length && (e[a] = t), e[a]), this.data),
+                localStorage.setItem("ZIPGUISettings", JSON.stringify(this.data)),
+                this.data
+        },
+        deleteItem(e) {
+            return e.split(".").reduce((e, t, a, o) => (++a == o.length && delete e[t], e[t]), this.data),
+                localStorage.setItem("ZIPGUISettings", JSON.stringify(this.data)),
+                this.data
+        },
+        setData(e) {
+            this.data = e,
+                localStorage.setItem("ZIPGUISettings", JSON.stringify(this.data))
+        }
+    };
+    try {
+        for (let d of (c.data = JSON.parse(localStorage.getItem("ZIPGUISettings") || "{}"), ["backgroundColor", "cheatList", "contentBackground", "defaultButton", "disabledButton", "enabledButton", "infoColor", "inputColor", "textColor"]))
+            c.data[d] && (c.setItem("theme." + d, c.data[d]), c.deleteItem(d))
+    } catch {
+        c.setData({})
+    }
+    let p,
+        u,
+        h,
+        m,
+        $,
+        g,
+        y,
+        b,
+        v,
+        _ = l("div", {
+            id: "ZIPGUI",
+            style: {
+                top: Math.max(10, window.innerHeight - 600) / 2 + "px",
+                left: Math.max(10, window.innerWidth - 1e3) / 2 + "px",
+                transform: `scale(${c.data.scale})`,
+                position: "fixed",
+                height: "80%",
+                width: "80%",
+                maxHeight: "600px",
+                maxWidth: "1000px",
+                zIndex: "999",
+                display: "block"
+            }
+        }, p = l("style", {
+            id: "variables",
+            innerHTML: `:root {--backgroundColor: ${c.data?.theme?.backgroundColor || "rgb(11, 194, 207)"};--infoColor: ${c.data?.theme?.infoColor || "#9a49aa"};--cheatList: ${c.data?.theme?.cheatList || "#9a49aa"};--defaultButton: ${c.data?.theme?.defaultButton || "#9a49aa"};--disabledButton: ${c.data?.theme?.disabledButton || "#A02626"};--enabledButton: ${c.data?.theme?.enabledButton || "#47A547"};--textColor: ${c.data?.theme?.textColor || "white"};--inputColor: ${c.data?.theme?.inputColor || "#7a039d"};--contentBackground: ${c.data?.theme?.contentBackground || "rgb(64, 17, 95)"};}`
+        }), l("style", {
+            innerHTML: '.alertList::-webkit-scrollbar{display:none;}.alertList{-ms-overflow-style: none;scrollbar-width: none;}.contentWrapper::-webkit-scrollbar{display:none;}.contentWrapper{-ms-overflow-style: none;scrollbar-width: none;}.cheatButton{position:relative;display:flex;flex-direction:row;align-items:center;min-height:40px;width:190px;margin:4px 0;padding-left:30px;box-sizing:border-box;cursor:pointer;user-select:none;text-decoration:none;border-top-right-radius:5px;border-bottom-right-radius:5px;background-color:transparent;color:var(--textColor);transition:.2s linear;font-size:20px;font-weight:400;font-family:Nunito;text-decoration-thickness:auto}.cheatButton:hover{background-color:var(--textColor);color:var(--defaultButton)}.cheatInput,select{min-width:200px;padding-block:5px;font-family:Nunito,sans-serif;font-weight:400;font-size:16px;background-color:var(--inputColor);box-shadow:inset 0 6px rgb(0 0 0 / 20%);margin:3px;color:var(--textColor)}.bigButton:hover{filter:brightness(110%);transform:translateY(-2px)}.bigButton:active{transform:translateY(2px)}.cheatList::-webkit-scrollbar{width:10px}.cheatList::-webkit-scrollbar-track{background:var(--cheatList)}.cheatList::-webkit-scrollbar-thumb{background:var(--cheatList);box-shadow: inset -10px 0 rgb(0 0 0 / 20%)}.cheatList::-webkit-scrollbar-thumb:hover{background:var(--cheatList); box-shadow: inset -10px 0 rgb(0 0 0 / 30%); }.scriptButton:hover{filter:brightness(120%)}.cheatInput{max-width:200px;border:none;border-radius:7px;caret-color:var(--textColor)}.cheatInput::placeholder{color:var(--textColor)}.cheatInput:focus,select:focus{outline:0}.cheatInput::-webkit-inner-spin-button,.cheatInput::-webkit-outer-spin-button{-webkit-appearance:none;margin:0}.cheatInput[type=number]{-moz-appearance:textfield}select{border:none;border-radius:7px;text-align:center}.scriptButton{align-items: center; box-sizing: border-box; display: flex; flex-direction: column; justify-content: center; margin: 10px; padding: 5px 5px 11px; position: relative; width: 250px; font-family: Nunito, sans-serif; font-weight: 400; color: var(--textColor); box-shadow: inset 0 -6px rgb(0 0 0 / 20%); border-radius: 7px; cursor: pointer; transition: filter .25s;}.tooltip::after {content: "";position: absolute;width: 10px;height: 10px;background-color: inherit;top: -5px;left: 50%;margin-left: -6px;transform: rotate(135deg)}'
+        }), u = l("div", {
+            style: {
+                width: "100%",
+                height: "100%",
+                position: "relative",
+                outline: "3px solid #3a3a3a",
+                borderRadius: "15px",
+                overflow: "hidden"
+            }
+        }, l("div", {
+            id: "background",
+            style: {
+                display: "block",
+                top: "0",
+                left: "0",
+                height: "100%",
+                overflowY: "hidden",
+                overflowX: "hidden",
+                position: "absolute",
+                width: "100%",
+                background: "var(--backgroundColor)",
+                visibility: "visible"
+            }
+        }, l("div", {
+            id: "backgroundImage",
+            style: {
+                backgroundImage: "url(https://ac.blooket.com/dashboard/65a43218fd1cabe52bdf1cda34613e9e.png)",
+                display: "block",
+                height: "200%",
+                position: "absolute",
+                width: "200%",
+                top: "50%",
+                left: "50%",
+                backgroundPositionX: "-100px",
+                backgroundPositionY: "-100px",
+                backgroundSize: "550px",
+                visibility: "visible",
+                transform: "translate(-50%,-50%) rotate(15deg)",
+                appearance: "none",
+                opacity: "0.175"
+            }
+        })), m = l("div", {
+            id: "controls",
+            style: {
+                display: "flex",
+                alignItems: "center",
+                justifyContent: "center",
+                paddingBottom: "8px",
+                paddingInline: "15px",
+                position: "absolute",
+                left: "220px",
+                top: "0",
+                visibility: "visible",
+                zIndex: "5",
+                height: "52px",
+                width: "max-content",
+                background: "var(--infoColor)",
+                boxShadow: "inset 0 -8px rgb(0 0 0 / 20%), 0 0 4px rgb(0 0 0 / 15%)",
+                borderBottomRightRadius: "10px",
+                color: "var(--textColor)",
+                fontFamily: "Nunito, sans-serif",
+                fontWeight: "700",
+                userSelect: "text"
+            },
+            innerText: ([{
+                ctrl: e,
+                shift: t,
+                alt: a,
+                key: o
+            }, {
+                ctrl: r,
+                shift: i,
+                alt: n,
+                key: s
+            }] = [c.data.hide || {
+                ctrl: !0,
+                key: "e"
+            }, c.data.close || {
+                ctrl: !0,
+                key: "x"
+            }], `${[e && "Ctrl", t && "Shift", a && "Alt", o && o.toUpperCase()].filter(Boolean).join(" + ")} to hide | ${[r && "Ctrl", i && "Shift", n && "Alt", s && s.toUpperCase()].filter(Boolean).join(" + ")} for quick disable Click and drag here`),
+            update: ({
+                ctrl: e,
+                shift: t,
+                alt: a,
+                key: o
+            } = {
+                ctrl: !0,
+                key: "e"
+            }, {
+                ctrl: r,
+                shift: i,
+                alt: n,
+                key: s
+            } = {
+                ctrl: !0,
+                key: "x"
+            }) => m.innerText = `${[e && "Ctrl", t && "Shift", a && "Alt", o && o.toUpperCase()].filter(Boolean).join(" + ")} to hide | ${[r && "Ctrl", i && "Shift", n && "Alt", s && s.toUpperCase()].filter(Boolean).join(" + ")} for quick disable Click and drag here`
+        }), l("div", {
+        }), $ = l("div", {
+            id: "controlButtons",
+            style: {
+                display: "flex",
+                alignItems: "center",
+                justifyContent: "center",
+                position: "absolute",
+                right: "0",
+                bottom: "0",
+                visibility: "visible",
+                zIndex: "5",
+                height: "55px",
+                width: "165px",
+                background: "#none",
+                borderLeft: "3px solid black",
+                borderTop: "3px solid black",
+                borderTopLeftRadius: "10px",
+                color: "white",
+                fontFamily: "Nunito, sans-serif",
+                fontWeight: "700",
+                userSelect: "text",
+                overflow: "hidden",
+                pointerEvents: "all"
+            }
+        }, g = l("button", {
+            style: {
+                height: "55px",
+                width: "55px",
+                fontFamily: "Nunito",
+                color: "white",
+                backgroundColor: "#00a0ff",
+                border: "none",
+                fontSize: "2rem",
+                cursor: "move"
+            },
+            innerHTML: "✥"
+        }), l("button", {
+            style: {
+                height: "55px",
+                width: "55px",
+                fontFamily: "Nunito",
+                color: "white",
+                backgroundColor: "grey",
+                border: "none",
+                fontSize: "2rem",
+                fontWeight: "bolder",
+                cursor: "pointer"
+            },
+            innerHTML: "-",
+            onclick: function() {
+                    let e = !1;
+                    return () => {
+                        for (var t of [...u.children])
+                            t != $ && (e ? t.style.display = t.style._display : (t.style._display = t.style.display, t.style.display = "none"));
+                        u.style.height = e ? "100%" : "55px",
+                            u.style.width = e ? "100%" : "165px",
+                            _.style.top = parseInt(_.style.top) + (_.offsetHeight - 55) * (e ? -1 : 1) + "px",
+                            _.style.left = parseInt(_.style.left) + (_.offsetWidth - 165) * (e ? -1 : 1) + "px",
+                            _.style.pointerEvents = e ? "unset" : "none",
+                            e = !e
+                    }
+                }
+                ()
+        }), l("button", {
+            style: {
+                height: "55px",
+                width: "55px",
+                fontFamily: "Nunito",
+                color: "white",
+                backgroundColor: "red",
+                border: "none",
+                fontSize: "2rem",
+                fontWeight: "bolder",
+                cursor: "pointer"
+            },
+            innerHTML: "X",
+            onclick: D
+        })), h = l("div", {
+            className: "cheatList",
+            style: {
+                overflowY: "scroll",
+                background: "var(--cheatList)",
+                boxShadow: "inset -10px 0 rgb(0 0 0 / 20%)",
+                zIndex: "5",
+                width: "220px",
+                position: "absolute",
+                top: "0",
+                left: "0",
+                height: "100%",
+                fontFamily: "Titan One",
+                color: "var(--textColor)",
+                fontSize: "40px",
+                textAlign: "center",
+                paddingTop: "20px",
+                userSelect: "none",
+                padding: "20px 10px 20px 0",
+                boxSizing: "border-box",
+                display: "flex",
+                flexDirection: "column"
+            },
+            innerHTML: '<span style="text-shadow: 1px 1px rgb(0 0 0 / 40%); font-size: 0.8em;">Zip´s Cheats<sup>v2.1</sup></span>'
+        }, l("a", {
+            className: "bigButton",
+            style: {
+                cursor: "pointer",
+                display: "block",
+                fontFamily: "Titan One",
+                margin: "20px auto 10px",
+                position: "relative",
+                transition: ".25s",
+                textDecoration: "none",
+                userSelect: "none",
+                visibility: "visible"
+            },
+            target: "_blank",
+            href: "#",
+            innerHTML: '<div style="background: rgba(0,0,0,.25); border-radius: 5px; display: block; width: 100%; height: 100%; left: 0; top: 0; position: absolute; transform: translateY(2px); width: 100%; transition: transform .6s cubic-bezier(.3,.7,.4,1)"></div> <div style="background-color: rgb(11, 194, 207); filter: brightness(.7); position: absolute; top: 0; left: 0; width: 100%; height: 100%; border-radius: 5px;"></div> <div style="font-weight: 400; background-color: rgb(11, 194, 207); color: white; display: flex; flex-direction: row; align-items: center; justify-content: center; text-align: center; padding: 5px; border-radius: 5px; transform: translateY(-4px); transition: transform .6s cubic-bezier(.3,.7,.4,1)"> <div style="font-family: Titan One, sans-serif; color: white; font-size: 16px; text-shadow: 2px 2px rgb(0 0 0 / 20%); height: 40px; padding: 0 15px; display: flex; flex-direction: row; align-items: center; justify-content: center"> <img style="filter: drop-shadow(2px 2px 0 rgb(0 0 0 / 20%)); margin-right: 10px;" src="https://pbs.twimg.com/media/GrUoURrXQAAW6hV?format=png&name=240x240" width="35" height="35">  COMING SOON </div> </div>'
+        })), l("div", {
+            className: "contentWrapper",
+            style: {
+                position: "absolute",
+                left: "220px",
+                top: "70px",
+                overflowY: "scroll",
+                width: "calc(100% - 220px)",
+                height: "calc(100% - 70px)",
+                borderRadius: "7px"
+            }
+        }, l("div", {
+            id: "content",
+            style: {
+                position: "absolute",
+                inset: "27px 50px 50px 50px"
+            }
+        }, y = l("div", {
+            className: "tooltip",
+            style: {
+                position: "absolute",
+                top: "0",
+                left: "0",
+                backgroundColor: "black",
+                height: "fit-content",
+                maxWidth: "300px",
+                zIndex: "5",
+                borderRadius: "7.5px",
+                color: "white",
+                display: "flex",
+                justifyContent: "center",
+                alignItems: "center",
+                padding: "5px",
+                paddingInline: "15px",
+                pointerEvents: "none",
+                opacity: "0",
+                textAlign: "center"
+            },
+            innerText: "description"
+        }), b = l("div", {
+            style: {
+                alignItems: "center",
+                boxSizing: "border-box",
+                display: "flex",
+                flexDirection: "row",
+                flexWrap: "wrap",
+                justifyContent: "space-evenly",
+                padding: "20px 5px 20px",
+                position: "relative",
+                width: "100%",
+                fontFamily: "Nunito, sans-serif",
+                fontWeight: "400",
+                color: "var(--textColor)",
+                background: "var(--contentBackground)",
+                boxShadow: "inset 0 -6px rgb(0 0 0 / 20%)",
+                borderRadius: "7px"
+            }
+        }, v = l("div", {
+            className: "headerText",
+            style: {
+                boxSizing: "border-box",
+                display: "block",
+                height: "45px",
+                left: "-10px",
+                padding: "4px 4px 8px",
+                position: "absolute",
+                top: "-28px",
+                backgroundColor: "#ef7426",
+                boxShadow: "0 4px rgb(0 0 0 / 20%), inset 0 -4px rgb(0 0 0 / 20%)",
+                borderRadius: "7px"
+            }
+        }, l("div", {
+            style: {
+                alignItems: "center",
+                boxSizing: "border-box",
+                display: "flex",
+                height: "100%",
+                justifyContent: "center",
+                padding: "0 15px",
+                width: "100%",
+                fontFamily: "Titan One, sans-serif",
+                fontSize: "26px",
+                fontWeight: "400",
+                textShadow: "-1px -1px 0 #646464, 1px -1px 0 #646464, -1px 1px 0 #646464, 2px 2px 0 #646464",
+                color: "white",
+                background: "linear-gradient(#fcd843,#fcd843 50%,#feb31a 50.01%,#feb31a)",
+                borderRadius: "5px"
+            }
+        })))))));
+    for (let f of document.querySelectorAll("#ZIPGUI"))
+        f.remove();
+
+    function w(e, t, a, o) {
+        let r = l("div", {
+            className: "cheatButton",
+            innerHTML: ("string" == typeof t ? `<img style="height: 30px; margin-right: 5px" src="${t}">` : t || "") + e,
+            onclick: () => k(r.innerText, a, o)
+        });
+        return h.appendChild(r),
+            r.onclick
+    }
+
+    function insertElemBefore(name, imgSrc, a, o, elem) {
+        let r = l("div", {
+            className: "cheatButton",
+            innerHTML: ("string" == typeof imgSrc ? `<img style="height: 30px; margin-right: 5px" src="${imgSrc}">` : imgSrc || "") + name,
+            onclick: () => k(r.innerText, a, o)
+        });
+        return h.insertBefore(r, elem),
+            r.onclick
+    }
+    async function k(e, t, a) {
+        b.innerHTML = "",
+            v.firstChild.innerText = e + (a ? "" : " Cheats"),
+            b.append(v);
+        for (let o = 0; o < t.length; o++) {
+            let {
+                name: r,
+                description: i,
+                type: n,
+                inputs: s,
+                enabled: c,
+                run: d,
+                element: p
+            } = t[o];
+            if (!p) {
+                let u = l("div", {
+                    className: "scriptButton",
+                    style: {
+                        background: "toggle" == n ? c ? "var(--enabledButton)" : "var(--disabledButton)" : "var(--defaultButton)"
+                    }
+                }, l("div", {
+                    className: "cheatName",
+                    innerHTML: r
+                }));
+                if (u.dataset.description = i, u.onclick = (function({
+                        target: e,
+                        key: t
+                    }) {
+                        (e == u || e.classList.contains("cheatName") || "Enter" == t && e.classList.contains("cheatInput")) && (t = [...u.children].slice(1), d.apply(this, t.map(e => "number" == e.type ? parseInt("0" + e.value) : "SELECT" == e.nodeName ? JSON.parse(e.value) : e.data || e.value)), "toggle" == n && (u.style.background = this.enabled ? "var(--enabledButton)" : "var(--disabledButton)"), C.alerts?.[0].addLog(`${"toggle" == n ? this.enabled ? "Enabled" : "Disabled" : "Ran"} <strong>${this.name}</strong>` + (s?.length ? ` with inputs: (${t.map(e => "SELECT" == e.nodeName ? e.selectedOptions[0].innerText : e.value).join(", ")})` : ""), "toggle" == n ? this.enabled ? "var(--enabledButton)" : "var(--disabledButton)" : null))
+                    }).bind(t[o]), s?.length)
+                    for (let h = 0; h < s.length; h++) {
+                        var {
+                            name: m,
+                            type: $,
+                            options: g,
+                            min: y,
+                            max: _,
+                            value: f
+                        } = s[h];
+                        let w;
+                        try {
+                            w = await ("function" == typeof g ? g?.() : g)
+                        } catch {
+                            w = []
+                        }
+                        if ("options" == $ && w?.length) {
+                            let k = document.createElement("select");
+                            w.forEach(e => {
+                                    var t = document.createElement("option");
+                                    t.value = JSON.stringify(e?.value || e),
+                                        t.innerHTML = e?.name || e,
+                                        k.appendChild(t)
+                                }),
+                                u.appendChild(k)
+                        } else if ("function" == $) {
+                            let S = document.createElement("input");
+                            S.classList.add("cheatInput"),
+                                S.placeholder = m,
+                                S.style.textAlign = "center";
+                            let x = (S.readOnly = !0, !1);
+                            S.onclick = async () => {
+                                    x || (S.value = "Waiting for input...", x = !0, S.data = await s[h].function(e => S.value = e + "..."), x = !1, S.value = S.value.slice(0, -3))
+                                },
+                                u.appendChild(S)
+                        } else(g = document.createElement("input")).classList.add("cheatInput"), "number" == $ && (g.type = "number", g.min = y, g.max = _, g.value = f || (null != y ? y : 0)), g.placeholder = m, g.style.textAlign = "center", g.onkeyup = u.onclick, u.appendChild(g)
+                    }
+                t[o].element = u
+            }
+            b.appendChild(t[o].element)
+        }
+    }
+    document.body.appendChild(_);
+    let C = {
+        global: [{
+            name: "Auto Answer",
+            description: "Toggles auto answer on",
+            type: "toggle",
+            enabled: !1,
+            data: null,
+            run: function() {
+                this.enabled ? (this.enabled = !1, clearInterval(this.data), this.data = null) : (this.enabled = !0, this.data = setInterval(() => {
+                    var {
+                        state: {
+                            question: e,
+                            stage: t,
+                            feedback: a
+                        },
+                        props: {
+                            client: {
+                                question: o
+                            }
+                        }
+                    } = Object.values(document.querySelector("body div[id] > div > div"))[1].children[0]._owner.stateNode;
+                    let r = e || o;
+                    try {
+                        "typing" != r.qType ? ("feedback" === t || a ? document.querySelector('[class*="feedback"]')?.firstChild : [...document.querySelectorAll('[class*="answerContainer"]')][r.answers.map((e, t) => r.correctAnswers.includes(e) ? t : null).filter(e => null != e)[0]])?.click?.() : Object.values(document.querySelector("[class*='typingAnswerWrapper']"))[1].children._owner.stateNode.sendAnswer(r.answers[0])
+                    } catch {}
+                }, 50))
+            }
+        }, {
+            name: "Highlight Answers",
+            description: "Toggles highlight answers on",
+            type: "toggle",
+            enabled: !1,
+            data: null,
+            run: function() {
+                this.enabled ? (this.enabled = !1, clearInterval(this.data), this.data = null) : (this.enabled = !0, this.data = setInterval(() => {
+                    let {
+                        stateNode: {
+                            state: e,
+                            props: t
+                        }
+                    } = Object.values(function e(t = document.querySelector("body>div")) {
+                            return Object.values(t)[1]?.children?.[0]?._owner.stateNode ? t : e(t.querySelector(":scope>div"))
+                        }
+                        ())[1].children[0]._owner;
+                    [...document.querySelectorAll('[class*="answerContainer"]')].forEach((a, o) => {
+                        (e.question || t.client.question).correctAnswers.includes((e.question || t.client.question).answers[o]) ? a.style.backgroundColor = "rgb(0, 207, 119)" : a.style.backgroundColor = "rgb(189, 15, 38)"
+                    })
+                }, 50))
+            }
+        }, {
+            name: "Subtle Highlight Answers",
+            description: "Toggles subtle highlight answers on",
+            type: "toggle",
+            enabled: !1,
+            data: null,
+            run: function() {
+                this.enabled ? (this.enabled = !1, clearInterval(this.data), this.data = null) : (this.enabled = !0, this.data = setInterval(() => {
+                    let {
+                        stateNode: {
+                            state: e,
+                            props: t
+                        }
+                    } = Object.values(function e(t = document.querySelector("body>div")) {
+                            return Object.values(t)[1]?.children?.[0]?._owner.stateNode ? t : e(t.querySelector(":scope>div"))
+                        }
+                        ())[1].children[0]._owner;
+                    [...document.querySelectorAll('[class*="answerContainer"]')].forEach((a, o) => {
+                        (e.question || t.client.question).correctAnswers.includes((e.question || t.client.question).answers[o]) && (a.style.boxShadow = "unset")
+                    })
+                }, 50))
+            }
+        }, {
+            name: "Freeze Leaderboard",
+            description: "Freezes the leaderboard on the host's screen",
+            type: "toggle",
+            enabled: !1,
+            data: null,
+            run: function() {
+                var e = Object.values(function e(t = document.querySelector("#app")) {
+                        return Object.values(t)[1]?.children?.[0]?._owner.stateNode ? t : e(t.querySelector(":scope>div"))
+                    }
+                    ())[1].children[0]._owner.stateNode;
+                if (this.enabled)
+                    this.enabled = !1, clearInterval(this.data), this.data = null, e.props.liveGameController.removeVal(`c/${e.props.client.name}/tat`);
+                else {
+                    this.enabled = !0;
+                    let t = () => {
+                        e.props.liveGameController.setVal({
+                            path: `c/${e.props.client.name}/tat/Freeze`,
+                            val: "freeze"
+                        })
+                    };
+                    this.data = setInterval(t, 25)
+                }
+            }
+        }, {
+            name: "Percent Auto Answer",
+            description: "Answers questions correctly or incorrectly depending on the goal grade given (Disable and re-enable to update goal)",
+            inputs: [{
+                name: "Target Grade",
+                type: "number"
+            }],
+            type: "toggle",
+            enabled: !1,
+            data: null,
+            run: function(e) {
+                if (this.enabled)
+                    this.enabled = !1, clearInterval(this.data), this.data = null;
+                else {
+                    this.enabled = !0;
+                    let {
+                        stateNode: t
+                    } = Object.values(function e(t = document.querySelector("body>div")) {
+                            return Object.values(t)[1]?.children?.[0]?._owner.stateNode ? t : e(t.querySelector(":scope>div"))
+                        }
+                        ())[1].children[0]._owner;
+                    this.data = setInterval(e => {
+                        try {
+                            let a = t.state.question || t.props.client.question;
+                            if ("feedback" == t.state.stage || t.state.feedback)
+                                return document.querySelector('[class*="feedback"], [id*="feedback"]')?.firstChild?.click?.();
+                            if (document.querySelector("[class*='answerContainer']") || document.querySelector("[class*='typingAnswerWrapper']")) {
+                                let o = 0,
+                                    r = 0;
+                                for (let i in t.corrects)
+                                    o += t.corrects[i];
+                                for (let n in t.incorrects)
+                                    r += t.incorrects[n];
+                                r += o;
+                                let s = 0 == r || Math.abs(o / (r + 1) - e) >= Math.abs((o + 1) / (r + 1) - e);
+                                if ("typing" != t.state.question.qType) {
+                                    let l = document.querySelectorAll("[class*='answerContainer']");
+                                    for (let c = 0; c < l.length; c++) {
+                                        let d = a.correctAnswers.includes(a.answers[c]);
+                                        if (s && d || !s && !d)
+                                            return l[c]?.click?.()
+                                    }
+                                    l[0].click()
+                                } else
+                                    Object.values(document.querySelector("[class*='typingAnswerWrapper']"))[1].children._owner.stateNode.sendAnswer(s ? a.answers[0] : Math.random().toString(36).substring(2))
+                            }
+                        } catch {}
+                    }, 100, (e ?? 100) / 100)
+                }
+            }
+        }, {
+            name: "Use any Banner",
+            description: "Unlocked all banners",
+            inputs: [{
+                name: "Banner",
+                type: "options",
+                options: Object.entries({
+                    Starter: "starter",
+                    Fire: "fire",
+                    "Tech Chip": "techChip",
+                    Shamrocks: "shamrocks",
+                    "Orange Ice Pop": "orangeIcePop",
+                    Slime: "slime",
+                    Sushi: "sushi",
+                    "Falling Blocks": "fallingBlocks",
+                    Racetrack: "racetrack",
+                    "Football Field": "footballField",
+                    "Ice Cream Sandwich": "iceCreamSandwich",
+                    "Winter Landscape": "winterLandscape",
+                    Leaves: "leaves",
+                    "Music Class": "musicClass",
+                    "Science Class": "scienceClass",
+                    "Art Class": "artClass",
+                    Clockwork: "clockwork",
+                    "Hockey Rink": "hockeyRink",
+                    "Outer Space": "outerSpace",
+                    "Soccer Field": "soccerField",
+                    Ice: "ice",
+                    "Toaster Pastry": "toasterPastry",
+                    "Fish Tank": "fishTank",
+                    Theater: "theater",
+                    Farm: "farm",
+                    Spooky: "spooky",
+                    "Spooky Cat": "spookyCat",
+                    "Spooky Window": "spookyWindow",
+                    Frankenstein: "frankenstein",
+                    Ghosts: "ghosts",
+                    Mummy: "mummy",
+                    Spiders: "spiders",
+                    Coffin: "coffin",
+                    Pumpkins: "pumpkins",
+                    "Christmas Tree": "christmasTree",
+                    Chalkboard: "chalkboard",
+                    Balloons: "balloons",
+                    Skateboard: "skateboard",
+                    Sunset: "sunset",
+                    Tiger: "tiger",
+                    "Pirate Map": "pirateMap",
+                    Pencil: "pencil",
+                    "Road Sign": "roadSign",
+                    "Corn Dog": "cornDog",
+                    Leaf: "leaf",
+                    "Chili Pepper": "chiliPepper",
+                    "Love Letter": "loveLetter",
+                    Gifts: "gifts",
+                    "Winter Train": "winterTrain",
+                    "Winter Drive": "winterDrive",
+                    Workbench: "workbench",
+                    Harvest: "harvest",
+                    Chocolate: "chocolate",
+                    "Fall Picnic": "fallPicnic",
+                    Bookshelf: "bookshelf",
+                    "Easter Pattern": "easterPattern",
+                    Carrot: "carrot",
+                    "Easter Field": "easterField",
+                    Garden: "garden",
+                    Bakery: "bakery",
+                    "Gummy Worm": "gummyWorm",
+                    "Basketball Court": "basketballCourt",
+                    "Flying Kite": "flyingKite",
+                    "Hot Dog": "hotDog",
+                    "Japanese Garden": "japaneseGarden",
+                    Sandwich: "sandwich",
+                    Ruler: "ruler",
+                    "Ball Pit": "ballPit",
+                    "Xylophone": "xylophone",
+                    "Holiday Lights": "holidayLights",
+                    "Ice Cream Truck": "iceCreamTruck",
+                    "Holiday Gift Wrap": "holidayGiftWrap",
+                    "Winter Sweater": "winterSweater",
+                    "Holiday Ornaments": "holidayOrnaments",
+                    Watermelon: "watermelon",
+                    Baguette: "baguette",
+                    Rollerblades: "rollerblades",
+                    Surfboard: "surfboard",
+                    Cookout: "cookout",
+                    Comic: "comic",
+                    Crayon: "crayon",
+                    Lightning: "lightning",
+                    Baseball: "baseball",
+                    "Shamrock Coins": "shamrockCoins",
+                    "End Of The Rainbow": "endRainbow",
+                    "Easter Field": "easterField",
+                    Marker: "marker",
+                    Pizza: "pizza",
+                    Leaf: "leaf",
+                    "Alphabet Soup": "alphabetSoup"
+                }).map(([e, t]) => ({
+                    name: e,
+                    value: t
+                }))
+            }],
+            run: function(e) {
+                var t = document.createElement("iframe");
+
+                function a() {
+                    return Object.values(document.querySelector("#app>div>div"))[1].children[0]._owner
+                }
+                document.head.appendChild(t),
+                    window.alert = t.contentWindow.alert.bind(window),
+                    window.prompt = t.contentWindow.prompt.bind(window),
+                    t.remove(),
+                    a().stateNode.props.liveGameController.setVal({
+                        path: "c/" + a().stateNode.props.client.name + "/bg",
+                        val: e
+                    })
+            }
+        }, {
+            name: "Spam Buy Blooks",
+            description: "Opens a box an amount of times",
+            inputs: [{
+                name: "Box",
+                type: "options",
+                options: () => Array.from(document.querySelectorAll("[class*='packsWrapper'] > div")).reduce((e, t) => (t.querySelector("[class*='blookContainer'] > img") || e.push(t.querySelector("[class*='packImgContainer'] > img").alt), e), [])
+            }, {
+                name: "Amount",
+                type: "number"
+            }, {
+                name: "Show Unlocks",
+                type: "options",
+                options: [{
+                    name: "Show Unlocks",
+                    value: !0
+                }, {
+                    name: "Don't Show Unlocks",
+                    value: !1
+                }]
+            }],
+            run: async function(e, t, a) {
+                let o = document.createElement("iframe");
+                document.body.append(o),
+                    window.alert = o.contentWindow.alert.bind(window),
+                    window.prompt = o.contentWindow.prompt.bind(window),
+                    window.confirm = o.contentWindow.confirm.bind(window),
+                    o.remove();
+                let {
+                    stateNode: r
+                } = Object.values(function e(t = document.querySelector("body>div")) {
+                            return Object.values(t)[1]?.children?.[0]?._owner.stateNode ? t : e(t.querySelector(":scope>div"))
+                        }
+                        ())[1].children[0]._owner,
+                    i = Array.from(document.querySelectorAll("[class*='packsWrapper'] > div")).reduce((e, t) => (t.querySelector("[class*='blookContainer'] > img") || (e[t.querySelector("[class*='packImgContainer'] > img").alt] = parseInt(t.querySelector("[class*='packBottom']").textContent)), e), {}),
+                    n = e.split(" ").map(e => e.charAt(0).toUpperCase() + e.slice(1).toLowerCase()).join(" "),
+                    s = i[n];
+                if (!s)
+                    return alert("I couldn't find that box!");
+                let l = Math.min(Math.floor(r.state.tokens / s), t);
+                if (0 == l)
+                    return alert("You do not have enough tokens!");
+                let c = {},
+                    d = Date.now();
+                for (let p = 0; p < l; p++) {
+                    await r.buyPack(!0, n),
+                        c[r.state.unlockedBlook] ||= 0,
+                        c[r.state.unlockedBlook]++;
+                    let u = Date.now();
+                    d += Date.now() - u,
+                        r.setState({
+                            canOpen: !0,
+                            currentPack: "",
+                            opening: a,
+                            doneOpening: a,
+                            openPack: a
+                        }),
+                        clearTimeout(r.canOpenTimeout)
+                }
+                await new Promise(e => setTimeout(e)),
+                    alert(`(${Date.now() - d}ms) Results: ${Object.entries(c).map(([e, t]) => `    ${e} ${t}`).join(` `)}`)
+            }
+        }, {
+            name: "Flood Game",
+            description: "Floods a game with a number of fake accounts",
+            inputs: [{
+                name: "Name",
+                type: "string"
+            }, {
+                name: "Amount",
+                type: "number"
+            }, {
+                name: "Blook",
+                type: "options",
+                options: ["Chick", "Chicken", "Cow", "Goat", "Horse", "Pig", "Sheep", "Duck", "Alpaca", "Dog", "Cat", "Rabbit", "Goldfish", "Hamster", "Turtle", "Kitten", "Puppy", "Bear", "Moose", "Fox", "Raccoon", "Squirrel", "Owl", "Hedgehog", "Deer", "Wolf", "Beaver", "Tiger", "Orangutan", "Cockatoo", "Parrot", "Anaconda", "Jaguar", "Macaw", "Toucan", "Panther", "Capuchin", "Gorilla", "Hippo", "Rhino", "Giraffe", "Snowy Owl", "Polar Bear", "Arctic Fox", "Baby Penguin", "Penguin", "Arctic Hare", "Seal", "Walrus", "Witch", "Wizard", "Elf", "Fairy", "Slime Monster", "Jester", "Dragon", "Queen", "Unicorn", "King", "Two of Spades", "Eat Me", "Drink Me", "Alice", "Queen of Hearts", "Dormouse", "White Rabbit", "Cheshire Cat", "Caterpillar", "Mad Hatter", "King of Hearts", "Toast", "Cereal", "Yogurt", "Breakfast Combo", "Orange Juice", "Milk", "Waffle", "Pancakes", "French Toast", "Pizza", "Earth", "Meteor", "Stars", "Alien", "Planet", "UFO", "Spaceship", "Astronaut", "Lil Bot", "Lovely Bot", "Angry Bot", "Happy Bot", "Watson", "Buddy Bot", "Brainy Bot", "Mega Bot", "Old Boot", "Jellyfish", "Clownfish", "Frog", "Crab", "Pufferfish", "Blobfish", "Octopus", "Narwhal", "Dolphin", "Baby Shark", "Megalodon", "Panda", "Sloth", "Tenrec", "Flamingo", "Zebra", "Elephant", "Lemur", "Peacock", "Chameleon", "Lion", "Amber", "Dino Egg", "Dino Fossil", "Stegosaurus", "Velociraptor", "Brontosaurus", "Triceratops", "Tyrannosaurus Rex", "Ice Bat", "Ice Bug", "Ice Elemental", "Rock Monster", "Dink", "Donk", "Bush Monster", "Yeti", "Dingo", "Echidna", "Koala", "Kookaburra", "Platypus", "Joey", "Kangaroo", "Crocodile", "Sugar Glider", "Deckhand", "Buccaneer", "Swashbuckler", "Treasure Map", "Seagull", "Jolly Pirate", "Pirate Ship", "Kraken", "Captain Blackbeard", "Snow Globe", "Holiday Gift", "Hot Chocolate", "Holiday Wreath", "Stocking", "Gingerbread Man", "Gingerbread House", "Reindeer", "Snowman", "Santa Claus", "Pumpkin", "Swamp Monster", "Frankenstein", "Vampire", "Zombie", "Mummy", "Caramel Apple", "Candy Corn", "Werewolf", "Ghost", "Rainbow Jellyfish", "Blizzard Clownfish", "Lovely Frog", "Lucky Frog", "Spring Frog", "Poison Dart Frog", "Lucky Hamster", "Chocolate Rabbit", "Spring Rabbit", "Lemon Crab", "Pirate Pufferfish", "Donut Blobfish", "Crimson Octopus", "Rainbow Narwhal", "Frost Wreath", "Tropical Globe", "New York Snow Globe", "London Snow Globe", "Japan Snow Globe", "Egypt Snow Globe", "Paris Snow Globe", "Red Sweater Snowman", "Blue Sweater Snowman", "Elf Sweater Snowman", "Santa Claws", "Cookies Combo", "Chilly Flamingo", "Snowy Bush Monster", "Nutcracker Koala", "Sandwich", "Ice Slime", "Frozen Fossil", "Ice Crab", "Rainbow Panda", "White Peacock", "Tiger Zebra", "Teal Platypus", "Red Astronaut", "Orange Astronaut", "Yellow Astronaut", "Lime Astronaut", "Green Astronaut", "Cyan Astronaut", "Blue Astronaut", "Pink Astronaut", "Purple Astronaut", "Brown Astronaut", "Black Astronaut", "Lovely Planet", "Lovely Peacock", "Haunted Pumpkin", "Pumpkin Cookie", "Ghost Cookie", "Red Gummy Bear", "Blue Gummy Bear", "Green Gummy Bear", "Chick Chicken", "Chicken Chick", "Raccoon Bandit", "Owl Sheriff", "Vampire Frog", "Pumpkin King", "Leprechaun", "Anaconda Wizard", "Spooky Pumpkin", "Spooky Mummy", "Agent Owl", "Master Elf", "Party Pig", "Wise Owl", "Spooky Ghost", "Phantom King", "Tim the Alien", "Rainbow Astronaut", "Hamsta Claus", "Light Blue", "Black", "Red", "Purple", "Pink", "Orange", "Lime", "Green", "Teal", "Tan", "Maroon", "Gray", "Mint", "Salmon", "Burgandy", "Baby Blue", "Dust", "Brown", "DullBlue", "Yellow", "Blue"].map(e => ({
+                    name: e,
+                    value: e
+                }))
+            }, {
+                name: "Banner",
+                type: "options",
+                options: Object.entries({
+                    Starter: "starter",
+                    Fire: "fire",
+                    "Tech Chip": "techChip",
+                    Shamrocks: "shamrocks",
+                    "Orange Ice Pop": "orangeIcePop",
+                    Slime: "slime",
+                    Sushi: "sushi",
+                    "Falling Blocks": "fallingBlocks",
+                    Racetrack: "racetrack",
+                    "Football Field": "footballField",
+                    "Ice Cream Sandwich": "iceCreamSandwich",
+                    "Winter Landscape": "winterLandscape",
+                    Leaves: "leaves",
+                    "Music Class": "musicClass",
+                    "Science Class": "scienceClass",
+                    "Art Class": "artClass",
+                    Clockwork: "clockwork",
+                    "Hockey Rink": "hockeyRink",
+                    "Outer Space": "outerSpace",
+                    "Soccer Field": "soccerField",
+                    Ice: "ice",
+                    "Toaster Pastry": "toasterPastry",
+                    "Fish Tank": "fishTank",
+                    Theater: "theater",
+                    Farm: "farm",
+                    Spooky: "spooky",
+                    "Spooky Cat": "spookyCat",
+                    "Spooky Window": "spookyWindow",
+                    Frankenstein: "frankenstein",
+                    Ghosts: "ghosts",
+                    Mummy: "mummy",
+                    Spiders: "spiders",
+                    Coffin: "coffin",
+                    Pumpkins: "pumpkins",
+                    "Christmas Tree": "christmasTree",
+                    Chalkboard: "chalkboard",
+                    Balloons: "balloons",
+                    Skateboard: "skateboard",
+                    Sunset: "sunset",
+                    Tiger: "tiger",
+                    "Pirate Map": "pirateMap",
+                    Pencil: "pencil",
+                    "Road Sign": "roadSign",
+                    "Corn Dog": "cornDog",
+                    Leaf: "leaf",
+                    "Chili Pepper": "chiliPepper",
+                    "Love Letter": "loveLetter",
+                    Gifts: "gifts",
+                    "Winter Train": "winterTrain",
+                    "Winter Drive": "winterDrive",
+                    Workbench: "workbench",
+                    Harvest: "harvest",
+                    Chocolate: "chocolate",
+                    "Fall Picnic": "fallPicnic",
+                    Bookshelf: "bookshelf",
+                    "Easter Pattern": "easterPattern",
+                    Carrot: "carrot",
+                    "Easter Field": "easterField",
+                    Garden: "garden",
+                    Bakery: "bakery",
+                    "Gummy Worm": "gummyWorm",
+                    "Basketball Court": "basketballCourt",
+                    "Flying Kite": "flyingKite",
+                    "Hot Dog": "hotDog",
+                    "Japanese Garden": "japaneseGarden",
+                    Sandwich: "sandwich",
+                    Ruler: "ruler",
+                    "Ball Pit": "ballPit",
+                    "Xylophone": "xylophone",
+                    "Holiday Lights": "holidayLights",
+                    "Ice Cream Truck": "iceCreamTruck",
+                    "Holiday Gift Wrap": "holidayGiftWrap",
+                    "Winter Sweater": "winterSweater",
+                    "Holiday Ornaments": "holidayOrnaments",
+                    Watermelon: "watermelon",
+                    Baguette: "baguette",
+                    Rollerblades: "rollerblades",
+                    Surfboard: "surfboard",
+                    Cookout: "cookout",
+                    Comic: "comic",
+                    Crayon: "crayon",
+                    Lightning: "lightning",
+                    Baseball: "baseball",
+                    "Shamrock Coins": "shamrockCoins",
+                    "End Of The Rainbow": "endRainbow",
+                    "Easter Field": "easterField",
+                    Marker: "marker",
+                    Pizza: "pizza",
+                    Leaf: "leaf",
+                    "Alphabet Soup": "alphabetSoup"
+                }).map(([e, t]) => ({
+                    name: e,
+                    value: t
+                }))
+            }],
+            run: async function(e, t, a, o) {
+                let r = document.createElement("iframe");
+
+                function i() {
+                    return Object.values(document.querySelector("#app>div>div"))[1].children[0]._owner.stateNode
+                }
+                document.body.append(r),
+                    window.prompt = r.contentWindow.prompt.bind(window),
+                    window.alert = r.contentWindow.alert.bind(window),
+                    r.remove();
+                var n = {
+                    randomNames: !1
+                };
+                if (!i().props.liveGameController._liveApp) {
+                    alert("You must be in a game to use the flooder!");
+                    return
+                }
+                var s = i().props.liveGameController._liveApp.firebase;
+                async function l(e, t) {
+                    let r = await fetch("https://fb.blooket.com/c/firebase/join", {
+                        body: JSON.stringify({
+                            id: e,
+                            name: t
+                        }),
+                        credentials: "include",
+                        method: "PUT"
+                    }).then(e => e.json());
+                    if (r.success) {
+                        let i = s.initializeApp({
+                            apiKey: "AIzaSyCA-cTOnX19f6LFnDVVsHXya3k6ByP_MnU",
+                            authDomain: "blooket-2020.firebaseapp.com",
+                            projectId: "blooket-2020",
+                            storageBucket: "blooket-2020.appspot.com",
+                            messagingSenderId: "741533559105",
+                            appId: "1:741533559105:web:b8cbb10e6123f2913519c0",
+                            measurementId: "G-S3H5NGN10Z",
+                            databaseURL: r.fbShardURL
+                        }, t);
+                        await i.auth().signInWithCustomToken(r.fbToken);
+                        let n = i.database();
+                        await n.ref(`${e}/c/${t}`).set({
+                                b: a,
+                                bg: o
+                            }),
+                            C.alerts[0].addLog(`Bot ${t} joined!`)
+                    } else
+                        alert("Connect error: " + r.msg)
+                }
+                async function c() {
+                    if (!i().props.liveGameController._liveApp) {
+                        alert("You must be in a game for the flooder to work!");
+                        return
+                    }
+                    var a,
+                        o = i().props.client.hostId,
+                        r = parseInt(t);
+                    if (!r) {
+                        alert("You must use a valid number!");
+                        return
+                    }
+                    if (!n.randomNames)
+                        var s = e;
+                    for (var c = 0; c < r; c++)
+                        await l(o, a = n.randomNames ? d(15) : s + Math.floor(4e3 * Math.random()))
+                }
+
+                function d(e) {
+                    for (var t = "", a = 0; a < e; a++)
+                        t += String.fromCharCode(65 + Math.floor(25 * Math.random()));
+                    return t
+                }
+                c()
+            }
+        }, {
+            name: "Simulate Unlock",
+            description: "Simulates unlocking a certian blook",
+            inputs: [{
+                name: "Blook (Case Sensitive)"
+            }],
+            run: (unlockedBlook) => {
+                const stateNode = Object.values(document.querySelector("#app>div>div"))[1].children[0]._owner.stateNode;
+                stateNode.setState({
+                    loadingPack: !1,
+                    openPack: !0,
+                    unlockedBlook,
+                    newUnlock: !0,
+                    canOpen: !1
+                });
+                setTimeout(() => stateNode.setState({
+                    canOpen: !0
+                }), 200);
+            }
+        }, {
+            name: "Simulate Pack",
+            description: "Simulates unlocking a pack",
+            inputs: [{
+                name: "Pack",
+                type: "options",
+                options: () => [...document.querySelector("[class*=packsWrapper]")?.children]?.map(e => e.children[0].children[0].alt)
+            }],
+            run: async (packName) => {
+                let i = document.createElement('iframe');
+                document.body.append(i);
+                const alert = i.contentWindow.alert.bind(window);
+                i.remove();
+                if (window.location.pathname !== "/market") {
+                    alert("You must be on the market page to run this cheat!");
+                    return;
+                }
+                const stateNode = Object.values(document.querySelector("#app>div>div"))[1].children[0]._owner.stateNode;
+                const getProbs = (pack) => (new Promise(res => {
+                    if (!Array.prototype.map2) {
+                        Array.prototype.map2 = Array.prototype.map;
+                    }
+                    Array.prototype.map = function() {
+                        if (typeof this[0]?.[1] == "number") {
+                            res(this);
+                            Array.prototype.map = Array.prototype.map2;
+                        }
+                        return Array.prototype.map2.apply(this, arguments);
+                    }
+                    var a = new(stateNode.constructor)();
+                    a.state.currentPack = pack;
+                    a.render();
+                    res(null);
+                }));
+                async function pickRandom(pack) {
+                    let probs = (await getProbs(pack));
+                    const choice = pickW(probs.map(e => e[1]));
+                    return probs[choice];
+                }
+
+                function pickW(a) {
+                    let v = 0;
+                    let sum = [];
+                    const rand = Math.floor(Math.random() * a.reduce((a, b) => a + b, 0));
+                    a.forEach(e => (sum.push(v), v += e));
+                    return sum.map(e => rand < e).findLastIndex(e => e ? 0 : 1);
+                }
+                stateNode.setState({
+                    loadingPack: !1,
+                    openPack: !0,
+                    unlockedBlook: (await pickRandom(packName))[0],
+                    newUnlock: !0,
+                    canOpen: !1
+                });
+                setTimeout(() => stateNode.setState({
+                    canOpen: !0
+                }), 200);
+            }
+        }, {
+            name: "Bypass Filter",
+            description: "Bypasses the name filter",
+            inputs: [{
+                name: "Text",
+                type: "text",
+            }],
+            run: function(e) {
+                var t,
+                    a,
+                    o;
+                let r;
+                a = function e(t) {
+                        for (var a = t.split(""), o = "", r = 0; r < a.length; r++)
+                            o += "\xad" + a[r];
+                        return o
+                    }
+                    (t = e),
+                    r = document.createElement("iframe"),
+                    document.body.appendChild(r),
+                    window.alert = r.contentWindow.alert.bind(r.contentWindow),
+                    (o = document.createElement("textarea")).value = a,
+                    o.style.position = "fixed",
+                    o.style.top = 0,
+                    o.style.left = 0,
+                    o.style.opacity = 0,
+                    document.body.appendChild(o),
+                    o.select(),
+                    document.execCommand("copy"),
+                    alert("Bypassed text copied to clipboard!"),
+                    r.remove(),
+                    document.body.removeChild(o)
+            }
+        }, {
+            name: "Change Name Ingame",
+            description: "Changes your name ingame",
+            inputs: [{
+                name: "New Name",
+                type: "text"
+            }],
+            run: (function(newname) {
+                (async () => {
+                    const reactHandler = (e => Object.values(document.querySelector("#app>div>div"))[1].children[0]._owner.stateNode);
+                    let i = document.createElement('iframe');
+                    document.body.append(i);
+                    let alert = i.contentWindow.alert.bind(window);
+                    i.remove();
+
+                    async function genToken(name) {
+                        const res = await fetch("https://fb.blooket.com/c/firebase/join", {
+                            body: JSON.stringify({
+                                id: reactHandler().props.client.hostId,
+                                name
+                            }),
+                            headers: {
+                                "Content-Type": "application/json"
+                            },
+                            method: "PUT",
+                            credentials: "include"
+                        }).then(e => e.json());
+                        if (!res.success) {
+                            alert("Error: " + res.msg);
+                            return;
+                        }
+                        return res.fbToken;
+                    }
+
+                    const oldname = reactHandler().props.client.name;
+                    reactHandler().props.client.name = newname;
+                    const olddata = await reactHandler().props.liveGameController.getDatabaseVal(`c/${oldname}`);
+                    await reactHandler().props.liveGameController.removeVal(`c/${oldname}`);
+                    const token = await genToken(newname);
+                    if (!token) {
+                        return;
+                    }
+                    await reactHandler().props.liveGameController._liveApp.auth().signInWithCustomToken(token);
+                    reactHandler().props.liveGameController._liveApp.auth().onAuthStateChanged(e => {
+                        if (e.uid.split(":")[1] === newname) {
+                            reactHandler().props.liveGameController.setVal({
+                                path: `c/${newname}`,
+                                val: olddata
+                            });
+                        }
+                    });
+                    reactHandler().setState({});
+                })();
+            })
+        }, {
+            name: "Use Banner IDs",
+            description: "Enter Banner ID to use Banner",
+            inputs: [{
+                name: "Banner ID",
+                type: "text",
+            }],
+            run: function(e) {
+                var t = document.createElement("iframe");
+
+                function a() {
+                    return Object.values(document.querySelector("#app>div>div"))[1].children[0]._owner
+                }
+                document.head.appendChild(t),
+                    window.alert = t.contentWindow.alert.bind(window),
+                    window.prompt = t.contentWindow.prompt.bind(window),
+                    t.remove(),
+                    a().stateNode.props.liveGameController.setVal({
+                        path: "c/" + a().stateNode.props.client.name + "/bg",
+                        val: e
+                    })
+            }
+        }, {
+            name: "Change Blook Ingame",
+            description: "Changes your blook",
+            inputs: [{
+                name: "Blook",
+                type: "options",
+                async options() {
+                    let {
+                        webpack: e
+                    } = webpackJsonp.push([
+                        [], {
+                            1234(e, t, a) {
+                                t.webpack = a
+                            }
+                        },
+                        [
+                            ["1234"]
+                        ]
+                    ]);
+                    return Object.keys(Object.values(e.c).find(e => e.exports.a?.Chick && e.exports.a?.Elephant).exports.a)
+                }
+            }],
+            run: function(e) {
+                let {
+                    props: t
+                } = Object.values(function e(t = document.querySelector("body>div")) {
+                        return Object.values(t)[1]?.children?.[0]?._owner.stateNode ? t : e(t.querySelector(":scope>div"))
+                    }
+                    ())[1].children[0]._owner.stateNode;
+                t.client.blook = e,
+                    t.liveGameController.setVal({
+                        path: `c/${t.client.name}/b`,
+                        val: e
+                    })
+            }
+        }, {
+            name: "Set Blook Ad Text",
+            description: "Sets a load of text as your blook and floods teachers screen on lobby",
+            inputs: [{
+                name: "Text",
+                type: "input",
+            }],
+            run: function(e) {
+                let t = Object.values(function e(t = document.querySelector("body>div")) {
+                        return Object.values(t)[1]?.children?.[0]?._owner.stateNode ? t : e(t.querySelector(":scope>div"));
+                    }
+                    ())[1].children[0]._owner.stateNode;
+                if (!String.prototype.inc) {
+                    String.prototype.inc = String.prototype.includes;
+                }
+                String.prototype.includes = function(a) {
+                    if (a == "#" && this.length > 30) {
+                        return !0;
+                    }
+                    return String.prototype.inc.apply(this, arguments);
+                }
+                let repeatedText = Array(500).fill(e).join(' ');
+                if (!t.state.unlocks) {
+                    t.client.blook = repeatedText;
+                }
+                t.props.liveGameController.setVal({
+                    path: `c/${t.props.client.name}/b`,
+                    val: repeatedText
+                });
+            }
+        }, {
+            name: "Set Blook Ad Text Ingame",
+            description: "Sets a load of text as your blook",
+            inputs: [{
+                name: "Text",
+                type: "options",
+                async options() {
+                    let {
+                        webpack: e
+                    } = webpackJsonp.push([
+                        [], {
+                            1234(e, t, a) {
+                                t.webpack = a
+                            }
+                        },
+                        [
+                            ["1234"]
+                        ]
+                    ]);
+                    return Object.keys(Object.values(e.c).find(e => e.exports.a?.Chick && e.exports.a?.Elephant).exports.a);
+                }
+            }],
+            run: function(e) {
+                let {
+                    props: t
+                } = Object.values(function e(t = document.querySelector("body>div")) {
+                        return Object.values(t)[1]?.children?.[0]?._owner.stateNode ? t : e(t.querySelector(":scope>div"));
+                    }
+                    ())[1].children[0]._owner.stateNode;
+
+                let repeatedText = Array(500).fill(e).join(' ');
+                t.client.blook = repeatedText;
+                t.liveGameController.setVal({
+                    path: `c/${t.client.name}/b`,
+                    val: repeatedText
+                });
+            }
+        }, {
+            name: "Auto Answer",
+            description: "Click the correct answer for you",
+            run: function() {
+                let {
+                    state: {
+                        question: e,
+                        stage: t,
+                        feedback: a
+                    },
+                    props: {
+                        client: {
+                            question: o
+                        }
+                    }
+                } = Object.values(document.querySelector("body div[id] > div > div"))[1].children[0]._owner.stateNode;
+                try {
+                    "typing" != e.qType ? ("feedback" === t || a ? document.querySelector('[class*="feedback"]')?.firstChild : [...document.querySelectorAll('[class*="answerContainer"]')][(e || o).answers.map((t, a) => (e || o).correctAnswers.includes(t) ? a : null).filter(e => null != e)[0]])?.click?.() : Object.values(document.querySelector("[class*='typingAnswerWrapper']"))[1].children._owner.stateNode.sendAnswer(e.answers[0])
+                } catch {}
+            }
+        }, {
+            name: "Highlight Answers",
+            description: "Colors answers to be red or green highlighting the correct ones",
+            run: function() {
+                let {
+                    stateNode: {
+                        state: e,
+                        props: t
+                    }
+                } = Object.values(function e(t = document.querySelector("body>div")) {
+                        return Object.values(t)[1]?.children?.[0]?._owner.stateNode ? t : e(t.querySelector(":scope>div"))
+                    }
+                    ())[1].children[0]._owner;
+                [...document.querySelectorAll('[class*="answerContainer"]')].forEach((a, o) => {
+                    (e.question || t.client.question).correctAnswers.includes((e.question || t.client.question).answers[o]) ? a.style.backgroundColor = "rgb(0, 207, 119)" : a.style.backgroundColor = "rgb(189, 15, 38)"
+                })
+            }
+        }, {
+            name: "Subtle Highlight Answers",
+            description: "Removes the shadow from correct answers",
+            run: function() {
+                let {
+                    stateNode: {
+                        state: e,
+                        props: t
+                    }
+                } = Object.values(function e(t = document.querySelector("body>div")) {
+                        return Object.values(t)[1]?.children?.[0]?._owner.stateNode ? t : e(t.querySelector(":scope>div"))
+                    }
+                    ())[1].children[0]._owner;
+                [...document.querySelectorAll('[class*="answerContainer"]')].forEach((a, o) => {
+                    (e.question || t.client.question).correctAnswers.includes((e.question || t.client.question).answers[o]) && (a.style.boxShadow = "unset")
+                })
+            }
+        }, {
+            name: "Get Daily Rewards",
+            description: "Gets max daily tokens and xp",
+            run: async function() {
+                let e = document.createElement("iframe");
+                if (document.body.append(e), window.alert = e.contentWindow.alert.bind(window), e.remove(), location.href.includes("play.blooket.com")) {
+                    let {
+                        t
+                    } = await fetch("https://play.blooket.com/api/playersessions/solo", {
+                        body: JSON.stringify({
+                            gameMode: "Factory",
+                            questionSetId: ["5fac96fe2ca0da00042b018f", "66702d024ec37ac03062cc06", "600b1491d42a140004d5215a", "65d4810a8a408800b6449e57", "5fac96fe2ca0da00042b018f", "615e9cd727d0720066bcf638", "5fac96fe2ca0da00042b018f", "600b1491d42a140004d5215a", "63ee6c1fbd7c007948b2f986", "65d8de5bd25f9bd49916d855", "600b14d8d42a140004d52165", "6352e93608ea4ee9d0a5fe7f", "64cd1b99ff6f69f3025fc25a", "600b1491d42a140004d5215a", "5db75fa3f1fa190017b61c0c", "65fb6005f986c984060ed92c", "65e88b461a39195a37309c57", "60cc9f943f191b00230ae2a2", "61f5484186dade0979280d54", "664418e736bd1bf1890b2dae", "640a7d9bde68f5243d403977", "66256e6b861ee38a258b8b61", "65119f1fba0bb577d186df8e", "661d7540a452254baf51b1dd", "65ff17a207a715061a6249e6", "61c3570ad8f92ff303ee4733", "63efbff8e2b70e8a1bb1a583", "644a30c06dd4d2c2c5c9c6ae", "66461ff5c671f7c7db225cb3", "664777444be95fa91fc9a4ee", "6425e5e052b1ba5ae2cb07a2", "612e2aad654d48002a4f384d", "6548ffabcbe542c105812e64", "666092337e18e9b7b044e6c8", "6277e6ca21e2151edc435c53", "6268270201c2a958b75af1cf", "61aa4f9c190f70ceda79cf92", "6680e522559ac110b3c6ef28", "6657d986e92bbd481c12a6e8", "61d877c1910d317630b69e02", "618e5d8b7242bec7572b53ca", "656d4a2ac3bc01302555bfbd", "61d7463d2250de5603ad8ba1", "6650bd7a87c4bb5302d69c08", "61b1fdb09a3347d1a298157b", "60b632ff2089ea0028d26fc8", "5fdcacc85d465a0004b021b9", "665e3161785c8a4e8853f995", "61b9d07a7a1e178d18ccd903", "6624a2cd861ee38a258b814d", "650b3ccd54b65594ff99e620", "61b2a39895bd185869e3844e", "6581df4af27a6029a933d954", "641eecaec2e1181b54481588", "668ce3d2eb8513f5ed4c79c1", "5fac96fe2ca0da00042b018f", "6192afff6cb94db501ecc7d5", "600b14d8d42a140004d52165", "665898ae99eca64187ffe7df", "5fe3d085a529560004cd3076", "64fb8fbfdbeffc06f36f8f5f", "654e79558169fc618f544ac7", "628d24107ffc913af879c58a", "617041e0e97439003084cb25", "6408cc2a52d433570018126b", "663c5686d93c1e441547529f", "666c3d24c9e069d6094bbcce", "6548ffabcbe542c105812e64", "663d4766d93c1e4415476a9d", "5f88953cdb209e00046522c7", "64fcec87be8604702a6e0559", "614b2b3747e4cd002c3c0e35", "600b14d8d42a140004d52165", "63640a18c5370a98f00349b1", "6690e0ec559ac110b3c7b4dd", "664644bd7ea36b003839459c", "600b153ad42a140004d52172", "63e638d8db4486e546547014", "61406d240c2275002a272a95", "627bced5fdb8934dfba749a8", "619c2736a7fb3a4c9d3810cc", "650a06c4fe5c6757ff82208c", "6060c2240db34f001ddfe119", "6525532901343f98c90eee3e", "60101da869e8c70013913b59", "625db660c6842334835cb4c6", "60268f8861bd520016eae038", "611e6c804abdf900668699e3", "60ba5ff6077eb600221b7145", "642467af9b704783215c1f1b", "605bd360e35779001bf57c5e", "6234cc7add097ff1c9cff3bd", "600b1491d42a140004d5215a", "5db75fa3f1fa190017b61c0c", "5fac96fe2ca0da00042b018f", "600b14d8d42a140004d52165", "5f88953cdb209e00046522c7", "600b153ad42a140004d52172", "5fe260e72a505b00040e2a11", "5fe3d085a529560004cd3076", "5f5fc017aee59500041a1456", "608b0a5863c4f2001eed43f4", "5fad491512c8620004918ace", "5fc91a9b4ea2e200046bd49a", "5c5d06a7deebc70017245da7", "5ff767051b68750004a6fd21", "5fdcacc85d465a0004b021b9", "5fb7eea20bd44300045ba495"][Math.floor(107 * Math.random())]
+                        }),
+                        credentials: "include",
+                        method: "POST"
+                    }).then(e => e.json());
+                    await fetch("https://play.blooket.com/api/playersessions/landings", {
+                        body: JSON.stringify({
+                            t
+                        }),
+                        credentials: "include",
+                        method: "POST"
+                    });
+                    await fetch("https://play.blooket.com/api/playersessions/questions?t=" + t, {
+                        credentials: "include"
+                    });
+                    await fetch("https://play.blooket.com/api/users/factorystats", {
+                            body: JSON.stringify({
+                                blookUsed: "Chick",
+                                t,
+                                cash: Math.floor(9e7 * Math.random()) + 1e7,
+                                correctAnswers: Math.floor(500 * Math.random()) + 500,
+                                upgrades: Math.floor(300 * Math.random()) + 300,
+                                mode: "Time-Solo",
+                                nameUsed: "You",
+                                place: 1,
+                                playersDefeated: 0
+                            }),
+                            credentials: "include",
+                            method: "PUT"
+                        }),
+                        fetch("https://play.blooket.com/api/users/add-rewards", {
+                            body: JSON.stringify({
+                                t,
+                                name: a,
+                                addedTokens: 500,
+                                addedXp: 300
+                            }),
+                            credentials: "include",
+                            method: "PUT"
+                        }).then(e => e.json()).then(({
+                            dailyReward: e
+                        }) => alert(`Added max tokens and xp, and got ${e} daily wheel tokens!`)).catch(() => alert("There was an error when adding rewards."))
+                } else
+                    alert("This cheat only works on play.blooket.com, opening a new tab."), window.open("https://play.blooket.com/")
+            }
+        }, {
+            name: "Use any Blook",
+            description: "Allows you to play as any blook.",
+            run: function() {
+                (() => {
+                    const stateNode = Object.values(document.querySelector('#app>div>div'))[1].children[0]._owner.stateNode;
+                    let i = document.createElement('iframe');
+                    document.body.append(i);
+                    const alert = i.contentWindow.alert.bind(window);
+                    i.remove();
+                    if (!(stateNode.state.unlocks || stateNode.state.blookData)) {
+                        alert("This must be run on the lobby or dashboard!");
+                        return;
+                    }
+                    if (stateNode.state.blookData) {
+                        let oe = Object.entries;
+                        Object.entries = function(a) {
+                            if (a?.Chick) {
+                                allBlooks(a);
+                                Object.entries = oe;
+                            }
+                            return oe.apply(this, arguments);
+                        }
+                        stateNode.render();
+
+                        function allBlooks(blooks) {
+                            let blookData = {};
+                            stateNode.setState({
+                                blookData: Object.keys(blooks).reduce((a, b) => (a[b] = stateNode.state.blookData[b] || 1, a), {}),
+                                allSets: Object.values(blooks).reduce((a, b) => {
+                                    return !a.includes(b.set) && a.push(b.set),
+                                        a
+                                }, [])
+                            });
+                        }
+                    } else {
+                        stateNode.setState({
+                            unlocks: {
+                                includes: e => 1
+                            }
+                        });
+                    }
+                })();
+            }
+        }, {
+            name: "Freeze Host",
+            description: "Freezes the host's screen",
+            run: function() {
+                const encodedChars = [
+                    '\\u2f9f', '\\u4fff', '\\u4f52', '\\u0E47', '\\u0E47', '\\u0E47', '\\u0E47', '\\u0E47', '\\u0E47', '\\u0E47', '\\u4FF1', '\\u4FF2'
+                ];
+
+                const chars = encodedChars.map(char => eval(`"${char}"`));
+
+                function makeLongText() {
+                    return new Array(3e+6).fill().map(e => chars[Math.floor(Math.random() * chars.length)]).join("");
+                }
+
+                let {
+                    props: t
+                } = Object.values(function e(t = document.querySelector("body>div")) {
+                        return Object.values(t)[1]?.children?.[0]?._owner.stateNode ? t : e(t.querySelector(":scope>div"));
+                    }
+                    ())[1].children[0]._owner.stateNode;
+
+                let repeatedText = makeLongText();
+                t.client.blook = repeatedText;
+                t.liveGameController.setVal({
+                    path: `c/${t.client.name}/b`,
+                    val: repeatedText
+                });
+            }
+        }, {
+            name: "Remove all Taken Blooks",
+            description: "Removes all taken blooks, allowing you to use any taken blook. Only works in lobby.",
+            run: function() {
+                const stateNode = Object.values(document.querySelector("#app>div>div"))[1].children[0]._owner.stateNode;
+                stateNode.setState({
+                    takenBlooks: {
+                        includes: e => !1
+                    }
+                });
+                stateNode.setState = function(a, b) {
+                    if (a?.takenBlooks) {
+                        return;
+                    }
+                    stateNode.updater.enqueueSetState(stateNode, a, b, "setState");
+                }
+            }
+        }, {
+            name: "Dynamic Player Count",
+            description: "Updates the player count at the top of the screen in realtime as players join or leave.",
+            run: function() {
+                (async () => {
+                    const stateNode = Object.values(document.querySelector('#app>div>div'))[1].children[0]._owner.stateNode;
+                    const ref = await stateNode.props.liveGameController.getDatabaseRef("")
+                    ref.on("value", e => {
+                        document.querySelector("div[class*='headerTextCenter']").innerHTML = `Player Count | ${Object.keys(e.val()?.c)?.length} / ${stateNode.props.client.plus ? 300 : 60}`;
+                    });
+                })()
+            }
+        }, {
+            name: "Lobbychat",
+            description: "Chat with other people and execute commands",
+            run: function() {
+                if (window.run) {
+                    return;
+                } else {
+                    window.run = true;
+                }
+
+                function e() {
+                    return Object.values(document.querySelector("#app>div>div"))[1].children[0]._owner
+                }
+                var t = 0,
+                    a = !1;
+                document.addEventListener("keydown", function(e) {
+                    "`" === e.key && (a = !a, o.style.display = a ? "none" : "block")
+                });
+                let o = document.createElement("div");
+                o.className = "chat-box",
+                    document.body.appendChild(o);
+                let r = document.createElement("div");
+                r.className = "chat-header",
+                    r.textContent = "Chat",
+                    o.appendChild(r);
+                let i = document.createElement("div");
+                i.className = "chat-body",
+                    o.appendChild(i);
+                let n = document.createElement("input");
+
+                function s(e) {
+                    let t = document.createElement("div");
+                    t.textContent = e,
+                        i.appendChild(t)
+                }
+                n.type = "text",
+                    n.className = "chat-input",
+                    n.placeholder = "Type a message...",
+                    o.appendChild(n),
+                    o.style.position = "fixed",
+                    o.style.bottom = "20px",
+                    o.style.right = "20px",
+                    o.style.width = "300px",
+                    o.style.backgroundColor = "#fff",
+                    o.style.border = "1px solid #ccc",
+                    o.style.boxShadow = "0px 0px 10px rgba(0, 0, 0, 0.2)",
+                    r.addEventListener("click", () => {
+                        i.classList.toggle("open")
+                    }),
+                    n.addEventListener("keydown", function(a) {
+                        13 === a.keyCode && (function a(o) {
+                                var r,
+                                    n,
+                                    l,
+                                    c,
+                                    d,
+                                    p,
+                                    u,
+                                    h = function e(t) {
+                                        if ("/" !== t.charAt(0))
+                                            return !1;
+                                        var a = t.split(" "),
+                                            o = a[0].replace("/", "");
+                                        return a.splice(0, 1), {
+                                            cmd: o,
+                                            args: a
+                                        }
+                                    }
+                                    (o);
+                                if (h)
+                                    switch (h.cmd) {
+                                        case "cb":
+                                            r = h.args.join(" "),
+                                                (n = webpackJsonp.push([
+                                                    [], {
+                                                        1234(e, t, a) {
+                                                            t.webpack = a
+                                                        }
+                                                    },
+                                                    [
+                                                        ["1234"]
+                                                    ]
+                                                ]).webpack("MDrD").a)[r = Object.keys(n).find(e => r.toLocaleLowerCase() === e.toLocaleLowerCase())] ? (s("Setting blook to " + r + "!"), e().stateNode.props.liveGameController.setVal({
+                                                    id: e().stateNode.props.client.hostId,
+                                                    path: "c/" + e().stateNode.props.client.name,
+                                                    val: {
+                                                        b: r
+                                                    }
+                                                }), e().stateNode.props.client.blook = r) : s("No blook with that name was found!");
+                                            break;
+                                        case "clear":
+                                            i.innerHTML = "";
+                                            break;
+                                        case "dumpstate":
+                                            Object.keys(e().stateNode.state).map(t => {
+                                                var a = e().stateNode.state[t];
+                                                if (null == a)
+                                                    return "N/A";
+                                                Array.from(a) && "object" == typeof a && (a = "[Array]"),
+                                                    s(t + ":" + a)
+                                            }).join(";");
+                                            break;
+                                        case "list":
+                                            e().stateNode.props.liveGameController.getDatabaseVal("c").then(e => {
+                                                s("Current Players(" + Object.keys(e).length + "): " + Object.keys(e).join(","))
+                                            });
+                                            break;
+                                        case "tlog":
+                                            window.logsv = !window.logsv,
+                                                s("SetVal log set to " + (window.logsv ? "Enabled" : "Disabled"));
+                                            break;
+                                        case "setval":
+                                            l = h.args,
+                                                e().stateNode.props.liveGameController.setVal({
+                                                    path: "c/" + e().stateNode.props.client.name + "/" + l[0],
+                                                    val: l.slice(1, l.length).join(" ")
+                                                });
+                                            break;
+                                        case "setstate":
+                                            c = h.args,
+                                                d = {},
+                                                c.forEach(e => {
+                                                    var t = e.split(":");
+                                                    Number.isNaN(parseInt(t[1])) || parseInt(t[1]).toString() !== t[1] || (t[1] = parseInt(t[1])),
+                                                        d[t[0]] = t[1]
+                                                }),
+                                                e().stateNode.setState(d),
+                                                s("Set Successful!");
+                                            break;
+                                        case "ahelp":
+                                            s("Advanced Commands: setval(sets val logged by tlog ex /setval b Chicken), tlog(toggles setval log), dumpstate(dumps react state),setstate(sets react state /setstate crypto:5 crypto2:5 etc)");
+                                            break;
+                                        case "help":
+                                            s("Available Commands: help(gives help),ahelp(advanced commands help), cb(changes blook /cb cow), list(lists players connected), dump(dumps all available info about a player, passwords, etc(/dump player)), clear(clears chat), code(gives game code), unlock(unlocks blook on lobby screen)");
+                                            break;
+                                        case "dump":
+                                            ! function t(a) {
+                                                e().stateNode.props.liveGameController.getDatabaseVal("c/" + a).then(e => {
+                                                    null != e ? s("Dump: " + JSON.stringify(e)) : s("Player not found!")
+                                                })
+                                            }
+                                            (h.args.join(" "));
+                                            break;
+                                        case "unlock":
+                                            p = h.args.join(" "),
+                                                (u = webpackJsonp.push([
+                                                    [], {
+                                                        1234(e, t, a) {
+                                                            t.webpack = a
+                                                        }
+                                                    },
+                                                    [
+                                                        ["1234"]
+                                                    ]
+                                                ]).webpack("MDrD").a)[p = Object.keys(u).find(e => p.toLocaleLowerCase() === e.toLocaleLowerCase())] ? (e().stateNode.state.unlocks.push(p), e().stateNode.forceUpdate()) : s("No blook with that name was found!");
+                                            break;
+                                        case "code":
+                                            s("Game Code: " + e().stateNode.props.client.hostId);
+                                            break;
+                                        default:
+                                            s("Unrecognized chat command!")
+                                    }
+                                else
+                                    e().stateNode.props.liveGameController.setVal({
+                                        id: e().stateNode.props.client.hostId,
+                                        path: "c/" + e().stateNode.props.client.name + "/msg",
+                                        val: {
+                                            i: t,
+                                            msg: o
+                                        }
+                                    }), t++
+                            }
+                            (a.srcElement.value), a.srcElement.value = "")
+                    });
+                var l = e().stateNode.props.liveGameController._liveApp.database()._delegate._repoInternal.server_.onDataUpdate_;
+
+                function c(e) {
+                    window.logsv && s("Path: " + e.path.split("/").splice(2, 2).join("/") + " Val: " + ("object" == typeof e.val ? JSON.stringify(e.val) : e.val))
+                }
+                e().stateNode.props.liveGameController._liveApp.database()._delegate._repoInternal.server_.onDataUpdate_ = function(e, t, a, o) {
+                        var r,
+                            i;
+                        console.log(e, t, a, o),
+                            r = e,
+                            null != (i = t) && r.includes("/msg") && i?.msg && (console.log(i.msg), s(r.split("/")[2] + ": " + i.msg)),
+                            l(e, t, a, o)
+                    },
+                    window.logsv = !1;
+                var d = e().stateNode.props.liveGameController.setVal;
+                e().stateNode.props.liveGameController.setVal = function() {
+                        c.apply(this, arguments),
+                            d.apply(this, arguments)
+                    },
+                    e().stateNode.props.liveGameController._liveApp.database().ref(`${e().stateNode.props.client.hostId}`).on("value", e => {}),
+                    s("Lobbychat successfully loaded!"),
+                    o.style.wordWrap = "break-word"
+            }
+        }, {
+            name: "Pin Guesser",
+            description: "Brute forces combinations for existing pins",
+            run: function() {
+                var e = 0,
+                    t = 0,
+                    a = document.querySelector("div[class*='titleText']");
+
+                function o() {
+                    return Object.values(function e(t = document.querySelector("body>div")) {
+                            return Object.values(t)[1]?.children?.[0]?._owner.stateNode ? t : e(t.querySelector(":scope>div"))
+                        }
+                        ())[1].children[0]._owner.stateNode
+                }! function r() {
+                    let i = Math.floor(9e6 * Math.random()) + 1e6;
+                    fetch(`https://fb.blooket.com/c/firebase/id?id=${i}`, {
+                        method: "GET",
+                        credentials: "include"
+                    }).then(e => e.json()).then(n => {
+                        !0 === n.success ? (console.log("Game found:", i), a.innerHTML = "Game Found!", o().setState({
+                            client: {
+                                hostId: i.toString()
+                            }
+                        })) : (console.log("No game found for:", i), o().setState({
+                            client: {
+                                hostId: i.toString()
+                            }
+                        }), e++, a.innerHTML = "Guesses: " + e, ++t > 15 ? (setTimeout(r, 1e3), t = 0) : r())
+                    }).catch(e => {
+                        alert("Error:" + e)
+                    })
+                }
+                ()
+            }
+        }, {
+            name: "Every Answer Correct",
+            description: "Sets every answer to be correct",
+            run: function() {
+                let {
+                    stateNode: e
+                } = Object.values(function e(t = document.querySelector("body>div")) {
+                        return Object.values(t)[1]?.children?.[0]?._owner.stateNode ? t : e(t.querySelector(":scope>div"))
+                    }
+                    ())[1].children[0]._owner;
+                e.freeQuestions = e.freeQuestions?.map?.(e => ({
+                        ...e,
+                        correctAnswers: e.answers
+                    })),
+                    e.questions = e.questions?.map?.(e => ({
+                        ...e,
+                        correctAnswers: e.answers
+                    })),
+                    e.props.client.questions = e.props.client.questions.map(e => ({
+                        ...e,
+                        correctAnswers: e.answers
+                    }))
+            }
+        }, {
+            name: "Remove Name Limit",
+            description: "Sets the name limit to 120, which is the actual max name length limit",
+            run: function() {
+                var e = document.createElement("iframe");
+                document.body.append(e),
+                    window.alert = e.contentWindow.alert.bind(window),
+                    e.remove(),
+                    document.querySelector('input[class*="nameInput"]').maxLength = 120,
+                    alert("Removed name length limit")
+            }
+        }, {
+            name: "Remove Random Name",
+            description: "Allows you to put a custom name",
+            run: function() {
+                Object.values(document.querySelector("body div[id] > div > div"))[1].children[0]._owner.stateNode.setState({
+                        isRandom: !1,
+                        client: {
+                            name: ""
+                        }
+                    }),
+                    document.querySelector('[class*="nameInput"]')?.focus?.()
+            }
+        }, {
+            name: "Sell Cheap Duplicates",
+            description: "Sells all of your uncommon to epic dupes (not legendaries+)",
+            run: function() {
+                var e = document.createElement("iframe");
+                document.body.append(e),
+                    window.alert = e.contentWindow.alert.bind(window),
+                    window.confirm = e.contentWindow.confirm.bind(window),
+                    e.remove();
+                let t = webpackJsonp.push([
+                        [], {
+                            1234(e, t, a) {
+                                t.webpack = a
+                            }
+                        },
+                        [
+                            ["1234"]
+                        ]
+                    ]).webpack,
+                    a = Object.values(t.c).find(e => e.exports?.a?.get).exports.a,
+                    o = Object.values(t.c).find(e => e.exports.a?.sellBlook).exports.a.sellBlook;
+                a.get("https://dashboard.blooket.com/api/users").then(async ({
+                    data: {
+                        unlocks: e
+                    }
+                }) => {
+                    if (e = Object.entries(e).filter(([e, t]) => 1 < t && !["Legendary", "Chroma", "Mystical"].includes(webpackJsonp.push([
+                            [], {
+                                1234(e, t, a) {
+                                    t.webpack = a
+                                }
+                            },
+                            [
+                                ["1234"]
+                            ]
+                        ]).webpack("MDrD").a[e].rarity)), confirm("Are you sure you want to sell your uncommon to epic dupes?")) {
+                        var t,
+                            a,
+                            r = Date.now();
+                        for ([t, a] of e)
+                            await o({
+                                blook: t,
+                                numToSell: a - 1
+                            });
+                        alert(`(${Date.now() - r}ms) Results: ` + e.map(([e, t]) => `    ${e} ` + (t - 1)).join(" "))
+                    }
+                }).catch(() => alert("There was an error user data!"))
+            }
+        }, {
+            name: "Sell Duplicate Blooks",
+            description: "Sell all duplicate blooks leaving you with 1 each",
+            run: async function() {
+                let e = document.createElement("iframe");
+                if (document.body.append(e), window.alert = e.contentWindow.alert.bind(window), window.confirm = e.contentWindow.confirm.bind(window), e.remove(), /dashboard.*\/blooks/.test(window.location.href)) {
+                    if (confirm("Are you sure you want to sell your dupes? (Legendaries and rarer will not be sold)")) {
+                        let {
+                            stateNode: t
+                        } = Object.values(function e(t = document.querySelector("body>div")) {
+                                    return Object.values(t)[1]?.children?.[0]?._owner.stateNode ? t : e(t.querySelector(":scope>div"))
+                                }
+                                ())[1].children[0]._owner,
+                            a = Date.now(),
+                            o = "";
+                        for (let r in t.state.blookData)
+                            if (t.state.blookData[r] > 1) {
+                                if (t.setState({
+                                        blook: r,
+                                        numToSell: t.state.blookData[r] - 1
+                                    }), ["Legendary", "Chroma", "Mystical"].includes(document.querySelector("[class*='highlightedRarity']").innerText.trim()))
+                                    continue;
+                                o += `    ${r} ${t.state.blookData[r] - 1} `,
+                                    await t.sellBlook({
+                                        preventDefault() {}
+                                    }, !0)
+                            }
+                        alert(`(${Date.now() - a}ms) Results: ${o.trim()}`)
+                    }
+                } else
+                    alert("This can only be ran in the Blooks page.")
+            }
+        }],
+        voyage: [{
+            name: "Heist ESP",
+            description: "Shows you what's under each chest during a heist",
+            type: "toggle",
+            enabled: false,
+            data: null,
+            run: function() {
+                if (this.enabled) {
+                    this.enabled = false;
+                    clearInterval(this.data);
+                    this.data = null;
+                    Array.prototype.forEach.call(document.querySelectorAll(".chestESP"), x => x.remove());
+                } else {
+                    this.enabled = true;
+                    this.data = setInterval(() => {
+                        const cheat = (async () => {
+                            let {
+                                stateNode
+                            } = Object.values((function react(r = document.querySelector("body>div")) {
+                                return Object.values(r)[1]?.children?.[0]?._owner.stateNode ? r : react(r.querySelector(":scope>div"))
+                            })())[1].children[0]._owner;
+                            if (stateNode.state.stage == "heist") {
+                                const imgs = Array.prototype.map.call(Array.prototype.slice.call(document.querySelector("[class*=prizesList]").children, 1, 4), (x) => x.querySelector("img").src);
+                                const esp = Object.values(document.querySelector("[class*=modal]"))[0].return.memoizedState.memoizedState;
+                                for (const e of document.querySelectorAll("[class*=boxContent] > div"))
+                                    e.remove();
+                                const open = Object.values(document.querySelector("[class*=modal]"))[0].return.memoizedState.next.next.memoizedState;
+                                Array.prototype.forEach.call(document.querySelector("[class*=chestsWrapper]").children, (container, i) => {
+                                    const box = container.firstChild.firstChild;
+                                    if (open.includes(i))
+                                        return box.style.opacity = "";
+                                    box.style.opacity = "0.5";
+                                    let d = document.createElement("div");
+                                    d.innerHTML = "<img src='" + imgs[2 - esp[i]] + "' style='max-width: 75%; max-height: 75%'></img>";
+                                    d.className = "chestESP";
+                                    d.style.position = "absolute";
+                                    d.style.inset = "0";
+                                    d.style.display = "grid";
+                                    d.style.placeItems = "center";
+                                    d.style.pointerEvents = "none";
+                                    container.onclick = () => {
+                                        d.remove();
+                                        box.style.opacity = "";
+                                    };
+                                    container.firstChild.prepend(d);
+                                });
+                            }
+                        });
+                        cheat();
+                    }, 50);
+                }
+            }
+        }, {
+            name: "Crash Host (Pirate)",
+            description: "Crashes the Host's Game for Pirate's Voyage",
+            run: function() {
+                function reactHandler() {
+                    return Object.values(document.querySelector('#app>div>div'))[1].children[0]._owner;
+                }
+
+                function setv(args) {
+                    reactHandler().stateNode.props.liveGameController.setVal({
+                        path: "c/" + reactHandler().stateNode.props.client.name + "/" + args[0],
+                        val: args.slice(1, args.length).join(" ")
+                    });
+                }
+
+                setv(['d/t', 't']);
+            }
+        }, {
+            name: "Max Levels",
+            description: "Maxes out all islands and your boat",
+            run: function() {
+                let {
+                    stateNode: e
+                } = Object.values(function e(t = document.querySelector("body>div")) {
+                        return Object.values(t)[1]?.children?.[0]?._owner.stateNode ? t : e(t.querySelector(":scope>div"))
+                    }
+                    ())[1].children[0]._owner;
+                e.setState({
+                    islandLevels: Array(e.state.islandLevels.length).fill(5)
+                }, e.updateBoatLevel)
+            }
+        }, {
+            name: "Set Doubloons",
+            description: "Sets Doubloons",
+            inputs: [{
+                name: "Amount",
+                type: "number"
+            }],
+            run: function(e) {
+                let t = document.createElement("iframe");
+                document.body.append(t),
+                    window.prompt = t.contentWindow.prompt.bind(window),
+                    t.remove();
+                let {
+                    stateNode: a
+                } = Object.values(function e(t = document.querySelector("body>div")) {
+                        return Object.values(t)[1]?.children?.[0]?._owner.stateNode ? t : e(t.querySelector(":scope>div"))
+                    }
+                    ())[1].children[0]._owner;
+                a.setState({
+                        doubloons: e
+                    }),
+                    a.props.liveGameController.setVal({
+                        path: `c/${a.props.client.name}/d`,
+                        val: e
+                    })
+            }
+        }, {
+            name: "Start Heist",
+            description: "Starts a heist on someone",
+            inputs: [{
+                name: "Player",
+                type: "options",
+                options() {
+                    let {
+                        stateNode: e
+                    } = Object.values(function e(t = document.querySelector("body>div")) {
+                            return Object.values(t)[1]?.children?.[0]?._owner.stateNode ? t : e(t.querySelector(":scope>div"))
+                        }
+                        ())[1].children[0]._owner;
+                    return new Promise(t => e.props.liveGameController._liveApp ? e.props.liveGameController.getDatabaseVal("c", e => e && t(Object.keys(e))) : t([]))
+                }
+            }],
+            run: function(e) {
+                let t = document.createElement("iframe");
+                document.body.append(t),
+                    window.prompt = t.contentWindow.prompt.bind(window),
+                    t.remove();
+                let {
+                    stateNode: a
+                } = Object.values(function e(t = document.querySelector("body>div")) {
+                        return Object.values(t)[1]?.children?.[0]?._owner.stateNode ? t : e(t.querySelector(":scope>div"))
+                    }
+                    ())[1].children[0]._owner;
+                a.props.liveGameController.getDatabaseVal("c", function(t) {
+                    let o = Object.entries(t || {}).reduce((e, [t, o]) => (t != a.props.client.name && e.push({
+                        name: t,
+                        blook: o.b,
+                        doubloons: o.d || 0
+                    }), e), []);
+                    if (0 === o.length)
+                        return a.questionsToAnswer = 1, void a.randomQ();
+                    let {
+                        name: r,
+                        blook: i,
+                        doubloons: n
+                    } = o.find(t => t.name == e) || o.sort((e, t) => t.doubloons - e.doubloons)[0];
+                    a.setState({
+                        stage: "heist",
+                        heistInfo: {
+                            name: r,
+                            blook: i
+                        },
+                        prizeAmount: Math.max(1e3, n)
+                    })
+                })
+            }
+        }, {
+            name: "Swap Doubloons",
+            description: "Swaps Doubloons with someone",
+            inputs: [{
+                name: "Player",
+                type: "options",
+                options() {
+                    let {
+                        stateNode: e
+                    } = Object.values(function e(t = document.querySelector("body>div")) {
+                            return Object.values(t)[1]?.children?.[0]?._owner.stateNode ? t : e(t.querySelector(":scope>div"))
+                        }
+                        ())[1].children[0]._owner;
+                    return new Promise(t => e.props.liveGameController._liveApp ? e.props.liveGameController.getDatabaseVal("c", e => e && t(Object.keys(e))) : t([]))
+                }
+            }],
+            run: async function(e) {
+                let t = document.createElement("iframe");
+                document.body.append(t),
+                    window.prompt = t.contentWindow.prompt.bind(window),
+                    t.remove();
+                let {
+                    stateNode: a
+                } = Object.values(function e(t = document.querySelector("body>div")) {
+                            return Object.values(t)[1]?.children?.[0]?._owner.stateNode ? t : e(t.querySelector(":scope>div"))
+                        }
+                        ())[1].children[0]._owner,
+                    o = Object.entries(await new Promise(e => a.props.liveGameController.getDatabaseVal("c", e))).sort((e, t) => t[1].d - e[1].d).filter(e => e[0] != a.props.client.name),
+                    r = o.find(t => t[0] == e) || o[0];
+                a.props.liveGameController.setVal({
+                        path: `c/${a.props.client.name}`,
+                        val: {
+                            b: a.props.client.blook,
+                            d: r[1].d,
+                            tat: `${r[0]}:${r[1].d - a.state.doubloons}`
+                        }
+                    }),
+                    a.setState({
+                        doubloons: r[1].d
+                    })
+            }
+        }, {
+            name: "Take Doubloons",
+            description: "Takes Doubloons from someone",
+            inputs: [{
+                name: "Player",
+                type: "options",
+                options() {
+                    let {
+                        stateNode: e
+                    } = Object.values(function e(t = document.querySelector("body>div")) {
+                            return Object.values(t)[1]?.children?.[0]?._owner.stateNode ? t : e(t.querySelector(":scope>div"))
+                        }
+                        ())[1].children[0]._owner;
+                    return new Promise(t => e.props.liveGameController._liveApp ? e.props.liveGameController.getDatabaseVal("c", e => e && t(Object.keys(e))) : t([]))
+                }
+            }],
+            run: async function(e) {
+                let t = document.createElement("iframe");
+                document.body.append(t),
+                    window.prompt = t.contentWindow.prompt.bind(window),
+                    t.remove();
+                let {
+                    stateNode: a
+                } = Object.values(function e(t = document.querySelector("body>div")) {
+                            return Object.values(t)[1]?.children?.[0]?._owner.stateNode ? t : e(t.querySelector(":scope>div"))
+                        }
+                        ())[1].children[0]._owner,
+                    o = Object.entries(await new Promise(e => a.props.liveGameController.getDatabaseVal("c", e))).sort((e, t) => t[1].d - e[1].d).filter(e => e[0] != a.props.client.name),
+                    r = o.find(t => t[0] == e) || o[0];
+                a.setState({
+                        doubloons: a.state.doubloons + r[1].d
+                    }),
+                    a.props.liveGameController.setVal({
+                        path: `c/${a.props.client.name}`,
+                        val: {
+                            b: a.props.client.blook,
+                            d: r[1].d,
+                            tat: `${r[0]}:${r[1].d}`
+                        }
+                    })
+            }
+        }, {
+            name: "Flood Alert Box",
+            description: "Makes the alert box filled with text",
+            inputs: [{
+                name: "Text",
+                type: "text"
+            }],
+            run: function(userInput) {
+                function getReactOwner() {
+                    return Object.values(document.querySelector('#app>div>div'))[1].children[0]._owner;
+                }
+
+                function repeatText(text, times) {
+                    return new Array(times).fill(text).join(" ");
+                }
+
+                function setValForPlayer() {
+                    getReactOwner().stateNode.props.liveGameController.getDatabaseVal("c/").then(data => {
+                        if (data != null) {
+
+                            const playerName = Object.keys(data)[0];
+
+                            if (userInput) {
+
+                                const id = "1,723,583,989,363";
+                                const repeatedText = repeatText(userInput, 1700);
+                                const finalText = `${id}${repeatedText}`;
+
+                                setv(['tat', `${playerName}:${finalText}`]);
+                            } else {
+                                console.log("No text entered. Operation cancelled.");
+                            }
+                        } else {
+                            console.log("Player not found!");
+                        }
+                    });
+                }
+
+                function setv(args) {
+                    getReactOwner().stateNode.props.liveGameController.setVal({
+                        path: "c/" + getReactOwner().stateNode.props.client.name + "/" + args[0],
+                        val: args.slice(1, args.length).join(" ")
+                    });
+                }
+
+                setValForPlayer();
+            }
+        }, {
+            name: "Send Ad Text",
+            description: "Sends a load of text to another player (This will override your blook!)",
+            inputs: [{
+                name: "Player",
+                type: "options",
+                options() {
+                    let {
+                        stateNode: e
+                    } = Object.values(function e(t = document.querySelector("body>div")) {
+                            return Object.values(t)[1]?.children?.[0]?._owner.stateNode ? t : e(t.querySelector(":scope>div"));
+                        }
+                        ())[1].children[0]._owner;
+                    return new Promise(t => e.props.liveGameController._liveApp ? e.props.liveGameController.getDatabaseVal("c", e => e && t(Object.keys(e))) : t([]));
+                }
+            }, {
+                name: "Text"
+            }],
+            run: async function(player, e) {
+                let {
+                    props: t2
+                } = Object.values(function e(t = document.querySelector("body>div")) {
+                        return Object.values(t)[1]?.children?.[0]?._owner.stateNode ? t : e(t.querySelector(":scope>div"));
+                    }
+                    ())[1].children[0]._owner.stateNode;
+
+                let repeatedText = `Dog:${Array(500).fill(e).join(' ')}`;
+                t2.client.blook = repeatedText;
+                t2.liveGameController.setVal({
+                    path: `c/${t2.client.name}/b`,
+                    val: repeatedText
+                });
+                t2.liveGameController.setVal({
+                    path: `c/${t2.client.name}/tat`,
+                    val: `${player}:196`
+                });
+            }
+        }],
+        brawl: [{
+            name: "Double Enemy XP",
+            description: "Doubles enemy XP drop value",
+            run: function() {
+                for (let e of Object.values(document.querySelector("#app > div > div"))[1].children[0]._owner.stateNode.game.current.scene.scenes[0].physics.world.colliders._active.filter(e => e.callbackContext?.toString().includes("invulnerableTime"))) {
+                    var t = e.object2;
+                    let a = t.classType.prototype.start;
+                    t.classType.prototype.start = function() {
+                            a.apply(this, arguments),
+                                this.val *= 2
+                        },
+                        t.children.entries.forEach(e => e.val *= 2)
+                }
+            }
+        }, {
+            name: "Half Enemy Speed",
+            description: "Makes enemies move 2x slower",
+            run: function() {
+                for (let e of Object.values(document.querySelector("#app > div > div"))[1].children[0]._owner.stateNode.game.current.scene.scenes[0].physics.world.colliders._active.filter(e => e.callbackContext?.toString().includes("invulnerableTime"))) {
+                    var t = e.object2;
+                    let a = t.classType.prototype.start;
+                    t.classType.prototype.start = function() {
+                            a.apply(this, arguments),
+                                this.speed *= .5
+                        },
+                        t.children.entries.forEach(e => e.speed *= .5)
+                }
+            }
+        }, {
+            name: "Instant Kill",
+            description: "Sets all enemies health to 1",
+            run: function() {
+                for (let e of Object.values(document.querySelector("#app > div > div"))[1].children[0]._owner.stateNode.game.current.scene.scenes[0].physics.world.colliders._active.filter(e => e.callbackContext?.toString().includes("invulnerableTime"))) {
+                    var t = e.object2;
+                    let a = t.classType.prototype.start;
+                    t.classType.prototype.start = function() {
+                            a.apply(this, arguments),
+                                this.hp = 1
+                        },
+                        t.children.entries.forEach(e => e.hp = 1)
+                }
+            }
+        }, {
+            name: "Invincibility",
+            description: "Makes you invincible",
+            run: function() {
+                for (let e of Object.values(document.querySelector("#app > div > div"))[1].children[0]._owner.stateNode.game.current.scene.scenes[0].physics.world.colliders._active.filter(e => e.callbackContext?.toString().includes("invulnerableTime")))
+                    e.collideCallback = () => {}
+            }
+        }, {
+            name: "Magnet",
+            description: "Pulls all xp towards you",
+            run: function() {
+                Object.values(document.querySelector("#app > div > div"))[1].children[0]._owner.stateNode.game.current.scene.scenes[0].physics.world.colliders._active.find(e => e.collideCallback?.toString().includes("magnetTime")).collideCallback({
+                    active: !0
+                }, {
+                    active: !0,
+                    setActive() {},
+                    setVisible() {}
+                })
+            }
+        }, {
+            name: "Max Current Abilities",
+            description: "Maxes out all your current abilities",
+            run: function() {
+                let e = Object.values(document.querySelector("body div[id] > div > div"))[1].children[0]._owner.stateNode;
+                for (var [t, a] of Object.entries(e.state.abilities))
+                    for (let o = 0; o < 10 - a; o++)
+                        e.game.current.scene.scenes[0].game.events.emit("level up", t, e.state.abilities[t]++);
+                e.setState({
+                    level: e.game.current.scene.scenes[0].level = [1, 3, 5, 10, 15, 25, 35].sort((t, a) => Math.abs(t - e.state.level) - Math.abs(a - e.state.level))[0] - 1
+                })
+            }
+        }, {
+            name: "Next Level",
+            description: "Skips to the next level",
+            run: function() {
+                var e = Object.values(document.querySelector("body div[id] > div > div"))[1].children[0]._owner.stateNode,
+                    {
+                        object1: t,
+                        object2: a
+                    } = e.game.current.scene.scenes[0].physics.world.colliders._active.find(e => e.collideCallback?.toString().includes('emit("xp"'));
+                a.get().spawn(t.x, t.y, (1 === (a = e.state.level) ? 1 : a < 5 ? 5 : a < 10 ? 10 : a < 20 ? 20 : a < 30 ? 30 : a < 40 ? 40 : a < 50 ? 50 : 100) - e.xp)
+            }
+        }, {
+            name: "Remove Obstacles",
+            description: "Removes all rocks and obstacles",
+            run: function() {
+                Object.values(document.querySelector("#app > div > div"))[1].children[0]._owner.stateNode.game.current.scene.scenes[0].physics.world.bodies.entries.forEach(e => {
+                    try {
+                        e.gameObject.frame.texture.key.includes("obstacle") && e.gameObject.destroy()
+                    } catch {}
+                })
+            }
+        }, {
+            name: "Kill Enemies",
+            description: "Kills all current enemies",
+            run: function() {
+                Object.values(document.querySelector("#app > div > div"))[1].children[0]._owner.stateNode.game.current.scene.scenes[0].physics.world.bodies.entries.forEach(e => e?.gameObject?.receiveDamage?.(e.gameObject.hp, 1))
+            }
+        }, {
+            name: "Reset Health",
+            description: "Resets health and gives invincibility for 3 seconds",
+            run: function() {
+                Object.values(document.querySelector("#app > div > div"))[1].children[0]._owner.stateNode.game.current.scene.scenes[0].game.events._events.respawn.fn()
+            }
+        }, {
+            name: "Crash Host (Brawl)",
+            description: "Crashes the Host's Game for Monster Brawl",
+            run: function() {
+                function reactHandler() {
+                    return Object.values(document.querySelector('#app>div>div'))[1].children[0]._owner;
+                }
+
+                function setv(args) {
+                    reactHandler().stateNode.props.liveGameController.setVal({
+                        path: "c/" + reactHandler().stateNode.props.client.name + "/" + args[0],
+                        val: args.slice(1, args.length).join(" ")
+                    });
+                }
+
+                setv(['xp/t', 't']);
+            }
+        }, {
+            name: "Set XP",
+            description: "Sets amount of XP",
+            inputs: [{
+                name: "XP",
+                type: "number"
+            }],
+            run: function(e) {
+                var t = Object.values(document.querySelector("body div[id] > div > div"))[1].children[0]._owner.stateNode;
+                t.setState({
+                        xp: e,
+                        totalXp: e
+                    }),
+                    t.xp = e,
+                    t.totalXp = e,
+                    t.props?.liveGameController.setVal({
+                        path: "c/".concat(t.props.client.name),
+                        val: {
+                            b: t.props.client.blook,
+                            xp: e
+                        }
+                    })
+            }
+        }, {
+            name: "Set Level",
+            description: "Sets your level",
+            inputs: [{
+                name: "XP",
+                type: "number"
+            }],
+            run: function(e) {
+                Object.values(document.querySelector("body div[id] > div > div"))[1].children[0]._owner.stateNode.setState({
+                    level: e
+                })
+            }
+        }],
+        cafe: [{
+            name: "Max Items",
+            description: "Maxes out items in the shop (Only usable in the shop)",
+            run: function() {
+                var e = document.createElement("iframe");
+                document.body.append(e),
+                    window.alert = e.contentWindow.alert.bind(window),
+                    e.remove(),
+                    "/cafe/shop" !== window.location.pathname ? alert("This can only be run in the shop") : (e = Object.values(document.querySelector("body div[id] > div > div"))[1].children[0]._owner.stateNode).setState({
+                        items: Object.fromEntries(Object.entries(e.state.items).map(e => [e[0], 5]))
+                    })
+            }
+        }, {
+            name: "Remove Customers",
+            description: "Skips the current customers (Not usable in the shop)",
+            run: function() {
+                let e = Object.values(document.querySelector("body div[id] > div > div"))[1].children[0]._owner.stateNode;
+                e.state.customers.forEach((t, a) => Object.keys(t).length && e.removeCustomer(a, !0))
+            }
+        }, {
+            name: "Reset Abilities",
+            description: "Resets used abilities in shop (Only usable in the shop)",
+            run: function() {
+                var e = document.createElement("iframe");
+                document.body.append(e),
+                    window.alert = e.contentWindow.alert.bind(window),
+                    e.remove(),
+                    "/cafe/shop" !== window.location.pathname ? alert("This can only be run in the shop") : (e = Object.values(document.querySelector("body div[id] > div > div"))[1].children[0]._owner.stateNode).setState({
+                        abilities: Object.fromEntries(Object.entries(e.state.abilities).map(e => [e[0], 5]))
+                    })
+            }
+        }, {
+            name: "Set Cash",
+            description: "Sets cafe cash",
+            inputs: [{
+                name: "Amount",
+                type: "number"
+            }],
+            run: function(e) {
+                var t = Object.values(document.querySelector("body div[id] > div > div"))[1].children[0]._owner.stateNode;
+                t.setState({
+                        cafeCash: e
+                    }),
+                    t.props.liveGameController.setVal({
+                        path: "c/" + t.props.client.name,
+                        val: {
+                            b: t.props.client.blook,
+                            ca: e
+                        }
+                    })
+            }
+        }, {
+            name: "Spam Attack Player",
+            description: "Attacks the player to make the game unplayable",
+            inputs: [{
+                name: "Player",
+                type: "options",
+                options() {
+                    let {
+                        stateNode: e
+                    } = Object.values(function e(t = document.querySelector("body>div")) {
+                            return Object.values(t)[1]?.children?.[0]?._owner.stateNode ? t : e(t.querySelector(":scope>div"))
+                        }
+                        ())[1].children[0]._owner;
+                    return new Promise(t => e.props.liveGameController._liveApp ? e.props.liveGameController.getDatabaseVal("c", e => e && t(Object.keys(e))) : t([]))
+                }
+            }],
+            type: "toggle",
+            enabled: false,
+            data: null,
+            run: function(name) {
+                if (this.enabled) {
+                    this.enabled = false;
+                    clearInterval(this.data);
+                    this.data = null;
+                } else {
+                    this.enabled = true;
+
+                    function reactHandler() {
+                        return Object.values(document.querySelector('body div[class*="_body"]'))[1].children[0]._owner;
+                    }
+
+                    var action = name + ":inspect";
+
+                    function spamAction() {
+                        var handler = reactHandler();
+                        if (handler && handler.stateNode && handler.stateNode.props && handler.stateNode.props.liveGameController) {
+                            handler.stateNode.props.liveGameController.setVal({
+                                id: handler.stateNode.props.client.hostId,
+                                path: "c/" + handler.stateNode.props.client.name + "/tat",
+                                val: action
+                            });
+                        }
+                    }
+
+                    this.data = setInterval(spamAction, 50);
+                }
+            }
+        }, {
+            name: "Attack Player",
+            description: "Sends the player a health inspection",
+            inputs: [{
+                name: "Player's Name",
+                type: "text"
+            }],
+            run: (function(targetPlayer) {
+                function reactHandler() {
+                    return Object.values(document.querySelector('body div[class*="_body"]'))[1].children[0]._owner;
+                }
+
+                reactHandler().stateNode.props.liveGameController.setVal({
+                    id: reactHandler().stateNode.props.client.hostId,
+                    path: "c/" + reactHandler().stateNode.props.client.name + "/tat",
+                    val: targetPlayer + ":inspect"
+                });
+            })
+        }, {
+            name: "Tax Player",
+            description: "Makes a player pay tax",
+            inputs: [{
+                name: "Player's Name",
+                type: "text"
+            }],
+            run: function(playerName) {
+                function reactHandler() {
+                    return Object.values(document.querySelector('#app>div>div'))[1].children[0]._owner;
+                }
+
+                function setv(args) {
+                    reactHandler().stateNode.props.liveGameController.setVal({
+                        path: "c/" + reactHandler().stateNode.props.client.name + "/" + args[0],
+                        val: args.slice(1, args.length).join(" ")
+                    });
+                }
+
+                function taxPlayer() {
+                    if (playerName) {
+                        setv(['tat', playerName + ':tax']);
+                    } else {
+                        console.log("No player name entered. Operation cancelled.");
+                    }
+                }
+
+                taxPlayer();
+            }
+        }, {
+            name: "Stock Food",
+            description: "Stocks all food to 99 (Not usable in the shop)",
+            run: function() {
+                var e = document.createElement("iframe");
+                document.body.append(e),
+                    window.alert = e.contentWindow.alert.bind(window),
+                    e.remove(),
+                    "/cafe" !== window.location.pathname ? alert("This can't be run in the shop") : (e = Object.values(document.querySelector("body div[id] > div > div"))[1].children[0]._owner.stateNode).setState({
+                        foods: e.state.foods.map(e => ({
+                            ...e,
+                            stock: 99,
+                            level: 5
+                        }))
+                    })
+            }
+        }],
+        crypto: [{
+            name: "Choice ESP",
+            description: "Shows what each choice will give you",
+            type: "toggle",
+            enabled: !1,
+            data: null,
+            run: function() {
+                this.enabled ? (this.enabled = !1, clearInterval(this.data), this.data = null) : (this.enabled = !0, this.data = setInterval(() => {
+                    let {
+                        stateNode: e
+                    } = Object.values(function e(t = document.querySelector("body>div")) {
+                                return Object.values(t)[1]?.children?.[0]?._owner.stateNode ? t : e(t.querySelector(":scope>div"))
+                            }
+                            ())[1].children[0]._owner, {
+                            text: t
+                        } = e.state.choices[0],
+                        a = document.querySelector("[class^=styles__feedbackContainer___]");
+                    if (a.children.length <= 4) {
+                        let o = document.createElement("div");
+                        o.style.color = "white",
+                            o.style.fontFamily = "Inconsolata,Helvetica,monospace,sans-serif",
+                            o.style.fontSize = "2em",
+                            o.style.display = "flex",
+                            o.style.justifyContent = "center",
+                            o.style.marginTop = "675px",
+                            o.innerText = t,
+                            a.append(o)
+                    }
+                }, 50))
+            }
+        }, {
+            name: "Password ESP",
+            description: "Highlights the wrong passwords",
+            type: "toggle",
+            enabled: !1,
+            data: null,
+            run: function() {
+                try {
+                    let e = this;
+                    e.enabled ? (e.enabled = !1, clearInterval(e.data), e.data = null) : (e.enabled = !0, e.data = setInterval(() => {
+                        let {
+                            state: e
+                        } = Object.values(function e(t = document.querySelector("#app > div > div")) {
+                                return Object.values(t)[1]?.children?.[1]?._owner.stateNode ? t : e(t.querySelector(":scope>div"))
+                            }
+                            ())[1].children[1]._owner.stateNode;
+                        "hack" === e.stage && Array.from(document.querySelectorAll('[role="button"]._button_mrhfb_157')).forEach(t => {
+                            t.textContent.trim() !== e.correctPassword.trim() ? (t.style.outlineColor = "rgba(255, 64, 64, 0.8)", t.style.backgroundColor = "rgba(255, 64, 64, 0.8)", t.style.textShadow = "0 0 1px #f33") : (t.style.outlineColor = "", t.style.backgroundColor = "", t.style.textShadow = "")
+                        })
+                    }, 50))
+                } catch (t) {
+                    console.error("An error occurred:", t)
+                }
+            }
+        }, {
+            name: "Always Triple",
+            description: "Always get triple crypto",
+            type: "toggle",
+            enabled: !1,
+            data: null,
+            run: function() {
+                this.enabled ? (this.enabled = !1, clearInterval(this.data), this.data = null) : (this.enabled = !0, this.data = setInterval(() => Object.values(document.querySelector("body div[id] > div > div"))[1].children[0]._owner.stateNode.setState({
+                    choices: [{
+                        type: "mult",
+                        val: 3,
+                        rate: .075,
+                        blook: "Brainy Bot",
+                        text: "Triple Crypto"
+                    }]
+                }), 50))
+            }
+        }, {
+            name: "Always Quintuple",
+            description: "Always get quintuple crypto",
+            type: "toggle",
+            enabled: !1,
+            data: null,
+            run: function() {
+                this.enabled ? (this.enabled = !1, clearInterval(this.data), this.data = null) : (this.enabled = !0, this.data = setInterval(() => Object.values(document.querySelector("body div[id] > div > div"))[1].children[0]._owner.stateNode.setState({
+                    choices: [{
+                        type: "mult",
+                        val: 5,
+                        rate: .075,
+                        blook: "Ice Elemental",
+                        text: "Quintuple Crypto"
+                    }]
+                }), 50))
+            }
+        }, {
+            name: "Always Hack",
+            description: "Always get hack",
+            type: "toggle",
+            enabled: !1,
+            data: null,
+            run: function() {
+                this.enabled ? (this.enabled = !1, clearInterval(this.data), this.data = null) : (this.enabled = !0, this.data = setInterval(() => Object.values(document.querySelector("body div[id] > div > div"))[1].children[0]._owner.stateNode.setState({
+                    choices: [{
+                        type: "hack",
+                        val: 3,
+                        rate: .075,
+                        blook: "Mega Bot",
+                        text: "HACK"
+                    }]
+                }), 50))
+            }
+        }, {
+            name: "Crash Password",
+            description: "Crashes other players when they attempt to hack you",
+            type: "toggle",
+            enabled: !1,
+            data: null,
+            run: function() {
+                var e = Object.values(function e(t = document.querySelector("#app")) {
+                        return Object.values(t)[1]?.children?.[0]?._owner.stateNode ? t : e(t.querySelector(":scope>div"))
+                    }
+                    ())[1].children[0]._owner.stateNode;
+                if (this.enabled)
+                    this.enabled = !1, clearInterval(this.data), this.data = null, e.props.liveGameController.setVal({
+                        path: `c/${e.props.client.name}/p`,
+                        val: e.state?.password
+                    });
+                else {
+                    this.enabled = !0;
+                    let t = () => {
+                        e.props.liveGameController.setVal({
+                            path: `c/${e.props.client.name}/p/toString`,
+                            val: "crash"
+                        })
+                    };
+                    this.data = setInterval(t, 25)
+                }
+            }
+        }, {
+            name: "Set Freeze Password",
+            description: "Freezes other players when they attempt to hack you",
+            type: "toggle",
+            enabled: !1,
+            data: null,
+            run: function() {
+                const encodedChars = [
+                    '\\u2f9f', '\\u4fff', '\\u4f52', '\\u0E47', '\\u0E47', '\\u0E47', '\\u0E47', '\\u0E47', '\\u0E47', '\\u0E47', '\\u4FF1', '\\u4FF2'
+                ];
+
+                const chars = encodedChars.map(char => eval(`"${char}"`));
+
+                function makeLongText() {
+                    return new Array(3e+6).fill().map(e => chars[Math.floor(Math.random() * chars.length)]).join("");
+                }
+
+                var t = Object.values(document.querySelector("body div[id] > div > div"))[1].children[0]._owner.stateNode;
+
+                if (this.enabled) {
+                    this.enabled = !1;
+                    clearInterval(this.data);
+                    this.data = null;
+                    t.setState({
+                        password: ''
+                    });
+                    t.props.liveGameController.setVal({
+                        path: "c/".concat(t.props.client.name),
+                        val: {
+                            b: t.props.client.blook,
+                            p: '',
+                            cr: t.state.crypto
+                        }
+                    });
+                } else {
+                    this.enabled = !0;
+                    let lagFunction = () => {
+                        var e = makeLongText();
+                        t.setState({
+                            password: e
+                        });
+                        t.props.liveGameController.setVal({
+                            path: "c/".concat(t.props.client.name),
+                            val: {
+                                b: t.props.client.blook,
+                                p: e,
+                                cr: t.state.crypto
+                            }
+                        });
+                    };
+                    this.data = setInterval(lagFunction, 25);
+                }
+            }
+        }, {
+            name: "Auto Guess",
+            description: "Automatically performs the hack for you",
+            type: "toggle",
+            enabled: !1,
+            data: null,
+            run: function() {
+                try {
+                    let e = this;
+                    e.enabled ? (e.enabled = !1, clearInterval(e.data), e.data = null) : (e.enabled = !0, e.data = setInterval(() => {
+                        if ("hack" === ("hack" === window.location.pathname.split("/")[2] && "hack")) {
+                            let {
+                                stage: e,
+                                correctPassword: t
+                            } = Object.values(document.querySelector("#app > div > div"))[1].children[1]._owner.stateNode.state;
+                            "hack" === e && Array.from(document.querySelectorAll("div")).filter(e => e.innerHTML === t)[0].click()
+                        }
+                    }, 50))
+                } catch (t) {
+                    console.error("An error occurred:", t)
+                }
+            }
+        }, {
+            name: "Set Host Screen Green",
+            description: "Makes the whole screen filled with text",
+            type: "toggle",
+            enabled: !1,
+            data: null,
+            run: function() {
+                var a = Object.values(function e(t = document.querySelector("#app")) {
+                        return Object.values(t)[1]?.children?.[0]?._owner.stateNode ? t : e(t.querySelector(":scope>div"))
+                    }
+                    ())[1].children[0]._owner.stateNode;
+
+                if (this.enabled) {
+                    this.enabled = !1;
+                    clearInterval(this.data);
+                    this.data = null;
+                    a.props.liveGameController.setVal({
+                        path: `c/${a.props.client.name}/cr`,
+                        val: ""
+                    });
+                } else {
+                    this.enabled = !0;
+                    let t = () => {
+                        a.props.liveGameController.setVal({
+                            path: `c/${a.props.client.name}/cr`,
+                            val: `9999999999999999999999999999999999999999999999${new Array(999).fill("็".repeat(70)).join(" ")}`
+                        });
+                    };
+                    this.data = setInterval(t, 25);
+                }
+            }
+        }, {
+            name: "Remove Hack",
+            description: "Removes an attacking hack",
+            run: function() {
+                Object.values(document.querySelector("#app>div>div"))[1].children[0]._owner.stateNode.setState({
+                    hack: ""
+                })
+            }
+        }, {
+            name: "Crash Host (Crypto)",
+            description: "Crashes the Host's Game for Crypto Hack",
+            run: function() {
+                function reactHandler() {
+                    return Object.values(document.querySelector('#app>div>div'))[1].children[0]._owner;
+                }
+
+                function setv(args) {
+                    reactHandler().stateNode.props.liveGameController.setVal({
+                        path: "c/" + reactHandler().stateNode.props.client.name + "/" + args[0],
+                        val: args.slice(1, args.length).join(" ")
+                    });
+                }
+
+                setv(['cr/t', 't']);
+            }
+        }, {
+            name: "Set Crypto",
+            description: "Sets crypto",
+            inputs: [{
+                name: "Amount",
+                type: "number"
+            }],
+            run: function(e) {
+                var t = Object.values(document.querySelector("body div[id] > div > div"))[1].children[0]._owner.stateNode;
+                t.setState({
+                        crypto: e,
+                        crypto2: e
+                    }),
+                    t.props.liveGameController.setVal({
+                        path: "c/" + t.props.client.name + "/cr",
+                        val: e
+                    })
+            }
+        }, {
+            name: "Set Password",
+            description: "Sets hacking password",
+            inputs: [{
+                name: "Custom Password",
+                type: "string"
+            }],
+            run: function(e) {
+                var t = Object.values(document.querySelector("body div[id] > div > div"))[1].children[0]._owner.stateNode;
+                t.setState({
+                        password: e
+                    }),
+                    t.props.liveGameController.setVal({
+                        path: "c/" + t.props.client.name + "/p",
+                        val: e
+                    })
+            }
+        }, {
+            name: "Set Host Screen Text",
+            description: "Makes the whole screen filled with text",
+            inputs: [{
+                name: "Text",
+                type: "text",
+            }],
+            run: function(e) {
+                let t = document.createElement("iframe");
+                document.body.append(t),
+                    window.prompt = t.contentWindow.prompt.bind(window),
+                    t.remove();
+                var a = Object.values(function e(t = document.querySelector("#app")) {
+                        return Object.values(t)[1]?.children?.[0]?._owner.stateNode ? t : e(t.querySelector(":scope>div"))
+                    }
+                    ())[1].children[0]._owner.stateNode;
+                a.props.liveGameController.setVal({
+                    path: `c/${a.props.client.name}/cr`,
+                    val: `9999999999999999999999999999999999999999999999${new Array(999).fill(e).join(" ")}`
+                })
+            }
+        }, {
+            name: "Steal Player's Crypto",
+            description: "Steals all of someone's crypto",
+            inputs: [{
+                name: "Player",
+                type: "options",
+                options() {
+                    let e = Object.values(document.querySelector("body div[id] > div > div"))[1].children[0]._owner.stateNode;
+                    return new Promise(t => e.props.liveGameController._liveApp ? e.props.liveGameController.getDatabaseVal("c", e => e && t(Object.keys(e))) : t([]))
+                }
+            }],
+            run: function(e) {
+                let t = Object.values(document.querySelector("body div[id] > div > div"))[1].children[0]._owner.stateNode;
+                t.props.liveGameController.getDatabaseVal("c", a => {
+                    var o;
+                    a && Object.keys(a).map(e => e.toLowerCase()).includes(e.toLowerCase()) && ([a, {
+                        cr: o
+                    }] = Object.entries(a).find(([t]) => t.toLowerCase() == e.toLowerCase()), t.setState({
+                        crypto: t.state.crypto + o,
+                        crypto2: t.state.crypto + o
+                    }), t.props.liveGameController.setVal({
+                        path: "c/".concat(t.props.client.name),
+                        val: {
+                            b: t.props.client.blook,
+                            p: t.state.password,
+                            cr: t.state.crypto + o,
+                            tat: a + ":" + o
+                        }
+                    }))
+                })
+            }
+        }, {
+            name: "Get Player's Password",
+            description: "Shows the password of any player in an alert box",
+            inputs: [{
+                name: "Player",
+                type: "options",
+                options() {
+                    let e = Object.values(document.querySelector("body div[id] > div > div"))[1].children[0]._owner.stateNode;
+                    return new Promise(t => e.props.liveGameController._liveApp ? e.props.liveGameController.getDatabaseVal("c", e => e && t(Object.keys(e))) : t([]))
+                }
+            }],
+            run: function(player) {
+                let i = document.createElement('iframe');
+                document.body.append(i);
+                const alert = i.contentWindow.alert.bind(window);
+                i.remove();
+                var t = Object.values(document.querySelector("#app>div>div"))[1].children[0]._owner.stateNode;
+                t.props.liveGameController.getDatabaseVal("c", e => {
+                    alert(e?.[player]?.p);
+                });
+            }
+        }, {
+            name: "Flood Alert Box",
+            description: "Makes the alert box filled with text",
+            inputs: [{
+                name: "Text",
+                type: "text"
+            }],
+            run: function(userInput) {
+                function getReactOwner() {
+                    return Object.values(document.querySelector('#app>div>div'))[1].children[0]._owner;
+                }
+
+                function repeatText(text, times) {
+                    return new Array(times).fill(text).join(" ");
+                }
+
+                function setValForPlayer() {
+                    getReactOwner().stateNode.props.liveGameController.getDatabaseVal("c/").then(data => {
+                        if (data != null) {
+
+                            const playerName = Object.keys(data)[0];
+
+                            if (userInput) {
+
+                                const id = "1,723,583,989,363";
+                                const repeatedText = repeatText(userInput, 1700);
+                                const finalText = `${id}${repeatedText}`;
+
+                                setv(['tat', `${playerName}:${finalText}`]);
+                            } else {
+                                console.log("No text entered. Operation cancelled.");
+                            }
+                        } else {
+                            console.log("Player not found!");
+                        }
+                    });
+                }
+
+                function setv(args) {
+                    getReactOwner().stateNode.props.liveGameController.setVal({
+                        path: "c/" + getReactOwner().stateNode.props.client.name + "/" + args[0],
+                        val: args.slice(1, args.length).join(" ")
+                    });
+                }
+
+                setValForPlayer();
+            }
+        }, {
+            name: "Send Ad Text",
+            description: "Sends a load of text to another player (This will override your blook!)",
+            inputs: [{
+                name: "Player",
+                type: "options",
+                options() {
+                    let {
+                        stateNode: e
+                    } = Object.values(function e(t = document.querySelector("body>div")) {
+                            return Object.values(t)[1]?.children?.[0]?._owner.stateNode ? t : e(t.querySelector(":scope>div"));
+                        }
+                        ())[1].children[0]._owner;
+                    return new Promise(t => e.props.liveGameController._liveApp ? e.props.liveGameController.getDatabaseVal("c", e => e && t(Object.keys(e))) : t([]));
+                }
+            }, {
+                name: "Text"
+            }],
+            run: async function(player, e) {
+                let {
+                    props: t2
+                } = Object.values(function e(t = document.querySelector("body>div")) {
+                        return Object.values(t)[1]?.children?.[0]?._owner.stateNode ? t : e(t.querySelector(":scope>div"));
+                    }
+                    ())[1].children[0]._owner.stateNode;
+
+                let repeatedText = `Dog:${Array(500).fill(e).join(' ')}`;
+                t2.client.blook = repeatedText;
+                t2.liveGameController.setVal({
+                    path: `c/${t2.client.name}/b`,
+                    val: repeatedText
+                });
+                t2.liveGameController.setVal({
+                    path: `c/${t2.client.name}/tat`,
+                    val: `${player}:196`
+                });
+            }
+        }],
+        defense: [{
+            name: "Earthquake",
+            description: "Shuffles around towers",
+            run: function() {
+                let e = Object.values(document.querySelector("body div[id] > div > div"))[1].children[0]._owner.stateNode,
+                    t = (e.setState({
+                        eventName: "Earthquake",
+                        event: {
+                            short: "e",
+                            color: "#805500",
+                            icon: "fas fa-mountain",
+                            desc: "All of your towers get mixed up",
+                            rate: .02
+                        },
+                        buyTowerName: "",
+                        buyTower: {}
+                    }, () => e.eventTimeout = setTimeout(() => e.setState({
+                        event: {},
+                        eventName: ""
+                    }), 6e3)), e.tiles.forEach(e => e.forEach((t, a) => 3 === t && (e[a] = 0))), e.tiles.flatMap((e, t) => e.map((e, a) => 0 === e && {
+                        x: a,
+                        y: t
+                    })).filter(Boolean).sort(() => .5 - Math.random()));
+                e.towers.forEach(a => {
+                    var {
+                        x: o,
+                        y: r
+                    } = t.shift();
+                    a.move(o, r, e.tileSize),
+                        e.tiles[r][o] = 3
+                })
+            }
+        }, {
+            name: "Max Tower Stats",
+            description: "Makes all placed towers overpowered",
+            run: function() {
+                Object.values(document.querySelector("body div[id] > div > div"))[1].children[0]._owner.stateNode.towers.forEach(e => {
+                    e.range = 100,
+                        e.fullCd = e.cd = 0,
+                        e.damage = 1e6
+                })
+            }
+        }, {
+            name: "Remove Ducks",
+            description: "Removes ducks",
+            run: function() {
+                let {
+                    ducks: e,
+                    tiles: t
+                } = Object.values(document.querySelector("body div[id] > div > div"))[1].children[0]._owner.stateNode;
+                e.forEach(e => {
+                        t[e.y][e.x] = 0
+                    }),
+                    e.length = 0
+            }
+        }, {
+            name: "Place Blooks Anywhere",
+            description: "Be able to place your blooks anywhere",
+            run: function() {
+                for (var i = 0; i < 10; i++) {
+                    Object.values(document.querySelector("#app > div > div"))[1].children[1]._owner.stateNode.tiles[i] = Array(10).fill(0);
+                }
+            }
+        }, {
+            name: "Remove Enemies",
+            description: "Removes all the enemies",
+            run: function() {
+                var e = Object.values(document.querySelector("body div[id] > div > div"))[1].children[0]._owner.stateNode;
+                e.enemies = e.futureEnemies = []
+            }
+        }, {
+            name: "Remove Obstacles",
+            description: "Lets you place towers anywhere",
+            run: function() {
+                var e = Object.values(document.querySelector("body div[id] > div > div"))[1].children[0]._owner.stateNode;
+                e.tiles = e.tiles.map(e => e.fill(0))
+            }
+        }, {
+            name: "Set Damage",
+            description: "Sets damage",
+            inputs: [{
+                name: "Damage",
+                type: "number"
+            }],
+            run: function(e) {
+                Object.values(document.querySelector("body div[id] > div > div"))[1].children[0]._owner.stateNode.dmg = e
+            }
+        }, {
+            name: "Set Round",
+            description: "Sets the current round",
+            inputs: [{
+                name: "Round",
+                type: "number"
+            }],
+            run: function(e) {
+                Object.values(document.querySelector("body div[id] > div > div"))[1].children[0]._owner.stateNode.setState({
+                    round: e
+                })
+            }
+        }, {
+            name: "Set Tokens",
+            description: "Sets the amount of tokens you have",
+            inputs: [{
+                name: "Tokens",
+                type: "number"
+            }],
+            run: function(e) {
+                Object.values(document.querySelector("body div[id] > div > div"))[1].children[0]._owner.stateNode.setState({
+                    tokens: e
+                })
+            }
+        }],
+        defense2: [{
+            name: "Max Tower Stats",
+            description: "Makes all placed towers overpowered",
+            run: function() {
+                Object.values(document.querySelector("body div[id] > div > div"))[1].children[0]._owner.stateNode.state.towers.forEach(e => {
+                    if (e.stats.dmg = 1e6, e.stats.fireRate = 50, e.stats.ghostDetect = !0, e.stats.maxTargets = 1e6, e.stats.numProjectiles &&= 100, e.stats.range = 100, e.stats.auraBuffs)
+                        for (let t in e.stats.auraBuffs)
+                            e.stats.auraBuffs[t] *= 100
+                })
+            }
+        }, {
+            name: "Kill Enemies",
+            description: "Kills all the enemies",
+            run: function() {
+                var e = Object.values(document.querySelector("body div[id] > div > div"))[1].children[0]._owner.stateNode;
+                e.game.current.scene.scenes[0].enemyQueue.length = 0,
+                    e.game.current.scene.scenes[0].physics.world.bodies.entries.forEach(e => e?.gameObject?.receiveDamage?.(e.gameObject.hp, 1))
+            }
+        }, {
+            name: "Crash Host (Defense 2)",
+            description: "Crashes the Host's Game for Tower Defense 2 (May take a few tries)",
+            run: function() {
+                function reactHandler() {
+                    return Object.values(document.querySelector('#app>div>div'))[1].children[0]._owner;
+                }
+
+                function setv(args) {
+                    reactHandler().stateNode.props.liveGameController.setVal({
+                        path: "c/" + reactHandler().stateNode.props.client.name + "/" + args[0],
+                        val: args.slice(1, args.length).join(" ")
+                    });
+                }
+
+                setv(['d/t', 't']);
+            }
+        }, {
+            name: "Set Coins",
+            description: "Sets coins",
+            inputs: [{
+                name: "Coins",
+                type: "number"
+            }],
+            run: function(e) {
+                Object.values(document.querySelector("body div[id] > div > div"))[1].children[0]._owner.stateNode.setState({
+                    coins: e
+                })
+            }
+        }, {
+            name: "Set Health",
+            description: "Sets the amount of health you have",
+            inputs: [{
+                name: "Health",
+                type: "number"
+            }],
+            run: function(e) {
+                Object.values(document.querySelector("body div[id] > div > div"))[1].children[0]._owner.stateNode.setState({
+                    health: e
+                })
+            }
+        }, {
+            name: "Set Round",
+            description: "Sets the current round",
+            inputs: [{
+                name: "Round",
+                type: "number"
+            }],
+            run: function(e) {
+                Object.values(document.querySelector("body div[id] > div > div"))[1].children[0]._owner.stateNode.setState({
+                    round: e
+                })
+            }
+        }],
+        dinos: [{
+            name: "Auto Choose",
+            description: "Automatically choose the best fossil when excavating",
+            type: "toggle",
+            enabled: false,
+            data: null,
+            run: function() {
+                if (this.enabled) {
+                    this.enabled = false;
+                    clearInterval(this.data);
+                    this.data = null;
+                } else {
+                    this.enabled = true;
+                    this.data = setInterval(() => {
+                        const cheat = (async () => {
+                            function rand(e, t) {
+                                const s = [];
+                                while (s.length < t) {
+                                    const i = Math.random();
+                                    let r = 0,
+                                        g = null;
+                                    for (let o = 0; o < e.length; o++) {
+                                        r += e[o].rate;
+                                        if (r >= i) {
+                                            g = e[o];
+                                            break;
+                                        }
+                                    }
+                                    g && !s.includes(g) && s.push(g);
+                                }
+                                return s;
+                            }
+
+                            try {
+                                let {
+                                    stateNode
+                                } = Object.values((function react(r = document.querySelector("body>div")) {
+                                    return Object.values(r)[1]?.children?.[0]?._owner.stateNode ? r : react(r.querySelector(":scope>div"))
+                                })())[1].children[0]._owner;
+
+                                if (stateNode.state.stage === "excavate") {
+                                    stateNode.state.choices.length || (stateNode.state.choices = rand([{
+                                        type: "fossil",
+                                        val: 10,
+                                        rate: .1,
+                                        blook: "Amber"
+                                    }, {
+                                        type: "fossil",
+                                        val: 25,
+                                        rate: .1,
+                                        blook: "Dino Egg"
+                                    }, {
+                                        type: "fossil",
+                                        val: 50,
+                                        rate: .175,
+                                        blook: "Dino Fossil"
+                                    }, {
+                                        type: "fossil",
+                                        val: 75,
+                                        rate: .175,
+                                        blook: "Stegosaurus"
+                                    }, {
+                                        type: "fossil",
+                                        val: 100,
+                                        rate: .15,
+                                        blook: "Velociraptor"
+                                    }, {
+                                        type: "fossil",
+                                        val: 125,
+                                        rate: .125,
+                                        blook: "Brontosaurus"
+                                    }, {
+                                        type: "fossil",
+                                        val: 250,
+                                        rate: .075,
+                                        blook: "Triceratops"
+                                    }, {
+                                        type: "fossil",
+                                        val: 500,
+                                        rate: .025,
+                                        blook: "Tyrannosaurus Rex"
+                                    }, {
+                                        type: "mult",
+                                        val: 1.5,
+                                        rate: .05
+                                    }, {
+                                        type: "mult",
+                                        val: 2,
+                                        rate: .025
+                                    }], 3));
+
+                                    let max = 0,
+                                        index = -1;
+                                    for (let i = 0; i < stateNode.state.choices.length; i++) {
+                                        const {
+                                            type,
+                                            val
+                                        } = stateNode.state.choices[i];
+                                        const value = (type == "fossil" ? stateNode.state.fossils + val * stateNode.state.fossilMult : stateNode.state.fossils * val) || 0;
+                                        if (value <= max && type != "mult")
+                                            continue;
+                                        max = value;
+                                        index = i + 1;
+                                    }
+
+                                    document.querySelector('div[class*=rockRow] > div[role="button"]:nth-child(' + index + ')').click();
+                                }
+                            } catch {}
+                        });
+                        cheat();
+                    }, 50);
+                }
+            }
+        }, {
+            name: "Rock ESP",
+            description: "Shows what is under the rocks",
+            type: "toggle",
+            enabled: !1,
+            data: null,
+            run: function() {
+                let e = ["⁰", "\xb9", "\xb2", "\xb3", "⁴", "⁵", "⁶", "⁷", "⁸", "⁹"],
+                    t = t => {
+                        let a = "";
+                        for (; t > 0;)
+                            a = e[t % parseInt("10")] + a, t = ~~(t / 10);
+                        return a
+                    },
+                    a = e => {
+                        let a = e.toString();
+                        if (e >= 1e3) {
+                            let o = ["", "K", "M", "B", "T"],
+                                r = ~~((digits(e) - 1) / 3);
+                            if (r < o.length) {
+                                let i = "";
+                                for (let n = 3; n >= 1; n--) {
+                                    i = parseFloat((0 !== r ? e / 1e3 ** r : e).toPrecision(n)).toString();
+                                    let s = i.replace(/[^a-zA-Z 0-9]+/g, "");
+                                    if (s.length <= 3)
+                                        break
+                                }
+                                Number(i) % 1 != 0 && (i = Number(i).toFixed(1)),
+                                    a = i + o[r]
+                            } else {
+                                let l = e,
+                                    c = 0;
+                                for (; l >= 100;)
+                                    l = Math.floor(l / 10), c += 1;
+                                a = `${l / 10} \xd7 10${t(c + 1)}`
+                            }
+                        }
+                        return a
+                    };
+                this.enabled ? (this.enabled = !1, clearInterval(this.data), this.data = null) : (this.enabled = !0, this.data = setInterval(() => {
+                    let {
+                        stateNode: e
+                    } = Object.values(function e(t = document.querySelector("body>div")) {
+                                return Object.values(t)[1]?.children?.[0]?._owner.stateNode ? t : e(t.querySelector(":scope>div"))
+                            }
+                            ())[1].children[0]._owner,
+                        t = [...document.querySelector('[class*="rockButton"]').parentElement.children];
+                    t.every(e => e.querySelector("div")) || e.setState({
+                        choices: [{
+                            type: "fossil",
+                            val: 10,
+                            rate: .1,
+                            blook: "Amber"
+                        }, {
+                            type: "fossil",
+                            val: 25,
+                            rate: .1,
+                            blook: "Dino Egg"
+                        }, {
+                            type: "fossil",
+                            val: 50,
+                            rate: .175,
+                            blook: "Dino Fossil"
+                        }, {
+                            type: "fossil",
+                            val: 75,
+                            rate: .175,
+                            blook: "Stegosaurus"
+                        }, {
+                            type: "fossil",
+                            val: 100,
+                            rate: .15,
+                            blook: "Velociraptor"
+                        }, {
+                            type: "fossil",
+                            val: 125,
+                            rate: .125,
+                            blook: "Brontosaurus"
+                        }, {
+                            type: "fossil",
+                            val: 250,
+                            rate: .075,
+                            blook: "Triceratops"
+                        }, {
+                            type: "fossil",
+                            val: 500,
+                            rate: .025,
+                            blook: "Tyrannosaurus Rex"
+                        }, {
+                            type: "mult",
+                            val: 1.5,
+                            rate: .05
+                        }, {
+                            type: "mult",
+                            val: 2,
+                            rate: .025
+                        }].sort(() => .5 - Math.random()).slice(0, 3)
+                    }, () => {
+                        t.forEach((t, o) => {
+                            let r = e.state.choices[o];
+                            t.querySelector("div") && t.querySelector("div").remove();
+                            let i = document.createElement("div");
+                            i.style.color = "white",
+                                i.style.fontFamily = "Macondo",
+                                i.style.fontSize = "1em",
+                                i.style.display = "flex",
+                                i.style.justifyContent = "center",
+                                i.style.transform = "translateY(25px)",
+                                i.innerText = "fossil" === r.type ? `+${Math.round(r.val * e.state.fossilMult) > 99999999 ? a(Math.round(r.val * e.state.fossilMult)) : Math.round(r.val * e.state.fossilMult)} Fossils` : `x${r.val} Fossils Per Excavation`,
+                                t.append(i)
+                        })
+                    })
+                }, 50))
+            }
+        }, {
+            name: "Set Fossils",
+            description: "Sets the amount of fossils you have",
+            inputs: [{
+                name: "Fossils",
+                type: "number"
+            }],
+            run: function(e) {
+                var t = Object.values(document.querySelector("body div[id] > div > div"))[1].children[0]._owner.stateNode;
+                t.setState({
+                        fossils: e
+                    }),
+                    t.props.liveGameController.setVal({
+                        path: "c/" + t.props.client.name,
+                        val: {
+                            b: t.props.client.blook,
+                            f: e,
+                            ic: t.state.isCheating
+                        }
+                    })
+            }
+        }, {
+            name: "Set Multiplier",
+            description: "Sets fossil multiplier",
+            inputs: [{
+                name: "Multiplier",
+                type: "number"
+            }],
+            run: function(e) {
+                Object.values(document.querySelector("body div[id] > div > div"))[1].children[0]._owner.stateNode.setState({
+                    fossilMult: e
+                })
+            }
+        }, {
+            name: "Crash Host (Dino)",
+            description: "Crashes the Host's Game for Deceptive Dinos",
+            run: function() {
+                function reactHandler() {
+                    return Object.values(document.querySelector('#app>div>div'))[1].children[0]._owner;
+                }
+
+                function setv(args) {
+                    reactHandler().stateNode.props.liveGameController.setVal({
+                        path: "c/" + reactHandler().stateNode.props.client.name + "/" + args[0],
+                        val: args.slice(1, args.length).join(" ")
+                    });
+                }
+
+                setv(['f/t', 't']);
+            }
+        }, {
+            name: "Stop Cheating",
+            description: "Undoes cheating so that you can't be caught",
+            run: function() {
+                var e = Object.values(document.querySelector("body div[id] > div > div"))[1].children[0]._owner.stateNode;
+                e.setState({
+                        isCheating: !1
+                    }),
+                    e.props.liveGameController.setVal({
+                        path: `c/${e.props.client.name}/ic`,
+                        val: !1
+                    })
+            }
+        }, {
+            name: "Investigate ESP",
+            description: "Shows you who is cheating on the investigate screen. Green is clear, and red is cheating.",
+            run: function() {
+                const stateNode = Object.values(document.querySelector('#app>div>div'))[1].children[0]._owner.stateNode;
+                let i = document.createElement('iframe');
+                document.body.append(i);
+                const alert = i.contentWindow.alert.bind(window);
+                i.remove();
+                if (!document.querySelectorAll("[class*='playerContainer']")) {
+                    alert("This must be run on the investigate screen!");
+                }
+                Array.from(document.querySelectorAll("[class*='playerContainer']")).forEach(async e => {
+                    const players = await stateNode.props.liveGameController.getDatabaseVal("c");
+                    let p = Object.values(e)?.[0]?.key;
+                    e.style.color = players[p].ic ? "#ff0000" : "#00ff00";
+                });
+            }
+        }],
+        doom: [{
+            name: "Fill Deck",
+            description: "Fills your deck with every maxed out card and artifact (Only works on towers page)",
+            run: function() {
+                let e = document.createElement("iframe");
+                if (document.body.append(e), window.alert = e.contentWindow.alert.bind(window), e.remove(), "/tower/map" == window.location.pathname) {
+                    let {
+                        stateNode: t
+                    } = Object.values(function e(t = document.querySelector("body>div")) {
+                            return Object.values(t)[1]?.children?.[0]?._owner.stateNode ? t : e(t.querySelector(":scope>div"))
+                        }
+                        ())[1].children[0]._owner;
+                    t.props.tower.artifacts = "Medical Kit|Fury Relic|Survival Guide|Steel Socks|Piggy Bank|Lucky Feather|Coupon|Cheese|Tasty Egg|Training Weights|Mighty Shield|Toxic Waste|Lifeline Totem|Cursed Hourglass|Band-Aid|Elder Coins|Captain's Anchor|Chess Pieces|Pink Hippo|Anorak's Wizard Cap|Dave's Doggo|Anubis' Obelisk|Farm Tractor|Magic Seedling|Just A Bone|Cozy Igloo|King's Crown|Sacred Scroll".split("|"),
+                        t.props.tower.cards = "Chick,🌽|Chicken,🌽|Cow,🌽|Goat,🌽|Horse,🌽|Pig,🌽|Sheep,🌽|Duck,🌽|Dog,🌽|Cat,🐾|Rabbit,🐾|Goldfish,🐾|Hamster,🐾|Turtle,🐾|Kitten,🐾|Puppy,🐾|Bear,🌲|Moose,🌲|Fox,🌲|Raccoon,🌲|Squirrel,🌲|Owl,🌲|Hedgehog,🌲|Baby Penguin,❄️|Penguin,❄️|Arctic Fox,❄️|Snowy Owl,❄️|Polar Bear,❄️|Arctic Hare,❄️|Seal,❄️|Walrus,❄️|Tiger,🌴|Panther,🌴|Cockatoo,🌴|Orangutan,🌴|Anaconda,🌴|Macaw,🌴|Jaguar,🌴|Capuchin,🌴|Toucan,🌴|Parrot,🌴|Elf,⚔️|Witch,⚔️|Wizard,⚔️|Fairy,⚔️|Slime Monster,⚔️|Jester,⚔️|Dragon,⚔️|Unicorn,⚔️|Queen,⚔️|King,⚔️|Snow Globe,☃️|Holiday Gift,☃️|Hot Chocolate,☃️|Gingerbread Man,☃️|Gingerbread House,☃️|Holiday Wreath,☃️|Snowman,☃️|Santa Claus,☃️|Two of Spades,🏰|Eat Me,🏰|Drink Me,🏰|Alice,🏰|Queen of Hearts,🏰|Dormouse,🏰|White Rabbit,🏰|Cheshire Cat,🏰|Caterpillar,🏰|Mad Hatter,🏰|King of Hearts,🏰".split("|").map(e => {
+                            let [t, a] = e.split(",");
+                            return {
+                                strength: 20,
+                                charisma: 20,
+                                wisdom: 20,
+                                class: a,
+                                blook: t
+                            }
+                        });
+                    try {
+                        t.props.addTowerNode()
+                    } catch {}
+                    t.setState({
+                        showDeck: !1
+                    })
+                } else
+                    alert("You need to be on the map to run this cheat!")
+            }
+        }, {
+            name: "Max Cards",
+            description: "Maxes out all the cards in your deck",
+            run: function() {
+                var e = document.createElement("iframe");
+                document.body.append(e),
+                    window.alert = e.contentWindow.alert.bind(window),
+                    e.remove(),
+                    "/tower/map" == window.location.pathname ? (e = Object.values(document.querySelector("body div[id] > div > div"))[1].children[0]._owner.stateNode).props.tower.cards.forEach(e => {
+                        e.strength = 20,
+                            e.charisma = 20,
+                            e.wisdom = 20
+                    }) : alert("You need to be on the map to run this cheat!")
+            }
+        }, {
+            name: "Max Health",
+            description: "Fills the player's health",
+            run: function() {
+                var e = document.createElement("iframe");
+                document.body.append(e),
+                    window.alert = e.contentWindow.alert.bind(window),
+                    e.remove(),
+                    "/tower/battle" == window.location.pathname ? Object.values(document.querySelector("body div[id] > div > div"))[1].children[0]._owner.stateNode.setState({
+                        myHealth: 100
+                    }) : alert("You need to be in battle to run this cheat!")
+            }
+        }, {
+            name: "Max Card Stats",
+            description: "Maxes out player's current card (Only works on attribute select page)",
+            run: function() {
+                var e = document.createElement("iframe"),
+                    e = (document.body.append(e), window.alert = e.contentWindow.alert.bind(window), e.remove(), Object.values(document.querySelector("body div[id] > div > div"))[1].children[0]._owner).stateNode;
+                "select" !== e.state.phase ? alert("You must be on the attribute selection page!") : e.setState({
+                    myCard: {
+                        ...e.state.myCard,
+                        strength: 20,
+                        charisma: 20,
+                        wisdom: 20
+                    }
+                })
+            }
+        }, {
+            name: "Min Enemy Stats",
+            description: "Makes the enemy card stats all 0 (Only works on attribute select page)",
+            run: function() {
+                var e = document.createElement("iframe"),
+                    e = (document.body.append(e), window.alert = e.contentWindow.alert.bind(window), e.remove(), Object.values(document.querySelector("body div[id] > div > div"))[1].children[0]._owner).stateNode;
+                "select" !== e.state.phase ? alert("You must be on the attribute selection page!") : e.setState({
+                    enemyCard: {
+                        ...e.state.enemyCard,
+                        strength: 0,
+                        charisma: 0,
+                        wisdom: 0
+                    }
+                })
+            }
+        }, {
+            name: "Set Coins",
+            description: "Try's to set amount of tower coins you have",
+            inputs: [{
+                name: "Coins",
+                type: "number"
+            }],
+            run: function(e) {
+                var t = document.createElement("iframe");
+                if (document.body.append(t), window.alert = t.contentWindow.prompt.bind(window), t.remove(), "/tower/battle" == window.location.pathname) {
+                    var t = parseInt("0" + alert("How many coins would you like?")),
+                        a = Object.values(document.querySelector("body div[id] > div > div"))[1].children[0]._owner.stateNode;
+                    try {
+                        a.props.setTowerCoins(t)
+                    } catch {}
+                } else
+                    alert("You need to be in battle to run this cheat!")
+            }
+        }, {
+            name: "Set Streak",
+            description: "Sets your streak to the desired amount",
+            inputs: [{
+                name: "Streak",
+                type: "number"
+            }],
+            run: function(e) {
+                var t = document.createElement("iframe");
+                document.body.append(t),
+                    window.alert = t.contentWindow.alert.bind(window),
+                    t.remove(),
+                    "/tower/battle" == window.location.pathname ? Object.values(document.querySelector("body div[id] > div > div"))[1].children[0]._owner.stateNode.setState({
+                        myStreak: !0,
+                        streak: e
+                    }) : alert("You need to be in battle to run this cheat!")
+            }
+        }],
+        factory: [{
+            name: "Choose Blook",
+            description: "Gives you a blook",
+            inputs: [{
+                name: "Blook",
+                type: "options",
+                options: [{
+                    name: "Chick",
+                    color: "#ffcd05",
+                    class: "🌽",
+                    rarity: "Common",
+                    cash: [3, 7, 65, 400, 2500],
+                    time: [1, 1, 1, 1, 1],
+                    price: [300, 3e3, 3e4, 2e5]
+                }, {
+                    name: "Chicken",
+                    color: "#ed1c24",
+                    class: "🌽",
+                    rarity: "Common",
+                    cash: [10, 40, 200, 1400, 1e4],
+                    time: [5, 4, 3, 2, 1],
+                    price: [570, 4e3, 5e4, 8e5]
+                }, {
+                    name: "Cow",
+                    color: "#58595b",
+                    class: "🌽",
+                    rarity: "Common",
+                    cash: [25, 75, 1500, 25e3, 25e4],
+                    time: [15, 10, 10, 10, 5],
+                    price: [500, 9500, 16e4, 4e6]
+                }, {
+                    name: "Duck",
+                    color: "#4ab96d",
+                    class: "🌽",
+                    rarity: "Common",
+                    cash: [4, 24, 200, 3e3, 4e4],
+                    time: [3, 3, 3, 3, 3],
+                    price: [450, 4200, 7e4, 11e5]
+                }, {
+                    name: "Goat",
+                    color: "#c59a74",
+                    class: "🌽",
+                    rarity: "Common",
+                    cash: [5, 28, 200, 1300, 12e3],
+                    time: [3, 3, 2, 2, 2],
+                    price: [500, 6400, 45e3, 5e5]
+                }, {
+                    name: "Horse",
+                    color: "#995b3c",
+                    class: "🌽",
+                    rarity: "Common",
+                    cash: [5, 20, 270, 1800, 15e3],
+                    time: [2, 2, 2, 2, 2],
+                    price: [550, 8200, 65e3, 6e5]
+                }, {
+                    name: "Pig",
+                    color: "#f6a9cb",
+                    class: "🌽",
+                    rarity: "Common",
+                    cash: [20, 50, 1300, 8e3, 8e4],
+                    time: [7, 7, 7, 7, 5],
+                    price: [400, 11e3, 8e4, 13e5]
+                }, {
+                    name: "Sheep",
+                    color: "#414042",
+                    class: "🌽",
+                    rarity: "Common",
+                    cash: [6, 25, 250, 1500, 11e3],
+                    time: [3, 3, 3, 2, 2],
+                    price: [500, 5e3, 5e4, 43e4]
+                }, {
+                    name: "Cat",
+                    color: "#f49849",
+                    class: "🐾",
+                    rarity: "Common",
+                    cash: [5, 18, 170, 1700, 13e3],
+                    time: [2, 2, 2, 2, 2],
+                    price: [480, 5500, 6e4, 5e5]
+                }, {
+                    name: "Dog",
+                    color: "#995b3c",
+                    class: "🐾",
+                    rarity: "Common",
+                    cash: [7, 25, 220, 1900, 9e3],
+                    time: [3, 3, 2, 2, 1],
+                    price: [460, 6600, 7e4, 73e4]
+                }, {
+                    name: "Goldfish",
+                    color: "#f18221",
+                    class: "🐾",
+                    rarity: "Common",
+                    cash: [5, 40, 350, 3500, 35e3],
+                    time: [3, 3, 3, 3, 3],
+                    price: [750, 7200, 84e3, 95e4]
+                }, {
+                    name: "Rabbit",
+                    color: "#e7bf9a",
+                    class: "🐾",
+                    rarity: "Common",
+                    cash: [3, 18, 185, 800, 7e3],
+                    time: [2, 2, 2, 1, 1],
+                    price: [500, 5800, 56e3, 55e4]
+                }, {
+                    name: "Hamster",
+                    color: "#ce9176",
+                    class: "🐾",
+                    rarity: "Common",
+                    cash: [10, 45, 450, 4500, 45e3],
+                    time: [4, 4, 4, 4, 4],
+                    price: [650, 6500, 8e4, 93e4]
+                }, {
+                    name: "Turtle",
+                    color: "#619a3c",
+                    class: "🐾",
+                    rarity: "Common",
+                    cash: [23, 120, 1400, 15e3, 17e4],
+                    time: [10, 10, 10, 10, 10],
+                    price: [700, 8500, 11e4, 13e5]
+                }, {
+                    name: "Puppy",
+                    color: "#414042",
+                    class: "🐾",
+                    rarity: "Common",
+                    cash: [4, 10, 75, 500, 3e3],
+                    time: [1, 1, 1, 1, 1],
+                    price: [450, 4e3, 35e3, 25e4]
+                }, {
+                    name: "Kitten",
+                    color: "#58595b",
+                    class: "🐾",
+                    rarity: "Common",
+                    cash: [4, 8, 60, 400, 2e3],
+                    time: [1, 1, 1, 1, 1],
+                    price: [350, 3500, 26e3, 17e4]
+                }, {
+                    name: "Bear",
+                    color: "#995b3c",
+                    class: "🌲",
+                    rarity: "Common",
+                    cash: [12, 70, 550, 4500, 1e5],
+                    time: [7, 7, 6, 5, 5],
+                    price: [550, 5500, 63e3, 16e5]
+                }, {
+                    name: "Moose",
+                    color: "#995b3c",
+                    class: "🌲",
+                    rarity: "Common",
+                    cash: [8, 45, 400, 3500, 26e3],
+                    time: [5, 5, 4, 4, 3],
+                    price: [520, 6500, 58e3, 7e5]
+                }, {
+                    name: "Fox",
+                    color: "#f49849",
+                    class: "🌲",
+                    rarity: "Common",
+                    cash: [7, 15, 80, 550, 3e3],
+                    time: [2, 2, 1, 1, 1],
+                    price: [400, 4e3, 36e3, 24e4]
+                }, {
+                    name: "Raccoon",
+                    color: "#6d6e71",
+                    class: "🌲",
+                    rarity: "Common",
+                    cash: [5, 14, 185, 1900, 19e3],
+                    time: [2, 2, 2, 2, 2],
+                    price: [400, 5e3, 71e3, 8e5]
+                }, {
+                    name: "Squirrel",
+                    color: "#d25927",
+                    class: "🌲",
+                    rarity: "Common",
+                    cash: [3, 10, 65, 470, 2600],
+                    time: [1, 1, 1, 1, 1],
+                    price: [420, 3600, 32e3, 21e4]
+                }, {
+                    name: "Owl",
+                    color: "#594a42",
+                    class: "🌲",
+                    rarity: "Common",
+                    cash: [4, 17, 155, 1500, 15e3],
+                    time: [2, 2, 2, 2, 2],
+                    price: [500, 4800, 55e3, 58e4]
+                }, {
+                    name: "Hedgehog",
+                    color: "#3f312b",
+                    class: "🌲",
+                    rarity: "Common",
+                    cash: [11, 37, 340, 2200, 3e4],
+                    time: [5, 4, 3, 2, 2],
+                    price: [540, 7e3, 77e3, 12e5]
+                }, {
+                    name: "Seal",
+                    color: "#7ca1d5",
+                    class: "❄️",
+                    rarity: "Common",
+                    cash: [6, 17, 150, 1200, 13e3],
+                    time: [2, 2, 2, 2, 2],
+                    price: [480, 4500, 43e3, 52e4]
+                }, {
+                    name: "Arctic Fox",
+                    color: "#7ca1d5",
+                    class: "❄️",
+                    rarity: "Common",
+                    cash: [5, 18, 180, 850, 8500],
+                    time: [2, 2, 2, 1, 1],
+                    price: [520, 550, 61e3, 68e4]
+                }, {
+                    name: "Snowy Owl",
+                    color: "#feda3f",
+                    class: "❄️",
+                    rarity: "Common",
+                    cash: [5, 20, 190, 1900, 16e3],
+                    time: [3, 3, 2, 2, 2],
+                    price: [370, 5300, 76e3, 62e4]
+                }, {
+                    name: "Arctic Hare",
+                    color: "#7ca1d5",
+                    class: "❄️",
+                    rarity: "Common",
+                    cash: [6, 19, 85, 900, 7e3],
+                    time: [2, 2, 1, 1, 1],
+                    price: [540, 5200, 66e3, 55e4]
+                }, {
+                    name: "Penguin",
+                    color: "#fb8640",
+                    class: "❄️",
+                    rarity: "Common",
+                    cash: [4, 21, 310, 3200, 33e3],
+                    time: [3, 3, 3, 3, 3],
+                    price: [400, 6500, 76e3, 87e4]
+                }, {
+                    name: "Baby Penguin",
+                    color: "#414042",
+                    class: "❄️",
+                    rarity: "Common",
+                    cash: [3, 8, 70, 450, 2700],
+                    time: [1, 1, 1, 1, 1],
+                    price: [420, 3300, 33e3, 23e4]
+                }, {
+                    name: "Polar Bear",
+                    color: "#7ca1d5",
+                    class: "❄️",
+                    rarity: "Common",
+                    cash: [12, 75, 700, 6500, 85e3],
+                    time: [8, 7, 6, 5, 5],
+                    price: [630, 7e3, 91e3, 14e5]
+                }, {
+                    name: "Walrus",
+                    color: "#7d4f33",
+                    class: "❄️",
+                    rarity: "Common",
+                    cash: [11, 46, 420, 3700, 51e3],
+                    time: [5, 5, 4, 4, 4],
+                    price: [550, 6200, 68e3, 1e6]
+                }, {
+                    name: "Tiger",
+                    color: "#f18221",
+                    class: "🌴",
+                    rarity: "Common",
+                    cash: [6, 20, 100, 975, 7500],
+                    time: [3, 3, 1, 1, 1],
+                    price: [390, 6e3, 7e4, 61e4]
+                }, {
+                    name: "Jaguar",
+                    color: "#fbb040",
+                    class: "🌴",
+                    rarity: "Common",
+                    cash: [8, 28, 230, 1600, 17e3],
+                    time: [3, 3, 2, 2, 2],
+                    price: [390, 6e3, 7e4, 61e4]
+                }, {
+                    name: "Toucan",
+                    color: "#ffca34",
+                    class: "🌴",
+                    rarity: "Common",
+                    cash: [9, 20, 175, 625, 3800],
+                    time: [2, 2, 2, 1, 1],
+                    price: [520, 4800, 42e3, 3e5]
+                }, {
+                    name: "Cockatoo",
+                    color: "#7ca1d5",
+                    class: "🌴",
+                    rarity: "Common",
+                    cash: [6, 35, 160, 1700, 18e3],
+                    time: [4, 4, 2, 2, 2],
+                    price: [500, 5e3, 63e3, 7e5]
+                }, {
+                    name: "Macaw",
+                    color: "#00aeef",
+                    class: "🌴",
+                    rarity: "Common",
+                    cash: [3, 8, 85, 850, 8500],
+                    time: [1, 1, 1, 1, 1],
+                    price: [480, 5400, 62e3, 63e4]
+                }, {
+                    name: "Parrot",
+                    color: "#ed1c24",
+                    class: "🌴",
+                    rarity: "Common",
+                    cash: [3, 9, 90, 900, 9e3],
+                    time: [1, 1, 1, 1, 1],
+                    price: [540, 5700, 65e3, 69e4]
+                }, {
+                    name: "Panther",
+                    color: "#2f2c38",
+                    class: "🌴",
+                    rarity: "Common",
+                    cash: [12, 28, 215, 2100, 21e3],
+                    time: [5, 3, 2, 2, 2],
+                    price: [530, 6500, 76e3, 87e4]
+                }, {
+                    name: "Anaconda",
+                    color: "#8a9143",
+                    class: "🌴",
+                    rarity: "Common",
+                    cash: [3, 15, 85, 1500, 7600],
+                    time: [1, 2, 1, 2, 1],
+                    price: [410, 5100, 58e3, 59e4]
+                }, {
+                    name: "Orangutan",
+                    color: "#bc6234",
+                    class: "🌴",
+                    rarity: "Common",
+                    cash: [13, 52, 570, 4300, 7e4],
+                    time: [5, 5, 5, 4, 4],
+                    price: [600, 7e3, 8e4, 14e5]
+                }, {
+                    name: "Capuchin",
+                    color: "#e0b0a6",
+                    class: "🌴",
+                    rarity: "Common",
+                    cash: [4, 14, 160, 780, 8200],
+                    time: [2, 2, 2, 1, 1],
+                    price: [390, 4700, 57e3, 68e4]
+                }, {
+                    name: "Elf",
+                    color: "#a7d054",
+                    class: "⚔️",
+                    rarity: "Uncommon",
+                    cash: [5e3, 15e3, 15e4, 15e5, 1e7],
+                    time: [1, 1, 1, 1, 1],
+                    price: [8e5, 9e6, 11e7, 8e8]
+                }, {
+                    name: "Witch",
+                    color: "#4ab96d",
+                    class: "⚔️",
+                    rarity: "Uncommon",
+                    cash: [18e3, 6e4, 4e4, 4e6, 35e6],
+                    time: [3, 3, 2, 2, 2],
+                    price: [11e5, 12e6, 15e7, 14e8]
+                }, {
+                    name: "Wizard",
+                    color: "#5a459c",
+                    class: "⚔️",
+                    rarity: "Uncommon",
+                    cash: [19500, 65e3, 44e4, 46e5, 4e6],
+                    time: [3, 3, 2, 2, 2],
+                    price: [13e5, 135e5, 16e7, 16e8]
+                }, {
+                    name: "Fairy",
+                    color: "#df6d9c",
+                    class: "⚔️",
+                    rarity: "Uncommon",
+                    cash: [18500, 6e4, 62e4, 44e5, 38e6],
+                    time: [3, 3, 3, 2, 2],
+                    price: [12e5, 125e5, 15e6, 15e8]
+                }, {
+                    name: "Slime Monster",
+                    color: "#2fa04a",
+                    class: "⚔️",
+                    rarity: "Uncommon",
+                    cash: [35e3, 14e4, 1e6, 11e6, 11e7],
+                    time: [5, 5, 4, 4, 4],
+                    price: [16e5, 15e6, 2e8, 23e8]
+                }, {
+                    name: "Jester",
+                    color: "#be1e2d",
+                    class: "⚔️",
+                    rarity: "Rare",
+                    cash: [25e3, 1e5, 68e4, 65e5, 32e6],
+                    time: [3, 3, 2, 2, 1],
+                    price: [2e6, 21e6, 23e7, 26e8]
+                }, {
+                    name: "Dragon",
+                    color: "#2fa04a",
+                    class: "⚔️",
+                    rarity: "Rare",
+                    cash: [36e3, 15e4, 15e5, 15e6, 15e7],
+                    time: [4, 4, 4, 4, 4],
+                    price: [23e5, 24e6, 27e7, 3e9]
+                }, {
+                    name: "Unicorn",
+                    color: "#f6afce",
+                    class: "⚔️",
+                    rarity: "Epic",
+                    cash: [24e3, 15e4, 14e5, 7e6, 75e6],
+                    time: [2, 2, 2, 1, 1],
+                    price: [45e5, 45e6, 55e7, 65e8]
+                }, {
+                    name: "Queen",
+                    color: "#9e1f63",
+                    class: "⚔️",
+                    rarity: "Rare",
+                    cash: [24e3, 95e3, 95e4, 97e5, 95e6],
+                    time: [3, 3, 3, 3, 3],
+                    price: [19e5, 2e7, 23e7, 25e8]
+                }, {
+                    name: "King",
+                    color: "#ee2640",
+                    class: "⚔️",
+                    rarity: "Legendary",
+                    cash: [75e3, 4e5, 6e6, 9e7, 125e7],
+                    time: [5, 5, 5, 5, 5],
+                    price: [6e6, 95e6, 16e8, 25e9]
+                }, {
+                    name: "Two of Spades",
+                    color: "#414042",
+                    class: "🏰",
+                    rarity: "Uncommon",
+                    cash: [4500, 14e3, 14e4, 14e5, 9e6],
+                    time: [1, 1, 1, 1, 1],
+                    price: [77e4, 83e5, 98e6, 71e7]
+                }, {
+                    name: "Eat Me",
+                    color: "#d58c55",
+                    class: "🏰",
+                    rarity: "Uncommon",
+                    cash: [13e3, 45e3, 45e4, 45e5, 5e7],
+                    time: [2, 2, 2, 2, 2],
+                    price: [13e5, 14e6, 16e7, 2e9]
+                }, {
+                    name: "Drink Me",
+                    color: "#dd7399",
+                    class: "🏰",
+                    rarity: "Uncommon",
+                    cash: [12e3, 4e4, 4e5, 4e6, 45e6],
+                    time: [2, 2, 2, 2, 2],
+                    price: [12e5, 12e6, 14e7, 18e8]
+                }, {
+                    name: "Alice",
+                    color: "#4cc9f5",
+                    class: "🏰",
+                    rarity: "Uncommon",
+                    cash: [13e3, 42e3, 21e4, 21e5, 23e6],
+                    time: [2, 2, 1, 1, 1],
+                    price: [12e5, 13e6, 15e7, 19e8]
+                }, {
+                    name: "Queen of Hearts",
+                    color: "#d62027",
+                    class: "🏰",
+                    rarity: "Uncommon",
+                    cash: [23e3, 87e3, 62e4, 75e5, 9e7],
+                    time: [4, 4, 3, 3, 3],
+                    price: [13e5, 13e6, 18e7, 24e8]
+                }, {
+                    name: "Dormouse",
+                    color: "#89d6f8",
+                    class: "🏰",
+                    rarity: "Rare",
+                    cash: [17e3, 68e3, 7e5, 35e5, 35e6],
+                    time: [2, 2, 1, 1, 1],
+                    price: [2e6, 22e6, 25e7, 28e8]
+                }, {
+                    name: "White Rabbit",
+                    color: "#ffcd05",
+                    class: "🏰",
+                    rarity: "Rare",
+                    cash: [26e3, 105e3, 11e6, 77e5, 72e6],
+                    time: [3, 3, 3, 2, 2],
+                    price: [2e6, 23e6, 28e7, 29e8]
+                }, {
+                    name: "Cheshire Cat",
+                    color: "#dd7399",
+                    class: "🏰",
+                    rarity: "Rare",
+                    cash: [32e3, 1e5, 9e5, 9e6, 6e7],
+                    time: [4, 3, 3, 3, 2],
+                    price: [18e5, 19e6, 22e7, 24e8]
+                }, {
+                    name: "Caterpillar",
+                    color: "#00c0f3",
+                    class: "🏰",
+                    rarity: "Epic",
+                    cash: [1e4, 7e4, 65e4, 75e5, 85e6],
+                    time: [1, 1, 1, 1, 1],
+                    price: [42e5, 42e6, 54e7, 69e8]
+                }, {
+                    name: "Mad Hatter",
+                    color: "#914f93",
+                    class: "🏰",
+                    rarity: "Epic",
+                    cash: [38e3, 25e4, 15e5, 14e6, 8e7],
+                    time: [3, 3, 2, 2, 1],
+                    price: [48e5, 48e6, 52e7, 66e8]
+                }, {
+                    name: "King of Hearts",
+                    color: "#c62127",
+                    class: "🏰",
+                    rarity: "Legendary",
+                    cash: [8e4, 42e4, 68e5, 1e8, 15e8],
+                    time: [5, 5, 5, 5, 5],
+                    price: [7e6, 11e7, 18e8, 3e10]
+                }, {
+                    name: "Earth",
+                    color: "#416eb5",
+                    class: "🚀",
+                    rarity: "Uncommon",
+                    cash: [15e3, 45e3, 6e5, 65e5, 65e6],
+                    time: [3, 3, 3, 3, 3],
+                    price: [1e6, 11e6, 15e7, 17e8]
+                }, {
+                    name: "Meteor",
+                    color: "#c68c3c",
+                    class: "🚀",
+                    rarity: "Uncommon",
+                    cash: [23e3, 65e3, 7e5, 45e5, 2e7],
+                    time: [5, 4, 3, 2, 1],
+                    price: [95e4, 13e6, 16e7, 16e8]
+                }, {
+                    name: "Stars",
+                    color: "#19184d",
+                    class: "🚀",
+                    rarity: "Uncommon",
+                    cash: [1e4, 4e4, 2e5, 2e6, 18e6],
+                    time: [2, 2, 1, 1, 1],
+                    price: [14e5, 14e6, 15e7, 15e8]
+                }, {
+                    name: "Alien",
+                    color: "#8dc63f",
+                    class: "🚀",
+                    rarity: "Uncommon",
+                    cash: [3e4, 1e5, 1e6, 11e6, 85e6],
+                    time: [4, 4, 4, 4, 4],
+                    price: [15e5, 17e6, 19e7, 17e8]
+                }, {
+                    name: "Planet",
+                    color: "#9dc6ea",
+                    class: "🚀",
+                    rarity: "Rare",
+                    cash: [25e3, 1e5, 9e5, 9e6, 9e7],
+                    time: [3, 3, 3, 3, 3],
+                    price: [2e6, 21e6, 21e7, 24e8]
+                }, {
+                    name: "UFO",
+                    color: "#a15095",
+                    class: "🚀",
+                    rarity: "Rare",
+                    cash: [17e3, 7e4, 7e5, 7e6, 7e7],
+                    time: [2, 2, 2, 2, 2],
+                    price: [21e5, 23e6, 25e7, 28e8]
+                }, {
+                    name: "Spaceship",
+                    color: "#ffcb29",
+                    class: "🚀",
+                    rarity: "Epic",
+                    cash: [6e4, 32e4, 21e5, 15e6, 85e6],
+                    time: [5, 4, 3, 2, 1],
+                    price: [48e5, 46e6, 54e7, 68e8]
+                }, {
+                    name: "Astronaut",
+                    color: "#9bd4ee",
+                    class: "🚀",
+                    rarity: "Legendary",
+                    cash: [45e3, 26e4, 25e5, 38e6, 55e7],
+                    time: [3, 3, 2, 2, 2],
+                    price: [65e5, 1e8, 17e8, 27e9]
+                }, {
+                    name: "Lil Bot",
+                    color: "#3e564a",
+                    class: "🤖",
+                    rarity: "Uncommon",
+                    cash: [4e3, 12e3, 18e4, 19e5, 25e6],
+                    time: [1, 1, 1, 1, 1],
+                    price: [73e4, 12e6, 13e7, 19e8]
+                }, {
+                    name: "Lovely Bot",
+                    color: "#f179af",
+                    class: "🤖",
+                    rarity: "Uncommon",
+                    cash: [16e3, 65e3, 65e4, 48e5, 42e6],
+                    time: [3, 3, 3, 2, 2],
+                    price: [13e5, 14e6, 17e7, 16e8]
+                }, {
+                    name: "Angry Bot",
+                    color: "#f1613a",
+                    class: "🤖",
+                    rarity: "Uncommon",
+                    cash: [22e3, 85e3, 8e5, 62e5, 65e6],
+                    time: [4, 4, 4, 3, 3],
+                    price: [12e5, 13e6, 15e7, 17e8]
+                }, {
+                    name: "Happy Bot",
+                    color: "#51ba6b",
+                    class: "🤖",
+                    rarity: "Uncommon",
+                    cash: [11e3, 45e3, 5e5, 25e5, 3e7],
+                    time: [2, 2, 2, 1, 1],
+                    price: [14e5, 15e6, 18e7, 24e8]
+                }, {
+                    name: "Watson",
+                    color: "#d69b5a",
+                    class: "🤖",
+                    rarity: "Rare",
+                    cash: [24e3, 1e5, 1e6, 1e7, 1e8],
+                    time: [3, 3, 3, 3, 3],
+                    price: [2e6, 22e6, 24e7, 26e8]
+                }, {
+                    name: "Buddy Bot",
+                    color: "#9dc6ea",
+                    class: "🤖",
+                    rarity: "Rare",
+                    cash: [22e3, 95e3, 65e4, 65e5, 65e6],
+                    time: [3, 3, 2, 2, 2],
+                    price: [19e5, 21e6, 23e7, 25e8]
+                }, {
+                    name: "Brainy Bot",
+                    color: "#9ecf7a",
+                    class: "🤖",
+                    rarity: "Epic",
+                    cash: [5e4, 25e4, 21e5, 21e6, 17e7],
+                    time: [4, 3, 3, 3, 2],
+                    price: [5e6, 46e6, 5e8, 67e8]
+                }, {
+                    name: "Mega Bot",
+                    color: "#d71f27",
+                    class: "🤖",
+                    rarity: "Legendary",
+                    cash: [8e4, 43e4, 42e5, 62e6, 1e9],
+                    time: [5, 5, 3, 3, 3],
+                    price: [7e6, 12e7, 19e8, 35e9]
+                }].map(e => ({
+                    name: e.name,
+                    value: JSON.stringify(e)
+                }))
+            }],
+            run: function(e) {
+                let t = document.createElement("iframe");
+                document.body.append(t),
+                    window.alert = t.contentWindow.alert.bind(window),
+                    t.remove();
+                let {
+                    stateNode: a
+                } = Object.values(function e(t = document.querySelector("body>div")) {
+                        return Object.values(t)[1]?.children?.[0]?._owner.stateNode ? t : e(t.querySelector(":scope>div"))
+                    }
+                    ())[1].children[0]._owner;
+                a.state.blooks.length >= 10 && alert("Choose a blook to replace"),
+                    a.chooseBlook(JSON.parse(e))
+            }
+        }, {
+            name: "Free Upgrades",
+            description: "Sets upgrade prices to 0 for all current blooks",
+            run: function() {
+                Object.values(document.querySelector("body div[id] > div > div"))[1].children[0]._owner.stateNode.setState(e => ({
+                    ...e,
+                    blooks: e.blooks.map(e => ({
+                        ...e,
+                        price: [0, 0, 0, 0]
+                    }))
+                }))
+            }
+        }, {
+            name: "Max Blooks",
+            description: "Maxes out all your blooks' levels",
+            run: function() {
+                Object.values(document.querySelector("body div[id] > div > div"))[1].children[0]._owner.stateNode.state.blooks.forEach(e => e.level = 4)
+            }
+        }, {
+            name: "Remove Glitches",
+            description: "Removes all enemy glitches",
+            run: function() {
+                var e = Object.values(document.querySelector("body div[id] > div > div"))[1].children[0]._owner.stateNode;
+                e.setState({
+                        bits: 0,
+                        ads: [],
+                        hazards: [],
+                        color: "",
+                        lol: !1,
+                        joke: !1,
+                        slow: !1,
+                        dance: !1,
+                        glitch: "",
+                        glitcherName: "",
+                        glitcherBlook: ""
+                    }),
+                    clearTimeout(e.adTimeout),
+                    clearInterval(e.hazardInterval),
+                    clearTimeout(e.nightTimeout),
+                    clearTimeout(e.glitchTimeout),
+                    clearTimeout(e.lolTimeout),
+                    clearTimeout(e.jokeTimeout),
+                    clearTimeout(e.slowTimeout),
+                    clearTimeout(e.danceTimeout),
+                    clearTimeout(e.nameTimeout)
+            }
+        }, {
+            name: "Send Glitch",
+            description: "Sends a glitch to everyone else playing",
+            inputs: [{
+                name: "Glitch",
+                type: "options",
+                options: Object.entries({
+                    lb: "Lunch Break",
+                    as: "Ad Spam",
+                    e37: "Error 37",
+                    nt: "Night Time",
+                    lo: "#LOL",
+                    j: "Jokester",
+                    sm: "Slow Mo",
+                    dp: "Dance Party",
+                    v: "Vortex",
+                    r: "Reverse",
+                    f: "Flip",
+                    m: "Micro"
+                }).map(([e, t]) => ({
+                    name: t,
+                    value: e
+                }))
+            }],
+            run: function(e) {
+                var t = Object.values(document.querySelector("body div[id] > div > div"))[1].children[0]._owner.stateNode;
+                t.safe = !0,
+                    t.props.liveGameController.setVal({
+                        path: `c/${t.props.client.name}/tat`,
+                        val: e
+                    })
+            }
+        }, {
+            name: "Set All MegaBot",
+            description: "Sets all your blooks to maxed out Mega Bots",
+            run: function() {
+                Object.values(document.querySelector("body div[id] > div > div"))[1].children[0]._owner.stateNode.setState({
+                    blooks: Array(10).fill({
+                        name: "Mega Bot",
+                        color: "#d71f27",
+                        class: "🤖",
+                        rarity: "Legendary",
+                        cash: [8e4, 43e4, 42e5, 62e6, 1e9],
+                        time: [5, 5, 3, 3, 3],
+                        price: [7e6, 12e7, 19e8, 35e9],
+                        active: !1,
+                        level: 4,
+                        bonus: 5.5
+                    })
+                })
+            }
+        }, {
+            name: "Set Cash",
+            description: "Sets amount of cash you have",
+            inputs: [{
+                name: "Cash",
+                type: "number"
+            }],
+            run: function(e) {
+                Object.values(document.querySelector("body div[id] > div > div"))[1].children[0]._owner.stateNode.setState({
+                    cash: e
+                })
+            }
+        }],
+        fishing: [{
+            name: "Always Frenzy",
+            description: "Always sets everyone to frenzy mode",
+            type: "toggle",
+            enabled: false,
+            data: null,
+            run: function() {
+                if (this.enabled) {
+                    this.enabled = false;
+                    clearInterval(this.data);
+                    this.data = null;
+                } else {
+                    this.enabled = true;
+                    this.data = setInterval(() => {
+                        const cheat = (async () => {
+                            let {
+                                stateNode
+                            } = Object.values((function react(r = document.querySelector("body>div")) {
+                                return Object.values(r)[1]?.children?.[0]?._owner.stateNode ? r : react(r.querySelector(":scope>div"))
+                            })())[1].children[0]._owner;
+                            stateNode.props.liveGameController.setVal({
+                                path: `c/${stateNode.props.client.name}`,
+                                val: {
+                                    b: stateNode.props.client.blook,
+                                    w: stateNode.state.weight,
+                                    f: "Frenzy",
+                                    s: true
+                                }
+                            });
+                        });
+                        cheat();
+                    }, 50);
+                }
+            }
+        }, {
+            name: "Client Sided Frenzy",
+            description: "Frenzy for you only",
+            type: "toggle",
+            enabled: !1,
+            run: function() {
+                const componentInstance = Object.values(document.querySelector("#app > div > div"))[1].children[1]._owner.stateNode;
+                if (this.enabled) {
+                    this.enabled = !1;
+                    componentInstance.setState({
+                        isFrenzy: false
+                    });
+                } else {
+                    this.enabled = !0;
+                    componentInstance.setState({
+                        isFrenzy: true
+                    });
+                }
+            }
+        }, {
+            name: "Remove Distractions",
+            description: "Removes distractions",
+            type: "toggle",
+            enabled: !1,
+            data: null,
+            run: function() {
+                this.enabled ? (this.enabled = !1, clearInterval(this.data), this.data = null) : (this.enabled = !0, this.data = setInterval(() => {
+                    Object.values(document.querySelector("body div[id] > div > div"))[1].children[0]._owner.stateNode.setState({
+                        party: ""
+                    })
+                }, 50))
+            }
+        }, {
+            name: "Frenzy",
+            description: "Sets everyone to frenzy mode",
+            run: function() {
+                var e = Object.values(document.querySelector("body div[id] > div > div"))[1].children[0]._owner.stateNode;
+                e.props.liveGameController.setVal({
+                    path: "c/" + e.props.client.name,
+                    val: {
+                        b: e.props.client.blook,
+                        w: e.state.weight,
+                        f: "Frenzy",
+                        s: !0
+                    }
+                })
+            }
+        }, {
+            name: "Send Distraction",
+            description: "Sends a distraction to everyone",
+            inputs: [{
+                name: "Distraction",
+                type: "options",
+                options: ["Crab", "Jellyfish", "Frog", "Pufferfish", "Octopus", "Narwhal", "Megalodon", "Blobfish", "Baby Shark"]
+            }],
+            run: function(e) {
+                var t = document.createElement("iframe"),
+                    t = (document.body.append(t), window.alert = t.contentWindow.alert.bind(window), t.remove(), Object.values(document.querySelector("body div[id] > div > div"))[1].children[0]._owner).stateNode;
+                t.safe = !0,
+                    t.props.liveGameController.setVal({
+                        path: "c/" + t.props.client.name,
+                        val: {
+                            b: t.props.client.blook,
+                            w: t.state.weight,
+                            f: e,
+                            s: !0
+                        }
+                    })
+            }
+        }, {
+            name: "Set Lure",
+            description: "Sets fishing lure (range 1 - 5)",
+            inputs: [{
+                name: "Lure (1 - 5)",
+                type: "number",
+                min: 1,
+                max: 5
+            }],
+            run: function(e) {
+                Object.values(document.querySelector("body div[id] > div > div"))[1].children[0]._owner.stateNode.setState({
+                    lure: Math.max(Math.min(e - 1, 4), 0)
+                })
+            }
+        }, {
+            name: "Set Next Fish",
+            description: "Sets the next fish to catch",
+            inputs: [{
+                name: "Fish",
+                type: "options",
+                options: ["Old Boot", "Waffle", "Two of Spades", "Jellyfish", "Clownfish", "Goldfish", "Frog", "Blizzard Clownfish", "Turtle", "Cat", "Lovely Frog", "Lucky Frog", "Poison Dart Frog", "Seal", "Walrus", "Fairy", "Crab", "Lemon Crab", "Pufferfish", "Blobfish", "Rainbow Jellyfish", "Octopus", "Pirate Pufferfish", "Donut Blobfish", "Crimson Octopus", "Narwhal", "Baby Shark", "Megalodon", "Alien", "Rainbow Narwhal", "UFO", "Santa Claus", "Swamp Monster", "Red Astronaut", "Spooky Pumpkin", "Dragon", "Tim the Alien"]
+            }],
+            run: function(e) {
+                function t() {
+                    return Object.values(document.querySelector("#app > div > div"))[1].children[0]._owner
+                }
+                var a = {
+                        "Old Boot": {
+                            rarity: "Trash",
+                            minWeight: 1,
+                            maxWeight: 10,
+                            tiers: ["F", "D", "C"]
+                        },
+                        Waffle: {
+                            rarity: "Trash",
+                            minWeight: 1,
+                            maxWeight: 10,
+                            tiers: ["F", "D", "C"]
+                        },
+                        "Two of Spades": {
+                            rarity: "Trash",
+                            minWeight: 1,
+                            maxWeight: 10,
+                            tiers: ["F", "D", "C"]
+                        },
+                        Jellyfish: {
+                            rarity: "Easy One",
+                            minWeight: 10,
+                            maxWeight: 25,
+                            tiers: ["D", "C", "B"]
+                        },
+                        Clownfish: {
+                            rarity: "Easy One",
+                            minWeight: 20,
+                            maxWeight: 45,
+                            tiers: ["D", "C", "B"]
+                        },
+                        Goldfish: {
+                            rarity: "Easy One",
+                            minWeight: 30,
+                            maxWeight: 65,
+                            tiers: ["D", "C", "B"]
+                        },
+                        Frog: {
+                            rarity: "Easy One",
+                            minWeight: 50,
+                            maxWeight: 100,
+                            tiers: ["D", "C", "B"]
+                        },
+                        "Blizzard Clownfish": {
+                            rarity: "Great Catch",
+                            minWeight: 75,
+                            maxWeight: 125,
+                            tiers: ["D", "C", "B"]
+                        },
+                        Turtle: {
+                            rarity: "Great Catch",
+                            minWeight: 100,
+                            maxWeight: 150,
+                            tiers: ["D", "C", "B", "A"]
+                        },
+                        Cat: {
+                            rarity: "Great Catch",
+                            minWeight: 100,
+                            maxWeight: 200,
+                            tiers: ["D", "C", "B", "A"]
+                        },
+                        "Lovely Frog": {
+                            rarity: "Great Catch",
+                            minWeight: 150,
+                            maxWeight: 350,
+                            tiers: ["D", "C", "B", "A"]
+                        },
+                        "Lucky Frog": {
+                            rarity: "Great Catch",
+                            minWeight: 200,
+                            maxWeight: 400,
+                            tiers: ["D", "C", "B", "A"]
+                        },
+                        "Poison Dart Frog": {
+                            rarity: "Great Catch",
+                            minWeight: 250,
+                            maxWeight: 750,
+                            tiers: ["D", "C", "B", "A"]
+                        },
+                        Seal: {
+                            rarity: "Rare Find",
+                            minWeight: 500,
+                            maxWeight: 1e3,
+                            tiers: ["D", "C", "B", "A"]
+                        },
+                        Walrus: {
+                            rarity: "Rare Find",
+                            minWeight: 700,
+                            maxWeight: 2200,
+                            tiers: ["D", "C", "B", "A"]
+                        },
+                        Fairy: {
+                            rarity: "Rare Find",
+                            minWeight: 1500,
+                            maxWeight: 2500,
+                            tiers: ["D", "C", "B", "A"]
+                        },
+                        Crab: {
+                            rarity: "Rare Find",
+                            minWeight: 1e3,
+                            maxWeight: 3e3,
+                            tiers: ["D", "C", "B", "A"]
+                        },
+                        "Lemon Crab": {
+                            rarity: "Rare Find",
+                            minWeight: 2e3,
+                            maxWeight: 5e3,
+                            tiers: ["C", "B", "A"]
+                        },
+                        Pufferfish: {
+                            rarity: "Rare Find",
+                            minWeight: 2e3,
+                            maxWeight: 4e3,
+                            tiers: ["D", "C", "B", "A"]
+                        },
+                        Blobfish: {
+                            rarity: "Rare Find",
+                            minWeight: 3e3,
+                            maxWeight: 5e3,
+                            tiers: ["D", "C", "B", "A"]
+                        },
+                        "Rainbow Jellyfish": {
+                            rarity: "Epic Grab",
+                            minWeight: 7e3,
+                            maxWeight: 1e4,
+                            tiers: ["C", "B", "A"]
+                        },
+                        Octopus: {
+                            rarity: "Epic Grab",
+                            minWeight: 1e4,
+                            maxWeight: 15e3,
+                            tiers: ["C", "B", "A"]
+                        },
+                        "Pirate Pufferfish": {
+                            rarity: "Epic Grab",
+                            minWeight: 12e3,
+                            maxWeight: 2e4,
+                            tiers: ["C", "B", "A"]
+                        },
+                        "Donut Blobfish": {
+                            rarity: "Epic Grab",
+                            minWeight: 13e3,
+                            maxWeight: 25e3,
+                            tiers: ["C", "B", "A"]
+                        },
+                        "Crimson Octopus": {
+                            rarity: "Epic Grab",
+                            minWeight: 15e3,
+                            maxWeight: 3e4,
+                            tiers: ["B", "A"]
+                        },
+                        Narwhal: {
+                            rarity: "Catch of the Day",
+                            minWeight: 25e3,
+                            maxWeight: 5e4,
+                            tiers: ["B", "A", "S"]
+                        },
+                        "Baby Shark": {
+                            rarity: "Catch of the Day",
+                            minWeight: 5e4,
+                            maxWeight: 1e5,
+                            tiers: ["B", "A", "S"]
+                        },
+                        Megalodon: {
+                            rarity: "Catch of the Day",
+                            minWeight: 25e4,
+                            maxWeight: 5e5,
+                            tiers: ["B", "A", "S"]
+                        },
+                        Alien: {
+                            rarity: "Angler's Legend",
+                            minWeight: 5e5,
+                            maxWeight: 7e5,
+                            tiers: ["A", "S"]
+                        },
+                        "Rainbow Narwhal": {
+                            rarity: "Angler's Legend",
+                            minWeight: 75e4,
+                            maxWeight: 1e6,
+                            tiers: ["A", "S", "S+"]
+                        },
+                        UFO: {
+                            rarity: "Angler's Legend",
+                            minWeight: 1e6,
+                            maxWeight: 2e6,
+                            tiers: ["A", "S", "S+"]
+                        },
+                        "Santa Claus": {
+                            rarity: "Angler's Legend",
+                            minWeight: 1e6,
+                            maxWeight: 2e6,
+                            tiers: ["A", "S", "S+"]
+                        },
+                        "Swamp Monster": {
+                            rarity: "Angler's Legend",
+                            minWeight: 1e6,
+                            maxWeight: 2e6,
+                            tiers: ["A", "S", "S+"]
+                        },
+                        "Red Astronaut": {
+                            rarity: "Angler's Legend",
+                            minWeight: 1e6,
+                            maxWeight: 2e6,
+                            tiers: ["A", "S", "S+"]
+                        },
+                        "Spooky Pumpkin": {
+                            rarity: "Angler's Legend",
+                            minWeight: 1e6,
+                            maxWeight: 2e6,
+                            tiers: ["A", "S", "S+"]
+                        },
+                        Dragon: {
+                            rarity: "Angler's Legend",
+                            minWeight: 1e6,
+                            maxWeight: 2e6,
+                            tiers: ["A", "S", "S+"]
+                        },
+                        "Tim the Alien": {
+                            rarity: "Angler's Legend",
+                            minWeight: 15e5,
+                            maxWeight: 25e5,
+                            tiers: ["A", "S", "S+"]
+                        }
+                    },
+                    o = ["Crab", "Jellyfish", "Frog", "Pufferfish", "Octopus", "Narwhal", "Megalodon", "Blobfish", "Baby Shark"];
+                if (!window.functionSet) {
+                    var r = t().stateNode.answerNext;
+                    t().stateNode.answerNext = function() {
+                        if (t().stateNode.state.hackFish) {
+                            var i,
+                                n,
+                                s;
+                            t().stateNode.setState({
+                                    stage: "caught",
+                                    isCast: !1,
+                                    fish: {
+                                        name: i = e,
+                                        rarity: a[i].rarity,
+                                        weight: (n = a[i].minWeight, Math.floor(Math.random() * ((s = a[i].maxWeight) - n) + n)),
+                                        tier: a[i].tiers[Math.floor(Math.random() * a[i].tiers.length)],
+                                        isSpecial: o.includes(i) && 8 > Math.floor(100 * Math.random())
+                                    },
+                                    claimReady: !1
+                                }),
+                                setTimeout(function() {
+                                    t().stateNode.setState({
+                                        claimReady: !0
+                                    })
+                                }, 1600),
+                                t().stateNode.state.hackFish = null
+                        } else
+                            r.apply(this, arguments)
+                    }
+                }
+                window.functionSet = !0,
+                    ! function e(o) {
+                        if (Object.keys(a).includes(o))
+                            t().stateNode.state.hackFish = o;
+                        else {
+                            alert("That fish does not exist!");
+                            return
+                        }
+                    }
+                    (e)
+            }
+        }, {
+            name: "Set Weight",
+            description: "Sets weight",
+            inputs: [{
+                name: "Weight",
+                type: "number"
+            }],
+            run: function(e) {
+                var t = Object.values(document.querySelector("body div[id] > div > div"))[1].children[0]._owner.stateNode;
+                t.setState({
+                        weight: e,
+                        weight2: e
+                    }),
+                    t.props.liveGameController.setVal({
+                        path: "c/" + t.props.client.name,
+                        val: {
+                            b: t.props.client.blook,
+                            w: e,
+                            f: ["Crab", "Jellyfish", "Frog", "Pufferfish", "Octopus", "Narwhal", "Megalodon", "Blobfish", "Baby Shark"][Math.floor(9 * Math.random())]
+                        }
+                    })
+            }
+        }],
+        flappy: [{
+            name: "Toggle Ghost",
+            description: "Lets you go through the pipes",
+            type: "toggle",
+            enabled: false,
+            run: function() {
+                this.enabled = !this.enabled;
+                for (const body of Object.values(document.querySelector("#phaser-bouncy"))[0].return.updateQueue.lastEffect.deps[0].current.config.sceneConfig.physics.world.bodies.entries) {
+                    if (!body.gameObject.frame.texture.key.startsWith("blook"))
+                        continue;
+                    body.checkCollision.none = this.enabled;
+                    body.gameObject.setAlpha(this.enabled ? 0.5 : 1);
+                    break;
+                };
+            }
+        }, {
+            name: "Set Score",
+            description: "Sets flappy blook score",
+            inputs: [{
+                name: "Score",
+                type: "number"
+            }],
+            run: function(score) {
+                Object.values(document.querySelector("#phaser-bouncy"))[0].return.updateQueue.lastEffect.deps[1](score || 0);
+            }
+        }, {
+            name: "Change Game Code",
+            description: "Replace the old game with new HTML content",
+            inputs: [{
+                name: "HTML Code",
+                type: "text"
+            }],
+            run: function(newHtml) {
+                (function() {
+
+                    if (newHtml) {
+
+                        var canvas = document.querySelector('canvas[width="320"][height="480"]');
+
+                        if (canvas) {
+
+                            var tempContainer = document.createElement('div');
+                            tempContainer.innerHTML = newHtml;
+
+                            var wrapperDiv = document.createElement('div');
+                            wrapperDiv.style.width = '320px';
+                            wrapperDiv.style.height = '480px';
+                            wrapperDiv.style.overflow = 'auto';
+                            wrapperDiv.style.boxSizing = 'border-box';
+                            wrapperDiv.style.position = canvas.style.position;
+                            wrapperDiv.style.marginLeft = canvas.style.marginLeft;
+                            wrapperDiv.style.marginTop = canvas.style.marginTop;
+                            wrapperDiv.style.cursor = canvas.style.cursor;
+                            wrapperDiv.style.backgroundColor = '#f0f0f0';
+
+                            while (tempContainer.firstChild) {
+                                wrapperDiv.appendChild(tempContainer.firstChild);
+                            }
+
+                            canvas.parentNode.replaceChild(wrapperDiv, canvas);
+                        }
+
+                        var scoreTextDiv = document.querySelector('div._scoreText_e2c5l_7');
+                        if (scoreTextDiv) {
+                            scoreTextDiv.parentNode.removeChild(scoreTextDiv);
+                        }
+                    }
+                })();
+            }
+        }, {
+            name: "Change Settings",
+            description: "Changes various game mechanics and lets you play with the spacebar",
+            inputs: [{
+                name: "Bird Gravity",
+                type: "number",
+                value: 800
+            }, {
+                name: "Bird Speed",
+                type: "number",
+                value: 125
+            }, {
+                name: "Bird Flap Power",
+                type: "number",
+                value: 300
+            }],
+            run: function(a, b, c) {
+                const scene = Object.values(document.querySelector("#phaser-bouncy"))[0].return.updateQueue.lastEffect.deps[0].current.config.sceneConfig;
+                scene.birdGravity = a;
+                scene.birdSpeed = b;
+                scene.birdFlapPower = c;
+                scene.flap = function() {
+                    this.isStarted || (this.bird.body.gravity.y = this.birdGravity,
+                            this.pipeGroup.setVelocityX(-this.birdSpeed),
+                            this.groundGroup.setVelocityX(-this.birdSpeed),
+                            this.isStarted = !0),
+                        this.bird.body.velocity.y = -this.birdFlapPower
+                }
+                scene.input._events.pointerdown = [];
+                scene.create();
+                scene.input.keyboard.addKey('SPACE').on("down", e => {
+                    scene.flap.call(scene);
+                });
+            }
+        }],
+        gold: [{
+            name: "Always Triple",
+            description: "Always get triple gold",
+            type: "toggle",
+            enabled: !1,
+            data: null,
+            run: function() {
+                let e = Object.values(document.querySelector("body div[id] > div > div"))[1].children[0]._owner.stateNode;
+                e._choosePrize ||= e.choosePrize,
+                    this.enabled ? (this.enabled = !1, clearInterval(this.data), this.data = null, e.choosePrize = e._choosePrize || e.choosePrize) : (this.enabled = !0, this.data = setInterval(() => {
+                        e.choosePrize = function(t) {
+                            e.state.choices[t] = {
+                                    type: "multiply",
+                                    val: 3,
+                                    text: "Triple Gold!",
+                                    blook: "Unicorn"
+                                },
+                                e._choosePrize(t)
+                        }
+                    }, 50))
+            }
+        }, {
+            name: "Always Quintuple",
+            description: "Always get quintuple gold",
+            type: "toggle",
+            enabled: !1,
+            data: null,
+            run: function() {
+                let e = Object.values(document.querySelector("body div[id] > div > div"))[1].children[0]._owner.stateNode;
+                e._choosePrize ||= e.choosePrize,
+                    this.enabled ? (this.enabled = !1, clearInterval(this.data), this.data = null, e.choosePrize = e._choosePrize || e.choosePrize) : (this.enabled = !0, this.data = setInterval(() => {
+                        e.choosePrize = function(t) {
+                            e.state.choices[t] = {
+                                    type: "multiply",
+                                    val: 5,
+                                    text: "Quintuple Gold!",
+                                    blook: "Ice Elemental"
+                                },
+                                e._choosePrize(t)
+                        }
+                    }, 50))
+            }
+        }, {
+            name: "Auto Choose",
+            description: "Automatically picks the option that would give you the most gold",
+            type: "toggle",
+            enabled: false,
+            data: null,
+            run: function() {
+                if (this.enabled) {
+                    this.enabled = false;
+                    clearInterval(this.data);
+                    this.data = null;
+                } else {
+                    this.enabled = true;
+                    this.data = setInterval(() => {
+                        let {
+                            stateNode
+                        } = Object.values((function react(r = document.querySelector("body>div")) {
+                            return Object.values(r)[1]?.children?.[0]?._owner.stateNode ? r : react(r.querySelector(":scope>div"))
+                        })())[1].children[0]._owner;
+
+                        if (stateNode.state.stage == "prize") {
+                            stateNode.props.liveGameController.getDatabaseVal("c", (players) => {
+                                if (players == null)
+                                    return;
+                                players = Object.entries(players);
+                                let most = 0,
+                                    max = 0,
+                                    index = -1;
+                                for (let i = 0; i < players.length; i++) {
+                                    if (players[i][0] != stateNode.props.client.name && players[i][1] > most) {
+                                        most = players[i][1];
+                                    }
+                                }
+                                for (let i = 0; i < stateNode.state.choices.length; i++) {
+                                    const choice = stateNode.state.choices[i];
+                                    let value = stateNode.state.gold;
+                                    if (choice.type == "gold") {
+                                        value = stateNode.state.gold + (choice.val || 0);
+                                    } else if (choice.type == "multiply" || choice.type == "divide") {
+                                        value = Math.round(stateNode.state.gold * choice.val) || stateNode.state.gold;
+                                    } else if (choice.type == "swap") {
+                                        value = most || stateNode.state.gold;
+                                    } else if (choice.type == "take") {
+                                        value = stateNode.state.gold + (most * choice.val || 0);
+                                    }
+                                    if ((value || 0) <= max)
+                                        continue;
+                                    max = value;
+                                    index = i + 1;
+                                }
+                                document.querySelector("div[class*='choice" + index + "']")?.click();
+                            });
+                        }
+                    }, 50);
+                }
+            }
+        }, {
+            name: "Chest ESP",
+            description: "Shows what each chest will give you",
+            type: "toggle",
+            enabled: false,
+            data: null,
+            run: function() {
+                if (this.enabled) {
+                    this.enabled = false;
+                    clearInterval(this.data);
+                    this.data = null;
+                } else {
+                    this.enabled = true;
+                    this.data = setInterval(() => {
+                        const cheat = (async () => {
+                            Object.values((function react(r = document.querySelector("body>div")) {
+                                return Object.values(r)[1]?.children?.[0]?._owner.stateNode ? r : react(r.querySelector(":scope>div"))
+                            })())[1].children[0]._owner.stateNode.state.choices.forEach(({
+                                text
+                            }, index) => {
+                                let chest = document.querySelector(`div[class*='choice${index + 1}']`);
+                                if (!chest || chest.querySelector('div'))
+                                    return;
+                                let choice = document.createElement('div')
+                                choice.style.color = "white";
+                                choice.style.fontFamily = "Eczar";
+                                choice.style.fontSize = "2em";
+                                choice.style.display = "flex";
+                                choice.style.justifyContent = "center";
+                                choice.style.transform = "translateY(200px)";
+                                choice.innerText = text;
+                                chest.append(choice)
+                            });
+                        });
+                        cheat();
+                    }, 50);
+                }
+            }
+        }, {
+            name: "Remove Lose 25%-50%",
+            description: "Removes Lose 25%-50% chests",
+            type: "toggle",
+            enabled: !1,
+            data: null,
+            run: function() {
+                let e = this,
+                    t = this;
+
+                function a() {
+                    return Object.values(document.querySelector("#app > div > div"))[1].children[1]._owner
+                }
+                e.enabled || t.enabled ? (clearInterval(e.data), clearInterval(t.data), e.data = null, t.data = null, e.enabled = !1, t.enabled = !1) : (e.enabled = !0, t.enabled = !0, e.data = setInterval(() => {
+                    document.querySelectorAll('div[role="button"]').forEach(e => {
+                        ("Lose 25%" === e.innerText || "Lose 50%" === e.innerText) && (e.style.display = "none")
+                    })
+                }, 50), t.data = setInterval(() => {
+                    var e;
+                    if ("gold" === ("gold" === window.location.pathname.split("/")[2] && "gold") && t.enabled)
+                        try {
+                            if ("prize" === a().stateNode.state.stage) {
+                                let {
+                                    choices: o
+                                } = a().stateNode.state,
+                                    r = document.querySelector("div[class*='regularBody']").children[1];
+                                r && (document.querySelectorAll(".chest-esp").length ? o.forEach((e, t) => {
+                                    3 == r.children.length && r.children[t].children[1].innerText != e.text && (r.children[t].children[1].innerText = e.text)
+                                }) : o.forEach((e, t) => {
+                                    (textElement = document.createElement("p")).className = "chest-esp",
+                                        textElement.innerText = e.text,
+                                        textElement.style = "text-align: center; font-size: 30px; color: white; font-family:Titan One, sans-serif; border-color: black; margin-top: 200px; opacity: 0;";
+                                    try {
+                                        r.children[t].appendChild(textElement)
+                                    } catch (a) {
+                                        console.log(a)
+                                    }
+                                }))
+                            }
+                        } catch (i) {
+                            console.log(i)
+                        }
+                }, 50))
+            }
+        }, {
+            name: "Flood Alert Box",
+            description: "Makes the alert box filled with text",
+            inputs: [{
+                name: "Text",
+                type: "text"
+            }],
+            run: function(userInput) {
+                function getReactOwner() {
+                    return Object.values(document.querySelector('#app>div>div'))[1].children[0]._owner;
+                }
+
+                function repeatText(text, times) {
+                    return new Array(times).fill(text).join(" ");
+                }
+
+                function setValForPlayer() {
+                    getReactOwner().stateNode.props.liveGameController.getDatabaseVal("c/").then(data => {
+                        if (data != null) {
+
+                            const playerName = Object.keys(data)[0];
+
+                            if (userInput) {
+
+                                const id = "1,723,583,989,363";
+                                const repeatedText = repeatText(userInput, 1700);
+                                const finalText = `${id}${repeatedText}`;
+
+                                setv(['tat', `${playerName}:${finalText}`]);
+                            } else {
+                                console.log("No text entered. Operation cancelled.");
+                            }
+                        } else {
+                            console.log("Player not found!");
+                        }
+                    });
+                }
+
+                function setv(args) {
+                    getReactOwner().stateNode.props.liveGameController.setVal({
+                        path: "c/" + getReactOwner().stateNode.props.client.name + "/" + args[0],
+                        val: args.slice(1, args.length).join(" ")
+                    });
+                }
+
+                setValForPlayer();
+            }
+        }, {
+            name: "Reset Players Gold",
+            description: "Sets a player's gold to 0",
+            inputs: [{
+                name: "Player",
+                type: "options",
+                options() {
+                    let e = Object.values(document.querySelector("body div[id] > div > div"))[1].children[0]._owner.stateNode;
+                    return new Promise(t => e.props.liveGameController._liveApp ? e.props.liveGameController.getDatabaseVal("c", e => e && t(Object.keys(e))) : t([]))
+                }
+            }],
+            run: function(e) {
+                var {
+                    props: t,
+                    state: a
+                } = Object.values(document.querySelector("body div[id] > div > div"))[1].children[0]._owner.stateNode;
+                t.liveGameController.setVal({
+                    path: "c/".concat(t.client.name),
+                    val: {
+                        b: t.client.blook,
+                        g: a.gold,
+                        tat: e + ":swap:0"
+                    }
+                })
+            }
+        }, {
+            name: "Set Gold",
+            description: "Sets amount of gold",
+            inputs: [{
+                name: "Gold",
+                type: "number"
+            }],
+            run: function(e) {
+                var t = Object.values(document.querySelector("body div[id] > div > div"))[1].children[0]._owner.stateNode;
+                t.setState({
+                        gold: e,
+                        gold2: e
+                    }),
+                    t.props.liveGameController.setVal({
+                        path: "c/".concat(t.props.client.name),
+                        val: {
+                            b: t.props.client.blook,
+                            g: e
+                        }
+                    })
+            }
+        }, {
+            name: "Swap Gold",
+            description: "Swaps gold with someone",
+            inputs: [{
+                name: "Player",
+                type: "options",
+                options() {
+                    let e = Object.values(document.querySelector("body div[id] > div > div"))[1].children[0]._owner.stateNode;
+                    return new Promise(t => e.props.liveGameController._liveApp ? e.props.liveGameController.getDatabaseVal("c", e => e && t(Object.keys(e))) : t([]))
+                }
+            }],
+            run: function(e) {
+                let t = Object.values(document.querySelector("body div[id] > div > div"))[1].children[0]._owner.stateNode;
+                t.props.liveGameController.getDatabaseVal("c", a => {
+                    a?.[e] && (a = a[e].g, t.props.liveGameController.setVal({
+                        path: "c/".concat(t.props.client.name),
+                        val: {
+                            b: t.props.client.blook,
+                            g: a,
+                            tat: e + ":swap:" + t.state.gold
+                        }
+                    }), t.setState({
+                        gold: a,
+                        gold2: a
+                    }))
+                })
+            }
+        }, {
+            name: "Set Player's Gold",
+            description: "Sets a players gold to any amount.",
+            inputs: [{
+                name: "Player",
+                type: "options",
+                options() {
+                    let e = Object.values(document.querySelector("#app>div>div"))[1].children[0]._owner.stateNode;
+                    return new Promise(t => e.props.liveGameController._liveApp ? e.props.liveGameController.getDatabaseVal("c", e => e && t(Object.keys(e))) : t([]))
+                }
+            }, {
+                name: "Amount",
+                type: "input"
+            }],
+            run: (player, amount) => {
+                const sn = Object.values(document.querySelector('#app>div>div'))[1].children[0]._owner.stateNode;
+                sn.props.liveGameController.setVal({
+                    path: `c/${sn.props.client.name}/tat`,
+                    val: `${player}:swap:${amount}`
+                });
+            }
+        }, {
+            name: "Send Ad Text",
+            description: "Sends a load of text to another player (This will override your blook!)",
+            inputs: [{
+                name: "Player",
+                type: "options",
+                options() {
+                    let {
+                        stateNode: e
+                    } = Object.values(function e(t = document.querySelector("body>div")) {
+                            return Object.values(t)[1]?.children?.[0]?._owner.stateNode ? t : e(t.querySelector(":scope>div"));
+                        }
+                        ())[1].children[0]._owner;
+                    return new Promise(t => e.props.liveGameController._liveApp ? e.props.liveGameController.getDatabaseVal("c", e => e && t(Object.keys(e))) : t([]));
+                }
+            }, {
+                name: "Text"
+            }],
+            run: async function(player, e) {
+                let {
+                    props: t2
+                } = Object.values(function e(t = document.querySelector("body>div")) {
+                        return Object.values(t)[1]?.children?.[0]?._owner.stateNode ? t : e(t.querySelector(":scope>div"));
+                    }
+                    ())[1].children[0]._owner.stateNode;
+
+                let repeatedText = `Dog:${Array(500).fill(e).join(' ')}`;
+                t2.client.blook = repeatedText;
+                t2.liveGameController.setVal({
+                    path: `c/${t2.client.name}/b`,
+                    val: repeatedText
+                });
+                t2.liveGameController.setVal({
+                    path: `c/${t2.client.name}/tat`,
+                    val: `${player}:196`
+                });
+            }
+        }, {
+            name: "Reset All Players' Gold",
+            description: "Set's everyone else's gold to 0",
+            run: function() {
+                var e = document.createElement("iframe");
+                document.body.append(e),
+                    window.alert = e.contentWindow.alert.bind(window),
+                    e.remove();
+                let {
+                    props: t,
+                    state: a
+                } = Object.values(document.querySelector("body div[id] > div > div"))[1].children[0]._owner.stateNode,
+                    o = 0;
+                t.liveGameController.getDatabaseVal("c", async e => {
+                    if (e)
+                        for (let r of Object.keys(e))
+                            t.liveGameController.setVal({
+                                path: "c/".concat(t.client.name),
+                                val: {
+                                    b: t.client.blook,
+                                    g: a.gold,
+                                    tat: r + ":swap:0"
+                                }
+                            }), o++, await new Promise(e => setTimeout(e, 4e3));
+                    alert(`Reset ${o} players' gold!`)
+                })
+            }
+        }, {
+            name: "Crash Host (Gold)",
+            description: "Crashes the Host's Game for Gold Quest",
+            run: function() {
+                function reactHandler() {
+                    return Object.values(document.querySelector('#app>div>div'))[1].children[0]._owner;
+                }
+
+                function setv(args) {
+                    reactHandler().stateNode.props.liveGameController.setVal({
+                        path: "c/" + reactHandler().stateNode.props.client.name + "/" + args[0],
+                        val: args.slice(1, args.length).join(" ")
+                    });
+                }
+
+                setv(['g/t', 't']);
+            }
+        }],
+        kingdom: [{
+            name: "Choice ESP",
+            description: "Shows you what will happen if you say Yes or No",
+            type: "toggle",
+            enabled: false,
+            data: null,
+            run: function() {
+                if (this.enabled) {
+                    this.enabled = false;
+                    clearInterval(this.data);
+                    this.data = null;
+                } else {
+                    this.enabled = true;
+                    this.data = setInterval((stats => {
+                        let {
+                            stateNode
+                        } = Object.values((function react(r = document.querySelector("body>div")) {
+                            return Object.values(r)[1]?.children?.[0]?._owner.stateNode ? r : react(r.querySelector(":scope>div"))
+                        })())[1].children[0]._owner;
+
+                        let elements = Array.prototype.reduce.call(
+                            document.querySelectorAll('[class*=statContainer]'),
+                            (obj, container, i) => (obj[stats[i]] = container, obj), {});
+
+                        if (stateNode.state.phase == "choice") {
+                            Array.prototype.forEach.call(document.querySelectorAll('.choiceESP'), x => x.remove());
+
+                            Object.keys(stateNode.state.guest.yes || {}).forEach(x => {
+                                if (elements[x] == null)
+                                    return;
+                                let element = document.createElement('div');
+                                element.className = 'choiceESP';
+                                element.style = 'font-size: 24px; color: rgb(75, 194, 46); font-weight: bolder;';
+                                element.innerText = String(stateNode.state.guest.yes[x]);
+                                elements[x].appendChild(element);
+                            });
+
+                            Object.keys(stateNode.state.guest.no || {}).forEach(x => {
+                                if (elements[x] == null)
+                                    return;
+                                let element = document.createElement('div');
+                                element.className = 'choiceESP';
+                                element.style = 'font-size: 24px; color: darkred; font-weight: bolder;';
+                                element.innerText = String(stateNode.state.guest.no[x]);
+                                elements[x].appendChild(element);
+                            });
+
+                            Array.prototype.forEach.call(
+                                document.querySelectorAll("[class*=guestButton][role=button]"),
+                                x => (x.onclick = () => Array.prototype.forEach.call(document.querySelectorAll(".choiceESP"), x => x.remove())));
+                        }
+                    }), 50, ['materials', 'people', 'happiness', 'gold']);
+                }
+            }
+        }, {
+            name: "Disable Tax Toucan",
+            description: "Tax evasion",
+            run: function() {
+                Object.values(document.querySelector("body div[id] > div > div"))[1].children[0]._owner.stateNode.taxCounter = Number.MAX_VALUE
+            }
+        }, {
+            name: "Max Stats",
+            description: "Sets all resources to the max",
+            run: function() {
+                Object.values(document.querySelector("body div[id] > div > div"))[1].children[0]._owner.stateNode.setState({
+                    materials: 100,
+                    people: 100,
+                    happiness: 100,
+                    gold: 100
+                })
+            }
+        }, {
+            name: "Set Guests",
+            description: "Sets the amount of guests you've seen",
+            inputs: [{
+                name: "Guests",
+                type: "number"
+            }],
+            run: function(e) {
+                Object.values(document.querySelector("body div[id] > div > div"))[1].children[0]._owner.stateNode.setState({
+                    guestScore: e
+                })
+            }
+        }, {
+            name: "Skip Guest",
+            description: "Skips the current guest",
+            run: function() {
+                Object.values(document.querySelector("body div[id] > div > div"))[1].children[0]._owner.stateNode.nextGuest()
+            }
+        }],
+        racing: [{
+            name: "Instant Win",
+            description: "Instantly Wins the race",
+            run: function() {
+                let e = Object.values(document.querySelector("body div[id] > div > div"))[1].children[0]._owner.stateNode;
+                e.setState({
+                    progress: e.state.goalAmount
+                }, () => {
+                    let {
+                        question: t
+                    } = e.state;
+                    try {
+                        [...document.querySelectorAll('[class*="answerContainer"]')][t.answers.map((e, a) => t.correctAnswers.includes(e) ? a : null).filter(e => null != e)[0]]?.click?.()
+                    } catch {}
+                })
+            }
+        }, {
+            name: "Set Questions",
+            description: "Sets the number of questions left",
+            inputs: [{
+                name: "Questions",
+                type: "number"
+            }],
+            run: function(progress) {
+                let {
+                    stateNode
+                } = Object.values((function react(r = document.querySelector("body>div")) {
+                    return Object.values(r)[1]?.children?.[0]?._owner.stateNode ? r : react(r.querySelector(":scope>div"))
+                })())[1].children[0]._owner;
+                progress = stateNode.props.client.amount - progress;
+                stateNode.setState({
+                    progress
+                });
+                stateNode.props.liveGameController.setVal({
+                    path: "c/".concat(stateNode.props.client.name),
+                    val: {
+                        b: stateNode.props.client.blook,
+                        pr: progress
+                    }
+                });
+            }
+        }, {
+            name: "Attack Player",
+            description: "Sends the specified attack to a player",
+            inputs: [{
+                name: "Player",
+                type: "options",
+                options() {
+                    let {
+                        stateNode: e
+                    } = Object.values(function e(t = document.querySelector("body>div")) {
+                            return Object.values(t)[1]?.children?.[0]?._owner.stateNode ? t : e(t.querySelector(":scope>div"))
+                        }
+                        ())[1].children[0]._owner;
+                    return new Promise(t => e.props.liveGameController._liveApp ? e.props.liveGameController.getDatabaseVal("c", e => e && t(Object.keys(e))) : t([]))
+                }
+            }, {
+                name: "Attack",
+                type: "options",
+                options: Object.entries({
+                    "Woosh(-1)": "wind",
+                    "Rocket(-1)": "rocket",
+                    "Fire(-3)": "fire",
+                    "Freeze": "freeze"
+                }).map(([e, t]) => ({
+                    name: e,
+                    value: t
+                }))
+            }],
+            run: function(player, attack) {
+                let {
+                    stateNode
+                } = Object.values((function react(r = document.querySelector("body>div")) {
+                    return Object.values(r)[1]?.children?.[0]?._owner.stateNode ? r : react(r.querySelector(":scope>div"))
+                })())[1].children[0]._owner;
+                stateNode.props.liveGameController.setVal({
+                    path: `c/${stateNode.props.client.name}/tat`,
+                    val: player + ":" + attack
+                });
+            }
+        }],
+        extras: [{
+            name: "Toggle Invert Colors",
+            description: "Toggle between inverting and restoring colors on the page",
+            run: function() {
+                "invert()" == document.getElementsByTagName("html")[0].style.filter ? document.getElementsByTagName("html")[0].style.filter = "" : document.getElementsByTagName("html")[0].style.filter = "invert()",
+                    elems = document.querySelectorAll(" a, img, video");
+                for (let e = 0; e < elems.length; e++)
+                    ("A" == elems[e].nodeName && ("" != elems[e].style.background || "" != elems[e].style.backgroundImage) || "A" != elems[e].nodeName) && ("invert()" == elems[e].style.filter ? elems[e].style.filter = "" : elems[e].style.filter = "invert()")
+            }
+        }, {
+            name: "Toggle Dark Mode",
+            description: "Toggles Dark Mode",
+            run: function() {
+                var e = document.createElement("iframe");
+                document.body.append(e),
+                    window.alert = e.contentWindow.alert.bind(window),
+                    e.remove(),
+                    ! function e() {
+                        let t = document.querySelectorAll("#nightify");
+                        if (t.length)
+                            t[0].parentNode.removeChild(t[0]);
+                        else {
+                            var a = document.getElementsByTagName("head")[0],
+                                o = document.createElement("style");
+                            o.setAttribute("type", "text/css"),
+                                o.setAttribute("id", "nightify"),
+                                o.appendChild(document.createTextNode(`html{-webkit-filter:invert(100%) hue-rotate(180deg) contrast(70%) !important; background: #222;} .line-content {background-color: #333;} html img{-webkit-filter:invert(100%) hue-rotate(0deg) contrast(100%) !important;}`)),
+                                a.appendChild(o)
+                        }
+                    }
+                    ()
+            }
+        }, {
+            name: "3D Page",
+            description: "Makes the page 3D",
+            run: function() {
+                var e = {
+                    menu: document.createElement("div"),
+                    limit: document.createElement("input"),
+                    gap: document.createElement("input"),
+                    sag: document.createElement("input"),
+                    fov: document.createElement("input"),
+                    flo: document.createElement("input"),
+                    off: document.createElement("input"),
+                    non: document.createElement("input"),
+                    end: document.createElement("input"),
+                    tgl: document.createElement("input"),
+                    cssStatic: document.createElement("style"),
+                    cssDynamic: document.createElement("style"),
+                    orientation: {
+                        yaw: 0,
+                        pitch: 0,
+                        roll: 0
+                    },
+                    mouseMove: function(t) {
+                        e.orientation.yaw = -(180 * Math.cos(Math.PI * t.clientX / innerWidth)) * e.limit.value,
+                            e.orientation.pitch = 180 * Math.cos(Math.PI * t.clientY / innerHeight) * e.limit.value,
+                            e.updateBody()
+                    },
+                    gyroMove: function(t) {
+                        innerWidth > innerHeight ? (e.orientation.yaw = -(t.alpha + t.beta), e.orientation.pitch = t.gamma - 90 * Math.sign(90 - Math.abs(t.beta))) : (e.orientation.yaw = -(t.alpha + t.gamma), e.orientation.pitch = t.beta - 90),
+                            e.updateBody()
+                    },
+                    updateOrigin: function(e) {
+                        document.body.style.transformOrigin = innerWidth / 2 + pageXOffset + "px " + (innerHeight / 2 + pageYOffset) + "px"
+                    },
+                    updateBody: function() {
+                        document.body.style.transform = "perspective(" + Math.pow(2, e.fov.value) + "px) translateZ(-" + e.gap.value + "px) rotateX(" + e.orientation.pitch + "deg) rotateY(" + e.orientation.yaw + "deg)"
+                    },
+                    updateCSS: function() {
+                        if (e.non.checked)
+                            e.cssDynamic.innerHTML = "";
+                        else if (e.off.checked)
+                            e.cssDynamic.innerHTML = "* { transform-style: preserve-3d; }";
+                        else {
+                            for (var t = 0; document.querySelector("body" + " > *".repeat(t)); t++);
+                            var a = e.gap.value / t,
+                                o = -Math.PI * e.sag.value / t;
+                            e.cssDynamic.innerHTML = ` * { transform: translateZ(${a}px) rotateX(${o}rad); transform-style: preserve-3d; transition: transform 1s; outline: 1px solid rgba(0, 0, 0, 0.0625); ${e.flo.checked ? "overflow: visible !important;" : ""} } *:hover { transform: translateZ(${2 * a}px) rotateX(${2 * o}rad); ${e.flo.checked ? "" : "overflow: visible;"} } `
+                        }
+                    },
+                    toggle: function() {
+                        "active" == e.menu.className ? e.menu.removeAttribute("class") : e.menu.className = "active"
+                    },
+                    quit: function() {
+                        window.removeEventListener("deviceorientation", e.gyroMove),
+                            window.removeEventListener("mousemove", e.mouseMove),
+                            window.removeEventListener("scroll", e.updateOrigin),
+                            window.addEventListener("resize", e.updateOrigin),
+                            e.menu.remove(),
+                            e.cssStatic.remove(),
+                            e.cssDynamic.remove(),
+                            document.body.removeAttribute("style")
+                    },
+                    newRange: function(t, a, o, r, i, n, s) {
+                        e.menu.appendChild(t),
+                            t.type = "range",
+                            t.min = o,
+                            t.max = i,
+                            t.step = r,
+                            t.value = n,
+                            t.addEventListener("input", s),
+                            e.menu.appendChild(document.createElement("span")).innerHTML = a,
+                            e.menu.appendChild(document.createElement("br"))
+                    },
+                    newCheckbox: function(t, a, o) {
+                        e.menu.appendChild(t),
+                            t.type = "checkbox",
+                            t.addEventListener("click", o),
+                            e.menu.appendChild(document.createElement("span")).innerHTML = a,
+                            e.menu.appendChild(document.createElement("br"))
+                    },
+                    newButton: function(t, a, o) {
+                        e.menu.appendChild(t),
+                            t.type = "button",
+                            t.value = a,
+                            t.addEventListener("click", o)
+                    },
+                    init: function() {
+                        document.body.parentNode.appendChild(e.menu).id = "tri-menu",
+                            e.newRange(e.limit, "limit", 0, .03125, 1, .125, e.updateBody),
+                            e.newRange(e.gap, "gap / distance", 0, 32, 512, 128, function() {
+                                e.updateCSS(),
+                                    e.updateBody()
+                            }),
+                            e.newRange(e.sag, "sag", -.25, .03125, .25, 0, e.updateCSS),
+                            e.newRange(e.fov, "field of view", 7, 1, 13, 10, e.updateBody),
+                            e.newCheckbox(e.flo, "force overflow", e.updateCSS),
+                            e.flo.setAttribute("checked", ""),
+                            e.newCheckbox(e.off, "flatten layers", e.updateCSS),
+                            e.newCheckbox(e.non, "flatten everything", e.updateCSS),
+                            e.newButton(e.end, "Quit", e.quit),
+                            e.newButton(e.tgl, "≡", e.toggle),
+                            e.tgl.id = "tri-toggle",
+                            e.menu.appendChild(e.cssStatic).innerHTML = " html, body { transition-property: none; height: 100%25; width: 100%25; } html, html:hover, #tri-menu, #tri-menu > *, #tri-menu > *:hover { transform: none; outline: none; overflow: auto !important; float: none; } #tri-menu { position: fixed; top: 0; left: 0; background: rgba(0, 0, 0, 0.5); color: white; border: 1px solid rgba(255, 255, 255, 0.5);; border-radius: 0 0 16px 0; padding: 8px; transform: translate(-100%25, -100%25) translate(32px, 32px); } #tri-menu.active { transform: none; } #tri-toggle { position: absolute; bottom: 0; right: 0; height: 32px; width: 32px; background: transparent; color: white; border: none; cursor: pointer; } #tri-menu.active > #tri-toggle { background: white; color: black; border-radius: 8px 0 0 0; }",
+                            e.menu.appendChild(e.cssDynamic),
+                            e.updateCSS(),
+                            window.addEventListener("deviceorientation", e.gyroMove),
+                            window.addEventListener("mousemove", e.mouseMove),
+                            window.addEventListener("scroll", e.updateOrigin),
+                            window.addEventListener("resize", e.updateOrigin),
+                            window.scrollBy(0, 1)
+                    }
+                };
+                e.init()
+            }
+        }, {
+            name: "History Flooder",
+            description: "Floods browser history with specified amount of entries",
+            inputs: [{
+                name: "Amount",
+                type: "number"
+            }],
+            run: function(e) {
+                var t = e;
+                done = !1,
+                    C = window.location.href;
+                for (var a = 1; a <= t; a++)
+                    history.pushState(0, 0, a == t ? C : a.toString()), a == t && (done = !0);
+                !0 === done && alert("History flood successful! " + window.location.href + " now appears in your history " + t + (1 == t ? " time." : " times. "))
+            }
+        }, {
+            name: "Auto Clicker",
+            description: "Automatically clicks for you. Press S to toggle.",
+            inputs: [{
+                name: "Click Delay",
+                type: "number"
+            }],
+            run: function(inputs) {
+                clicker: {
+                    "use strict";
+
+                    let clickInterval = null;
+                    let clickingEnabled = true;
+
+                    const {
+                        Number,
+                        self
+                    } = window;
+                    const milliseconds = Number.parseInt(inputs, 10);
+
+                    if (false === Number.isSafeInteger(milliseconds)) {
+                        self.alert("Input was not an integer");
+                        break clicker;
+                    }
+
+                    let clientX = 0,
+                        clientY = 0;
+                    const {
+                        document
+                    } = self;
+
+                    function startClicking() {
+                        clickInterval = self.setInterval(() => {
+                            document.elementFromPoint(clientX, clientY)?.click?.();
+                        }, milliseconds);
+                    }
+
+                    function stopClicking() {
+                        self.clearInterval(clickInterval);
+                        clickInterval = null;
+                    }
+
+                    startClicking();
+
+                    document.addEventListener("mousemove", event => {
+                        ({
+                            clientX,
+                            clientY
+                        } = event);
+                    }, {
+                        passive: true
+                    });
+
+                    self.addEventListener("keydown", event => {
+                        if (event.key === "s") {
+                            if (clickingEnabled) {
+                                stopClicking();
+                            } else {
+                                startClicking();
+                            }
+                            clickingEnabled = !clickingEnabled;
+                        }
+                    });
+                }
+            }
+        }, {
+            name: "Tab Cloaker",
+            description: "Changes the tab image and name",
+            inputs: [{
+                name: "Icon URL",
+                type: "text",
+            }, {
+                name: "Tab Title",
+                type: "text",
+            }],
+            run: function(e, t) {
+                var a = document.querySelector("link[rel*='icon']") || document.createElement("link");
+                a.type = "image/x-icon",
+                    a.rel = "shortcut icon",
+                    a.href = e || "https://www.blooket.com/favicon.ico",
+                    document.getElementsByTagName("head")[0].appendChild(a),
+                    document.title = t || "Blooket"
+            }
+        }],
+        host: [{
+            name: "Host Any Gamemode",
+            description: "Change the selected gamemode on the host settings page",
+            inputs: [{
+                name: "Gamemode",
+                type: "options",
+                options: ["Racing", "Classic", "Factory", "Cafe", "Defense2", "Defense", "Royale", "Gold", "Brawl", "Hack", "Pirate", "Fish", "Dino", "Toy", "Rush"]
+            }],
+            run: function(e) {
+                let t = document.createElement("iframe");
+                if (document.body.append(t), window.alert = t.contentWindow.alert.bind(window), window.prompt = t.contentWindow.prompt.bind(window), t.remove(), "/host/settings" != location.pathname)
+                    return alert("Run this script on the host settings page");
+                let {
+                    stateNode: a
+                } = Object.values(function e(t = document.querySelector("body>div")) {
+                        return Object.values(t)[1]?.children?.[0]?._owner.stateNode ? t : e(t.querySelector(":scope>div"))
+                    }
+                    ())[1].children[0]._owner;
+                a.setState({
+                    settings: {
+                        type: e
+                    }
+                })
+            }
+        }, {
+            name: "Toggle Spooky Theme",
+            description: "Toggles the spooky theme for Gold Quest",
+            run: function() {
+                (() => {
+                    const sn = Object.values(document.querySelector('#app>div>div'))[1].children[0]._owner.stateNode;
+                    sn.season = sn.season ? 0 : 1;
+                    sn.render();
+                })();
+            }
+        }, {
+            name: "Freeze Timer",
+            description: "Makes the host timer stop ingame",
+            run: function() {
+                (() => {
+                    const {
+                        stateNode
+                    } = Object.values(document.querySelector("#app>div>div"))[1].children[0]._owner;
+                    clearInterval(stateNode.timerInterval);
+                    stateNode.timerInterval = setInterval(function() {
+                        stateNode?.getClients?.(!1);
+                    }, 4000);
+                })();
+            }
+        }, {
+            name: "Render Hours on Host Timer",
+            description: "Renders hours on host timer(use with remove host time limit). Can only render up to 24 hours.",
+            run: function() {
+                (() => {
+                    const format = "HH:mm:ss";
+                    const reg = '/(\\[[^\\[]*\\])|(\\\\)?(LTS|LT|LL?L?L?|l{1,4})/g';
+                    if (!RegExp.prototype.tes) {
+                        RegExp.prototype.tes = RegExp.prototype.test;
+                    }
+                    RegExp.prototype.test = function(a) {
+                        if (a == "mm:ss" && this.toString() == reg) {
+                            return !0;
+                        }
+                        return RegExp.prototype.tes.apply(this, arguments);
+                    }
+                    if (!String.prototype.rep) {
+                        String.prototype.rep = String.prototype.replace;
+                    }
+                    String.prototype.replace = function(a, b) {
+                        if (this == "mm:ss" && a.toString() == reg) {
+                            return format;
+                        }
+                        return String.prototype.rep.apply(this, arguments);
+                    }
+                })();
+            }
+        }, {
+            name: "View Lobbychat Logs",
+            description: "View messages players type in chat",
+            run: function() {
+                function reactHandler() {
+                    return Object.values(document.querySelector('#app>div>div'))[1].children[0]._owner;
+                }
+
+                document.addEventListener("keydown", function(e) {
+                    if (e.key === "Shift" && e.code === "ShiftRight") {
+                        c.style.display = c.style.display === "none" ? "block" : "none";
+                    }
+                });
+
+                const c = document.createElement("div");
+                c.className = "chat-box";
+                document.body.appendChild(c);
+                const h = document.createElement("div");
+                h.className = "chat-header";
+                h.textContent = "Chat Logs (RSHIFT to hide)";
+                c.appendChild(h);
+                const b = document.createElement("div");
+                b.className = "chat-body";
+                c.appendChild(b);
+
+                function a(e) {
+                    const t = document.createElement("div");
+                    t.textContent = e;
+                    b.appendChild(t);
+                    b.scrollTop = b.scrollHeight;
+                }
+
+                c.style.position = "fixed";
+                c.style.bottom = "20px";
+                c.style.right = "20px";
+                c.style.width = "300px";
+                c.style.height = "400px";
+                c.style.backgroundColor = "#fff";
+                c.style.border = "1px solid #ccc";
+                c.style.boxShadow = "0px 0px 10px rgba(0, 0, 0, 0.2)";
+                c.style.display = "block";
+
+                b.style.height = "360px";
+                b.style.overflowY = "scroll";
+                b.style.padding = "10px";
+
+                h.addEventListener("click", () => {
+                    b.classList.toggle("open");
+                });
+
+                var da = reactHandler().stateNode.props.liveGameController._liveApp.database()._delegate._repoInternal.server_.onDataUpdate_;
+
+                function handleChat(e, t) {
+                    if (t != null) {
+                        if (e.includes("/msg")) {
+                            t?.msg && (console.log(t.msg), a(e.split("/")[2] + ": " + t.msg));
+                        }
+                    }
+                }
+
+                reactHandler().stateNode.props.liveGameController._liveApp.database()._delegate._repoInternal.server_.onDataUpdate_ = function(e, t, a, n) {
+                    console.log(e, t, a, n);
+                    handleChat(e, t);
+                    da(e, t, a, n);
+                };
+
+                window.logsv = false;
+
+                function onsv(e) {
+                    if (window.logsv) {
+                        a("Path: " + e.path.split("/").splice(2, 2).join("/") + " Val: " + ((typeof e.val === 'object') ? JSON.stringify(e.val) : e.val));
+                    }
+                }
+
+                var orgsv = reactHandler().stateNode.props.liveGameController.setVal;
+                reactHandler().stateNode.props.liveGameController.setVal = function() {
+                    onsv.apply(this, arguments);
+                    orgsv.apply(this, arguments);
+                };
+
+                reactHandler().stateNode.props.liveGameController._liveApp.database().ref(`${reactHandler().stateNode.props.client.hostId}`).on("value", e => {});
+                a("Lobbychat successfully loaded!");
+
+                function app() {
+                    c.style.wordWrap = "break-word";
+                }
+
+                app();
+            }
+        }, {
+            name: "Remove Host Time Limit",
+            description: "Removes the host time limit",
+            run: function() {
+                (() => {
+                    const sn = Object.values(document.querySelector('#app>div>div'))[1].children[0]._owner.stateNode;
+                    sn.onAmountUpdate = function(t) {
+                        let settings = sn.state.settings;
+                        settings.amount = parseInt(t.target.value);
+                        sn.setState({
+                            settings
+                        });
+                    }
+                })();
+            }
+        }, {
+            name: "Free Player Slots",
+            description: "Allows more players to join if the game is full",
+            run: async () => {
+                let i = document.createElement('iframe');
+                document.body.append(i);
+                const alert = i.contentWindow.alert.bind(window);
+                i.remove();
+                const stateNode = Object.values(document.querySelector('#app>div>div'))[1].children[0]._owner.stateNode;
+                const players = await stateNode.props.liveGameController.getDatabaseVal("c");
+                let freed = 0;
+                if (!stateNode.state.blockedUsers) {
+                    stateNode.state.blockedUsers = [];
+                }
+                async function wait(time) {
+                    return new Promise(e => {
+                        setTimeout(e, time);
+                    });
+                }
+                async function blockUser(name) {
+                    if (stateNode.state.blockedUsers.includes(name)) {
+                        return;
+                    }
+                    const res = await fetch("https://fb.blooket.com/c/firebase/block", {
+                        headers: {
+                            "Content-Type": "application/json"
+                        },
+                        method: "POST",
+                        body: JSON.stringify({
+                            g: stateNode.props.host.id,
+                            u: name
+                        }),
+                        credentials: "include"
+                    });
+                    if (res.status !== 200) {
+                        return;
+                    }
+                    stateNode.state.blockedUsers.push(name);
+                    freed++;
+                    if (freed % parseInt("15") == 0) {
+                        await wait(600);
+                    }
+                    C.alerts?.[0].addLog("Freed user: " + name);
+                }
+                for (let i in players) {
+                    await blockUser(i);
+                }
+                alert(`Freed slots: ${freed}`);
+            }
+        }, {
+            name: "Realtime Updates",
+            description: "Makes leaderboard updates happen in real-time.",
+            run: async () => {
+                const stateNode = () => Object.values(document.querySelector("#app>div>div"))[1].children[0]._owner.stateNode;
+                (await stateNode().props.liveGameController.getDatabaseRef("")).on("value", e => stateNode()?.getClients?.(!1));
+            }
+        }, {
+            name: "Anti-Flood",
+            description: "Prevents bots from flooding the game",
+            enabled: false,
+            data: null,
+            run: function() {
+                if (this.enabled) {
+                    return;
+                }
+
+                this.enabled = true;
+                this.data = setInterval(async () => {
+                    var iframe = document.createElement("iframe");
+                    document.body.append(iframe);
+                    window.confirm = iframe.contentWindow.confirm.bind(window);
+                    iframe.style.display = "none";
+
+                    try {
+                        let stateNode = Object.values(document.querySelector("#app > div > div"))[1].children[0]._owner.stateNode;
+                        var dbRef = await stateNode.props.liveGameController.getDatabaseRef("c");
+                        let currentClients = {},
+                            clientCounts = {};
+
+                        dbRef.on("value", snapshot => {
+                            var clients = snapshot.val() || {};
+                            var newClients = [];
+
+                            for (const key in clients) {
+                                if (!currentClients[key]) {
+                                    newClients.push(key);
+                                    clientCounts[key.replace(/[0-9]/g, "")] = (clientCounts[key.replace(/[0-9]/g, "")] || 0) + 1;
+                                }
+                            }
+
+                            currentClients = clients;
+
+                            for (const client of newClients) {
+                                if (currentClients[client].g || clientCounts[client.replace(/[0-9]/g, "")] > 1) {
+                                    stateNode.props.liveGameController.blockUser(client);
+                                    clientCounts[client.replace(/[0-9]/g, "")]--;
+                                }
+                            }
+                        });
+                    } catch (error) {
+                        console.error("An error occurred", error);
+                    }
+                }, 2000);
+            }
+        }, {
+            name: "Enable Mobile Hosting",
+            description: "Makes it so that you can host on mobile",
+            run: function() {
+                (function() {
+                    var metaViewport = document.querySelector('meta[name="viewport"]');
+                    if (metaViewport) {
+                        metaViewport.parentNode.removeChild(metaViewport);
+                    }
+                    var newMetaViewport = document.createElement('meta');
+                    newMetaViewport.name = 'viewport';
+                    newMetaViewport.content = 'width=1280, initial-scale=1';
+                    document.head.appendChild(newMetaViewport);
+                })();
+            }
+        }, {
+            name: "Kick All Players",
+            description: "Kicks all players from your game.",
+            run: async () => {
+                const sn = Object.values(document.querySelector('#app>div>div'))[1].children[0]._owner.stateNode;
+                const db = await sn.props.liveGameController.getDatabaseVal("");
+                sn.props.liveGameController.setVal({
+                    path: "bu",
+                    val: Object.keys(db.c).reduce((a, b) => (a[b] = 1, a), db.bu ? db.bu : {})
+                });
+                sn.props.liveGameController.setVal({
+                    path: "c",
+                    val: {}
+                });
+            }
+        }],
+        royale: [{
+            name: "Auto Answer (Toggle)",
+            description: "Toggles auto answer on",
+            type: "toggle",
+            enabled: !1,
+            data: null,
+            run: function() {
+                this.enabled ? (this.enabled = !1, clearInterval(this.data), this.data = null) : (this.enabled = !0, this.data = setInterval(() => {
+                    var e = Object.values(document.querySelector("body div[id] > div > div"))[1].children[0]._owner.stateNode;
+                    e?.onAnswer?.(!0, e.props.client.question.correctAnswers[0])
+                }, 50))
+            }
+        }, {
+            name: "Auto Answer",
+            description: "Chooses the correct answer for you. Will answer with the time provided.",
+            inputs: [{
+                name: "Time (milliseconds)",
+                type: "number",
+                min: 0,
+                max: 20000,
+            }],
+            run: (a) => {
+                const stateNode = Object.values(document.querySelector('#app>div>div'))[1].children[0]._owner.stateNode;
+                stateNode.startTime = performance.now() - a;
+                stateNode?.onAnswer?.(true, stateNode.props.client.question.correctAnswers[0]);
+            }
+        }],
+        rush: [{
+            name: "Set Blooks",
+            description: "Sets amount of blooks you or your team has",
+            inputs: [{
+                name: "Blooks",
+                type: "number"
+            }],
+            run: function(e) {
+                var t = Object.values(document.querySelector("body div[id] > div > div"))[1].children[0]._owner.stateNode;
+                t.setState({
+                        numBlooks: e
+                    }),
+                    t.isTeam ? t.props.liveGameController.setVal({
+                        path: `a/${t.props.client.name}/bs`,
+                        val: e
+                    }) : t.props.liveGameController.setVal({
+                        path: `c/${t.props.client.name}/bs`,
+                        val: numDefense
+                    })
+            }
+        }, {
+            name: "Set Defense",
+            description: "Sets amount of defense you or your team has (Max 4)",
+            inputs: [{
+                name: "Defense (max 4)",
+                type: "number",
+                max: 4
+            }],
+            run: function(e) {
+                var e = Math.min(e, 4),
+                    t = Object.values(document.querySelector("body div[id] > div > div"))[1].children[0]._owner.stateNode;
+                t.setState({
+                        numDefense: e
+                    }),
+                    t.isTeam ? t.props.liveGameController.setVal({
+                        path: `a/${t.props.client.name}/d`,
+                        val: e
+                    }) : t.props.liveGameController.setVal({
+                        path: `c/${t.props.client.name}/d`,
+                        val: e
+                    })
+            }
+        }, {
+            name: "Freeze Host",
+            description: "Does what it says above.. could be permanent!",
+            run: function() {
+                var largeNumber = "99999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999";
+                var t = Object.values(document.querySelector("body div[id] > div > div"))[1].children[0]._owner.stateNode;
+                t.setState({
+                    numBlooks: largeNumber
+                });
+                if (t.isTeam) {
+                    t.props.liveGameController.setVal({
+                        path: `a/${t.props.client.name}/bs`,
+                        val: largeNumber
+                    });
+                } else {
+                    t.props.liveGameController.setVal({
+                        path: `c/${t.props.client.name}/bs`,
+                        val: largeNumber
+                    });
+                }
+            }
+        }],
+        workshop: [{
+            name: "Remove Distractions",
+            description: "Removes all enemy distractions",
+            run: function() {
+                Object.values(document.querySelector("body div[id] > div > div"))[1].children[0]._owner.stateNode.setState({
+                    fog: !1,
+                    dusk: !1,
+                    wind: !1,
+                    plow: !1,
+                    blizzard: !1,
+                    force: !1,
+                    canada: !1,
+                    trees: [!1, !1, !1, !1, !1, !1, !1, !1, !1, !1]
+                })
+            }
+        }, {
+            name: "Send Distraction",
+            description: "Sends a distraction to everyone else playing",
+            inputs: [{
+                name: "Distraction",
+                type: "options",
+                options: Object.entries({
+                    c: "Oh Canada",
+                    b: "Blizzard",
+                    f: "Fog Spell",
+                    d: "Dark & Dusk",
+                    w: "Howling Wind",
+                    g: "Gift Time!",
+                    t: "TREES",
+                    s: "Snow Plow",
+                    fr: "Use The Force"
+                }).map(([e, t]) => ({
+                    name: t,
+                    value: e
+                }))
+            }],
+            run: function(e) {
+                var t = Object.values(document.querySelector("body div[id] > div > div"))[1].children[0]._owner.stateNode;
+                t.safe = !0,
+                    t.props.liveGameController.setVal({
+                        path: `c/${t.props.client.name}/tat`,
+                        val: e
+                    })
+            }
+        }, {
+            name: "Set Toys",
+            description: "Sets amount of toys",
+            inputs: [{
+                name: "Toys",
+                type: "number"
+            }],
+            run: function(e) {
+                var t = Object.values(document.querySelector("body div[id] > div > div"))[1].children[0]._owner.stateNode;
+                t.setState({
+                        toys: e
+                    }),
+                    t.props.liveGameController.setVal({
+                        path: "c/".concat(t.props.client.name),
+                        val: {
+                            b: t.props.client.blook,
+                            t: e
+                        }
+                    })
+            }
+        }, {
+            name: "Set Toys Per Question",
+            description: "Sets amount of toys per question",
+            inputs: [{
+                name: "Toys Per Question",
+                type: "number"
+            }],
+            run: function(e) {
+                Object.values(document.querySelector("body div[id] > div > div"))[1].children[0]._owner.stateNode.setState({
+                    toysPerQ: e
+                })
+            }
+        }, {
+            name: "Swap Toys",
+            description: "Swaps toys with someone",
+            inputs: [{
+                name: "Player",
+                type: "options",
+                options() {
+                    let e = Object.values(document.querySelector("body div[id] > div > div"))[1].children[0]._owner.stateNode;
+                    return new Promise(t => e.props.liveGameController._liveApp ? e.props.liveGameController.getDatabaseVal("c", e => e && t(Object.keys(e))) : t([]))
+                }
+            }],
+            run: function(e) {
+                let t = Object.values(document.querySelector("body div[id] > div > div"))[1].children[0]._owner.stateNode;
+                t.props.liveGameController.getDatabaseVal("c", a => {
+                    var o;
+                    a && Object.keys(a).map(e => e.toLowerCase()).includes(e.toLowerCase()) && ([a, {
+                        t: o
+                    }] = Object.entries(a).find(([t]) => t.toLowerCase() == e.toLowerCase()), t.props.liveGameController.setVal({
+                        path: "c/".concat(t.props.client.name),
+                        val: {
+                            b: t.props.client.blook,
+                            t: o,
+                            tat: a + ":swap:" + t.state.toys
+                        }
+                    }), t.setState({
+                        toys: o
+                    }))
+                })
+            }
+        }],
+        settings: [{
+            name: "Import Settings",
+            description: "Import a custom theme",
+            inputs: [{
+                name: "JSON Data",
+                type: "string"
+            }],
+            run: function(e) {
+                try {
+                    JSON.parse(e)
+                } catch (t) {
+                    return alert("Invalid JSON provided")
+                }
+                for (let a in e = {
+                        backgroundColor: "rgb(11, 194, 207)",
+                        infoColor: "#9a49aa",
+                        cheatList: "#9a49aa",
+                        defaultButton: "#9a49aa",
+                        disabledButton: "#A02626",
+                        enabledButton: "#47A547",
+                        textColor: "white",
+                        inputColor: "#7a039d",
+                        contentBackground: "rgb(64, 17, 95)",
+                        ...JSON.parse(e)
+                    }, c.setItem("theme", e), e)
+                    p.sheet.cssRules[0].style.setProperty("--" + a, e[a])
+            }
+        }, {
+            name: "Export Settings",
+            description: "Export the current theme to JSON",
+            run: async function() {
+                await navigator.clipboard.writeText(JSON.stringify(c.data.theme, null, 4)),
+                    prompt("Text copied to clipboard. (Paste below to test)")
+            }
+        }, {
+            name: "Defaults",
+            description: "Changes all the settings to a preset",
+            inputs: [{
+                name: "Theme",
+                type: "options",
+                options: [{
+                    name: "Default",
+                    value: {
+                        backgroundColor: "rgb(11, 194, 207)",
+                        infoColor: "#9a49aa",
+                        cheatList: "#9a49aa",
+                        defaultButton: "#9a49aa",
+                        disabledButton: "#A02626",
+                        enabledButton: "#47A547",
+                        textColor: "white",
+                        inputColor: "#7a039d",
+                        contentBackground: "rgb(64, 17, 95)"
+                    }
+                }, {
+                    name: "Landscapes (Random)",
+                    value: {
+                        backgroundColor: "url(https://source.unsplash.com/1600x900/?landscape)",
+                        infoColor: "linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3))",
+                        cheatList: "linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3))",
+                        defaultButton: "linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3))",
+                        disabledButton: "linear-gradient(rgba(225, 0, 0, 0.3), rgba(225, 0, 0, 0.3))",
+                        enabledButton: "linear-gradient(rgba(0, 128, 0, 0.3), rgba(0, 128, 0, 0.3))",
+                        textColor: "white",
+                        inputColor: "linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3))",
+                        contentBackground: "linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3))"
+                    }
+                }, {
+                    name: "Blacket",
+                    value: {
+                        backgroundColor: "#4f4f4f",
+                        infoColor: "#2f2f2f",
+                        cheatList: "#2f2f2f",
+                        defaultButton: "#4f4f4f",
+                        disabledButton: "#eb6234",
+                        enabledButton: "#00c20c",
+                        textColor: "white",
+                        inputColor: "#3f3f3f",
+                        contentBackground: "#2f2f2f"
+                    }
+                }, {
+                    name: "Ploopit",
+                    value: {
+                        backgroundColor: "url(https://i.ibb.co/6vvdq3f/ploopit.png)",
+                        infoColor: "#3C75F5",
+                        cheatList: "#204DD0",
+                        defaultButton: "#204DD0",
+                        disabledButton: "#A02626",
+                        enabledButton: "#47A547",
+                        textColor: "white",
+                        inputColor: "#3f3f3f",
+                        contentBackground: "#3C75F5"
+                    }
+                }, {
+                    name: "Betastar",
+                    value: {
+                        backgroundColor: "url(https://i.ibb.co/8bkDpCn/GIFMaker-me.gif)",
+                        infoColor: "#282828",
+                        cheatList: "#282828",
+                        defaultButton: "white",
+                        disabledButton: "#9D0000",
+                        enabledButton: "#013220",
+                        textColor: "black",
+                        inputColor: "gray",
+                        contentBackground: "linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3))"
+                    }
+                }, {
+                    name: "Skool.lol",
+                    value: {
+                        backgroundColor: "linear-gradient(90deg, rgba(104,45,140,1) 220px, rgba(237,30,121,1) 100%)",
+                        cheatList: "#1e2124",
+                        infoColor: "#1e2124",
+                        defaultButton: "#36393e",
+                        inputColor: "#1e2124",
+                        enabledButton: "#9c9a9a",
+                        textColor: "white",
+                        disabledButton: "#171717",
+                        contentBackground: "#292929"
+                    }
+                }, {
+                    name: "Blue - Purple Background",
+                    value: {
+                        backgroundColor: "linear-gradient(162.5deg, rgba(0,183,255,1) 220px, rgba(128,0,255,1) 100%)"
+                    }
+                }, {
+                    name: "Saint Patricks Background",
+                    value: {
+                        backgroundColor: "rgb(9, 148, 65)"
+                    }
+                }, {
+                    name: "Halloween Background",
+                    value: {
+                        backgroundColor: "rgb(41, 41, 41)"
+                    }
+                }, {
+                    name: "Fall Background",
+                    value: {
+                        backgroundColor: "rgb(224, 159, 62)"
+                    }
+                }, {
+                    name: "Winter Background",
+                    value: {
+                        backgroundColor: "linear-gradient(rgb(49, 170, 224), rgb(187, 221, 255))"
+                    }
+                }, {
+                    name: "Crypto Hack",
+                    value: {
+                        backgroundColor: "radial-gradient(#11581e,#041607)",
+                        infoColor: "#1a1a1a",
+                        cheatList: "#1a1a1a",
+                        defaultButton: "rgb(88 175 88)",
+                        disabledButton: "#A02626",
+                        enabledButton: "#0b601b",
+                        textColor: "white",
+                        inputColor: "rgb(0 0 0 / 25%)",
+                        contentBackground: "#11581e"
+                    }
+                }, {
+                    name: "Fishing Frenzy",
+                    value: {
+                        backgroundColor: "linear-gradient(180deg,#9be2fe 0,#67d1fb)",
+                        infoColor: "#c8591e",
+                        cheatList: "#c8591e",
+                        defaultButton: "#ff751a",
+                        disabledButton: "#bf0e0e",
+                        enabledButton: "#2fb62f",
+                        textColor: "white",
+                        inputColor: "rgb(0 0 0 / 25%)",
+                        contentBackground: "radial-gradient(#02b0ea 40%, #1d86ea)"
+                    }
+                }, {
+                    name: "Deceptive Dinos",
+                    value: {
+                        backgroundColor: 'radial-gradient(rgba(220, 184, 86, 0), rgba(220, 184, 86, 0.4)), url("https://ac.blooket.com/play/111cb7e0ee6607ac3d1a13d534c0e0f1.png"), #ead49a',
+                        infoColor: "#af8942",
+                        cheatList: "#af8942",
+                        defaultButton: "#af8942",
+                        disabledButton: "#A02626",
+                        enabledButton: "#47A547",
+                        textColor: "white",
+                        inputColor: "rgb(0 0 0 / 10%)",
+                        contentBackground: "radial-gradient(rgba(1,104,162,.6),rgba(24,55,110,.5)),radial-gradient(#2783b4 1.5px,#18376e 0) center / 24px 24px"
+                    }
+                }, {
+                    name: "Blook Rush",
+                    value: {
+                        backgroundColor: "repeating-linear-gradient(45deg,white,white 8%,#e6e6e6 0,#e6e6e6 16%)",
+                        defaultButton: "#36c",
+                        inputColor: "rgb(0 0 0 / 25%)",
+                        infoColor: "#36c",
+                        cheatList: "#36c",
+                        contentBackground: "#888",
+                        textColor: "white",
+                        disabledButton: "#A02626",
+                        enabledButton: "#47A547"
+                    }
+                }, {
+                    name: "Factory",
+                    value: {
+                        defaultButton: "#1563bf",
+                        infoColor: "#a5aabe",
+                        cheatList: "#a5aabe",
+                        contentBackground: "#2d313d",
+                        backgroundColor: "#3a3a3a",
+                        enabledButton: "rgb(75, 194, 46)",
+                        disabledButton: "#9a49aa",
+                        inputColor: "rgb(0 0 0 / 25%)",
+                        textColor: "white"
+                    }
+                }, {
+                    name: "Cafe",
+                    value: {
+                        backgroundColor: "linear-gradient(90deg,rgba(200,0,0,.5) 50%,transparent 0) center / 50px 50px,linear-gradient(rgba(200,0,0,0.5) 50%,transparent 0) white center / 50px 50px",
+                        defaultButton: "#0bc2cf",
+                        inputColor: "rgb(0 0 0 / 25%)",
+                        infoColor: "#ac7339",
+                        cheatList: "#ac7339",
+                        contentBackground: "rgb(64, 64, 64)",
+                        textColor: "white",
+                        disabledButton: "#A02626",
+                        enabledButton: "#47A547"
+                    }
+                }, {
+                    name: "Tower of Doom",
+                    value: {
+                        backgroundColor: "rgb(41 41 41)",
+                        disabledButton: "rgb(151, 15, 5)",
+                        defaultButton: "#333",
+                        inputColor: "rgb(0 0 0 / 25%)",
+                        contentBackground: "#404040",
+                        enabledButton: "#4bc22e",
+                        textColor: "white",
+                        infoColor: "#9a49aa",
+                        cheatList: "#9a49aa"
+                    }
+                }, {
+                    name: "Monster Brawl",
+                    value: {
+                        defaultButton: "rgb(45, 51, 67)",
+                        backgroundColor: "rgb(78, 95, 124)",
+                        inputColor: "rgb(0 0 0 / 25%)",
+                        contentBackground: "linear-gradient(0deg,#374154,#4f5b74)",
+                        infoColor: "#374154",
+                        cheatList: "#374154",
+                        textColor: "white",
+                        enabledButton: "#47A547",
+                        disabledButton: "#A02626"
+                    }
+                }, {
+                    name: "Tower Defense 2",
+                    value: {
+                        backgroundColor: "url(https://media.blooket.com/image/upload/v1676164454/Media/defense/backgroundTd1-02.svg) center / cover",
+                        cheatList: "#a33c22",
+                        infoColor: "#a33c22",
+                        defaultButton: "#40b1d8",
+                        inputColor: "#3e8cbe",
+                        contentBackground: "#293c82",
+                        enabledButton: "#47A547",
+                        disabledButton: "#A02626",
+                        textColor: "white"
+                    }
+                }]
+            }],
+            run: function(e) {
+                for (let t in c.setItem("theme", {
+                        ...c.data.theme,
+                        ...e
+                    }), e)
+                    p.sheet.cssRules[0].style.setProperty("--" + t, e[t])
+            }
+        }, {
+            name: "Scale",
+            description: "Forces the GUI to scale from 25%-100%",
+            inputs: [{
+                type: "number",
+                name: "Percent scale",
+                min: 25,
+                max: 100,
+                value: 100 * (c.data.scale || 1)
+            }],
+            run: function(e) {
+                e = Math.min(Math.max(e, 25), 100),
+                    c.setItem("scale", e / 100),
+                    _.style.transform = `scale(${e / 100})`
+            }
+        }, {
+            name: "Hide Keybind",
+            description: "Change the hide keybind (Click button after input to change)",
+            inputs: [{
+                type: "function",
+                name: "Input",
+                function: e => B(({
+                    shift: t,
+                    ctrl: a,
+                    alt: o,
+                    key: r
+                }) => e("" + [a && "Ctrl", t && "Shift", o && "Alt", r && r.toUpperCase()].filter(Boolean).join(" + ")))
+            }],
+            run: function(e) {
+                c.setItem("hide", e),
+                    m.update(c.data.hide || {
+                        ctrl: !0,
+                        key: "e"
+                    }, c.data.close || {
+                        ctrl: !0,
+                        key: "x"
+                    })
+            }
+        }, {
+            name: "Close Keybind",
+            description: "Change the quick close keybind (Click button after input to change)",
+            inputs: [{
+                type: "function",
+                name: "Input",
+                function: e => B(({
+                    shift: t,
+                    ctrl: a,
+                    alt: o,
+                    key: r
+                }) => e("" + [a && "Ctrl", t && "Shift", o && "Alt", r && r.toUpperCase()].filter(Boolean).join(" + ")))
+            }],
+            run: function(e) {
+                c.setItem("close", e),
+                    m.update(c.data.hide || {
+                        ctrl: !0,
+                        key: "e"
+                    }, c.data.close || {
+                        ctrl: !0,
+                        key: "x"
+                    })
+            }
+        }, {
+            name: "Background Color",
+            description: "Changes the background color of the GUI",
+            inputs: [{
+                type: "string",
+                name: "Color"
+            }],
+            run: function(e) {
+                p.sheet.cssRules[0].style.setProperty("--backgroundColor", e),
+                    c.setItem("theme.backgroundColor", e)
+            }
+        }, {
+            name: "Category List Color",
+            description: "Changes the categories list background color",
+            inputs: [{
+                type: "string",
+                name: "Color"
+            }],
+            run: function(e) {
+                p.sheet.cssRules[0].style.setProperty("--cheatList", e),
+                    c.setItem("theme.cheatList", e)
+            }
+        }, {
+            name: "Info Color",
+            description: "Changes the color of the information at the top of the GUI",
+            inputs: [{
+                type: "string",
+                name: "Color"
+            }],
+            run: function(e) {
+                p.sheet.cssRules[0].style.setProperty("--infoColor", e),
+                    c.setItem("theme.infoColor", e)
+            }
+        }, {
+            name: "Button Color",
+            description: "Changes the color of the cheats",
+            inputs: [{
+                type: "string",
+                name: "Color"
+            }],
+            run: function(e) {
+                p.sheet.cssRules[0].style.setProperty("--defaultButton", e),
+                    c.setItem("theme.defaultButton", e)
+            }
+        }, {
+            name: "Enabled Toggle Color",
+            description: "Changes the color of enabled toggle cheats",
+            inputs: [{
+                type: "string",
+                name: "Color"
+            }],
+            run: function(e) {
+                c.setItem("theme.enabledButton", e)
+            }
+        }, {
+            name: "Disabled Toggle Color",
+            description: "Changes the color of disabled toggle cheats",
+            inputs: [{
+                type: "string",
+                name: "Color"
+            }],
+            run: function(e) {
+                p.sheet.cssRules[0].style.setProperty("--disabledButton", e),
+                    c.setItem("theme.disabledButton", e)
+            }
+        }, {
+            name: "Text Color",
+            description: "Changes the text color",
+            inputs: [{
+                type: "string",
+                name: "Color"
+            }],
+            run: function(e) {
+                p.sheet.cssRules[0].style.setProperty("--textColor", e),
+                    c.setItem("theme.textColor", e)
+            }
+        }, {
+            name: "Input Color",
+            description: "Changes the color of inputs, like the set gold number input",
+            inputs: [{
+                type: "string",
+                name: "Color"
+            }],
+            run: function(e) {
+                p.sheet.cssRules[0].style.setProperty("--inputColor", e),
+                    c.setItem("theme.inputColor", e)
+            }
+        }, {
+            name: "Content Color",
+            description: "Changes the background color of the cheats",
+            inputs: [{
+                type: "string",
+                name: "Color"
+            }],
+            run: function(e) {
+                p.sheet.cssRules[0].style.setProperty("--contentBackground", e),
+                    c.setItem("theme.contentBackground", e)
+            }
+        }],
+        chat: [{
+            element: l("div", {
+                className: "alertContainer",
+                style: {
+                    margin: "15px",
+                    backgroundColor: "rgb(0 0 0 / 50%)",
+                    width: "95%",
+                    height: "370px",
+                    borderRadius: "7px",
+                    display: "flex",
+                    flexDirection: "column",
+                    overflow: "hidden",
+                    padding: "0px",
+                    boxSizing: "border-box"
+                }
+            }, (function() {
+                var j = 0;
+                var container = document.createElement("div");
+                container.style.width = "100%";
+                container.style.height = "100%";
+                container.style.display = "flex";
+                container.style.flexDirection = "column";
+                container.style.position = "relative";
+
+                var chatBox = document.createElement("div");
+                chatBox.className = "chat-box";
+                chatBox.style.flex = "1";
+                chatBox.style.overflow = "auto";
+                chatBox.style.display = "flex";
+                chatBox.style.flexDirection = "column";
+                container.appendChild(chatBox);
+
+                var chatHeader = document.createElement("div");
+                chatHeader.className = "chat-header";
+                chatHeader.textContent = "Chat";
+                chatHeader.style.padding = "5px 10px";
+                chatHeader.style.borderBottom = "1px solid #ccc";
+                chatHeader.style.display = "flex";
+                chatHeader.style.justifyContent = "space-between";
+                chatHeader.style.alignItems = "center";
+                chatHeader.style.fontSize = "14px";
+                chatBox.appendChild(chatHeader);
+
+                var themeDropdown = document.createElement("select");
+                themeDropdown.style.border = "none";
+                themeDropdown.style.backgroundColor = "#f1f1f1";
+                themeDropdown.style.padding = "3px 5px";
+                themeDropdown.style.borderRadius = "5px";
+                themeDropdown.style.cursor = "pointer";
+                themeDropdown.style.fontSize = "14px";
+                chatHeader.appendChild(themeDropdown);
+
+                var lightOption = document.createElement("option");
+                lightOption.value = "light";
+                lightOption.textContent = "Light";
+                themeDropdown.appendChild(lightOption);
+
+                var darkOption = document.createElement("option");
+                darkOption.value = "dark";
+                darkOption.textContent = "Dark";
+                themeDropdown.appendChild(darkOption);
+
+                var chatBody = document.createElement("div");
+                chatBody.className = "chat-body";
+                chatBody.style.flex = "1";
+                chatBody.style.overflow = "auto";
+                chatBody.style.padding = "10px";
+                chatBody.style.boxSizing = "border-box";
+                chatBody.style.display = "flex";
+                chatBody.style.flexDirection = "column";
+                chatBox.appendChild(chatBody);
+
+                var chatInput = document.createElement("input");
+                chatInput.type = "text";
+                chatInput.className = "chat-input";
+                chatInput.placeholder = "Type a message...";
+                chatInput.style.border = "1px solid #ccc";
+                chatInput.style.padding = "10px";
+                chatInput.style.boxSizing = "border-box";
+                chatInput.style.width = "100%";
+                chatInput.style.position = "relative";
+                chatInput.style.zIndex = "1";
+                container.appendChild(chatInput);
+
+                function applyTheme(theme) {
+                    if (theme === "dark") {
+                        chatBox.style.backgroundColor = "#333";
+                        chatHeader.style.backgroundColor = "#444";
+                        chatBody.style.backgroundColor = "#333";
+                        chatBody.style.color = "#fff";
+                        chatInput.style.backgroundColor = "#444";
+                        chatInput.style.color = "#fff";
+                        themeDropdown.style.backgroundColor = "#444";
+                        themeDropdown.style.color = "#fff";
+                        chatHeader.style.color = "#fff";
+                    } else {
+                        chatBox.style.backgroundColor = "#fff";
+                        chatHeader.style.backgroundColor = "#f1f1f1";
+                        chatBody.style.backgroundColor = "#fff";
+                        chatBody.style.color = "#000";
+                        chatInput.style.backgroundColor = "#fff";
+                        chatInput.style.color = "#000";
+                        themeDropdown.style.backgroundColor = "#f1f1f1";
+                        themeDropdown.style.color = "#000";
+                        chatHeader.style.color = "#000";
+                    }
+                }
+
+                function loadTheme() {
+                    var savedTheme = localStorage.getItem("chatTheme") || "light";
+                    applyTheme(savedTheme);
+                    themeDropdown.value = savedTheme;
+                }
+
+                themeDropdown.addEventListener("change", function() {
+                    var selectedTheme = themeDropdown.value;
+                    applyTheme(selectedTheme);
+                    localStorage.setItem("chatTheme", selectedTheme);
+                });
+
+                loadTheme();
+
+                function reactHandler() {
+                    return Object.values(document.querySelector('#app>div>div'))[1].children[0]._owner;
+                }
+
+                function parseCmd(t) {
+                    if (t.charAt(0) === "/") {
+                        var c = t.split(" ");
+                        var cm = c[0].replace("/", "");
+                        c.splice(0, 1);
+                        return {
+                            cmd: cm,
+                            args: c
+                        };
+                    } else {
+                        return false;
+                    }
+                }
+
+                function appendMessage(message) {
+                    var messageDiv = document.createElement("div");
+                    messageDiv.textContent = message;
+                    messageDiv.style.color = "inherit";
+                    messageDiv.style.marginBottom = "5px";
+                    chatBody.appendChild(messageDiv);
+                    chatBody.scrollTop = chatBody.scrollHeight;
+                }
+
+                function sendMessage(message) {
+                    if (reactHandler().stateNode.props.client.hostId) {
+                        var t = parseCmd(message);
+                        if (t) {
+                            switch (t.cmd) {
+                                case "cb":
+                                    setBlook(t.args.join(" "));
+                                    break;
+                                case "clear":
+                                    chatBody.innerHTML = "";
+                                    break;
+                                case "dumpstate":
+                                    dumpstate();
+                                    break;
+                                case "list":
+                                    list();
+                                    break;
+                                case "tlog":
+                                    tsvlog();
+                                    break;
+                                case "setval":
+                                    setv(t.args);
+                                    break;
+                                case "setstate":
+                                    setstate(t.args);
+                                    break;
+                                case "ahelp":
+                                    appendMessage("Advanced Commands: setval(sets val logged by tlog ex /setval b Chicken), tlog(toggles setval log), dumpstate(dumps react state), setstate(sets react state /setstate crypto:5 crypto2:5 etc)");
+                                    break;
+                                case "help":
+                                    appendMessage("Available Commands: help(gives help), ahelp(advanced commands help), cb(changes blook /cb cow), list(lists players connected), dump(dumps all available info about a player, passwords, etc(/dump player)), clear(clears chat), code(gives game code), unlock(unlocks blook on lobby screen)");
+                                    break;
+                                case "dump":
+                                    flist(t.args.join(" "));
+                                    break;
+                                case "unlock":
+                                    unlockBlook(t.args.join(" "));
+                                    break;
+                                case "code":
+                                    appendMessage("Game Code: " + reactHandler().stateNode.props.client.hostId);
+                                    break;
+                                default:
+                                    appendMessage("Unrecognized chat command!");
+                                    break;
+                            }
+                        } else {
+                            try {
+                                reactHandler().stateNode.props.liveGameController.setVal({
+                                    id: reactHandler().stateNode.props.client.hostId,
+                                    path: "c/" + reactHandler().stateNode.props.client.name + "/msg",
+                                    val: {
+                                        i: j,
+                                        msg: message
+                                    }
+                                });
+                                j++;
+                            } catch (error) {
+                                appendMessage("Failed to send message: " + error.message);
+                            }
+                        }
+                    } else {
+                        appendMessage("You must be in a game to chat!");
+                    }
+                }
+
+                function dumpstate() {
+                    var state = reactHandler().stateNode.state;
+                    var stateDump = Object.keys(state).map(e => {
+                        var obj = state[e];
+                        if (obj != null) {
+                            if (Array.isArray(obj) && typeof obj === "object") {
+                                obj = "[Array]";
+                            }
+                            return e + ":" + obj;
+                        } else {
+                            return e + ":N/A";
+                        }
+                    }).join("; ");
+                    appendMessage("DumpState: " + stateDump);
+                }
+
+                function setstate(args) {
+                    try {
+                        var t = {};
+                        args.forEach(e => {
+                            var p = e.split(":");
+                            if (!Number.isNaN(parseInt(p[1]))) {
+                                p[1] = parseInt(p[1]);
+                            }
+                            t[p[0]] = p[1];
+                        });
+                        reactHandler().stateNode.setState(t);
+                        appendMessage("Set State Successful!");
+                    } catch (error) {
+                        appendMessage("Failed to set state: " + error.message);
+                    }
+                }
+
+                function setv(args) {
+                    try {
+                        reactHandler().stateNode.props.liveGameController.setVal({
+                            path: "c/" + reactHandler().stateNode.props.client.name + "/" + args[0],
+                            val: args.slice(1).join(" ")
+                        });
+                        appendMessage("SetVal Successful!");
+                    } catch (error) {
+                        appendMessage("Failed to set value: " + error.message);
+                    }
+                }
+
+                function tsvlog() {
+                    window.logsv = !window.logsv;
+                    appendMessage("SetVal log set to " + (window.logsv ? "Enabled" : "Disabled"));
+                }
+
+                function setBlook(b) {
+                    var blooks = webpackJsonp.push([
+                        [], {
+                            ['1234']: (_, a, b) => {
+                                a.webpack = b
+                            }
+                        },
+                        [
+                            ['1234']
+                        ]
+                    ]).webpack("MDrD").a;
+                    b = Object.keys(blooks).find(e => b.toLowerCase() === e.toLowerCase());
+                    if (blooks[b]) {
+                        appendMessage("Setting blook to " + b + "!");
+                        try {
+                            reactHandler().stateNode.props.liveGameController.setVal({
+                                id: reactHandler().stateNode.props.client.hostId,
+                                path: "c/" + reactHandler().stateNode.props.client.name,
+                                val: {
+                                    b: b
+                                }
+                            });
+                            reactHandler().stateNode.props.client.blook = b;
+                        } catch (error) {
+                            appendMessage("Failed to set blook: " + error.message);
+                        }
+                    } else {
+                        appendMessage("No blook with that name was found!");
+                    }
+                }
+
+                function unlockBlook(b) {
+                    var blooks = webpackJsonp.push([
+                        [], {
+                            ['1234']: (_, a, b) => {
+                                a.webpack = b
+                            }
+                        },
+                        [
+                            ['1234']
+                        ]
+                    ]).webpack("MDrD").a;
+                    b = Object.keys(blooks).find(e => b.toLowerCase() === e.toLowerCase());
+                    if (blooks[b]) {
+                        try {
+                            reactHandler().stateNode.state.unlocks.push(b);
+                            reactHandler().stateNode.forceUpdate();
+                        } catch (error) {
+                            appendMessage("Failed to unlock blook: " + error.message);
+                        }
+                    } else {
+                        appendMessage("No blook with that name was found!");
+                    }
+                }
+
+                function list() {
+                    try {
+                        reactHandler().stateNode.props.liveGameController.getDatabaseVal("c").then(e => {
+                            appendMessage("Current Players(" + Object.keys(e).length + "): " + Object.keys(e).join(","));
+                        });
+                    } catch (error) {
+                        appendMessage("Failed to list players: " + error.message);
+                    }
+                }
+
+                function flist(p) {
+                    reactHandler().stateNode.props.liveGameController.getDatabaseVal("c/" + p).then(e => {
+                        if (e != null) {
+                            appendMessage("Dump: " + JSON.stringify(e));
+                        } else {
+                            appendMessage("Player not found!");
+                        }
+                    }).catch(error => {
+                        appendMessage("Error fetching player info: " + error.message);
+                    });
+                }
+
+                chatInput.addEventListener("keydown", function(e) {
+                    if (e.key === "Enter") {
+                        sendMessage(e.target.value);
+                        e.target.value = "";
+                    }
+                });
+
+                chatHeader.addEventListener("click", function() {
+                    chatBody.classList.toggle("open");
+                });
+
+                function handleChat(e, t) {
+                    if (t != null) {
+                        if (e.includes("/msg")) {
+                            t?.msg && appendMessage(e.split("/")[2] + ": " + t.msg);
+                        }
+                    }
+                }
+
+                function setupMessageListener() {
+                    try {
+                        var liveGameController = reactHandler().stateNode.props.liveGameController;
+                        if (liveGameController && liveGameController._liveApp && liveGameController._liveApp.database) {
+                            var originalOnDataUpdate = liveGameController._liveApp.database()._delegate._repoInternal.server_.onDataUpdate_;
+                            liveGameController._liveApp.database()._delegate._repoInternal.server_.onDataUpdate_ = function(e, t, a, n) {
+                                handleChat(e, t);
+                                originalOnDataUpdate(e, t, a, n);
+                            };
+                            appendMessage("Lobbychat successfully loaded!");
+                        } else {
+                            appendMessage("Make sure you're in a game!");
+                        }
+                    } catch (error) {
+                        appendMessage("Error setting up message listener: " + error.message);
+                    }
+                }
+
+                setupMessageListener();
+
+                return container;
+            })())
+        }],
+        alerts: [{
+            element: l("div", {
+                className: "alertContainer",
+                style: {
+                    margin: "15px 15px 5px 15px",
+                    backgroundColor: "rgb(0 0 0 / 50%)",
+                    width: "95%",
+                    height: "370px",
+                    borderRadius: "7px",
+                    display: "block",
+                    alignItems: "center",
+                    justifyContent: "center"
+                }
+            }, l("ul", {
+                className: "alertList",
+                style: {
+                    margin: "10px 10px 0 10px",
+                    padding: "0",
+                    listStyleType: "none",
+                    display: "flex",
+                    flexDirection: "column-reverse",
+                    height: "355px",
+                    overflowY: "scroll",
+                    wordWrap: "break-word"
+                }
+            }, l("li", {
+                style: {
+                    margin: "5px"
+                }
+            }, l("span", {
+                style: {
+                    color: "var(--textColor)"
+                },
+                innerText: "[LOG] GUI opened"
+            })))),
+            addLog(e, t) {
+                return this.element.firstChild.prepend(l("li", {
+                    style: {
+                        margin: "5px"
+                    }
+                }, l("span", {
+                    style: {
+                        color: t || "var(--textColor)"
+                    },
+                    innerHTML: "[LOG] " + e
+                })))
+            },
+            addAlert(e, t, a) {
+                return this.element.firstChild.prepend(l("li", {
+                    style: {
+                        margin: "5px"
+                    }
+                }, l("strong", {}, e), " ", a))
+            },
+            connection: null,
+            data: {},
+            updateLeaderboard(e) {
+                for (var {
+                        blook: t,
+                        name: a,
+                        value: o
+                    }
+                    of(this.leaderboardEl || this.addLeaderboard(), this.leaderboard.innerHTML = "", e)) {
+                    this.leaderboard.append(l("li", {
+                        style: {
+                            fontSize: "2rem",
+                            paddingInline: "15px 15px",
+                            paddingBlock: "1.25px",
+                            position: "relative",
+                            borderBottom: "2px solid orange",
+                            color: (a === Object.values(document.querySelector("#app>div>div"))?.[1]?.children?.[0]?._owner?.stateNode?.props?.client?.name) ? "#00FF00" : "#FFFFFF"
+                        }
+                    }, a, l("span", {
+                        innerText: this.parseNumber(parseInt(o)),
+                        style: {
+                            float: "right"
+                        }
+                    })))
+                }
+            },
+            parseNumber(e = 0) {
+                var t = e;
+                if (e < 1e3)
+                    return t.toString();
+                var a = ["", "K", "M", "B", "T"],
+                    o = Math.floor((e.toString().length - 1) / 3);
+                if (o < a.length) {
+                    let r = 0;
+                    for (let i = 3; 1 <= i && !((r = parseFloat((0 !== o ? e / Math.pow(1e3, o) : e).toPrecision(i))).toString().replace(/[^a-zA-Z 0-9]+/g, "").length <= 3); i--);
+                    t = (r = r % 1 != 0 ? r.toFixed(1) : r) + a[o]
+                } else {
+                    let n = e,
+                        s = 0;
+                    for (; 100 <= n; s++)
+                        n = Math.floor(n / 10);
+                    let l = "";
+                    var c = ["⁰", "\xb9", "\xb2", "\xb3", "⁴", "⁵", "⁶", "⁷", "⁸", "⁹"];
+                    for (let d of (s + 1).toString().split(""))
+                        l += c[Number(d)];
+                    t = n / 10 + " \xd7 10" + l
+                }
+                return t
+            },
+            addLeaderboard() {
+                this.leaderboardEl = l("div", {
+                    className: "alertContainer",
+                    style: {
+                        margin: "15px 15px 5px 15px",
+                        backgroundColor: "rgb(0 0 0 / 50%)",
+                        width: "95%",
+                        height: "370px",
+                        borderRadius: "7px",
+                        display: "flex",
+                        alignItems: "center",
+                        justifyContent: "center"
+                    }
+                }, this.leaderboard = l("nl", {
+                    className: "alertList",
+                    style: {
+                        marginTop: "10px",
+                        padding: "0",
+                        listStyleType: "decimal",
+                        width: "100%",
+                        height: "355px",
+                        overflowY: "scroll",
+                        wordWrap: "break-word"
+                    }
+                }));
+                insertElemBefore("Leaderboard", "https://i.ibb.co/hZQjjVP/trophy-icon.webp", [{
+                    element: this.leaderboardEl
+                }], !0, h.children[3]);
+                this.addLog("Leaderboard Loaded!");
+            },
+            async connect() {
+                try {
+                    var e = Object.values(document.querySelector("#app>div>div"))[1].children[0]._owner.stateNode;
+                    let app = (await e.props.liveGameController.getDatabaseRef())?.database?.app;
+                    if (!app)
+                        return !1;
+                    e.props.liveGameController._liveApp = app;
+                    this.connection = await e.props.liveGameController.getDatabaseRef("");
+                    let t = "Cow",
+                        a = this.getGamemode(),
+                        o = {
+                            lb: "Lunch Break",
+                            as: "Ad Spam",
+                            e37: "Error 37",
+                            nt: "Night Time",
+                            lo: "#LOL",
+                            j: "Jokester",
+                            sm: "Slow Mo",
+                            dp: "Dance Party",
+                            v: "Vortex",
+                            r: "Reverse",
+                            f: "Flip",
+                            m: "Micro"
+                        };
+                    this.connection.on("value", e => {
+                        var r = e.val()?.c || {};
+                        if (r && this.diffObjects(this.data, r)) {
+                            var i,
+                                n,
+                                s,
+                                l,
+                                c,
+                                d,
+                                p,
+                                u,
+                                h = this.diffObjects(this.data, r);
+                            this.data = r;
+                            let m = [];
+                            switch (this.getGamemode()) {
+                                case "pirate":
+                                    m = Object.entries(r).map(([e, {
+                                        b: t,
+                                        d: a
+                                    }]) => ({
+                                        name: e,
+                                        blook: t,
+                                        value: a || 0
+                                    }));
+                                    break;
+                                case "racing":
+                                    m = Object.entries(r).map(([e, {
+                                        b: t,
+                                        pr: a
+                                    }]) => ({
+                                        name: e,
+                                        blook: t,
+                                        value: a || 0
+                                    }));
+                                    break;
+                                case "classic":
+                                    m = Object.entries(r).map(([e, {
+                                        b: t,
+                                        p: a
+                                    }]) => ({
+                                        name: e,
+                                        blook: t,
+                                        value: a || 0
+                                    }));
+                                    break;
+                                case "royale":
+                                    m = Object.entries(r).map(([e, {
+                                        b: t,
+                                        e: a
+                                    }]) => ({
+                                        name: e,
+                                        blook: t,
+                                        value: a || 0
+                                    }));
+                                    break;
+                                case "toy":
+                                    m = Object.entries(r).map(([e, {
+                                        b: t,
+                                        t: a
+                                    }]) => ({
+                                        name: e,
+                                        blook: t,
+                                        value: a || 0
+                                    }));
+                                    break;
+                                case "brawl":
+                                    m = Object.entries(r).map(([e, {
+                                        b: t,
+                                        xp: a
+                                    }]) => ({
+                                        name: e,
+                                        blook: t,
+                                        value: a || 0
+                                    }));
+                                    break;
+                                case "defense":
+                                case "defense2":
+                                    m = Object.entries(r).map(([e, {
+                                        b: t,
+                                        d: a
+                                    }]) => ({
+                                        name: e,
+                                        blook: t,
+                                        value: a || 0
+                                    }));
+                                    break;
+                                case "gold":
+                                case "candy":
+                                    for (let $ in h)
+                                        h[$].tat?.split && ([i, n] = h[$].tat.split(":"), "swap" == n ? this.addAlert($, t[r[$].b]?.url, "just swapped with " + i) : this.addAlert($, t[r[$].b]?.url, `just took ${this.parseNumber(parseInt(n))} gold from ` + i));
+                                    m = Object.entries(r).map(([e, {
+                                        b: t,
+                                        g: a
+                                    }]) => ({
+                                        name: e,
+                                        blook: t,
+                                        value: a || 0
+                                    }));
+                                    break;
+                                case "hack":
+                                    for (let g in h)
+                                        h[g].tat?.split && ([s, l] = h[g].tat.split(":"), this.addAlert(g, t[r[g].b]?.url, `just took ${this.parseNumber(parseInt(l))} crypto from ` + s));
+                                    m = Object.entries(r).map(([e, {
+                                        b: t,
+                                        cr: a
+                                    }]) => ({
+                                        name: e,
+                                        blook: t,
+                                        value: a || 0
+                                    }));
+                                    break;
+                                case "fish":
+                                    for (let y in h)
+                                        "Frenzy" == h[y].f ? this.addAlert(y, t[r[y].b]?.url, "just started a frenzy") : h[y].s && this.addAlert(y, t[r[y].b]?.url, `just sent a ${h[y].f} distraction`);
+                                    m = Object.entries(r).map(([e, {
+                                        b: t,
+                                        w: a
+                                    }]) => ({
+                                        name: e,
+                                        blook: t,
+                                        value: a || 0
+                                    }));
+                                    break;
+                                case "dino":
+                                    for (let b in h)
+                                        h[b].tat && ([c, d] = h[b].tat.split(":"), "true" == d ? this.addAlert(b, t[r[b].b]?.url, `just caught ${c} CHEATING!`) : this.addAlert(b, t[r[b].b]?.url, "investigated " + c));
+                                    m = Object.entries(r).map(([e, {
+                                        b: t,
+                                        f: a
+                                    }]) => ({
+                                        name: e,
+                                        blook: t,
+                                        value: a || 0
+                                    }));
+                                    break;
+                                case "cafe":
+                                    for (let v in h)
+                                        h[v].up && ([p, u] = h[v].up.split(":"), u) && this.addAlert(v, t[r[v].b]?.url, `upgraded ${p} to level ` + u);
+                                    m = Object.entries(r).map(([e, {
+                                        b: t,
+                                        ca: a
+                                    }]) => ({
+                                        name: e,
+                                        blook: t,
+                                        value: a || 0
+                                    }));
+                                    break;
+                                case "factory":
+                                    for (let _ in h) {
+                                        var f,
+                                            w,
+                                            k = h[_];
+                                        k.g ? this.addAlert(_, t[r[_].b]?.url, `activated the ${o[k.g]} glitch!`) : k.s ? ([f, w] = k.s.split("-"), this.addAlert(_, t[r[_].b]?.url, `has a ${f} ${w} synergy!`)) : k.t && this.addAlert(_, t[r[_].b]?.url, "now has 10 Blooks!")
+                                    }
+                                    m = Object.entries(r).map(([e, {
+                                        b: t,
+                                        ca: a
+                                    }]) => ({
+                                        name: e,
+                                        blook: t,
+                                        value: a || 0
+                                    }))
+                            }
+                            this.updateLeaderboard(m.sort((e, t) => t.value - e.value));
+                        }
+                    })
+                } catch {
+                    return !1
+                }
+            },
+            diffObjects(e, t) {
+                var a,
+                    o = {};
+                for (let r in e)
+                    r in t && ("object" == typeof e[r] && "object" == typeof t[r] ? (a = this.diffObjects(e[r], t[r])) && 0 !== Object.keys(a).length && (o[r] = a) : JSON.stringify(e[r]) !== JSON.stringify(t[r]) && (o[r] = t[r]));
+                for (let i in t)
+                    i in e || (o[i] = t[i]);
+                return 0 == Object.keys(o).length ? null : o
+            },
+            getGamemode() {
+                if (Object.values(document.querySelector("#app>div>div"))[1].children[0]._owner.stateNode.props?.client?.type) {
+                    return Object.values(document.querySelector("#app>div>div"))[1].children[0]._owner.stateNode.props.client.type.toLowerCase();
+                }
+                switch (window.location.pathname) {
+                    case "/play/racing":
+                        return "racing";
+                    case "/play/extras":
+                        return "extras";
+                    case "/play/host":
+                        return "host";
+                    case "/play/pirate":
+                        return "voyage";
+                    case "/play/factory":
+                        return "factory";
+                    case "/play/classic/get-ready":
+                    case "/play/classic/question":
+                    case "/play/classic/answer/sent":
+                    case "/play/classic/answer/result":
+                    case "/play/classic/standings":
+                        return "classic";
+                    case "/play/battle-royale/match/preview":
+                    case "/play/battle-royale/question":
+                    case "/play/battle-royale/answer/sent":
+                    case "/play/battle-royale/answer/result":
+                    case "/play/battle-royale/match/result":
+                        return "royale";
+                    case "/play/toy":
+                        return "toy";
+                    case "/play/gold":
+                        return "gold";
+                    case "/play/brawl":
+                        return "brawl";
+                    case "/play/hack":
+                        return "hack";
+                    case "/play/fishing":
+                        return "Fish";
+                    case "/play/rush":
+                        return "rush";
+                    case "/play/dino":
+                        return "dino";
+                    case "/tower/map":
+                    case "/tower/battle":
+                    case "/tower/rest":
+                    case "/tower/risk":
+                    case "/tower/shop":
+                    case "/tower/victory":
+                        return "doom";
+                    case "/cafe":
+                    case "/cafe/shop":
+                        return "cafe";
+                    case "/defense":
+                        return "defense";
+                    case "/play/defense2":
+                        return "defense2";
+                    case "/kingdom":
+                        return "kingdom";
+                    default:
+                        return !1
+                }
+            }
+        }]
+    };
+
+    function S(e, t) {
+        var a,
+            o,
+            r = 0,
+            i = 0;
+        e.onpointerdown = function(e = window.event) {
+            r = e.clientX,
+                i = e.clientY,
+                document.onpointerup = function() {
+                    document.onpointerup = null,
+                        document.onpointermove = null
+                },
+                document.onpointermove = function(e = window.event) {
+                    a = r - e.clientX,
+                        o = i - e.clientY,
+                        r = e.clientX,
+                        i = e.clientY,
+                        t.style.top = t.offsetTop - o + "px",
+                        t.style.left = t.offsetLeft - a + "px"
+                }
+        }
+    }
+    const path = "https://raw.githubusercontent.com/CryptoDude3/Blooket-Cheats-Premium";
+   w("Alerts", "https://res.cloudinary.com/dhiws7ac5/image/upload/v1743434255/alerts_dsucpi.png", C.alerts, !0),
+        w("Global", "https://res.cloudinary.com/dhiws7ac5/image/upload/v1743434297/global_cq8tkv.webp", C.global)(),
+        w('<span style="font-size: 18px">Host</span>', ['<img style="height: 60px; margin-left: -15px; margin-right: -10px" src="https://res.cloudinary.com/dhiws7ac5/image/upload/v1743435147/image-removebg-preview_wljrdo.png">'], C.host, !0),
+        w(`<span style="font-size: 18px">Pirate's Voyage</span>`, "https://res.cloudinary.com/dhiws7ac5/image/upload/v1743435445/download_ruzs9t.svg", C.voyage),
+        w("Gold Quest", "https://res.cloudinary.com/dhiws7ac5/image/upload/v1743434943/gold_srug2d.svg", C.gold),
+        w("Cafe", "https://res.cloudinary.com/dhiws7ac5/image/upload/v1743435594/images-removebg-preview_cd6kgf.png", C.cafe),
+        w("Crypto Hack", "https://res.cloudinary.com/dhiws7ac5/image/upload/v1743434915/crypto_jpiwqh.svg", C.crypto),
+        w('<span style="font-size: 17px">Deceptive Dinos</span>', "https://res.cloudinary.com/dhiws7ac5/image/upload/v1743435770/Dog_pubpgf.svg", C.dinos),
+        w('<span style="font-size: 18px">Tower Defense</span>', ['<img style="width: 30px; margin-right: 5px" src="https://res.cloudinary.com/dhiws7ac5/image/upload/v1743435770/Laser_Lvl1_lfvg67.svg">'], C.defense),
+        w('<span style="font-size: 16px">Tower Defense 2</span>', ['<img style="width: 30px; margin-right: 5px; rotate: 45deg" src="https://res.cloudinary.com/dhiws7ac5/image/upload/v1743435769/missile_nqvxdw.svg">'], C.defense2),
+        w("Factory", "https://res.cloudinary.com/dhiws7ac5/image/upload/v1743434307/factory_izgbu7.png", C.factory),
+        w('<span style="font-size: 19px">Fishing Frenzy</span>', "https://res.cloudinary.com/dhiws7ac5/image/upload/v1743434794/fishing_frenzy_gqhmdp.svg", C.fishing),
+        w("Flappy Blook", "https://res.cloudinary.com/dhiws7ac5/image/upload/v1743437721/chick_d7scks.svg", C.flappy),
+        w('<span style="font-size: 17px">Tower of Doom</span>', ['<img style="height: 30px; margin-left: 5px; margin-right: 10px" src="https://res.cloudinary.com/dhiws7ac5/image/upload/v1743435342/cards-05_jj0btj.svg">'], C.doom),
+        w('<span style="font-size: 18px">Crazy Kingdom</span>', "https://res.cloudinary.com/dhiws7ac5/image/upload/v1743435770/Jester_lvl1_uzhicy.svg", C.kingdom),
+        w("Racing", "https://res.cloudinary.com/dhiws7ac5/image/upload/v1743435260/racing_ihojlx.svg", C.racing),
+        w("Battle Royale", "https://res.cloudinary.com/dhiws7ac5/image/upload/v1743438026/VS_Lightning_Bolt_Bottom_1_fiyexy.svg", C.royale),
+        w("Blook Rush", "https://res.cloudinary.com/dhiws7ac5/image/upload/v1743438076/download_iu7fm7.png", C.rush),
+        w('<span style="font-size: 18px">Monster Brawl</span>', ['<img style="height: 28px; margin-left: 5px; margin-right: 8px" src="https://res.cloudinary.com/dhiws7ac5/image/upload/v1743438121/Blue_xp_2_m3wqpw.svg">'], C.brawl),
+        w(`<span style="font-size: 15px">Santa's Workshop</span>`, "https://res.cloudinary.com/dhiws7ac5/image/upload/v1743434611/santa_iv1laq.webp", C.workshop),
+        w("Chat", "https://res.cloudinary.com/dhiws7ac5/image/upload/v1743434319/chat_zt0hkp.webp", C.chat, !0),
+        w("Extras", "https://res.cloudinary.com/dhiws7ac5/image/upload/v1743434333/extras_jvb85e.png", C.extras, !0),
+        w("Settings", "https://res.cloudinary.com/dhiws7ac5/image/upload/v1743434573/settings_qwvo0c.png", C.settings, !0),
+        S(m, _),
+        S(g, _),
+        window.addEventListener("keydown", A);
+    let x = setInterval(() => {
+        C.alerts[0].connection ? clearInterval(x) : C.alerts[0].connect()
+    }, 5e3);
+
+    function D() {
+        for (let e in _.remove(), clearInterval(x), C)
+            for (let t of C[e])
+                t.enabled && t.run();
+        Object.keys(C).forEach(e => C[e].forEach(e => e.enabled && (e.run(), k(...currentMode)))),
+            window.removeEventListener("keydown", A)
+    }
+
+    function A(e) {
+        var t = c.data.hide || {
+                ctrl: !0,
+                key: "e"
+            },
+            a = c.data.close || {
+                ctrl: !0,
+                key: "x"
+            };
+        (t.ctrl && e.ctrlKey || !t.ctrl && !e.ctrlKey) && (t.shift && e.shiftKey || !t.shift && !e.shiftKey) && (t.alt && e.altKey || !t.alt && !e.altKey) && e.key.toLowerCase() == t.key ? (e.preventDefault(), _.style.display = "block" === _.style.display ? "none" : "block") : (a.ctrl && e.ctrlKey || !a.ctrl && !e.ctrlKey) && (a.shift && e.shiftKey || !a.shift && !e.shiftKey) && (a.alt && e.altKey || !a.alt && !e.altKey) && e.key.toLowerCase() == a.key && (e.preventDefault(), D())
+    }
+
+    function B(e, t = window) {
+        return new Promise(a => {
+            let o = {},
+                r,
+                i,
+                n,
+                s,
+                l = t => {
+                    t.preventDefault(),
+                        o[t.code] = !0,
+                        r ||= t.shiftKey,
+                        i ||= t.ctrlKey,
+                        n ||= t.altKey,
+                        ["shift", "control", "alt", "meta"].includes(t.key.toLowerCase()) || (s = t.key.toLowerCase()),
+                        e?.({
+                            shift: r,
+                            ctrl: i,
+                            alt: n,
+                            key: s
+                        })
+                },
+                c = e => {
+                    delete o[e.code],
+                        0 < Object.keys(o).length || (t.removeEventListener("keydown", l), t.removeEventListener("keyup", c), a({
+                            shift: r,
+                            ctrl: i,
+                            alt: n,
+                            key: s
+                        }))
+                };
+            t.addEventListener("keydown", l),
+                t.addEventListener("keyup", c)
+        })
+    };
+    _.addEventListener("mousemove", e => {
+            var t,
+                a;
+            "cheatName" != e.target.className && "scriptButton" != e.target.className ? "0" != y.style.opacity && (y.animate([{
+                opacity: .9
+            }, {
+                opacity: 0
+            }], {
+                duration: 200
+            }), y.style.opacity = "0") : (e = "scriptButton" == e.target.className ? e.target : e.target.parentElement, y.innerText == e.dataset.description && "0.9" == y.style.opacity || (t = e.getBoundingClientRect(), a = e.offsetParent.getBoundingClientRect(), y.innerText = e.dataset.description, "0" == y.style.opacity && (y.animate([{
+                opacity: 0
+            }, {
+                opacity: .9
+            }], {
+                duration: 200
+            }), y.style.opacity = "0.9"), y.style.left = t.x - a.x + (t.width - y.clientWidth) / 2 + "px", y.style.top = t.y - a.y + t.height + "px"))
+        }),
+        window.fetch.call = function() {
+            if (!arguments[1].includes("s.blooket.com/rc"))
+                return wfcall.apply(this, arguments);
+            C.alerts?.[0].addLog("Blooket Cheat Report Blocked!")
+        }
+})();
